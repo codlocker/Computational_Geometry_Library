@@ -1,0 +1,3 @@
+/home/shuttle3468/CLionProjects/ComputGeoAlgos/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/shuttle3468/CLionProjects/ComputGeoAlgos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/shuttle3468/CLionProjects/ComputGeoAlgos/cmake-build-debug/CMakeFiles/ComputGeoAlgos.dir

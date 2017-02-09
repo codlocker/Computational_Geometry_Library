@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shuttle3468/CLionProjects/ComputGeoAlgos/Andrews.h
+origin.h
+/home/shuttle3468/CLionProjects/ComputGeoAlgos/origin.h
+
+/home/shuttle3468/CLionProjects/ComputGeoAlgos/GrahamScans.h
+iostream
+-
+bits/stdc++.h
+-
+origin.h
+/home/shuttle3468/CLionProjects/ComputGeoAlgos/origin.h
+
+/home/shuttle3468/CLionProjects/ComputGeoAlgos/main.cpp
+origin.h
+/home/shuttle3468/CLionProjects/ComputGeoAlgos/origin.h
+GrahamScans.h
+/home/shuttle3468/CLionProjects/ComputGeoAlgos/GrahamScans.h
+Andrews.h
+/home/shuttle3468/CLionProjects/ComputGeoAlgos/Andrews.h
+
+/home/shuttle3468/CLionProjects/ComputGeoAlgos/origin.h
+iostream
+-
+bits/stdc++.h
+-
+
