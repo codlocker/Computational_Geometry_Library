@@ -1,0 +1,32 @@
+vector<pair<double,double> > jarvisMarch(vector<pair<double, double> > input){
+	vector<pair<double, double> >output;
+	vector<pair<double, double> >::iterator itr,itr2;
+	vector<pair<double, double> >::iterator itr1=input.begin();
+	for(itr=input.begin()+1;itr<input.end();itr++){
+		if(itr->first<itr1->first){
+			itr1=itr;
+		}
+	}
+	itr=itr1;
+       do{
+	   output.push_back(*itr);
+	   if(itr==input.end())
+	     itr2=input.begin();
+	   itr2=(itr+1);
+	   	   vector<pair<double, double> >::iterator itr3=input.begin();
+	   	   while(itr3<input.end()){
+	   	   if(orientation(*itr,*itr3,*itr2)==3){
+	   	   	 itr2=itr3;
+	   	   }
+	   	   itr3++;
+	   }
+		itr=itr2;
+	 }while(itr!=itr1);
+	  return output; 
+}
+int main(){
+  vector<pair<double, double> > input= getData();
+   vector<pair<double, double> > output=jarvisMarch(input);
+   printVectorData(output.size(),output,"jarvis")
+    return 0;
+}
