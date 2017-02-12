@@ -4,7 +4,7 @@
 #ifndef COMPUTGEOALGOS_GRAHAMSCANS_H
 #define COMPUTGEOALGOS_GRAHAMSCANS_H
 
-#include<iostream>
+#include <iostream>
 #include <bits/stdc++.h>
 #include "origin.h"
 #define ull unsigned long long
