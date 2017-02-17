@@ -7,14 +7,22 @@
 #include <iostream>
 #include <bits/stdc++.h>
 #include "origin.h"
-#define ull unsigned long long
-#define pb push_back
-#define mp make_pair
+#define ull unsigned long long /*!< Macro for making my typing life easier*/
+#define pb push_back /*!< Macro for making my typing life easier*/
+#define mp make_pair /*!< Macro for making my typing life easier*/
 using namespace std;
+//@{
+/**
+ * @brief a double value which gets the point with lowest y-coordinate
+ */
 pair<double ,double > P0;
-/*
-     * Order By Polar
-     */
+//@}
+
+
+//! Function to order with respect to polar Coordinates
+/*! function used by this algorithm to sort an array of
+ * points with respect to the first point in the vector.
+ */
 bool orderByPolar(pair<double,double> &p1, pair<double,double> &p2){
     int oValue  = orientation(P0,p2,p1);
     /*cout << "comparing " << "(" << P0.first << ", " << P0.second <<")" <<  " "
@@ -34,13 +42,17 @@ pair<double ,double > next_to_top(stack<pair<double ,double > > S){
     S.push(point);
     return res;
 }
+//! **Graham Scans Algorithm Implementation**
+/*! 1. First Step is to sort points with respect to the polar coordinates.\n
+ *
+ *  2. After getting the closed path, the next step is to get all points in  the path and remove concave points on this.\n
+ *
+ *  3. We accept and reject based on orientation of 3 points selected.
+ */
 int execGrahamScans(vector<pair<double, double> > Points) {
     int len,i, min = 0;
     len = int(Points.size());
-    /*
-     * Get the point with lowest y-coordinate
-     */
-    double y_min = Points[0].second;
+    double y_min = Points[0].second; // a **double** value which gets the point with lowest y-coordinate
     pair<double, double> temp;
     for (int i = 1; i < len; i++)
     {
@@ -55,16 +67,13 @@ int execGrahamScans(vector<pair<double, double> > Points) {
     Points[0] = temp;
 
     //printVectorData(len,Points, "Get Values after minimum y-coordinate\n");
-    P0 = Points[0];  // P0 denotes Central Point for Comparision
+    P0 = Points[0];     // P0 denotes Central Point for Comparision
     Points.erase(Points.begin());
     sort(Points.begin(), Points.end(), orderByPolar);
 
     len = int(Points.size());
     //printVectorData(len,Points, "Ordered by Polar Angles");
-    /*
-     * Form the Hull by processing the remaining points
-     */
-    stack<pair<double ,double > > convex_hull;
+    stack<pair<double ,double > > convex_hull; // A **stack data structure** which stores the coordinates. Form the Hull by processing the remaining points
     convex_hull.push(P0);
     convex_hull.push(Points[0]);
     convex_hull.push(Points[1]);
