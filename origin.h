@@ -9,20 +9,22 @@
 #include <bits/stdc++.h>
 #define pb push_back
 #define mp make_pair
-#define COLLINEAR 1
-#define CLOCKWISE 2
-#define ANTICLOCKWISE 3
+#define COLLINEAR 1 /*!< Macro defined for identifying 3 collinear points */
+#define CLOCKWISE 2 /*!< Macro defined for identifying 3 points that rotate clockwise */
+#define ANTICLOCKWISE 3 /*!< Macro defined for identifying 3 points that rotate anticlockwise */
 using namespace std;
-/*
- * Function to Calculate Euclidean Distance
+//! Euclidean Distance
+/*! This function is used to calculate the distance between two points which is \f$\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\f$.
  */
 double calcEuclidDistance(pair<double, double> fpoint, pair<double, double> spoint) {
     double dist;
     dist = sqrt(pow((fpoint.first-spoint.first),2.0) + pow((fpoint.second-spoint.second),2.0));
     return dist;
 }
-/*
- * Get Orientation of the 3 points
+//! Orientation
+/*! This function is used to calculate orientation of 3 points namely clockwise, anticlockwise and collinear.
+ * The idea here is to to get the difference between slopes of 2 lines by assuming a particular direction as a result
+ * the result obtained determines the direction of turn of the three points.
  */
 int orientation(pair<double, double> a, pair<double, double> b, pair<double, double> c) {
     double m1, m2, dif;
@@ -36,8 +38,9 @@ int orientation(pair<double, double> a, pair<double, double> b, pair<double, dou
         return ANTICLOCKWISE;
     }
 }
-/*
- * Sort by x co-ordinate
+//! Comparator Function
+/*! This function basically compares a pair of elements by the values of their x-coordinate and if x-xoordinate is equal then it
+ * checks for equality of y-coordinate
  */
 bool orderedSort(pair<double,double> &f, pair<double,double> &s) {
     //cout << "Comparing (" << f.first << ", " << f.second <<")" << " (" << s.first << ", " << s.second <<")" << endl;
@@ -49,8 +52,9 @@ bool orderedSort(pair<double,double> &f, pair<double,double> &s) {
     }
     return f.second<s.second;
 }
-/*
- * Sort by y co-ordinate
+//! Comparator Function Sort by y coordinate
+/*! This function basically compares a pair of elements by the values of their y-coordinate and if x-xoordinate is equal then it
+ * checks for equality of x-coordinate
  */
 bool orderedYSort(pair<double,double> &f, pair<double,double> &s) {
     if(f.second < s.second) {
@@ -61,12 +65,19 @@ bool orderedYSort(pair<double,double> &f, pair<double,double> &s) {
     }
     return f.first<s.first;
 }
+//! Print Function
+/*! Prints content of the vector. Used for **output formatting**
+ */
 void printVectorData(int len, vector<pair<double, double> > v, string s) {
     int i;
     cout << s <<endl;
     for(i=0;i<len;i++)
         cout << v[i].first <<" " << v[i].second <<endl;
 }
+//! Extract Data from Input File
+/*! It extracts Data From a file and stores it in a vector for further calculation.
+ * Forms the base for getting Data.
+ */
 vector<pair<double, double> > getData() {
     vector<pair<double, double> > input;
     double a,b;
