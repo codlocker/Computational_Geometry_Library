@@ -30,9 +30,9 @@ int orientation(pair<double, double> a, pair<double, double> b, pair<double, dou
     //cout << "Difference in Slopes " << dif<<endl;
     if(dif == 0) {
         return COLLINEAR;
-    } else if(dif > 0 ) {
+    } else if (dif > 0 ) {
         return CLOCKWISE;
-    } else{
+    } else {
         return ANTICLOCKWISE;
     }
 }

@@ -1,0 +1,184 @@
+\hypertarget{origin_8h}{}\section{origin.\+h File Reference}
+\label{origin_8h}\index{origin.\+h@{origin.\+h}}
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$bits/stdc++.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}boost/filesystem.\+hpp\char`\"{}}\\*
+Include dependency graph for origin.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{origin_8h_a276c5a0e984cf60015b27252fe04fe6b}{pb}~push\+\_\+back
+\item 
+\#define \hyperlink{origin_8h_aea466a7139309b17bce61d5ccb03e195}{mp}~make\+\_\+pair
+\item 
+\#define \hyperlink{origin_8h_a105caa178db222564f6fab1433ae289b}{C\+O\+L\+L\+I\+N\+E\+AR}~1
+\item 
+\#define \hyperlink{origin_8h_ab97a98583824a9ef7d480fe8fdca33cf}{C\+L\+O\+C\+K\+W\+I\+SE}~2
+\item 
+\#define \hyperlink{origin_8h_a289ba85c8fefbfdb6cc4927dbf948940}{A\+N\+T\+I\+C\+L\+O\+C\+K\+W\+I\+SE}~3
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{origin_8h_afcdcfb840d57ba04a9c8ddc76e90ce98}{calc\+Euclid\+Distance} (pair$<$ double, double $>$ fpoint, pair$<$ double, double $>$ spoint)
+\item 
+int \hyperlink{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{orientation} (pair$<$ double, double $>$ a, pair$<$ double, double $>$ b, pair$<$ double, double $>$ c)
+\item 
+bool \hyperlink{origin_8h_acd5236039bd3f25f48a6f9638caca9e9}{ordered\+Sort} (pair$<$ double, double $>$ \&f, pair$<$ double, double $>$ \&s)
+\item 
+bool \hyperlink{origin_8h_a4dc1f0518995effb5aa220fd58f3b8e8}{ordered\+Y\+Sort} (pair$<$ double, double $>$ \&f, pair$<$ double, double $>$ \&s)
+\item 
+void \hyperlink{origin_8h_a4d6ea05a2f5f54cf53c8ce3687f0ae92}{print\+Vector\+Data} (int len, vector$<$ pair$<$ double, double $>$ $>$ v, string s)
+\item 
+vector$<$ pair$<$ double, double $>$ $>$ \hyperlink{origin_8h_a003e76577b656b65e62841ae5a311b33}{get\+Data} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\index{origin.\+h@{origin.\+h}!A\+N\+T\+I\+C\+L\+O\+C\+K\+W\+I\+SE@{A\+N\+T\+I\+C\+L\+O\+C\+K\+W\+I\+SE}}
+\index{A\+N\+T\+I\+C\+L\+O\+C\+K\+W\+I\+SE@{A\+N\+T\+I\+C\+L\+O\+C\+K\+W\+I\+SE}!origin.\+h@{origin.\+h}}
+\subsubsection[{\texorpdfstring{A\+N\+T\+I\+C\+L\+O\+C\+K\+W\+I\+SE}{ANTICLOCKWISE}}]{\setlength{\rightskip}{0pt plus 5cm}\#define A\+N\+T\+I\+C\+L\+O\+C\+K\+W\+I\+SE~3}\hypertarget{origin_8h_a289ba85c8fefbfdb6cc4927dbf948940}{}\label{origin_8h_a289ba85c8fefbfdb6cc4927dbf948940}
+\index{origin.\+h@{origin.\+h}!C\+L\+O\+C\+K\+W\+I\+SE@{C\+L\+O\+C\+K\+W\+I\+SE}}
+\index{C\+L\+O\+C\+K\+W\+I\+SE@{C\+L\+O\+C\+K\+W\+I\+SE}!origin.\+h@{origin.\+h}}
+\subsubsection[{\texorpdfstring{C\+L\+O\+C\+K\+W\+I\+SE}{CLOCKWISE}}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+L\+O\+C\+K\+W\+I\+SE~2}\hypertarget{origin_8h_ab97a98583824a9ef7d480fe8fdca33cf}{}\label{origin_8h_ab97a98583824a9ef7d480fe8fdca33cf}
+\index{origin.\+h@{origin.\+h}!C\+O\+L\+L\+I\+N\+E\+AR@{C\+O\+L\+L\+I\+N\+E\+AR}}
+\index{C\+O\+L\+L\+I\+N\+E\+AR@{C\+O\+L\+L\+I\+N\+E\+AR}!origin.\+h@{origin.\+h}}
+\subsubsection[{\texorpdfstring{C\+O\+L\+L\+I\+N\+E\+AR}{COLLINEAR}}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+O\+L\+L\+I\+N\+E\+AR~1}\hypertarget{origin_8h_a105caa178db222564f6fab1433ae289b}{}\label{origin_8h_a105caa178db222564f6fab1433ae289b}
+\index{origin.\+h@{origin.\+h}!mp@{mp}}
+\index{mp@{mp}!origin.\+h@{origin.\+h}}
+\subsubsection[{\texorpdfstring{mp}{mp}}]{\setlength{\rightskip}{0pt plus 5cm}\#define mp~make\+\_\+pair}\hypertarget{origin_8h_aea466a7139309b17bce61d5ccb03e195}{}\label{origin_8h_aea466a7139309b17bce61d5ccb03e195}
+\index{origin.\+h@{origin.\+h}!pb@{pb}}
+\index{pb@{pb}!origin.\+h@{origin.\+h}}
+\subsubsection[{\texorpdfstring{pb}{pb}}]{\setlength{\rightskip}{0pt plus 5cm}\#define pb~push\+\_\+back}\hypertarget{origin_8h_a276c5a0e984cf60015b27252fe04fe6b}{}\label{origin_8h_a276c5a0e984cf60015b27252fe04fe6b}
+
+
+\subsection{Function Documentation}
+\index{origin.\+h@{origin.\+h}!calc\+Euclid\+Distance@{calc\+Euclid\+Distance}}
+\index{calc\+Euclid\+Distance@{calc\+Euclid\+Distance}!origin.\+h@{origin.\+h}}
+\subsubsection[{\texorpdfstring{calc\+Euclid\+Distance(pair$<$ double, double $>$ fpoint, pair$<$ double, double $>$ spoint)}{calcEuclidDistance(pair< double, double > fpoint, pair< double, double > spoint)}}]{\setlength{\rightskip}{0pt plus 5cm}double calc\+Euclid\+Distance (
+\begin{DoxyParamCaption}
+\item[{pair$<$ double, double $>$}]{fpoint, }
+\item[{pair$<$ double, double $>$}]{spoint}
+\end{DoxyParamCaption}
+)}\hypertarget{origin_8h_afcdcfb840d57ba04a9c8ddc76e90ce98}{}\label{origin_8h_afcdcfb840d57ba04a9c8ddc76e90ce98}
+
+\begin{DoxyCode}
+21                                                                                     \{
+22     \textcolor{keywordtype}{double} dist;
+23     dist = sqrt(pow((fpoint.first-spoint.first),2.0) + pow((fpoint.second-spoint.second),2.0));
+24     \textcolor{keywordflow}{return} dist;
+25 \}
+\end{DoxyCode}
+\index{origin.\+h@{origin.\+h}!get\+Data@{get\+Data}}
+\index{get\+Data@{get\+Data}!origin.\+h@{origin.\+h}}
+\subsubsection[{\texorpdfstring{get\+Data()}{getData()}}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$pair$<$double, double$>$ $>$ get\+Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{origin_8h_a003e76577b656b65e62841ae5a311b33}{}\label{origin_8h_a003e76577b656b65e62841ae5a311b33}
+
+\begin{DoxyCode}
+72                                         \{
+73     vector<pair<double, double> > input;
+74     \textcolor{keywordtype}{double} a,b;
+75     ifstream in\_file;
+76     in\_file.open(\textcolor{stringliteral}{"tests/input1.txt"});
+77     cout << \textcolor{stringliteral}{"Reading from the file"} << endl;
+78     \textcolor{keywordflow}{while} (in\_file.is\_open()) \{
+79         \textcolor{keywordtype}{int} n;
+80         in\_file >> n;
+81         \textcolor{keywordflow}{while}(in\_file >> a >> b) \{
+82             input.pb(\hyperlink{origin_8h_aea466a7139309b17bce61d5ccb03e195}{mp}(a,b));
+83         \}
+84         in\_file.close();
+85     \}
+86     \textcolor{keywordflow}{return} input;
+87 \}
+\end{DoxyCode}
+\index{origin.\+h@{origin.\+h}!ordered\+Sort@{ordered\+Sort}}
+\index{ordered\+Sort@{ordered\+Sort}!origin.\+h@{origin.\+h}}
+\subsubsection[{\texorpdfstring{ordered\+Sort(pair$<$ double, double $>$ \&f, pair$<$ double, double $>$ \&s)}{orderedSort(pair< double, double > &f, pair< double, double > &s)}}]{\setlength{\rightskip}{0pt plus 5cm}bool ordered\+Sort (
+\begin{DoxyParamCaption}
+\item[{pair$<$ double, double $>$ \&}]{f, }
+\item[{pair$<$ double, double $>$ \&}]{s}
+\end{DoxyParamCaption}
+)}\hypertarget{origin_8h_acd5236039bd3f25f48a6f9638caca9e9}{}\label{origin_8h_acd5236039bd3f25f48a6f9638caca9e9}
+
+\begin{DoxyCode}
+44                                                                  \{
+45     \textcolor{comment}{//cout << "Comparing (" << f.first << ", " << f.second <<")" << " (" << s.first << ", " << s.second
+       <<")" << endl;}
+46     \textcolor{keywordflow}{if}(f.first < s.first) \{
+47         \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+48     \}
+49     \textcolor{keywordflow}{if} (f.first > s.first) \{
+50         \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+51     \}
+52     \textcolor{keywordflow}{return} f.second<s.second;
+53 \}
+\end{DoxyCode}
+\index{origin.\+h@{origin.\+h}!ordered\+Y\+Sort@{ordered\+Y\+Sort}}
+\index{ordered\+Y\+Sort@{ordered\+Y\+Sort}!origin.\+h@{origin.\+h}}
+\subsubsection[{\texorpdfstring{ordered\+Y\+Sort(pair$<$ double, double $>$ \&f, pair$<$ double, double $>$ \&s)}{orderedYSort(pair< double, double > &f, pair< double, double > &s)}}]{\setlength{\rightskip}{0pt plus 5cm}bool ordered\+Y\+Sort (
+\begin{DoxyParamCaption}
+\item[{pair$<$ double, double $>$ \&}]{f, }
+\item[{pair$<$ double, double $>$ \&}]{s}
+\end{DoxyParamCaption}
+)}\hypertarget{origin_8h_a4dc1f0518995effb5aa220fd58f3b8e8}{}\label{origin_8h_a4dc1f0518995effb5aa220fd58f3b8e8}
+
+\begin{DoxyCode}
+57                                                                   \{
+58     \textcolor{keywordflow}{if}(f.second < s.second) \{
+59         \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+60     \}
+61     \textcolor{keywordflow}{if} (f.second > s.second) \{
+62         \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+63     \}
+64     \textcolor{keywordflow}{return} f.first<s.first;
+65 \}
+\end{DoxyCode}
+\index{origin.\+h@{origin.\+h}!orientation@{orientation}}
+\index{orientation@{orientation}!origin.\+h@{origin.\+h}}
+\subsubsection[{\texorpdfstring{orientation(pair$<$ double, double $>$ a, pair$<$ double, double $>$ b, pair$<$ double, double $>$ c)}{orientation(pair< double, double > a, pair< double, double > b, pair< double, double > c)}}]{\setlength{\rightskip}{0pt plus 5cm}int orientation (
+\begin{DoxyParamCaption}
+\item[{pair$<$ double, double $>$}]{a, }
+\item[{pair$<$ double, double $>$}]{b, }
+\item[{pair$<$ double, double $>$}]{c}
+\end{DoxyParamCaption}
+)}\hypertarget{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{}\label{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}
+
+\begin{DoxyCode}
+29                                                                                         \{
+30     \textcolor{keywordtype}{double} m1, m2, dif;
+31     dif = (b.second - a.second)*(c.first-b.first) - (b.first-a.first)* (c.second - b.second);
+32     \textcolor{comment}{//cout << "Difference in Slopes " << dif<<endl;}
+33     \textcolor{keywordflow}{if}(dif == 0) \{
+34         \textcolor{keywordflow}{return} \hyperlink{origin_8h_a105caa178db222564f6fab1433ae289b}{COLLINEAR};
+35     \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(dif > 0 ) \{
+36         \textcolor{keywordflow}{return} \hyperlink{origin_8h_ab97a98583824a9ef7d480fe8fdca33cf}{CLOCKWISE};
+37     \} \textcolor{keywordflow}{else}\{
+38         \textcolor{keywordflow}{return} \hyperlink{origin_8h_a289ba85c8fefbfdb6cc4927dbf948940}{ANTICLOCKWISE};
+39     \}
+40 \}
+\end{DoxyCode}
+\index{origin.\+h@{origin.\+h}!print\+Vector\+Data@{print\+Vector\+Data}}
+\index{print\+Vector\+Data@{print\+Vector\+Data}!origin.\+h@{origin.\+h}}
+\subsubsection[{\texorpdfstring{print\+Vector\+Data(int len, vector$<$ pair$<$ double, double $>$ $>$ v, string s)}{printVectorData(int len, vector< pair< double, double > > v, string s)}}]{\setlength{\rightskip}{0pt plus 5cm}void print\+Vector\+Data (
+\begin{DoxyParamCaption}
+\item[{int}]{len, }
+\item[{vector$<$ pair$<$ double, double $>$ $>$}]{v, }
+\item[{string}]{s}
+\end{DoxyParamCaption}
+)}\hypertarget{origin_8h_a4d6ea05a2f5f54cf53c8ce3687f0ae92}{}\label{origin_8h_a4d6ea05a2f5f54cf53c8ce3687f0ae92}
+
+\begin{DoxyCode}
+66                                                                          \{
+67     \textcolor{keywordtype}{int} i;
+68     cout << s <<endl;
+69     \textcolor{keywordflow}{for}(i=0;i<len;i++)
+70         cout << v[i].first <<\textcolor{stringliteral}{" "} << v[i].second <<endl;
+71 \}
+\end{DoxyCode}

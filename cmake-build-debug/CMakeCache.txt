@@ -33,8 +33,9 @@ CGAL_DONT_OVERRIDE_CMAKE_FLAGS:BOOL=TRUE
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
-//Build type: Release or Debug
-CMAKE_BUILD_TYPE:STRING=Release
+//Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
+// CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //The CodeBlocks executable
 CMAKE_CODEBLOCKS_EXECUTABLE:FILEPATH=CMAKE_CODEBLOCKS_EXECUTABLE-NOTFOUND

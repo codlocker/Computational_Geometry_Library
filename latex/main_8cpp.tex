@@ -1,0 +1,37 @@
+\hypertarget{main_8cpp}{}\section{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.\+cpp@{main.\+cpp}}
+{\ttfamily \#include \char`\"{}origin.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Graham\+Scans.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Andrews.\+h\char`\"{}}\\*
+Include dependency graph for main.\+cpp\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{main.\+cpp@{main.\+cpp}!main@{main}}
+\index{main@{main}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{main()}{main()}}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}
+
+\begin{DoxyCode}
+4            \{
+5     vector<pair<double ,double> > points;
+6     points = \hyperlink{origin_8h_a003e76577b656b65e62841ae5a311b33}{getData}();
+7     \textcolor{keywordtype}{int} ret = \hyperlink{GrahamScans_8h_ac6e4d046bf1733765b8ff791c9e9356d}{execGrahamScans}(points);
+8     set<pair<double, double> > andrews\_res = \hyperlink{Andrews_8h_a9f40a9e14abc94694bee856797a27a24}{execAndrews}(points);
+9     \hyperlink{Andrews_8h_a2a1803d02747e2d698a94307ffd6699b}{ull} i, andrews\_len = andrews\_res.size();
+10     cout << \textcolor{stringliteral}{"Output of Convex Hull in Andrews Algorithm is\(\backslash\)n"};
+11     set<pair<double, double > >::iterator iter;
+12     \textcolor{keywordflow}{for}(iter = andrews\_res.begin();iter != andrews\_res.end();++iter) \{
+13         cout << (*iter).first << \textcolor{stringliteral}{" "} << (*iter).second << endl;
+14     \}
+15 \}
+\end{DoxyCode}
