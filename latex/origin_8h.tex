@@ -2,7 +2,6 @@
 \label{origin_8h}\index{origin.\+h@{origin.\+h}}
 {\ttfamily \#include $<$iostream$>$}\\*
 {\ttfamily \#include $<$bits/stdc++.\+h$>$}\\*
-{\ttfamily \#include \char`\"{}boost/filesystem.\+hpp\char`\"{}}\\*
 Include dependency graph for origin.\+h\+:
 % FIG 0
 This graph shows which files directly or indirectly include this file\+:
@@ -66,11 +65,11 @@ vector$<$ pair$<$ double, double $>$ $>$ \hyperlink{origin_8h_a003e76577b656b65e
 )}\hypertarget{origin_8h_afcdcfb840d57ba04a9c8ddc76e90ce98}{}\label{origin_8h_afcdcfb840d57ba04a9c8ddc76e90ce98}
 
 \begin{DoxyCode}
-21                                                                                     \{
-22     \textcolor{keywordtype}{double} dist;
-23     dist = sqrt(pow((fpoint.first-spoint.first),2.0) + pow((fpoint.second-spoint.second),2.0));
-24     \textcolor{keywordflow}{return} dist;
-25 \}
+19                                                                                     \{
+20     \textcolor{keywordtype}{double} dist;
+21     dist = sqrt(pow((fpoint.first-spoint.first),2.0) + pow((fpoint.second-spoint.second),2.0));
+22     \textcolor{keywordflow}{return} dist;
+23 \}
 \end{DoxyCode}
 \index{origin.\+h@{origin.\+h}!get\+Data@{get\+Data}}
 \index{get\+Data@{get\+Data}!origin.\+h@{origin.\+h}}
@@ -81,22 +80,22 @@ vector$<$ pair$<$ double, double $>$ $>$ \hyperlink{origin_8h_a003e76577b656b65e
 )}\hypertarget{origin_8h_a003e76577b656b65e62841ae5a311b33}{}\label{origin_8h_a003e76577b656b65e62841ae5a311b33}
 
 \begin{DoxyCode}
-72                                         \{
-73     vector<pair<double, double> > input;
-74     \textcolor{keywordtype}{double} a,b;
-75     ifstream in\_file;
-76     in\_file.open(\textcolor{stringliteral}{"tests/input1.txt"});
-77     cout << \textcolor{stringliteral}{"Reading from the file"} << endl;
-78     \textcolor{keywordflow}{while} (in\_file.is\_open()) \{
-79         \textcolor{keywordtype}{int} n;
-80         in\_file >> n;
-81         \textcolor{keywordflow}{while}(in\_file >> a >> b) \{
-82             input.pb(\hyperlink{origin_8h_aea466a7139309b17bce61d5ccb03e195}{mp}(a,b));
-83         \}
-84         in\_file.close();
-85     \}
-86     \textcolor{keywordflow}{return} input;
-87 \}
+70                                         \{
+71     vector<pair<double, double> > input;
+72     \textcolor{keywordtype}{double} a,b;
+73     ifstream in\_file;
+74     in\_file.open(\textcolor{stringliteral}{"tests/input1.txt"});
+75     cout << \textcolor{stringliteral}{"Reading from the file"} << endl;
+76     \textcolor{keywordflow}{while} (in\_file.is\_open()) \{
+77         \textcolor{keywordtype}{int} n;
+78         in\_file >> n;
+79         \textcolor{keywordflow}{while}(in\_file >> a >> b) \{
+80             input.pb(\hyperlink{origin_8h_aea466a7139309b17bce61d5ccb03e195}{mp}(a,b));
+81         \}
+82         in\_file.close();
+83     \}
+84     \textcolor{keywordflow}{return} input;
+85 \}
 \end{DoxyCode}
 \index{origin.\+h@{origin.\+h}!ordered\+Sort@{ordered\+Sort}}
 \index{ordered\+Sort@{ordered\+Sort}!origin.\+h@{origin.\+h}}
@@ -108,17 +107,17 @@ vector$<$ pair$<$ double, double $>$ $>$ \hyperlink{origin_8h_a003e76577b656b65e
 )}\hypertarget{origin_8h_acd5236039bd3f25f48a6f9638caca9e9}{}\label{origin_8h_acd5236039bd3f25f48a6f9638caca9e9}
 
 \begin{DoxyCode}
-44                                                                  \{
-45     \textcolor{comment}{//cout << "Comparing (" << f.first << ", " << f.second <<")" << " (" << s.first << ", " << s.second
+42                                                                  \{
+43     \textcolor{comment}{//cout << "Comparing (" << f.first << ", " << f.second <<")" << " (" << s.first << ", " << s.second
        <<")" << endl;}
-46     \textcolor{keywordflow}{if}(f.first < s.first) \{
-47         \textcolor{keywordflow}{return} \textcolor{keyword}{true};
-48     \}
-49     \textcolor{keywordflow}{if} (f.first > s.first) \{
-50         \textcolor{keywordflow}{return} \textcolor{keyword}{false};
-51     \}
-52     \textcolor{keywordflow}{return} f.second<s.second;
-53 \}
+44     \textcolor{keywordflow}{if}(f.first < s.first) \{
+45         \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+46     \}
+47     \textcolor{keywordflow}{if} (f.first > s.first) \{
+48         \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+49     \}
+50     \textcolor{keywordflow}{return} f.second<s.second;
+51 \}
 \end{DoxyCode}
 \index{origin.\+h@{origin.\+h}!ordered\+Y\+Sort@{ordered\+Y\+Sort}}
 \index{ordered\+Y\+Sort@{ordered\+Y\+Sort}!origin.\+h@{origin.\+h}}
@@ -130,15 +129,15 @@ vector$<$ pair$<$ double, double $>$ $>$ \hyperlink{origin_8h_a003e76577b656b65e
 )}\hypertarget{origin_8h_a4dc1f0518995effb5aa220fd58f3b8e8}{}\label{origin_8h_a4dc1f0518995effb5aa220fd58f3b8e8}
 
 \begin{DoxyCode}
-57                                                                   \{
-58     \textcolor{keywordflow}{if}(f.second < s.second) \{
-59         \textcolor{keywordflow}{return} \textcolor{keyword}{true};
-60     \}
-61     \textcolor{keywordflow}{if} (f.second > s.second) \{
-62         \textcolor{keywordflow}{return} \textcolor{keyword}{false};
-63     \}
-64     \textcolor{keywordflow}{return} f.first<s.first;
-65 \}
+55                                                                   \{
+56     \textcolor{keywordflow}{if}(f.second < s.second) \{
+57         \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+58     \}
+59     \textcolor{keywordflow}{if} (f.second > s.second) \{
+60         \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+61     \}
+62     \textcolor{keywordflow}{return} f.first<s.first;
+63 \}
 \end{DoxyCode}
 \index{origin.\+h@{origin.\+h}!orientation@{orientation}}
 \index{orientation@{orientation}!origin.\+h@{origin.\+h}}
@@ -151,18 +150,18 @@ vector$<$ pair$<$ double, double $>$ $>$ \hyperlink{origin_8h_a003e76577b656b65e
 )}\hypertarget{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{}\label{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}
 
 \begin{DoxyCode}
-29                                                                                         \{
-30     \textcolor{keywordtype}{double} m1, m2, dif;
-31     dif = (b.second - a.second)*(c.first-b.first) - (b.first-a.first)* (c.second - b.second);
-32     \textcolor{comment}{//cout << "Difference in Slopes " << dif<<endl;}
-33     \textcolor{keywordflow}{if}(dif == 0) \{
-34         \textcolor{keywordflow}{return} \hyperlink{origin_8h_a105caa178db222564f6fab1433ae289b}{COLLINEAR};
-35     \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(dif > 0 ) \{
-36         \textcolor{keywordflow}{return} \hyperlink{origin_8h_ab97a98583824a9ef7d480fe8fdca33cf}{CLOCKWISE};
-37     \} \textcolor{keywordflow}{else}\{
-38         \textcolor{keywordflow}{return} \hyperlink{origin_8h_a289ba85c8fefbfdb6cc4927dbf948940}{ANTICLOCKWISE};
-39     \}
-40 \}
+27                                                                                         \{
+28     \textcolor{keywordtype}{double} m1, m2, dif;
+29     dif = (b.second - a.second)*(c.first-b.first) - (b.first-a.first)* (c.second - b.second);
+30     \textcolor{comment}{//cout << "Difference in Slopes " << dif<<endl;}
+31     \textcolor{keywordflow}{if}(dif == 0) \{
+32         \textcolor{keywordflow}{return} \hyperlink{origin_8h_a105caa178db222564f6fab1433ae289b}{COLLINEAR};
+33     \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (dif > 0 ) \{
+34         \textcolor{keywordflow}{return} \hyperlink{origin_8h_ab97a98583824a9ef7d480fe8fdca33cf}{CLOCKWISE};
+35     \} \textcolor{keywordflow}{else} \{
+36         \textcolor{keywordflow}{return} \hyperlink{origin_8h_a289ba85c8fefbfdb6cc4927dbf948940}{ANTICLOCKWISE};
+37     \}
+38 \}
 \end{DoxyCode}
 \index{origin.\+h@{origin.\+h}!print\+Vector\+Data@{print\+Vector\+Data}}
 \index{print\+Vector\+Data@{print\+Vector\+Data}!origin.\+h@{origin.\+h}}
@@ -175,10 +174,10 @@ vector$<$ pair$<$ double, double $>$ $>$ \hyperlink{origin_8h_a003e76577b656b65e
 )}\hypertarget{origin_8h_a4d6ea05a2f5f54cf53c8ce3687f0ae92}{}\label{origin_8h_a4d6ea05a2f5f54cf53c8ce3687f0ae92}
 
 \begin{DoxyCode}
-66                                                                          \{
-67     \textcolor{keywordtype}{int} i;
-68     cout << s <<endl;
-69     \textcolor{keywordflow}{for}(i=0;i<len;i++)
-70         cout << v[i].first <<\textcolor{stringliteral}{" "} << v[i].second <<endl;
-71 \}
+64                                                                          \{
+65     \textcolor{keywordtype}{int} i;
+66     cout << s <<endl;
+67     \textcolor{keywordflow}{for}(i=0;i<len;i++)
+68         cout << v[i].first <<\textcolor{stringliteral}{" "} << v[i].second <<endl;
+69 \}
 \end{DoxyCode}

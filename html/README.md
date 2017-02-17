@@ -19,7 +19,7 @@ Documentation for the Algorithms used
 
 
 2. [Andrews Algorithm](http://www.codecodex.com/wiki/Andrew's_Monotone_Chain_Algorithm)  
-   > It does so by first sorting the points lexicographically (first by x-coordinate, and in case of a tie, 
+   > Andrew's Algorithm is implemented by first sorting the points lexicographically (first by x-coordinate, and in case of a tie, 
    > by y-coordinate), and then constructing upper and lower hulls of the points in O(n) time.
    > An upper hull is the part of the convex hull, which is visible from the above. It runs from its rightmost 
    > point to the leftmost point in counterclockwise order. Lower hull is the remaining part of the convex hull.
