@@ -7,9 +7,7 @@
 #include <iostream>
 #include <bits/stdc++.h>
 #include "origin.h"
-#define ull unsigned long long /*!< Macro for making my typing life easier*/
-#define pb push_back /*!< Macro for making my typing life easier*/
-#define mp make_pair /*!< Macro for making my typing life easier*/
+
 using namespace std;
 
 pair<double , double > next_to_top(stack<pair<double , double > > S) {

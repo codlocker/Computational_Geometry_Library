@@ -7,8 +7,11 @@
 
 #include <iostream>
 #include <bits/stdc++.h>
-#define pb push_back
-#define mp make_pair
+
+#define ull unsigned long long /*!< Macro for making my typing life easier*/
+#define pb push_back /*!< Macro for making my typing life easier*/
+#define mp make_pair /*!< Macro for making my typing life easier*/
+
 #define COLLINEAR 1 /*!< Macro defined for identifying 3 collinear points */
 #define CLOCKWISE 2 /*!< Macro defined for identifying 3 points that rotate clockwise */
 #define ANTICLOCKWISE 3 /*!< Macro defined for identifying 3 points that rotate anticlockwise */
