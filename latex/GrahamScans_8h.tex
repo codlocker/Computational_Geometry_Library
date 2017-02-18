@@ -20,29 +20,31 @@ This graph shows which files directly or indirectly include this file\+:
 \begin{DoxyCompactItemize}
 \item 
 bool \hyperlink{GrahamScans_8h_ab4d553464b44f7c3f45a7ad69b98772c}{order\+By\+Polar} (pair$<$ double, double $>$ \&p1, pair$<$ double, double $>$ \&p2)
-\item 
+\begin{DoxyCompactList}\small\item\em Function to order with respect to polar Coordinates. \end{DoxyCompactList}\item 
 pair$<$ double,double $>$ \hyperlink{GrahamScans_8h_a42656464269f4af23114e66d954ecb46}{next\+\_\+to\+\_\+top} (stack$<$ pair$<$ double, double $>$ $>$ S)
 \item 
 int \hyperlink{GrahamScans_8h_ac6e4d046bf1733765b8ff791c9e9356d}{exec\+Graham\+Scans} (vector$<$ pair$<$ double, double $>$ $>$ Points)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em {\bfseries Graham Scans Algorithm Implementation} \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Variables}
+{\bf }\par
 \begin{DoxyCompactItemize}
 \item 
 pair$<$ double,double $>$ \hyperlink{GrahamScans_8h_adacb3282d7a9fb184f695409085f0f0c}{P0}
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em a double value which gets the point with lowest y-\/coordinate \end{DoxyCompactList}\end{DoxyCompactItemize}
+
 
 
 \subsection{Macro Definition Documentation}
 \index{Graham\+Scans.\+h@{Graham\+Scans.\+h}!mp@{mp}}
 \index{mp@{mp}!Graham\+Scans.\+h@{Graham\+Scans.\+h}}
 \subsubsection[{\texorpdfstring{mp}{mp}}]{\setlength{\rightskip}{0pt plus 5cm}\#define mp~make\+\_\+pair}\hypertarget{GrahamScans_8h_aea466a7139309b17bce61d5ccb03e195}{}\label{GrahamScans_8h_aea466a7139309b17bce61d5ccb03e195}
-\index{Graham\+Scans.\+h@{Graham\+Scans.\+h}!pb@{pb}}
+Macro for making my typing life easier \index{Graham\+Scans.\+h@{Graham\+Scans.\+h}!pb@{pb}}
 \index{pb@{pb}!Graham\+Scans.\+h@{Graham\+Scans.\+h}}
 \subsubsection[{\texorpdfstring{pb}{pb}}]{\setlength{\rightskip}{0pt plus 5cm}\#define pb~push\+\_\+back}\hypertarget{GrahamScans_8h_a276c5a0e984cf60015b27252fe04fe6b}{}\label{GrahamScans_8h_a276c5a0e984cf60015b27252fe04fe6b}
-\index{Graham\+Scans.\+h@{Graham\+Scans.\+h}!ull@{ull}}
+Macro for making my typing life easier \index{Graham\+Scans.\+h@{Graham\+Scans.\+h}!ull@{ull}}
 \index{ull@{ull}!Graham\+Scans.\+h@{Graham\+Scans.\+h}}
 \subsubsection[{\texorpdfstring{ull}{ull}}]{\setlength{\rightskip}{0pt plus 5cm}\#define ull~unsigned long long}\hypertarget{GrahamScans_8h_a2a1803d02747e2d698a94307ffd6699b}{}\label{GrahamScans_8h_a2a1803d02747e2d698a94307ffd6699b}
-
+Macro for making my typing life easier 
 
 \subsection{Function Documentation}
 \index{Graham\+Scans.\+h@{Graham\+Scans.\+h}!exec\+Graham\+Scans@{exec\+Graham\+Scans}}
@@ -53,60 +55,66 @@ pair$<$ double,double $>$ \hyperlink{GrahamScans_8h_adacb3282d7a9fb184f695409085
 \end{DoxyParamCaption}
 )}\hypertarget{GrahamScans_8h_ac6e4d046bf1733765b8ff791c9e9356d}{}\label{GrahamScans_8h_ac6e4d046bf1733765b8ff791c9e9356d}
 
+
+{\bfseries Graham Scans Algorithm Implementation} 
+
+
+\begin{DoxyEnumerate}
+\item First Step is to sort points with respect to the polar coordinates.~\newline
+
+\item After getting the closed path, the next step is to get all points in the path and remove concave points on this.~\newline
+
+\item We accept and reject based on orientation of 3 points selected. 
+\end{DoxyEnumerate}
 \begin{DoxyCode}
-37                                                           \{
-38     \textcolor{keywordtype}{int} len,i, min = 0;
-39     len = int(Points.size());
-40     \textcolor{comment}{/*}
-41 \textcolor{comment}{     * Get the point with lowest y-coordinate}
-42 \textcolor{comment}{     */}
-43     \textcolor{keywordtype}{double} y\_min = Points[0].second;
-44     pair<double, double> temp;
-45     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 1; i < len; i++)
-46     \{
-47         \textcolor{keywordtype}{double} y = Points[i].second;
-48         \textcolor{keywordflow}{if} ((y < y\_min) || (y\_min == y &&
-49                            Points[i].first < Points[min].first))
-50             y\_min = Points[i].second, min = i;
-51     \}
-52 
-53     temp = Points[min];
-54     Points[min] = Points[0];
-55     Points[0] = temp;
-56 
-57     \textcolor{comment}{//printVectorData(len,Points, "Get Values after minimum y-coordinate\(\backslash\)n");}
-58     \hyperlink{GrahamScans_8h_adacb3282d7a9fb184f695409085f0f0c}{P0} = Points[0];  \textcolor{comment}{// P0 denotes Central Point for Comparision}
-59     Points.erase(Points.begin());
-60     sort(Points.begin(), Points.end(), \hyperlink{GrahamScans_8h_ab4d553464b44f7c3f45a7ad69b98772c}{orderByPolar});
-61 
-62     len = int(Points.size());
-63     \textcolor{comment}{//printVectorData(len,Points, "Ordered by Polar Angles");}
-64     \textcolor{comment}{/*}
-65 \textcolor{comment}{     * Form the Hull by processing the remaining points}
-66 \textcolor{comment}{     */}
-67     stack<pair<double ,double > > convex\_hull;
-68     convex\_hull.push(\hyperlink{GrahamScans_8h_adacb3282d7a9fb184f695409085f0f0c}{P0});
-69     convex\_hull.push(Points[0]);
-70     convex\_hull.push(Points[1]);
-71 
-72     \textcolor{keywordflow}{for}(i=2;i<len;i++) \{
+52                                                           \{
+53     \textcolor{keywordtype}{int} len,i, min = 0;
+54     len = int(Points.size());
+55     \textcolor{keywordtype}{double} y\_min = Points[0].second; \textcolor{comment}{// a **double** value which gets the point with lowest y-coordinate}
+56     pair<double, double> temp;
+57     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 1; i < len; i++)
+58     \{
+59         \textcolor{keywordtype}{double} y = Points[i].second;
+60         \textcolor{keywordflow}{if} ((y < y\_min) || (y\_min == y &&
+61                            Points[i].first < Points[min].first))
+62             y\_min = Points[i].second, min = i;
+63     \}
+64 
+65     temp = Points[min];
+66     Points[min] = Points[0];
+67     Points[0] = temp;
+68 
+69     \textcolor{comment}{//printVectorData(len,Points, "Get Values after minimum y-coordinate\(\backslash\)n");}
+70     \hyperlink{GrahamScans_8h_adacb3282d7a9fb184f695409085f0f0c}{P0} = Points[0];     \textcolor{comment}{// P0 denotes Central Point for Comparision}
+71     Points.erase(Points.begin());
+72     sort(Points.begin(), Points.end(), \hyperlink{GrahamScans_8h_ab4d553464b44f7c3f45a7ad69b98772c}{orderByPolar});
 73 
-74         \textcolor{keywordflow}{while} (\hyperlink{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{orientation}(\hyperlink{GrahamScans_8h_a42656464269f4af23114e66d954ecb46}{next\_to\_top}(convex\_hull), convex\_hull.top(), Points[i])!=3
+74     len = int(Points.size());
+75     \textcolor{comment}{//printVectorData(len,Points, "Ordered by Polar Angles");}
+76     stack<pair<double ,double > > convex\_hull; \textcolor{comment}{// A **stack data structure** which stores the coordinates.
+       Form the Hull by processing the remaining points}
+77     convex\_hull.push(\hyperlink{GrahamScans_8h_adacb3282d7a9fb184f695409085f0f0c}{P0});
+78     convex\_hull.push(Points[0]);
+79     convex\_hull.push(Points[1]);
+80 
+81     \textcolor{keywordflow}{for}(i=2;i<len;i++) \{
+82 
+83         \textcolor{keywordflow}{while} (\hyperlink{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{orientation}(\hyperlink{GrahamScans_8h_a42656464269f4af23114e66d954ecb46}{next\_to\_top}(convex\_hull), convex\_hull.top(), Points[i])!=3
       ) \{
-75             \textcolor{keywordflow}{if}(convex\_hull.size()<3) \{ \textcolor{keywordflow}{break};\}
-76             convex\_hull.pop();
-77         \}
-78         convex\_hull.push(Points[i]);
-79     \}
-80     cout << \textcolor{stringliteral}{"Using Graham Scans Algorithm\(\backslash\)n---\(\backslash\)n"} <<endl;
-81     \textcolor{keywordflow}{while} (!convex\_hull.empty())
-82     \{
-83         pair<double ,double > point = convex\_hull.top();
-84         cout << \textcolor{stringliteral}{"("} << point.first << \textcolor{stringliteral}{", "} << point.second <<\textcolor{stringliteral}{")"} << endl;
-85         convex\_hull.pop();
-86     \}
-87     \textcolor{keywordflow}{return} 0;
-88 \}
+84             \textcolor{keywordflow}{if}(convex\_hull.size()<3) \{ \textcolor{keywordflow}{break};\}
+85             convex\_hull.pop();
+86         \}
+87         convex\_hull.push(Points[i]);
+88     \}
+89     cout << \textcolor{stringliteral}{"Using Graham Scans Algorithm\(\backslash\)n---\(\backslash\)n"} <<endl;
+90     \textcolor{keywordflow}{while} (!convex\_hull.empty())
+91     \{
+92         pair<double ,double > point = convex\_hull.top();
+93         cout << \textcolor{stringliteral}{"("} << point.first << \textcolor{stringliteral}{", "} << point.second <<\textcolor{stringliteral}{")"} << endl;
+94         convex\_hull.pop();
+95     \}
+96     \textcolor{keywordflow}{return} 0;
+97 \}
 \end{DoxyCode}
 \index{Graham\+Scans.\+h@{Graham\+Scans.\+h}!next\+\_\+to\+\_\+top@{next\+\_\+to\+\_\+top}}
 \index{next\+\_\+to\+\_\+top@{next\+\_\+to\+\_\+top}!Graham\+Scans.\+h@{Graham\+Scans.\+h}}
@@ -117,13 +125,13 @@ pair$<$ double,double $>$ \hyperlink{GrahamScans_8h_adacb3282d7a9fb184f695409085
 )}\hypertarget{GrahamScans_8h_a42656464269f4af23114e66d954ecb46}{}\label{GrahamScans_8h_a42656464269f4af23114e66d954ecb46}
 
 \begin{DoxyCode}
-30                                                                   \{
-31     pair<double ,double > point = S.top();
-32     S.pop();
-33     pair<double ,double > res = S.top();
-34     S.push(point);
-35     \textcolor{keywordflow}{return} res;
-36 \}
+38                                                                   \{
+39     pair<double ,double > point = S.top();
+40     S.pop();
+41     pair<double ,double > res = S.top();
+42     S.push(point);
+43     \textcolor{keywordflow}{return} res;
+44 \}
 \end{DoxyCode}
 \index{Graham\+Scans.\+h@{Graham\+Scans.\+h}!order\+By\+Polar@{order\+By\+Polar}}
 \index{order\+By\+Polar@{order\+By\+Polar}!Graham\+Scans.\+h@{Graham\+Scans.\+h}}
@@ -134,20 +142,24 @@ pair$<$ double,double $>$ \hyperlink{GrahamScans_8h_adacb3282d7a9fb184f695409085
 \end{DoxyParamCaption}
 )}\hypertarget{GrahamScans_8h_ab4d553464b44f7c3f45a7ad69b98772c}{}\label{GrahamScans_8h_ab4d553464b44f7c3f45a7ad69b98772c}
 
+
+Function to order with respect to polar Coordinates. 
+
+function used by this algorithm to sort an array of points with respect to the first point in the vector. 
 \begin{DoxyCode}
-18                                                                    \{
-19     \textcolor{keywordtype}{int} oValue  = \hyperlink{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{orientation}(\hyperlink{GrahamScans_8h_adacb3282d7a9fb184f695409085f0f0c}{P0},p2,p1);
-20     \textcolor{comment}{/*cout << "comparing " << "(" << P0.first << ", " << P0.second <<")" <<  " "}
-21 \textcolor{comment}{         << "(" << p1.first << ", " << p1.second <<")" << " "}
-22 \textcolor{comment}{         << "(" << p2.first << ", " << p2.second <<")" <<endl;}
-23 \textcolor{comment}{    cout << " The orientation value is " << oValue << endl;*/}
-24     \textcolor{keywordflow}{if}(oValue == 1) \{
-25         \textcolor{comment}{//cout << "Result :" << (calcEuclidDistance(P0,p2) >= calcEuclidDistance(P0,p1)) <<endl;}
-26         \textcolor{keywordflow}{return} (\hyperlink{origin_8h_afcdcfb840d57ba04a9c8ddc76e90ce98}{calcEuclidDistance}(\hyperlink{GrahamScans_8h_adacb3282d7a9fb184f695409085f0f0c}{P0},p2) < 
+26                                                                    \{
+27     \textcolor{keywordtype}{int} oValue  = \hyperlink{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{orientation}(\hyperlink{GrahamScans_8h_adacb3282d7a9fb184f695409085f0f0c}{P0},p2,p1);
+28     \textcolor{comment}{/*cout << "comparing " << "(" << P0.first << ", " << P0.second <<")" <<  " "}
+29 \textcolor{comment}{         << "(" << p1.first << ", " << p1.second <<")" << " "}
+30 \textcolor{comment}{         << "(" << p2.first << ", " << p2.second <<")" <<endl;}
+31 \textcolor{comment}{    cout << " The orientation value is " << oValue << endl;*/}
+32     \textcolor{keywordflow}{if}(oValue == 1) \{
+33         \textcolor{comment}{//cout << "Result :" << (calcEuclidDistance(P0,p2) >= calcEuclidDistance(P0,p1)) <<endl;}
+34         \textcolor{keywordflow}{return} (\hyperlink{origin_8h_afcdcfb840d57ba04a9c8ddc76e90ce98}{calcEuclidDistance}(\hyperlink{GrahamScans_8h_adacb3282d7a9fb184f695409085f0f0c}{P0},p2) < 
       \hyperlink{origin_8h_afcdcfb840d57ba04a9c8ddc76e90ce98}{calcEuclidDistance}(\hyperlink{GrahamScans_8h_adacb3282d7a9fb184f695409085f0f0c}{P0},p1));
-27     \}
-28     \textcolor{keywordflow}{return} (oValue != 3);
-29 \}
+35     \}
+36     \textcolor{keywordflow}{return} (oValue != 3);
+37 \}
 \end{DoxyCode}
 
 
@@ -155,3 +167,7 @@ pair$<$ double,double $>$ \hyperlink{GrahamScans_8h_adacb3282d7a9fb184f695409085
 \index{Graham\+Scans.\+h@{Graham\+Scans.\+h}!P0@{P0}}
 \index{P0@{P0}!Graham\+Scans.\+h@{Graham\+Scans.\+h}}
 \subsubsection[{\texorpdfstring{P0}{P0}}]{\setlength{\rightskip}{0pt plus 5cm}pair$<$double ,double $>$ P0}\hypertarget{GrahamScans_8h_adacb3282d7a9fb184f695409085f0f0c}{}\label{GrahamScans_8h_adacb3282d7a9fb184f695409085f0f0c}
+
+
+a double value which gets the point with lowest y-\/coordinate 
+
