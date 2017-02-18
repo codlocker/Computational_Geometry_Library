@@ -32,7 +32,7 @@ vector<pair<double, double> > EBmonotonicChain(vector<pair<double, double> > L_l
     for(i = len-3;i>=0;i--) {
         int LU_len = int(L_lower.size());
 
-        while (orientation(L_lower[LU_len-1], L_lower[LU_len-2], rpoints[i]) != CLOCKWISE) {
+        while (orientation(L_lower[LU_len-2], L_lower[LU_len-1], rpoints[i]) != CLOCKWISE) {
 
             /*cout << L_lower[LU_len-2].first <<" " << L_lower[LU_len-2].second << " "
                  << L_lower[LU_len-1].first <<" " << L_lower[LU_len-1].second << " "

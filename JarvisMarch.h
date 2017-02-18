@@ -42,35 +42,34 @@ int execJarvisMarch(vector<pair<double, double> > Points) {
 	 * Get the point with lowest x-coordinate
 	 */
 	double x_min = Points[0].first;
-	pair<double, double> lastPointOnHull;
 	for (int i = 1; i < len; i++)
 	{
 		if (orderedSort(Points[i], Points[min]))
 			x_min = Points[i].first, min = i;
 	}
 
-	lastPointOnHull = Points[min];
+	P0 = Points[min];	//P0 denotes the latest point permanently added to the hull
 
 	swapElements(Points[hullLength++],Points[min]);
 	/*
 	 * Form the Hull by processing the remaining points
 	 */
 	vector<pair<double , double> > convex_hull;
-	cout<<"Jarvis March:"<<endl;
+	cout<<"Executing Jarvis March\n---\n"<<endl;
 	do {
-		cout<<lastPointOnHull.first<<","<<lastPointOnHull.second<<endl;
-		convex_hull.push_back(lastPointOnHull);
+		cout<<P0.first<<","<<P0.second<<endl;
+		convex_hull.push_back(P0);
 		for (i = hullLength, current = i; i < len; i++) {
-			if (orderByAngle(lastPointOnHull,Points[i],Points[current])) {
+			if (orderByAngle(P0,Points[i],Points[current])) {
 				current = i;
 			}
 		}
-		if (orderByAngle(lastPointOnHull,Points[0],Points[current])) {
+		if (orderByAngle(P0,Points[0],Points[current])) {
 			current = 0;
 		}
-		lastPointOnHull = Points[current];
+		P0 = Points[current];
 		swapElements(Points[hullLength++],Points[current]);
-	} while (lastPointOnHull != Points[min]);
+	} while (P0 != Points[min]);
 	return 0;
 }
 #endif

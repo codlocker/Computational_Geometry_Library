@@ -65,6 +65,31 @@ bool orderedYSort(pair<double,double> &f, pair<double,double> &s) {
     }
     return f.first<s.first;
 }
+
+//@{
+/**
+ * @brief a double value which stores the centre about which polar ordering is to be done
+ */
+pair<double ,double > P0;
+//@}
+
+//! Function to order with respect to polar Coordinates
+/*! function used by this algorithm to sort an array of
+ * points with respect to the first point in the vector.
+ */
+bool orderByPolar(pair<double,double> &p1, pair<double,double> &p2){
+    int oValue  = orientation(P0,p2,p1);
+    /*cout << "comparing " << "(" << P0.first << ", " << P0.second <<")" <<  " "
+         << "(" << p1.first << ", " << p1.second <<")" << " "
+         << "(" << p2.first << ", " << p2.second <<")" <<endl;
+    cout << " The orientation value is " << oValue << endl;*/
+    if(oValue == 1) {
+        //cout << "Result :" << (calcEuclidDistance(P0,p2) >= calcEuclidDistance(P0,p1)) <<endl;
+        return (calcEuclidDistance(P0,p2) < calcEuclidDistance(P0,p1));
+    }
+    return (oValue != 3);
+}
+
 //! Print Function
 /*! Prints content of the vector. Used for **output formatting**
  */
@@ -78,12 +103,11 @@ void printVectorData(int len, vector<pair<double, double> > v, string s) {
 /*! It extracts Data From a file and stores it in a vector for further calculation.
  * Forms the base for getting Data.
  */
-vector<pair<double, double> > getData() {
+vector<pair<double, double> > getData(char *filename) {
     vector<pair<double, double> > input;
     double a,b;
     ifstream in_file;
-    in_file.open("tests/input1.txt");
-    cout << "Reading from the file" << endl;
+    in_file.open(filename);
     while (in_file.is_open()) {
         int n;
         in_file >> n;
