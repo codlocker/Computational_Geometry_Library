@@ -98,7 +98,7 @@ bool orderByPolar(pair<double,double> &p1, pair<double,double> &p2){
  */
 void printVectorData(int len, vector<pair<double, double> > v, string s) {
     int i;
-    cout << s <<endl;
+    cout << s << v.size() << endl;
     for(i=0;i<len;i++)
         cout << v[i].first <<" " << v[i].second <<endl;
 }

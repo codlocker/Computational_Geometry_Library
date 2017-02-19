@@ -46,7 +46,6 @@ vector<pair<double, double> > EBmonotonicChain(vector<pair<double, double> > L_l
     return L_lower;
 }
 set<pair<double, double> > execAndrews(vector<pair<double, double> > Points) {
-    cout << "Executing Andrews Algorithm\n---\n";
     vector<pair<double, double> > L_upper,L_lower;
     int len;
     len = int(Points.size());

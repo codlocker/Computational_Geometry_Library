@@ -56,18 +56,17 @@ double execGrahamScans(vector<pair<double, double> > Points) {
     convex_hull.push(Points[1]);
 
     for (i = 2; i < len; i++) {
-
         while (orientation(next_to_top(convex_hull), convex_hull.top(), Points[i]) != 3) {
             if (convex_hull.size() < 3) { break;}
             convex_hull.pop();
         }
         convex_hull.push(Points[i]);
     }
-    cout << "Using Graham Scans Algorithm\n---\n" << endl;
+    cout << convex_hull.size() << endl;
     while (!convex_hull.empty())
     {
         pair<double , double > point = convex_hull.top();
-        cout << point.first << ", " << point.second << endl;
+        cout << point.first << " " << point.second << endl;
         convex_hull.pop();
     }
     //time_taken = clock() - time_taken;
