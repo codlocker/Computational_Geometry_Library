@@ -3,6 +3,7 @@
 
 CMakeFiles/ComputGeoAlgos.dir/main.cpp.o: ../Andrews.h
 CMakeFiles/ComputGeoAlgos.dir/main.cpp.o: ../GrahamScans.h
+CMakeFiles/ComputGeoAlgos.dir/main.cpp.o: ../JarvisMarch.h
 CMakeFiles/ComputGeoAlgos.dir/main.cpp.o: ../main.cpp
 CMakeFiles/ComputGeoAlgos.dir/main.cpp.o: ../origin.h
 

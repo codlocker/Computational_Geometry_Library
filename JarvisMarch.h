@@ -35,14 +35,13 @@ void swapElements(pair<double,double> &p, pair<double, double> &q) {
  * 
  *	4. Swap the point with the corresponding nth point in the point set to avoid repeating already chosen points
  */
-int execJarvisMarch(vector<pair<double, double> > Points) {
+double execJarvisMarch(vector<pair<double, double> > Points) {
 	int len, i, current, min = 0, hullLength=0;
 	len = int(Points.size());
-	/*
-	 * Get the point with lowest x-coordinate
-	 */
 	double x_min = Points[0].first; // a **double** value which gets the point with lowest y-coordinate
 	pair<double, double> leftMost;
+    clock_t j_taken;
+    j_taken = clock();
 	for (int i = 1; i < len; i++)
 	{
 		if (orderedSort(Points[i], Points[min]))
@@ -72,6 +71,7 @@ int execJarvisMarch(vector<pair<double, double> > Points) {
 		P0 = Points[current];
 		swapElements(Points[hullLength++],Points[current]); //Swap the latest added point with the point in the set having index equal to the hull length		                                                 
 	} while (P0 != leftMost);
-	return 0;
+    j_taken = clock()-j_taken;
+    return ((double)j_taken)/CLOCKS_PER_SEC;
 }
 #endif

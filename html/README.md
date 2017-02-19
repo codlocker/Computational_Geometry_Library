@@ -18,7 +18,7 @@ Documentation for the Algorithms used
    > It uses a stack to detect and remove concavities in the boundary efficiently.
 
 
-2. [Andrews Algorithm](http://www.codecodex.com/wiki/Andrew's_Monotone_Chain_Algorithm)  
+2. [Andrews Algorithm](http://nms.csail.mit.edu/~aklmiu/6.838/convexhull/)  
    > Andrew's Algorithm is implemented by first sorting the points lexicographically (first by x-coordinate, and in case of a tie, 
    > by y-coordinate), and then constructing upper and lower hulls of the points in O(n) time.
    > An upper hull is the part of the convex hull, which is visible from the above. It runs from its rightmost 

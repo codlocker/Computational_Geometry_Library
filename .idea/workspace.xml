@@ -12,12 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38bdd579-6d26-4a96-b830-34b1267bb725" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ComputGeoAlgos.dir/main.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/ComputGeoAlgos" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Andrews.h" afterPath="$PROJECT_DIR$/Andrews.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GrahamScans.h" afterPath="$PROJECT_DIR$/GrahamScans.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/GrahamScans_8h.html" afterPath="$PROJECT_DIR$/html/GrahamScans_8h.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/GrahamScans_8h_source.html" afterPath="$PROJECT_DIR$/html/GrahamScans_8h_source.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/main_8cpp.html" afterPath="$PROJECT_DIR$/html/main_8cpp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/latex/GrahamScans_8h.tex" afterPath="$PROJECT_DIR$/latex/GrahamScans_8h.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JarvisMarch.h" afterPath="$PROJECT_DIR$/JarvisMarch.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/README.md" afterPath="$PROJECT_DIR$/html/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="285">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -55,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GrahamScans.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GrahamScans.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GrahamScans.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="75" column="81" lean-forward="false" selection-start-line="75" selection-start-column="81" selection-end-line="75" selection-end-column="81" />
+            <state relative-caret-position="795">
+              <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
               <folding>
                 <element signature="e#118#137#0" expanded="true" />
               </folding>
@@ -70,8 +71,8 @@
       <file leaf-file-name="Andrews.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Andrews.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="165">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -80,8 +81,8 @@
       <file leaf-file-name="origin.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/origin.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="88" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="88" />
+            <state relative-caret-position="61">
+              <caret line="57" column="28" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
               <folding>
                 <element signature="e#109#128#0" expanded="true" />
               </folding>
@@ -92,8 +93,8 @@
       <file leaf-file-name="JarvisMarch.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JarvisMarch.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+            <state relative-caret-position="141">
+              <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -103,8 +104,8 @@
         <entry file="file://$PROJECT_DIR$/html/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="315">
-                <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+              <first_editor relative-caret-position="285">
+                <caret line="22" column="63" lean-forward="true" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -117,6 +118,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Started</find>
+      <find>Executing Jarvis March</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,12 +133,13 @@
         <option value="$PROJECT_DIR$/GrahamScans.cpp" />
         <option value="$PROJECT_DIR$/Andrews.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/Andrews.h" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/html/README.md" />
         <option value="$PROJECT_DIR$/origin.h" />
+        <option value="$PROJECT_DIR$/Andrews.h" />
         <option value="$PROJECT_DIR$/GrahamScans.h" />
+        <option value="$PROJECT_DIR$/JarvisMarch.h" />
+        <option value="$PROJECT_DIR$/html/README.md" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -146,9 +149,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1366" />
+    <option name="x" value="-4" />
+    <option name="width" value="1374" />
     <option name="height" value="732" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -410,11 +414,12 @@
       <workItem from="1487185169047" duration="782000" />
       <workItem from="1487330368609" duration="3317000" />
       <workItem from="1487347506973" duration="2481000" />
+      <workItem from="1487509816784" duration="5712000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84497000" />
+    <option name="totallyTimeSpent" value="90209000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,27 +431,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="732" extended-state="6" />
-    <editor active="true" />
+    <frame x="-4" y="0" width="1374" height="732" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12434848" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.4944155" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35041323" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.50558454" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289256" sideWeight="0.4973939" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="0" y="29" width="1366" height="695" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -765,13 +770,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/origin.cpp" />
-    <entry file="file://$PROJECT_DIR$/a.out">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6725">
-          <caret line="0" column="913" lean-forward="false" selection-start-line="0" selection-start-column="913" selection-end-line="0" selection-end-column="913" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/a.out" />
     <entry file="file://$PROJECT_DIR$/GrahamScans.cpp" />
     <entry file="file://$PROJECT_DIR$/Andrews.cpp" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/ComputGeoAlgos">
@@ -803,28 +802,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/input1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/input1.txt" />
     <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/JarvisMarch.h">
+    <entry file="file://$PROJECT_DIR$/Andrews.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        <state relative-caret-position="165">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -832,38 +815,48 @@
     <entry file="file://$PROJECT_DIR$/html/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <first_editor relative-caret-position="285">
+            <caret line="22" column="63" lean-forward="true" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Andrews.h">
+    <entry file="file://$PROJECT_DIR$/JarvisMarch.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state relative-caret-position="141">
+          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrahamScans.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+          <folding>
+            <element signature="e#118#137#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/origin.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="88" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="88" />
+        <state relative-caret-position="61">
+          <caret line="57" column="28" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
           <folding>
             <element signature="e#109#128#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GrahamScans.h">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="75" column="81" lean-forward="false" selection-start-line="75" selection-start-column="81" selection-end-line="75" selection-end-column="81" />
+        <state relative-caret-position="285">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
-            <element signature="e#118#137#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
