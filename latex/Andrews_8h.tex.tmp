@@ -5,89 +5,60 @@ Include dependency graph for Andrews.\+h\+:
 % FIG 0
 This graph shows which files directly or indirectly include this file\+:
 % FIG 1
-\subsection*{Macros}
-\begin{DoxyCompactItemize}
-\item 
-\#define \hyperlink{Andrews_8h_a2a1803d02747e2d698a94307ffd6699b}{ull}~unsigned long long
-\end{DoxyCompactItemize}
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-vector$<$ pair$<$ double, double $>$ $>$ \hyperlink{Andrews_8h_ad92f0e8d5c1c7a57477b039f81c4ecf6}{B\+Emonotonic\+Chain} (vector$<$ pair$<$ double, double $>$ $>$ L\+\_\+upper, vector$<$ pair$<$ double, double $>$ $>$ points)
-\item 
-vector$<$ pair$<$ double, double $>$ $>$ \hyperlink{Andrews_8h_afff40844dd489406b07ef31238ce3a28}{E\+Bmonotonic\+Chain} (vector$<$ pair$<$ double, double $>$ $>$ L\+\_\+lower, vector$<$ pair$<$ double, double $>$ $>$ rpoints)
-\item 
+vector$<$ pair$<$ double, double $>$ $>$ \hyperlink{Andrews_8h_a531ddaca865c8d7a7a3f636e7a3adb6f}{convex\+\_\+hull} (vector$<$ pair$<$ double, double $>$ $>$ points)
+\begin{DoxyCompactList}\small\item\em {\bfseries Upper Hull and Lower Hull Algorithm} \end{DoxyCompactList}\item 
 set$<$ pair$<$ double, double $>$ $>$ \hyperlink{Andrews_8h_a9f40a9e14abc94694bee856797a27a24}{exec\+Andrews} (vector$<$ pair$<$ double, double $>$ $>$ Points)
-\end{DoxyCompactItemize}
-
-
-\subsection{Macro Definition Documentation}
-\index{Andrews.\+h@{Andrews.\+h}!ull@{ull}}
-\index{ull@{ull}!Andrews.\+h@{Andrews.\+h}}
-\subsubsection[{\texorpdfstring{ull}{ull}}]{\setlength{\rightskip}{0pt plus 5cm}\#define ull~unsigned long long}\hypertarget{Andrews_8h_a2a1803d02747e2d698a94307ffd6699b}{}\label{Andrews_8h_a2a1803d02747e2d698a94307ffd6699b}
+\begin{DoxyCompactList}\small\item\em {\bfseries Complete Execution of Andrews Monotone Chain} \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Function Documentation}
-\index{Andrews.\+h@{Andrews.\+h}!B\+Emonotonic\+Chain@{B\+Emonotonic\+Chain}}
-\index{B\+Emonotonic\+Chain@{B\+Emonotonic\+Chain}!Andrews.\+h@{Andrews.\+h}}
-\subsubsection[{\texorpdfstring{B\+Emonotonic\+Chain(vector$<$ pair$<$ double, double $>$ $>$ L\+\_\+upper, vector$<$ pair$<$ double, double $>$ $>$ points)}{BEmonotonicChain(vector< pair< double, double > > L_upper, vector< pair< double, double > > points)}}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$pair$<$double, double$>$ $>$ B\+Emonotonic\+Chain (
+\index{Andrews.\+h@{Andrews.\+h}!convex\+\_\+hull@{convex\+\_\+hull}}
+\index{convex\+\_\+hull@{convex\+\_\+hull}!Andrews.\+h@{Andrews.\+h}}
+\subsubsection[{\texorpdfstring{convex\+\_\+hull(vector$<$ pair$<$ double, double $>$ $>$ points)}{convex_hull(vector< pair< double, double > > points)}}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$pair$<$double, double$>$ $>$ convex\+\_\+hull (
 \begin{DoxyParamCaption}
-\item[{vector$<$ pair$<$ double, double $>$ $>$}]{L\+\_\+upper, }
 \item[{vector$<$ pair$<$ double, double $>$ $>$}]{points}
 \end{DoxyParamCaption}
-)}\hypertarget{Andrews_8h_ad92f0e8d5c1c7a57477b039f81c4ecf6}{}\label{Andrews_8h_ad92f0e8d5c1c7a57477b039f81c4ecf6}
+)}\hypertarget{Andrews_8h_a531ddaca865c8d7a7a3f636e7a3adb6f}{}\label{Andrews_8h_a531ddaca865c8d7a7a3f636e7a3adb6f}
 
+
+{\bfseries Upper Hull and Lower Hull Algorithm} 
+
+
+\begin{DoxyEnumerate}
+\item In case of upper hull formation we move from last element to the first and vice versa for lower hull.~\newline
+
+\item Now we remove those points that are either {\bfseries anti-\/clockwise or collinear} because being anticlockwise we are actually using an interior point in such cases.~\newline
+
+\item After forming the hull remove the {\bfseries last point} of each list (it\textquotesingle{}s the same as the first point of the other list) 
+\end{DoxyEnumerate}
 \begin{DoxyCode}
-10                                                                                                            
-                       \{
-11     \textcolor{keywordtype}{int} i,j,len = int(points.size());
-12     \textcolor{keywordflow}{for}(i = 2;i<len;i++) \{
-13         \textcolor{keywordtype}{int} LU\_len = int(L\_upper.size());
-14 
-15         \textcolor{keywordflow}{while} (\hyperlink{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{orientation}(L\_upper[LU\_len-2], L\_upper[LU\_len-1], points[i]) != 
+16 \{
+17     \textcolor{keywordtype}{int} n = points.size();
+18     \textcolor{keywordtype}{int} counter = 0;
+19     vector<pair<double, double> > hull;
+20 
+21     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < n; ++i) \{
+22         \textcolor{keywordflow}{while} (counter >= 2 && \hyperlink{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{orientation}(hull[counter-2], hull[counter-1], points[i]) != 
+      \hyperlink{origin_8h_ab97a98583824a9ef7d480fe8fdca33cf}{CLOCKWISE})
+23         \{counter--;hull.pop\_back();\}
+24         hull.pb(points[i]);counter++;
+25     \}
+26 
+27     \textcolor{comment}{// Build upper hull}
+28     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = n-2, t = counter+1; i >= 0; i--) \{
+29         \textcolor{keywordflow}{while} (counter >= t && \hyperlink{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{orientation}(hull[counter-2], hull[counter-1], points[i]) != 
       \hyperlink{origin_8h_ab97a98583824a9ef7d480fe8fdca33cf}{CLOCKWISE}) \{
-16             \textcolor{comment}{/*cout << L\_upper[LU\_len-2].first <<" " << L\_upper[LU\_len-2].second << " "}
-17 \textcolor{comment}{                 << L\_upper[LU\_len-1].first <<" " << L\_upper[LU\_len-1].second << " "}
-18 \textcolor{comment}{                 << points[i].first <<" " << points[i].second;}
-19 \textcolor{comment}{            cout << endl;*/}
-20             L\_upper.pop\_back();
-21             \textcolor{keywordflow}{if}(L\_upper.size() < 3) \{ \textcolor{keywordflow}{break};\}
-22         \}
-23         L\_upper.push\_back(points[i]);
-24     \}
-25     \textcolor{keywordflow}{return} L\_upper;
-26 \}
-\end{DoxyCode}
-\index{Andrews.\+h@{Andrews.\+h}!E\+Bmonotonic\+Chain@{E\+Bmonotonic\+Chain}}
-\index{E\+Bmonotonic\+Chain@{E\+Bmonotonic\+Chain}!Andrews.\+h@{Andrews.\+h}}
-\subsubsection[{\texorpdfstring{E\+Bmonotonic\+Chain(vector$<$ pair$<$ double, double $>$ $>$ L\+\_\+lower, vector$<$ pair$<$ double, double $>$ $>$ rpoints)}{EBmonotonicChain(vector< pair< double, double > > L_lower, vector< pair< double, double > > rpoints)}}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$pair$<$double, double$>$ $>$ E\+Bmonotonic\+Chain (
-\begin{DoxyParamCaption}
-\item[{vector$<$ pair$<$ double, double $>$ $>$}]{L\+\_\+lower, }
-\item[{vector$<$ pair$<$ double, double $>$ $>$}]{rpoints}
-\end{DoxyParamCaption}
-)}\hypertarget{Andrews_8h_afff40844dd489406b07ef31238ce3a28}{}\label{Andrews_8h_afff40844dd489406b07ef31238ce3a28}
-
-\begin{DoxyCode}
-30                                                                                                            
-                        \{
-31     \textcolor{keywordtype}{int} i,j,len = int(rpoints.size());
-32     \textcolor{keywordflow}{for}(i = len-3;i>=0;i--) \{
-33         \textcolor{keywordtype}{int} LU\_len = int(L\_lower.size());
+30             counter--; hull.pop\_back();
+31         \}
+32         hull.pb(points[i]);counter++;
+33     \}
 34 
-35         \textcolor{keywordflow}{while} (\hyperlink{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{orientation}(L\_lower[LU\_len-2], L\_lower[LU\_len-1], rpoints[i]) != 
-      \hyperlink{origin_8h_ab97a98583824a9ef7d480fe8fdca33cf}{CLOCKWISE}) \{
-36 
-37             \textcolor{comment}{/*cout << L\_lower[LU\_len-2].first <<" " << L\_lower[LU\_len-2].second << " "}
-38 \textcolor{comment}{                 << L\_lower[LU\_len-1].first <<" " << L\_lower[LU\_len-1].second << " "}
-39 \textcolor{comment}{                 << rpoints[i].first <<" " << rpoints[i].second;}
-40 \textcolor{comment}{            cout << endl;*/}
-41             L\_lower.pop\_back();
-42             \textcolor{keywordflow}{if}(L\_lower.size() < 3) \{ \textcolor{keywordflow}{break};\}
-43         \}
-44         L\_lower.push\_back(rpoints[i]);
-45     \}
-46     \textcolor{keywordflow}{return} L\_lower;
-47 \}
+35     hull.resize(counter-1);
+36     \textcolor{keywordflow}{return} hull;
+37 \}
 \end{DoxyCode}
 \index{Andrews.\+h@{Andrews.\+h}!exec\+Andrews@{exec\+Andrews}}
 \index{exec\+Andrews@{exec\+Andrews}!Andrews.\+h@{Andrews.\+h}}
@@ -97,41 +68,38 @@ set$<$ pair$<$ double, double $>$ $>$ \hyperlink{Andrews_8h_a9f40a9e14abc94694be
 \end{DoxyParamCaption}
 )}\hypertarget{Andrews_8h_a9f40a9e14abc94694bee856797a27a24}{}\label{Andrews_8h_a9f40a9e14abc94694bee856797a27a24}
 
+
+{\bfseries Complete Execution of Andrews Monotone Chain} 
+
+
+\begin{DoxyEnumerate}
+\item Sort the array by their {\bfseries x-\/coordinate}. If that\textquotesingle{}s equal then compare y-\/coordinate this is compared in \hyperlink{origin_8h}{origin.\+h} header file.~\newline
+
+\item The next part involves getting upper and lower convex hull~\newline
+
+\item The final set that is formed is just to {\bfseries remove} any existing duplicate points in the vector 
+\end{DoxyEnumerate}
 \begin{DoxyCode}
 48                                                                              \{
 49     cout << \textcolor{stringliteral}{"Executing Andrews Algorithm\(\backslash\)n---\(\backslash\)n"};
-50     vector<pair<double, double> > L\_upper,L\_lower;
+50     vector<pair<double, double> > tentative\_hull;
 51     \textcolor{keywordtype}{int} len;
 52     len = int(Points.size());
 53     \textcolor{comment}{/*}
 54 \textcolor{comment}{     * Sort the Points By x-coordinate}
-55 \textcolor{comment}{     */}
+55 \textcolor{comment}{    */}
 56     sort(Points.begin(),Points.end(),\hyperlink{origin_8h_acd5236039bd3f25f48a6f9638caca9e9}{orderedSort});
-57     \textcolor{comment}{//printVectorData(len,Points, "After Sorting by x-coordinate");}
-58     \textcolor{comment}{/*}
-59 \textcolor{comment}{     * L Upper}
-60 \textcolor{comment}{     */}
-61     L\_upper.pb(Points[0]);L\_upper.pb(Points[1]);
-62     L\_upper = \hyperlink{Andrews_8h_ad92f0e8d5c1c7a57477b039f81c4ecf6}{BEmonotonicChain}(L\_upper,Points);
-63     \textcolor{comment}{//printVectorData(L\_upper.size(), L\_upper,"Getting LUpper\(\backslash\)n");}
-64     \textcolor{comment}{/*}
-65 \textcolor{comment}{     * L Lower}
-66 \textcolor{comment}{     */}
-67     L\_lower.pb(Points[len-1]);L\_lower.pb(Points[len-2]);
-68     L\_lower = \hyperlink{Andrews_8h_afff40844dd489406b07ef31238ce3a28}{EBmonotonicChain}(L\_lower,Points);
-69     \textcolor{comment}{//printVectorData(L\_lower.size(), L\_lower,"Getting Llower\(\backslash\)n");}
-70     \textcolor{comment}{/*}
-71 \textcolor{comment}{     * Final Set of Convex Points}
-72 \textcolor{comment}{     */}
-73     set<pair<double ,double> > convex\_hull;
-74     \textcolor{keywordtype}{int} LU\_len = L\_upper.size();
-75     \textcolor{keywordtype}{int} LL\_len = L\_lower.size();
-76     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=0;i<L\_upper.size();i++) \{
-77         convex\_hull.insert(L\_upper[i]);
-78     \}
-79     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=0;i<L\_lower.size();i++) \{
-80         convex\_hull.insert(L\_lower[i]);
-81     \}
-82     \textcolor{keywordflow}{return} convex\_hull;
-83 \}
+57 
+58     tentative\_hull = \hyperlink{Andrews_8h_a531ddaca865c8d7a7a3f636e7a3adb6f}{convex\_hull}(Points);
+59     \textcolor{comment}{/*}
+60 \textcolor{comment}{     * Final Set of Convex Points}
+61 \textcolor{comment}{     */}
+62     set<pair<double ,double> > f\_convex\_hull;
+63     \textcolor{keywordtype}{int} LU\_len = tentative\_hull.size();
+64     \textcolor{comment}{//int LL\_len = L\_lower.size();}
+65     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=0;i<LU\_len;i++) \{
+66         f\_convex\_hull.insert(tentative\_hull[i]);
+67     \}
+68     \textcolor{keywordflow}{return} f\_convex\_hull;
+69 \}
 \end{DoxyCode}

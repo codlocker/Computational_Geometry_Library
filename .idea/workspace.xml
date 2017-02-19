@@ -11,7 +11,48 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38bdd579-6d26-4a96-b830-34b1267bb725" name="Default" comment="" />
+    <list default="true" id="38bdd579-6d26-4a96-b830-34b1267bb725" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ComputGeoAlgos.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ComputGeoAlgos.dir/main.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Andrews.h" afterPath="$PROJECT_DIR$/Andrews.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/ComputGeoAlgos" afterPath="$PROJECT_DIR$/cmake-build-debug/ComputGeoAlgos" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Andrews_8h.html" afterPath="$PROJECT_DIR$/html/Andrews_8h.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Andrews_8h_source.html" afterPath="$PROJECT_DIR$/html/Andrews_8h_source.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/GrahamScans_8h.html" afterPath="$PROJECT_DIR$/html/GrahamScans_8h.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/GrahamScans_8h_source.html" afterPath="$PROJECT_DIR$/html/GrahamScans_8h_source.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/JarvisMarch_8h.html" afterPath="$PROJECT_DIR$/html/JarvisMarch_8h.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/JarvisMarch_8h_source.html" afterPath="$PROJECT_DIR$/html/JarvisMarch_8h_source.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/globals.html" afterPath="$PROJECT_DIR$/html/globals.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/globals_defs.html" afterPath="$PROJECT_DIR$/html/globals_defs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/globals_func.html" afterPath="$PROJECT_DIR$/html/globals_func.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/main_8cpp.html" afterPath="$PROJECT_DIR$/html/main_8cpp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_1.js" afterPath="$PROJECT_DIR$/html/search/all_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_2.js" afterPath="$PROJECT_DIR$/html/search/all_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_3.js" afterPath="$PROJECT_DIR$/html/search/all_3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_4.js" afterPath="$PROJECT_DIR$/html/search/all_4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_5.js" afterPath="$PROJECT_DIR$/html/search/all_5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_6.js" afterPath="$PROJECT_DIR$/html/search/all_6.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_7.js" afterPath="$PROJECT_DIR$/html/search/all_7.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_8.js" afterPath="$PROJECT_DIR$/html/search/all_8.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_9.js" afterPath="$PROJECT_DIR$/html/search/all_9.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_a.js" afterPath="$PROJECT_DIR$/html/search/all_a.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_b.js" afterPath="$PROJECT_DIR$/html/search/all_b.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_c.js" afterPath="$PROJECT_DIR$/html/search/all_c.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/defines_4.js" afterPath="$PROJECT_DIR$/html/search/defines_4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/functions_0.js" afterPath="$PROJECT_DIR$/html/search/functions_0.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/functions_1.js" afterPath="$PROJECT_DIR$/html/search/functions_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/functions_2.js" afterPath="$PROJECT_DIR$/html/search/functions_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/functions_3.js" afterPath="$PROJECT_DIR$/html/search/functions_3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/functions_4.js" afterPath="$PROJECT_DIR$/html/search/functions_4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/functions_5.js" afterPath="$PROJECT_DIR$/html/search/functions_5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/functions_6.js" afterPath="$PROJECT_DIR$/html/search/functions_6.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/functions_7.js" afterPath="$PROJECT_DIR$/html/search/functions_7.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/searchdata.js" afterPath="$PROJECT_DIR$/html/search/searchdata.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/latex/Andrews_8h.tex.tmp" afterPath="$PROJECT_DIR$/latex/Andrews_8h.tex.tmp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/latex/GrahamScans_8h.tex" afterPath="$PROJECT_DIR$/latex/GrahamScans_8h.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/latex/JarvisMarch_8h.tex" afterPath="$PROJECT_DIR$/latex/JarvisMarch_8h.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/latex/main_8cpp.tex" afterPath="$PROJECT_DIR$/latex/main_8cpp.tex" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,8 +80,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+            <state relative-caret-position="210">
+              <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -51,8 +92,8 @@
       <file leaf-file-name="GrahamScans.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GrahamScans.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state relative-caret-position="1006">
+              <caret line="75" column="1" lean-forward="false" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
               <folding>
                 <element signature="e#118#137#0" expanded="true" />
               </folding>
@@ -60,21 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Andrews.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Andrews.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Andrews.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="78" column="39" lean-forward="true" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
-              <caret line="123" column="28" lean-forward="true" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
+            <state relative-caret-position="570">
+              <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -83,8 +114,8 @@
       <file leaf-file-name="origin.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/origin.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="42" column="1" lean-forward="false" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="e#109#128#0" expanded="true" />
               </folding>
@@ -95,8 +126,8 @@
       <file leaf-file-name="JarvisMarch.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JarvisMarch.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="45">
+              <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -112,11 +143,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
+              <first_editor relative-caret-position="300">
                 <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
                 <folding />
               </first_editor>
@@ -148,10 +179,10 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/html/README.md" />
         <option value="$PROJECT_DIR$/origin.h" />
-        <option value="$PROJECT_DIR$/Andrews.h" />
         <option value="$PROJECT_DIR$/JarvisMarch.h" />
         <option value="$PROJECT_DIR$/GrahamScans.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Andrews.h" />
       </list>
     </option>
   </component>
@@ -163,8 +194,7 @@
   </component>
   <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="width" value="1374" />
+    <option name="width" value="1366" />
     <option name="height" value="732" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -403,7 +433,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="ComputGeoAlgos" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ComputGeoAlgos" TARGET_NAME="ComputGeoAlgos" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ComputGeoAlgos" RUN_TARGET_NAME="ComputGeoAlgos">
+    <configuration default="false" name="ComputGeoAlgos" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/tests/sampleInput.txt" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ComputGeoAlgos" TARGET_NAME="ComputGeoAlgos" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ComputGeoAlgos" RUN_TARGET_NAME="ComputGeoAlgos">
       <envs />
       <method />
     </configuration>
@@ -440,12 +470,13 @@
       <workItem from="1487185169047" duration="782000" />
       <workItem from="1487330368609" duration="3317000" />
       <workItem from="1487347506973" duration="2481000" />
-      <workItem from="1487509816784" duration="12882000" />
+      <workItem from="1487509816784" duration="18006000" />
+      <workItem from="1487528836997" duration="3315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97379000" />
+    <option name="totallyTimeSpent" value="105818000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -457,7 +488,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="1374" height="732" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="732" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12434848" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -465,7 +496,6 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.4944155" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.50558454" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289256" sideWeight="0.4973939" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -477,6 +507,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -820,18 +851,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="300">
+            <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-90">
-          <caret line="123" column="28" lean-forward="true" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
-          <folding />
+          <caret line="123" column="28" lean-forward="false" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/origin.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="42" column="1" lean-forward="false" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#109#128#0" expanded="true" />
           </folding>
@@ -840,48 +881,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JarvisMarch.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="45">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GrahamScans.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state relative-caret-position="1006">
+          <caret line="75" column="1" lean-forward="false" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
           <folding>
             <element signature="e#118#137#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Andrews.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="78" column="39" lean-forward="true" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        <state relative-caret-position="210">
+          <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Andrews.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

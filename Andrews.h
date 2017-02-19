@@ -3,82 +3,68 @@
 //
 #include "origin.h"
 
-#define ull unsigned long long
-/*
- * Left Monotonic Change for Upper
+//! **Upper Hull and Lower Hull Algorithm**
+/*! 1. In case of upper hull formation we move from last element to the first and vice versa for lower hull.\n
+ *
+ *  2. Now we remove those points that are either **anti-clockwise or collinear** because being anticlockwise we are
+ *  actually using an interior point in such cases.\n
+ *
+ *  3. After forming the hull remove the **last point** of each list (it's the same as the first point of the other list)
  */
-vector<pair<double, double> > BEmonotonicChain(vector<pair<double, double> > L_upper, vector<pair<double, double> > points) {
-    int i,j,len = int(points.size());
-    for(i = 2;i<len;i++) {
-        int LU_len = int(L_upper.size());
 
-        while (orientation(L_upper[LU_len-2], L_upper[LU_len-1], points[i]) != CLOCKWISE) {
-            /*cout << L_upper[LU_len-2].first <<" " << L_upper[LU_len-2].second << " "
-                 << L_upper[LU_len-1].first <<" " << L_upper[LU_len-1].second << " "
-                 << points[i].first <<" " << points[i].second;
-            cout << endl;*/
-            L_upper.pop_back();
-            if(L_upper.size() < 3) { break;}
-        }
-        L_upper.push_back(points[i]);
+vector<pair<double, double> > convex_hull(vector<pair<double, double> > points)
+{
+    int n = points.size();
+    int counter = 0;
+    vector<pair<double, double> > hull;
+
+    for (int i = 0; i < n; ++i) {
+        while (counter >= 2 && orientation(hull[counter-2], hull[counter-1], points[i]) != CLOCKWISE)
+        {counter--;hull.pop_back();}
+        hull.pb(points[i]);counter++;
     }
-    return L_upper;
+
+    // Build upper hull
+    for (int i = n-2, t = counter+1; i >= 0; i--) {
+        while (counter >= t && orientation(hull[counter-2], hull[counter-1], points[i]) != CLOCKWISE) {
+            counter--; hull.pop_back();
+        }
+        hull.pb(points[i]);counter++;
+    }
+
+    hull.resize(counter-1);
+    return hull;
 }
-/*
- * End to Beginning/ Right Monotonic Change
+
+//! **Complete Execution of Andrews Monotone Chain**
+/*! 1. Sort the array by their **x-coordinate**. If that's equal then compare y-coordinate this is compared in origin.h
+ * header file.\n
+ *
+ *  2. The next part involves getting upper and lower convex hull\n
+ *
+ *  3. The final set that is formed is just to **remove** any existing duplicate points in the vector
  */
-vector<pair<double, double> > EBmonotonicChain(vector<pair<double, double> > L_lower, vector<pair<double, double> > rpoints) {
-    int i,j,len = int(rpoints.size());
-    for(i = len-3;i>=0;i--) {
-        int LU_len = int(L_lower.size());
 
-        while (orientation(L_lower[LU_len-2], L_lower[LU_len-1], rpoints[i]) != CLOCKWISE) {
-
-            /*cout << L_lower[LU_len-2].first <<" " << L_lower[LU_len-2].second << " "
-                 << L_lower[LU_len-1].first <<" " << L_lower[LU_len-1].second << " "
-                 << rpoints[i].first <<" " << rpoints[i].second;
-            cout << endl;*/
-            L_lower.pop_back();
-            if(L_lower.size() < 3) { break;}
-        }
-        L_lower.push_back(rpoints[i]);
-    }
-    return L_lower;
-}
 set<pair<double, double> > execAndrews(vector<pair<double, double> > Points) {
     cout << "Executing Andrews Algorithm\n---\n";
-    vector<pair<double, double> > L_upper,L_lower;
+    vector<pair<double, double> > tentative_hull;
     int len;
     len = int(Points.size());
     /*
      * Sort the Points By x-coordinate
-     */
+    */
     sort(Points.begin(),Points.end(),orderedSort);
-    //printVectorData(len,Points, "After Sorting by x-coordinate");
-    /*
-     * L Upper
-     */
-    L_upper.pb(Points[0]);L_upper.pb(Points[1]);
-    L_upper = BEmonotonicChain(L_upper,Points);
-    //printVectorData(L_upper.size(), L_upper,"Getting LUpper\n");
-    /*
-     * L Lower
-     */
-    L_lower.pb(Points[len-1]);L_lower.pb(Points[len-2]);
-    L_lower = EBmonotonicChain(L_lower,Points);
-    //printVectorData(L_lower.size(), L_lower,"Getting Llower\n");
+
+    tentative_hull = convex_hull(Points);
     /*
      * Final Set of Convex Points
      */
-    set<pair<double ,double> > convex_hull;
-    int LU_len = L_upper.size();
-    int LL_len = L_lower.size();
-    for(int i=0;i<L_upper.size();i++) {
-        convex_hull.insert(L_upper[i]);
+    set<pair<double ,double> > f_convex_hull;
+    int LU_len = tentative_hull.size();
+    //int LL_len = L_lower.size();
+    for(int i=0;i<LU_len;i++) {
+        f_convex_hull.insert(tentative_hull[i]);
     }
-    for(int i=0;i<L_lower.size();i++) {
-        convex_hull.insert(L_lower[i]);
-    }
-    return convex_hull;
+    return f_convex_hull;
 }
 
