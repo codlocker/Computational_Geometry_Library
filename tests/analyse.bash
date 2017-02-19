@@ -1,18 +1,22 @@
 #!/bin/bash
 echo "Bash version ${BASH_VERSION}..."
 g++ ../main.cpp -o ../bin/HullGenerator
-for ((i=30;i<=100;i+=10))
+echo -n "" > ./analysis/runtime.txt
+for ((i=30;i<=1000;i+=10))
 do 
 	echo "$i"
-	echo -n "$i">"sampleInput.txt"
+	echo -n "" > "./outputs/output$i.txt"
+	echo -n "$i">"./inputs/input$i.txt"
 	for((j=0;j<i;j++))
 	do
-		echo "">>"sampleInput.txt"
-		echo -n "$RANDOM $RANDOM">>"sampleInput.txt"  
+		echo "">>"./inputs/input$i.txt"
+		randomX=$(echo "-1^$RANDOM * $RANDOM" | bc)
+		randomY=$(echo "-1^$RANDOM * $RANDOM" | bc)
+		echo -n "$randomX $randomY">>"./inputs/input$i.txt"  
 	done
 	START=$(date +%s.%N)
-	../bin/HullGenerator "sampleInput.txt"
+	../bin/HullGenerator "./inputs/input$i.txt" >> "./outputs/output$i.txt"
 	END=$(date +%s.%N)
 	DIFF=$(echo "$END - $START" | bc)
-	echo "Diff=$DIFF"
+	echo "$i $DIFF" >> "./analysis/runtime.txt"
 done

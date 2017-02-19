@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
         if(argc == 2) {
             points = getData(argv[1]);}
         else{
-            points = getData("/home/shuttle3468/CLionProjects/ComputGeoAlgos/tests/sampleInput.txt");
+            points = getData("./tests/sampleInput.txt");
         }
         switch(choice) {
             case 0:

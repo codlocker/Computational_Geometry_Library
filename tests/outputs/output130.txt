@@ -1,0 +1,52 @@
+Select one of the three algorithms based on the index number associated with it
+1 for Graham Scans Algorithm
+2 for Andrews Algorithm
+3 for Jarvis Mach Algorithm
+0 for all 3
+Using Graham Scans Algorithm
+---
+
+-28778, -31312
+-29550, -29712
+-30854, -24877
+-32526, -6361
+-32703, 24005
+-30202, 31545
+-17456, 32400
+5366, 31895
+22251, 28960
+32011, 18371
+32162, -20294
+30523, -29806
+19852, -31568
+-20819, -32449
+Time taken : 0.00032
+Executing Andrews Algorithm
+---
+6
+-32703,24005
+-32588,13880
+-32572,20102
+30523,-29806
+32011,18371
+32162,-20294
+
+Time taken : 0.000104
+Executing Jarvis March
+---
+
+-32703,24005
+-32526,-6361
+-30854,-24877
+-29550,-29712
+-28778,-31312
+-20819,-32449
+19852,-31568
+30523,-29806
+32162,-20294
+32011,18371
+22251,28960
+5366,31895
+-17456,32400
+-30202,31545
+Time taken : 0.000136
