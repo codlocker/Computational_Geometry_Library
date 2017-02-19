@@ -40,8 +40,8 @@ double execJarvisMarch(vector<pair<double, double> > Points) {
 	len = int(Points.size());
 	double x_min = Points[0].first; // a **double** value which gets the point with lowest y-coordinate
 	pair<double, double> leftMost;
-    clock_t j_taken;
-    j_taken = clock();
+    //clock_t j_taken;
+    //j_taken = clock();
 	for (int i = 1; i < len; i++)
 	{
 		if (orderedSort(Points[i], Points[min]))
@@ -71,7 +71,7 @@ double execJarvisMarch(vector<pair<double, double> > Points) {
 		P0 = Points[current];
 		swapElements(Points[hullLength++],Points[current]); //Swap the latest added point with the point in the set having index equal to the hull length		                                                 
 	} while (P0 != leftMost);
-    j_taken = clock()-j_taken;
-    return ((double)j_taken)/CLOCKS_PER_SEC;
+    //j_taken = clock()-j_taken;
+    return 0;
 }
 #endif

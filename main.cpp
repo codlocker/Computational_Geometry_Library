@@ -22,12 +22,12 @@ int main(int argc, char *argv[]) {
             case 0:
             case 1: {
                 double ret = execGrahamScans(points);
-                cout << "Time taken : " << ret << endl;
+                //cout << "Time taken : " << ret << endl;
             }
                 if(choice){break;}
             case 2: {
-                    clock_t t_taken;
-                    t_taken = clock();
+                    //clock_t t_taken;
+                    //t_taken = clock();
                     set<pair<double, double> > andrews_res = execAndrews(points);
                     ull andrews_len = andrews_res.size();
                     cout << andrews_len << endl;
@@ -36,13 +36,13 @@ int main(int argc, char *argv[]) {
                         cout << (*iter).first << "," << (*iter).second << endl;
                     }
                     cout << endl;
-                    t_taken = clock() - t_taken;
-                    cout << "Time taken : " << ((double) (t_taken))/CLOCKS_PER_SEC << endl;
+                    //t_taken = clock() - t_taken;
+                    //cout << "Time taken : " << ((double) (t_taken))/CLOCKS_PER_SEC << endl;
                 }
                 if(choice){break;}
             case 3: {
                 double time_jarvis = execJarvisMarch(points);
-                cout << "Time taken : " << time_jarvis << endl;
+                //cout << "Time taken : " << time_jarvis << endl;
                 }
                 if(choice){break;}
             default:
