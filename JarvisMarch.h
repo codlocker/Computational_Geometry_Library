@@ -26,7 +26,7 @@ void swapElements(pair<double,double> &p, pair<double, double> &q) {
 }
 
 
-//! **Graham Scans Algorithm Implementation**
+//! **Jarvis March Algorithm Implementation**
 /*! 1. First Step is to sort points with respect to their x coordinates.\n
  *
  *  2. Start from the left-most point.\n
@@ -61,12 +61,12 @@ int execJarvisMarch(vector<pair<double, double> > Points) {
 		convex_hull.pb(P0);
 		for (i = hullLength, current = i; i < len; i++) {
 			//Find the next point by comparing angles made with the last edge on the hull
-			if (orderByPolar(P0,Points[i],Points[current])) {
+			if (orderByPolar(Points[i],Points[current])) {
 				current = i;
 			}
 		}
 		//Since the above check starts from an index = hullLength, check if the start of the hull is the next point
-		if (orderByPolar(P0,Points[0],Points[current])) {
+		if (orderByPolar(Points[0],Points[current])) {
 			current = 0;
 		}
 		P0 = Points[current];
