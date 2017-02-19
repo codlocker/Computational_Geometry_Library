@@ -66,10 +66,9 @@ int execJarvisMarch(vector<pair<double, double> > Points) {
 			}
 		}
 		//Since the above check starts from an index = hullLength, check if the start of the hull is the next point
-		if(hullLength>2)
-			if (orderByPolar(Points[0],Points[current])) {
-				current = 0;
-			}
+		if (orderByPolar(Points[0],Points[current])) {
+			current = 0;
+		}
 		P0 = Points[current];
 		swapElements(Points[hullLength++],Points[current]); //Swap the latest added point with the point in the set having index equal to the hull length		                                                 
 	} while (P0 != leftMost);
