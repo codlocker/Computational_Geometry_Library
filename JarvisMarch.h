@@ -54,9 +54,7 @@ double execJarvisMarch(vector<pair<double, double> > Points) {
 	 * Form the Hull by processing the remaining points
 	 */
 	vector<pair<double , double> > convex_hull; // a **vector data structure** for storing the convex hull points
-	cout<<"Executing Jarvis March\n---\n"<<endl;
 	do {
-		cout<<P0.first<<","<<P0.second<<endl;
 		convex_hull.pb(P0);
 		for (i = hullLength, current = i; i < len; i++) {
 			//Find the next point by comparing angles made with the last edge on the hull
@@ -71,6 +69,7 @@ double execJarvisMarch(vector<pair<double, double> > Points) {
 		P0 = Points[current];
 		swapElements(Points[hullLength++],Points[current]); //Swap the latest added point with the point in the set having index equal to the hull length		                                                 
 	} while (P0 != leftMost);
+	printVectorData(hullLength-1,convex_hull,"");
     //j_taken = clock()-j_taken;
     return 0;
 }
