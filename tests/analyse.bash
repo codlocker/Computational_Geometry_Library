@@ -1,11 +1,12 @@
 #!/bin/bash
 echo "Bash version ${BASH_VERSION}..."
 g++ ../main.cpp -o ../bin/HullGenerator
-echo -n "" > ./analysis/runtime.txt
+echo -n "" > ./analysis/grahamscan.txt
+echo -n "" > ./analysis/andrew.txt
+echo -n "" > ./analysis/jarvismarch.txt
 for ((i=30;i<=1000;i+=10))
 do 
 	echo "$i"
-	echo -n "" > "./outputs/output$i.txt"
 	echo -n "$i">"./inputs/input$i.txt"
 	for((j=0;j<i;j++))
 	do
@@ -14,9 +15,13 @@ do
 		randomY=$(echo "-1^$RANDOM * $RANDOM" | bc)
 		echo -n "$randomX $randomY">>"./inputs/input$i.txt"  
 	done
-	START=$(date +%s.%N)
-	../bin/HullGenerator "./inputs/input$i.txt" >> "./outputs/output$i.txt"
-	END=$(date +%s.%N)
-	DIFF=$(echo "$END - $START" | bc)
-	echo "$i $DIFF" >> "./analysis/runtime.txt"
+	for flag in {'grahamscan','andrew','jarvismarch'}
+	do
+		START=$(date +%s.%N)
+		COMM=$(echo "../bin/HullGenerator --$flag ./inputs/input$i.txt")
+		$COMM > "./outputs/$flag/output$i.txt"
+		END=$(date +%s.%N)
+		DIFF=$(echo "$END - $START" | bc)
+		echo "$i $DIFF" >> "./analysis/$flag.txt"
+	done
 done
