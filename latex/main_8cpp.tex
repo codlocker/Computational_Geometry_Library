@@ -9,32 +9,68 @@ Include dependency graph for main.\+cpp\+:
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-int \hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main} ()
+int \hyperlink{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
 \end{DoxyCompactItemize}
 
 
 \subsection{Function Documentation}
 \index{main.\+cpp@{main.\+cpp}!main@{main}}
 \index{main@{main}!main.\+cpp@{main.\+cpp}}
-\subsubsection[{\texorpdfstring{main()}{main()}}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\subsubsection[{\texorpdfstring{main(int argc, char $\ast$argv[])}{main(int argc, char *argv[])}}]{\setlength{\rightskip}{0pt plus 5cm}int main (
 \begin{DoxyParamCaption}
-{}
+\item[{int}]{argc, }
+\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]}}
 \end{DoxyParamCaption}
-)}\hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}
+)}\hypertarget{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{}\label{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}
 
 \begin{DoxyCode}
-6            \{
-7     vector<pair<double ,double> > points;
-8     points = \hyperlink{origin_8h_a003e76577b656b65e62841ae5a311b33}{getData}();
-9     \textcolor{keywordtype}{int} ret = \hyperlink{GrahamScans_8h_ac6e4d046bf1733765b8ff791c9e9356d}{execGrahamScans}(points);
-10     \textcolor{comment}{// set<pair<double, double> > andrews\_res = execAndrews(points);}
-11     \textcolor{comment}{// ull i, andrews\_len = andrews\_res.size();}
-12     \textcolor{comment}{// cout << "Output of Convex Hull in Andrews Algorithm is\(\backslash\)n";}
-13     \textcolor{comment}{// set<pair<double, double > >::iterator iter;}
-14     \textcolor{comment}{// for(iter = andrews\_res.begin();iter != andrews\_res.end();++iter) \{}
-15     \textcolor{comment}{//     cout << (*iter).first << " " << (*iter).second << endl;}
-16     \textcolor{comment}{// \}}
-17     \textcolor{keywordtype}{int} x\_min = \hyperlink{JarvisMarch_8h_ab7f40f83d7c303bb89484a6e4d7166d2}{execJarvisMarch}(points);
-18     \textcolor{keywordflow}{return} 0;
-19 \}
+6                                  \{
+7     vector<pair<double , double> > points;
+8     \textcolor{keywordflow}{if} ( argc > 2 ) \textcolor{comment}{// argc should be 2 for correct execution}
+9         \textcolor{comment}{// We print argv[0] assuming it is the program name}
+10         cout << \textcolor{stringliteral}{"usage: "} << argv[0] << \textcolor{stringliteral}{" <filename>\(\backslash\)n"};
+11     \textcolor{keywordflow}{else} \{
+12         \textcolor{keywordtype}{int} choice;
+13         printf(\textcolor{stringliteral}{"Select one of the three algorithms based on the index number associated with it\(\backslash\)n"});
+14         printf(\textcolor{stringliteral}{"1 for Graham Scans Algorithm\(\backslash\)n2 for Andrews Algorithm\(\backslash\)n3 for Jarvis Mach Algorithm\(\backslash\)n0 for
+       all 3\(\backslash\)n"});
+15         cin >> choice;
+16         \textcolor{keywordflow}{if}(argc == 2) \{
+17             points = \hyperlink{origin_8h_afa3779aba8d21a4aca29b38a893f5881}{getData}(argv[1]);\}
+18         \textcolor{keywordflow}{else}\{
+19             points = \hyperlink{origin_8h_afa3779aba8d21a4aca29b38a893f5881}{getData}(\textcolor{stringliteral}{"./tests/sampleInput.txt"});
+20         \}
+21         \textcolor{keywordflow}{switch}(choice) \{
+22             \textcolor{keywordflow}{case} 0:
+23             \textcolor{keywordflow}{case} 1: \{
+24                 \textcolor{keywordtype}{double} ret = \hyperlink{GrahamScans_8h_a1d58f00b26e0821c57293f36fe29e7cd}{execGrahamScans}(points);
+25                 \textcolor{comment}{//cout << "Time taken : " << ret << endl;}
+26             \}
+27                 \textcolor{keywordflow}{if}(choice)\{\textcolor{keywordflow}{break};\}
+28             \textcolor{keywordflow}{case} 2: \{
+29                     \textcolor{comment}{//clock\_t t\_taken;}
+30                     \textcolor{comment}{//t\_taken = clock();}
+31                     set<pair<double, double> > andrews\_res = \hyperlink{Andrews_8h_a9f40a9e14abc94694bee856797a27a24}{execAndrews}(points);
+32                     \hyperlink{Andrews_8h_a2a1803d02747e2d698a94307ffd6699b}{ull} andrews\_len = andrews\_res.size();
+33                     cout << andrews\_len << endl;
+34                     set<pair<double, double> >::iterator iter;
+35                     \textcolor{keywordflow}{for} (iter = andrews\_res.begin(); iter != andrews\_res.end(); ++iter) \{
+36                         cout << (*iter).first << \textcolor{stringliteral}{","} << (*iter).second << endl;
+37                     \}
+38                     cout << endl;
+39                     \textcolor{comment}{//t\_taken = clock() - t\_taken;}
+40                     \textcolor{comment}{//cout << "Time taken : " << ((double) (t\_taken))/CLOCKS\_PER\_SEC << endl;}
+41                 \}
+42                 \textcolor{keywordflow}{if}(choice)\{\textcolor{keywordflow}{break};\}
+43             \textcolor{keywordflow}{case} 3: \{
+44                 \textcolor{keywordtype}{double} time\_jarvis = \hyperlink{JarvisMarch_8h_abe3dffdfb0dc2e007f35e2e381a07511}{execJarvisMarch}(points);
+45                 \textcolor{comment}{//cout << "Time taken : " << time\_jarvis << endl;}
+46                 \}
+47                 \textcolor{keywordflow}{if}(choice)\{\textcolor{keywordflow}{break};\}
+48             \textcolor{keywordflow}{default}:
+49                 \textcolor{keywordflow}{if}(choice)\{printf(\textcolor{stringliteral}{"No such option exists"});\}
+50         \}
+51     \}
+52     \textcolor{keywordflow}{return} 0;
+53 \}
 \end{DoxyCode}

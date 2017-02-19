@@ -24,7 +24,9 @@ pair<double , double > next_to_top(stack<pair<double , double > > S) {
  *
  *  3. We accept and reject based on orientation of 3 points selected.
  */
-int execGrahamScans(vector<pair<double, double> > Points) {
+double execGrahamScans(vector<pair<double, double> > Points) {
+    //clock_t time_taken;
+    //time_taken = clock();
     int len, i, min = 0;
     len = int(Points.size());
     double y_min = Points[0].second; // a **double** value which gets the point with lowest y-coordinate
@@ -68,6 +70,7 @@ int execGrahamScans(vector<pair<double, double> > Points) {
         cout << point.first << ", " << point.second << endl;
         convex_hull.pop();
     }
+    //time_taken = clock() - time_taken;
     return 0;
 }
 #endif

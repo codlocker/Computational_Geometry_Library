@@ -74,7 +74,7 @@ set$<$ pair$<$ double, double $>$ $>$ \hyperlink{Andrews_8h_a9f40a9e14abc94694be
 32     \textcolor{keywordflow}{for}(i = len-3;i>=0;i--) \{
 33         \textcolor{keywordtype}{int} LU\_len = int(L\_lower.size());
 34 
-35         \textcolor{keywordflow}{while} (\hyperlink{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{orientation}(L\_lower[LU\_len-1], L\_lower[LU\_len-2], rpoints[i]) != 
+35         \textcolor{keywordflow}{while} (\hyperlink{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{orientation}(L\_lower[LU\_len-2], L\_lower[LU\_len-1], rpoints[i]) != 
       \hyperlink{origin_8h_ab97a98583824a9ef7d480fe8fdca33cf}{CLOCKWISE}) \{
 36 
 37             \textcolor{comment}{/*cout << L\_lower[LU\_len-2].first <<" " << L\_lower[LU\_len-2].second << " "}
@@ -132,7 +132,6 @@ set$<$ pair$<$ double, double $>$ $>$ \hyperlink{Andrews_8h_a9f40a9e14abc94694be
 79     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=0;i<L\_lower.size();i++) \{
 80         convex\_hull.insert(L\_lower[i]);
 81     \}
-82 
-83     \textcolor{keywordflow}{return} convex\_hull;
-84 \}
+82     \textcolor{keywordflow}{return} convex\_hull;
+83 \}
 \end{DoxyCode}

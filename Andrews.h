@@ -79,7 +79,6 @@ set<pair<double, double> > execAndrews(vector<pair<double, double> > Points) {
     for(int i=0;i<L_lower.size();i++) {
         convex_hull.insert(L_lower[i]);
     }
-
     return convex_hull;
 }
 
