@@ -46,12 +46,9 @@ vector<pair<double, double> > convex_hull(vector<pair<double, double> > points)
  */
 
 set<pair<double, double> > execAndrews(vector<pair<double, double> > Points) {
-<<<<<<< HEAD
     cout << "Executing Andrews Algorithm\n---\n";
     vector<pair<double, double> > tentative_hull;
-=======
     vector<pair<double, double> > L_upper,L_lower;
->>>>>>> 935e7fa77dc85b244dd62386315ed724d9d01190
     int len;
     len = int(Points.size());
     /*
