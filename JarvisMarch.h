@@ -12,9 +12,9 @@ using namespace std;
 
 //! Generic Swap Function
 void swap(double &p, double &q) {
-	p = p + q;
-	q = p - q;
-	p = p - q;
+	int tray = p;
+	p = q;
+	q = tray;
 }
 
 //! Point Swap Function
@@ -26,7 +26,7 @@ void swapElements(pair<double,double> &p, pair<double, double> &q) {
 }
 
 
-//! **Graham Scans Algorithm Implementation**
+//! **Jarvis March Algorithm Implementation**
 /*! 1. First Step is to sort points with respect to their x coordinates.\n
  *
  *  2. Start from the left-most point.\n
@@ -42,14 +42,14 @@ int execJarvisMarch(vector<pair<double, double> > Points) {
 	 * Get the point with lowest x-coordinate
 	 */
 	double x_min = Points[0].first; // a **double** value which gets the point with lowest y-coordinate
+	pair<double, double> leftMost;
 	for (int i = 1; i < len; i++)
 	{
 		if (orderedSort(Points[i], Points[min]))
 			x_min = Points[i].first, min = i;
 	}
 
-	P0 = Points[min];	//P0 denotes the latest point permanently added to the hull
-
+	P0 = leftMost = Points[min];	//P0 denotes the latest point permanently added to the hull
 	swapElements(Points[hullLength++],Points[min]); //Swap the left-most point with the point in the set with index 0
 	/*
 	 * Form the Hull by processing the remaining points
@@ -61,17 +61,18 @@ int execJarvisMarch(vector<pair<double, double> > Points) {
 		convex_hull.pb(P0);
 		for (i = hullLength, current = i; i < len; i++) {
 			//Find the next point by comparing angles made with the last edge on the hull
-			if (orderByPolar(P0,Points[i],Points[current])) {
+			if (orderByPolar(Points[i],Points[current])) {
 				current = i;
 			}
 		}
 		//Since the above check starts from an index = hullLength, check if the start of the hull is the next point
-		if (orderByPolar(P0,Points[0],Points[current])) {
-			current = 0;
-		}
+		if(hullLength>2)
+			if (orderByPolar(Points[0],Points[current])) {
+				current = 0;
+			}
 		P0 = Points[current];
-		swapElements(Points[hullLength++],Points[current]); //Swap the latest added point with the point in the set having index equal to the hull length
-	} while (P0 != Points[min]);
+		swapElements(Points[hullLength++],Points[current]); //Swap the latest added point with the point in the set having index equal to the hull length		                                                 
+	} while (P0 != leftMost);
 	return 0;
 }
 #endif

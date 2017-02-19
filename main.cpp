@@ -21,6 +21,7 @@ int main(int argc, char *argv[]) {
         }
         cout<<endl;
         int x_min = execJarvisMarch(points);
+        cout<<endl;
     }
     return 0;
 }
