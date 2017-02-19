@@ -9,6 +9,8 @@ This graph shows which files directly or indirectly include this file\+:
 \subsection*{Macros}
 \begin{DoxyCompactItemize}
 \item 
+\#define \hyperlink{origin_8h_a2a1803d02747e2d698a94307ffd6699b}{ull}~unsigned long long
+\item 
 \#define \hyperlink{origin_8h_a276c5a0e984cf60015b27252fe04fe6b}{pb}~push\+\_\+back
 \item 
 \#define \hyperlink{origin_8h_aea466a7139309b17bce61d5ccb03e195}{mp}~make\+\_\+pair
@@ -30,10 +32,19 @@ bool \hyperlink{origin_8h_acd5236039bd3f25f48a6f9638caca9e9}{ordered\+Sort} (pai
 \begin{DoxyCompactList}\small\item\em Comparator Function. \end{DoxyCompactList}\item 
 bool \hyperlink{origin_8h_a4dc1f0518995effb5aa220fd58f3b8e8}{ordered\+Y\+Sort} (pair$<$ double, double $>$ \&f, pair$<$ double, double $>$ \&s)
 \begin{DoxyCompactList}\small\item\em Comparator Function Sort by y coordinate. \end{DoxyCompactList}\item 
+bool \hyperlink{origin_8h_ab4d553464b44f7c3f45a7ad69b98772c}{order\+By\+Polar} (pair$<$ double, double $>$ \&p1, pair$<$ double, double $>$ \&p2)
+\begin{DoxyCompactList}\small\item\em Function to order with respect to polar Coordinates. \end{DoxyCompactList}\item 
 void \hyperlink{origin_8h_a4d6ea05a2f5f54cf53c8ce3687f0ae92}{print\+Vector\+Data} (int len, vector$<$ pair$<$ double, double $>$ $>$ v, string s)
 \begin{DoxyCompactList}\small\item\em Print Function. \end{DoxyCompactList}\item 
-vector$<$ pair$<$ double, double $>$ $>$ \hyperlink{origin_8h_a003e76577b656b65e62841ae5a311b33}{get\+Data} ()
+vector$<$ pair$<$ double, double $>$ $>$ \hyperlink{origin_8h_afa3779aba8d21a4aca29b38a893f5881}{get\+Data} (char $\ast$filename)
 \begin{DoxyCompactList}\small\item\em Extract Data from Input File. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+pair$<$ double,double $>$ \hyperlink{origin_8h_adacb3282d7a9fb184f695409085f0f0c}{P0}
+\begin{DoxyCompactList}\small\item\em a double value which stores the centre about which polar ordering is to be done \end{DoxyCompactList}\end{DoxyCompactItemize}
+
 
 
 \subsection{Macro Definition Documentation}
@@ -49,10 +60,13 @@ Macro defined for identifying 3 points that rotate clockwise \index{origin.\+h@{
 Macro defined for identifying 3 collinear points \index{origin.\+h@{origin.\+h}!mp@{mp}}
 \index{mp@{mp}!origin.\+h@{origin.\+h}}
 \subsubsection[{\texorpdfstring{mp}{mp}}]{\setlength{\rightskip}{0pt plus 5cm}\#define mp~make\+\_\+pair}\hypertarget{origin_8h_aea466a7139309b17bce61d5ccb03e195}{}\label{origin_8h_aea466a7139309b17bce61d5ccb03e195}
-\index{origin.\+h@{origin.\+h}!pb@{pb}}
+Macro for making my typing life easier \index{origin.\+h@{origin.\+h}!pb@{pb}}
 \index{pb@{pb}!origin.\+h@{origin.\+h}}
 \subsubsection[{\texorpdfstring{pb}{pb}}]{\setlength{\rightskip}{0pt plus 5cm}\#define pb~push\+\_\+back}\hypertarget{origin_8h_a276c5a0e984cf60015b27252fe04fe6b}{}\label{origin_8h_a276c5a0e984cf60015b27252fe04fe6b}
-
+Macro for making my typing life easier \index{origin.\+h@{origin.\+h}!ull@{ull}}
+\index{ull@{ull}!origin.\+h@{origin.\+h}}
+\subsubsection[{\texorpdfstring{ull}{ull}}]{\setlength{\rightskip}{0pt plus 5cm}\#define ull~unsigned long long}\hypertarget{origin_8h_a2a1803d02747e2d698a94307ffd6699b}{}\label{origin_8h_a2a1803d02747e2d698a94307ffd6699b}
+Macro for making my typing life easier 
 
 \subsection{Function Documentation}
 \index{origin.\+h@{origin.\+h}!calc\+Euclid\+Distance@{calc\+Euclid\+Distance}}
@@ -69,41 +83,68 @@ Euclidean Distance.
 
 This function is used to calculate the distance between two points which is $\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$. 
 \begin{DoxyCode}
-19                                                                                     \{
-20     \textcolor{keywordtype}{double} dist;
-21     dist = sqrt(pow((fpoint.first-spoint.first),2.0) + pow((fpoint.second-spoint.second),2.0));
-22     \textcolor{keywordflow}{return} dist;
-23 \}
+22                                                                                     \{
+23     \textcolor{keywordtype}{double} dist;
+24     dist = sqrt(pow((fpoint.first-spoint.first),2.0) + pow((fpoint.second-spoint.second),2.0));
+25     \textcolor{keywordflow}{return} dist;
+26 \}
 \end{DoxyCode}
 \index{origin.\+h@{origin.\+h}!get\+Data@{get\+Data}}
 \index{get\+Data@{get\+Data}!origin.\+h@{origin.\+h}}
-\subsubsection[{\texorpdfstring{get\+Data()}{getData()}}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$pair$<$double, double$>$ $>$ get\+Data (
+\subsubsection[{\texorpdfstring{get\+Data(char $\ast$filename)}{getData(char *filename)}}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$pair$<$double, double$>$ $>$ get\+Data (
 \begin{DoxyParamCaption}
-{}
+\item[{char $\ast$}]{filename}
 \end{DoxyParamCaption}
-)}\hypertarget{origin_8h_a003e76577b656b65e62841ae5a311b33}{}\label{origin_8h_a003e76577b656b65e62841ae5a311b33}
+)}\hypertarget{origin_8h_afa3779aba8d21a4aca29b38a893f5881}{}\label{origin_8h_afa3779aba8d21a4aca29b38a893f5881}
 
 
 Extract Data from Input File. 
 
 It extracts Data From a file and stores it in a vector for further calculation. Forms the base for getting Data. 
 \begin{DoxyCode}
-81                                         \{
-82     vector<pair<double, double> > input;
-83     \textcolor{keywordtype}{double} a,b;
-84     ifstream in\_file;
-85     in\_file.open(\textcolor{stringliteral}{"tests/input1.txt"});
-86     cout << \textcolor{stringliteral}{"Reading from the file"} << endl;
-87     \textcolor{keywordflow}{while} (in\_file.is\_open()) \{
-88         \textcolor{keywordtype}{int} n;
-89         in\_file >> n;
-90         \textcolor{keywordflow}{while}(in\_file >> a >> b) \{
-91             input.pb(\hyperlink{origin_8h_aea466a7139309b17bce61d5ccb03e195}{mp}(a,b));
-92         \}
-93         in\_file.close();
-94     \}
-95     \textcolor{keywordflow}{return} input;
-96 \}
+109                                                       \{
+110     vector<pair<double, double> > input;
+111     \textcolor{keywordtype}{double} a,b;
+112     ifstream in\_file;
+113     in\_file.open(filename);
+114     \textcolor{keywordflow}{while} (in\_file.is\_open()) \{
+115         \textcolor{keywordtype}{int} n;
+116         in\_file >> n;
+117         \textcolor{keywordflow}{while}(in\_file >> a >> b) \{
+118             input.pb(\hyperlink{origin_8h_aea466a7139309b17bce61d5ccb03e195}{mp}(a,b));
+119         \}
+120         in\_file.close();
+121     \}
+122     \textcolor{keywordflow}{return} input;
+123 \}
+\end{DoxyCode}
+\index{origin.\+h@{origin.\+h}!order\+By\+Polar@{order\+By\+Polar}}
+\index{order\+By\+Polar@{order\+By\+Polar}!origin.\+h@{origin.\+h}}
+\subsubsection[{\texorpdfstring{order\+By\+Polar(pair$<$ double, double $>$ \&p1, pair$<$ double, double $>$ \&p2)}{orderByPolar(pair< double, double > &p1, pair< double, double > &p2)}}]{\setlength{\rightskip}{0pt plus 5cm}bool order\+By\+Polar (
+\begin{DoxyParamCaption}
+\item[{pair$<$ double, double $>$ \&}]{p1, }
+\item[{pair$<$ double, double $>$ \&}]{p2}
+\end{DoxyParamCaption}
+)}\hypertarget{origin_8h_ab4d553464b44f7c3f45a7ad69b98772c}{}\label{origin_8h_ab4d553464b44f7c3f45a7ad69b98772c}
+
+
+Function to order with respect to polar Coordinates. 
+
+function used by this algorithm to sort an array of points with respect to the first point in the vector. 
+\begin{DoxyCode}
+83                                                                    \{
+84     \textcolor{keywordtype}{int} oValue  = \hyperlink{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{orientation}(\hyperlink{origin_8h_adacb3282d7a9fb184f695409085f0f0c}{P0},p2,p1);
+85     \textcolor{comment}{/*cout << "comparing " << "(" << P0.first << ", " << P0.second <<")" <<  " "}
+86 \textcolor{comment}{         << "(" << p1.first << ", " << p1.second <<")" << " "}
+87 \textcolor{comment}{         << "(" << p2.first << ", " << p2.second <<")" <<endl;}
+88 \textcolor{comment}{    cout << " The orientation value is " << oValue << endl;*/}
+89     \textcolor{keywordflow}{if}(oValue == 1) \{
+90         \textcolor{comment}{//cout << "Result :" << (calcEuclidDistance(P0,p2) >= calcEuclidDistance(P0,p1)) <<endl;}
+91         \textcolor{keywordflow}{return} (\hyperlink{origin_8h_afcdcfb840d57ba04a9c8ddc76e90ce98}{calcEuclidDistance}(\hyperlink{origin_8h_adacb3282d7a9fb184f695409085f0f0c}{P0},p2) < 
+      \hyperlink{origin_8h_afcdcfb840d57ba04a9c8ddc76e90ce98}{calcEuclidDistance}(\hyperlink{origin_8h_adacb3282d7a9fb184f695409085f0f0c}{P0},p1));
+92     \}
+93     \textcolor{keywordflow}{return} (oValue != 3);
+94 \}
 \end{DoxyCode}
 \index{origin.\+h@{origin.\+h}!ordered\+Sort@{ordered\+Sort}}
 \index{ordered\+Sort@{ordered\+Sort}!origin.\+h@{origin.\+h}}
@@ -119,17 +160,17 @@ Comparator Function.
 
 This function basically compares a pair of elements by the values of their x-\/coordinate and if x-\/xoordinate is equal then it checks for equality of y-\/coordinate 
 \begin{DoxyCode}
-45                                                                  \{
-46     \textcolor{comment}{//cout << "Comparing (" << f.first << ", " << f.second <<")" << " (" << s.first << ", " << s.second
+48                                                                  \{
+49     \textcolor{comment}{//cout << "Comparing (" << f.first << ", " << f.second <<")" << " (" << s.first << ", " << s.second
        <<")" << endl;}
-47     \textcolor{keywordflow}{if}(f.first < s.first) \{
-48         \textcolor{keywordflow}{return} \textcolor{keyword}{true};
-49     \}
-50     \textcolor{keywordflow}{if} (f.first > s.first) \{
-51         \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+50     \textcolor{keywordflow}{if}(f.first < s.first) \{
+51         \textcolor{keywordflow}{return} \textcolor{keyword}{true};
 52     \}
-53     \textcolor{keywordflow}{return} f.second<s.second;
-54 \}
+53     \textcolor{keywordflow}{if} (f.first > s.first) \{
+54         \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+55     \}
+56     \textcolor{keywordflow}{return} f.second<s.second;
+57 \}
 \end{DoxyCode}
 \index{origin.\+h@{origin.\+h}!ordered\+Y\+Sort@{ordered\+Y\+Sort}}
 \index{ordered\+Y\+Sort@{ordered\+Y\+Sort}!origin.\+h@{origin.\+h}}
@@ -145,15 +186,15 @@ Comparator Function Sort by y coordinate.
 
 This function basically compares a pair of elements by the values of their y-\/coordinate and if x-\/xoordinate is equal then it checks for equality of x-\/coordinate 
 \begin{DoxyCode}
-59                                                                   \{
-60     \textcolor{keywordflow}{if}(f.second < s.second) \{
-61         \textcolor{keywordflow}{return} \textcolor{keyword}{true};
-62     \}
-63     \textcolor{keywordflow}{if} (f.second > s.second) \{
-64         \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+62                                                                   \{
+63     \textcolor{keywordflow}{if}(f.second < s.second) \{
+64         \textcolor{keywordflow}{return} \textcolor{keyword}{true};
 65     \}
-66     \textcolor{keywordflow}{return} f.first<s.first;
-67 \}
+66     \textcolor{keywordflow}{if} (f.second > s.second) \{
+67         \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+68     \}
+69     \textcolor{keywordflow}{return} f.first<s.first;
+70 \}
 \end{DoxyCode}
 \index{origin.\+h@{origin.\+h}!orientation@{orientation}}
 \index{orientation@{orientation}!origin.\+h@{origin.\+h}}
@@ -170,18 +211,18 @@ Orientation.
 
 This function is used to calculate orientation of 3 points namely clockwise, anticlockwise and collinear. The idea here is to to get the difference between slopes of 2 lines by assuming a particular direction as a result the result obtained determines the direction of turn of the three points. 
 \begin{DoxyCode}
-29                                                                                         \{
-30     \textcolor{keywordtype}{double} m1, m2, dif;
-31     dif = (b.second - a.second)*(c.first-b.first) - (b.first-a.first)* (c.second - b.second);
-32     \textcolor{comment}{//cout << "Difference in Slopes " << dif<<endl;}
-33     \textcolor{keywordflow}{if}(dif == 0) \{
-34         \textcolor{keywordflow}{return} \hyperlink{origin_8h_a105caa178db222564f6fab1433ae289b}{COLLINEAR};
-35     \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (dif > 0 ) \{
-36         \textcolor{keywordflow}{return} \hyperlink{origin_8h_ab97a98583824a9ef7d480fe8fdca33cf}{CLOCKWISE};
-37     \} \textcolor{keywordflow}{else} \{
-38         \textcolor{keywordflow}{return} \hyperlink{origin_8h_a289ba85c8fefbfdb6cc4927dbf948940}{ANTICLOCKWISE};
-39     \}
-40 \}
+32                                                                                         \{
+33     \textcolor{keywordtype}{double} m1, m2, dif;
+34     dif = (b.second - a.second)*(c.first-b.first) - (b.first-a.first)* (c.second - b.second);
+35     \textcolor{comment}{//cout << "Difference in Slopes " << dif<<endl;}
+36     \textcolor{keywordflow}{if}(dif == 0) \{
+37         \textcolor{keywordflow}{return} \hyperlink{origin_8h_a105caa178db222564f6fab1433ae289b}{COLLINEAR};
+38     \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (dif > 0 ) \{
+39         \textcolor{keywordflow}{return} \hyperlink{origin_8h_ab97a98583824a9ef7d480fe8fdca33cf}{CLOCKWISE};
+40     \} \textcolor{keywordflow}{else} \{
+41         \textcolor{keywordflow}{return} \hyperlink{origin_8h_a289ba85c8fefbfdb6cc4927dbf948940}{ANTICLOCKWISE};
+42     \}
+43 \}
 \end{DoxyCode}
 \index{origin.\+h@{origin.\+h}!print\+Vector\+Data@{print\+Vector\+Data}}
 \index{print\+Vector\+Data@{print\+Vector\+Data}!origin.\+h@{origin.\+h}}
@@ -198,10 +239,20 @@ Print Function.
 
 Prints content of the vector. Used for {\bfseries output formatting} 
 \begin{DoxyCode}
-71                                                                          \{
-72     \textcolor{keywordtype}{int} i;
-73     cout << s <<endl;
-74     \textcolor{keywordflow}{for}(i=0;i<len;i++)
-75         cout << v[i].first <<\textcolor{stringliteral}{" "} << v[i].second <<endl;
-76 \}
+99                                                                          \{
+100     \textcolor{keywordtype}{int} i;
+101     cout << s <<endl;
+102     \textcolor{keywordflow}{for}(i=0;i<len;i++)
+103         cout << v[i].first <<\textcolor{stringliteral}{" "} << v[i].second <<endl;
+104 \}
 \end{DoxyCode}
+
+
+\subsection{Variable Documentation}
+\index{origin.\+h@{origin.\+h}!P0@{P0}}
+\index{P0@{P0}!origin.\+h@{origin.\+h}}
+\subsubsection[{\texorpdfstring{P0}{P0}}]{\setlength{\rightskip}{0pt plus 5cm}pair$<$double ,double $>$ P0}\hypertarget{origin_8h_adacb3282d7a9fb184f695409085f0f0c}{}\label{origin_8h_adacb3282d7a9fb184f695409085f0f0c}
+
+
+a double value which stores the centre about which polar ordering is to be done 
+

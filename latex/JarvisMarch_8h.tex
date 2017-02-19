@@ -7,112 +7,84 @@ Include dependency graph for Jarvis\+March.\+h\+:
 % FIG 0
 This graph shows which files directly or indirectly include this file\+:
 % FIG 1
-\subsection*{Macros}
-\begin{DoxyCompactItemize}
-\item 
-\#define \hyperlink{JarvisMarch_8h_a2a1803d02747e2d698a94307ffd6699b}{ull}~unsigned long long
-\item 
-\#define \hyperlink{JarvisMarch_8h_a276c5a0e984cf60015b27252fe04fe6b}{pb}~push\+\_\+back
-\item 
-\#define \hyperlink{JarvisMarch_8h_aea466a7139309b17bce61d5ccb03e195}{mp}~make\+\_\+pair
-\end{DoxyCompactItemize}
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-bool \hyperlink{JarvisMarch_8h_a6869ff248554a26905a457ca759c6c59}{order\+By\+Angle} (pair$<$ double, double $>$ a, pair$<$ double, double $>$ b, pair$<$ double, double $>$ c)
-\item 
 void \hyperlink{JarvisMarch_8h_aa9b6889b027d7a9561c92897438ed18e}{swap} (double \&p, double \&q)
-\item 
+\begin{DoxyCompactList}\small\item\em Generic Swap Function. \end{DoxyCompactList}\item 
 void \hyperlink{JarvisMarch_8h_ad38e475e4cab796be246f7da547d5160}{swap\+Elements} (pair$<$ double, double $>$ \&p, pair$<$ double, double $>$ \&q)
-\item 
-int \hyperlink{JarvisMarch_8h_ab7f40f83d7c303bb89484a6e4d7166d2}{exec\+Jarvis\+March} (vector$<$ pair$<$ double, double $>$ $>$ Points)
-\end{DoxyCompactItemize}
-
-
-\subsection{Macro Definition Documentation}
-\index{Jarvis\+March.\+h@{Jarvis\+March.\+h}!mp@{mp}}
-\index{mp@{mp}!Jarvis\+March.\+h@{Jarvis\+March.\+h}}
-\subsubsection[{\texorpdfstring{mp}{mp}}]{\setlength{\rightskip}{0pt plus 5cm}\#define mp~make\+\_\+pair}\hypertarget{JarvisMarch_8h_aea466a7139309b17bce61d5ccb03e195}{}\label{JarvisMarch_8h_aea466a7139309b17bce61d5ccb03e195}
-\index{Jarvis\+March.\+h@{Jarvis\+March.\+h}!pb@{pb}}
-\index{pb@{pb}!Jarvis\+March.\+h@{Jarvis\+March.\+h}}
-\subsubsection[{\texorpdfstring{pb}{pb}}]{\setlength{\rightskip}{0pt plus 5cm}\#define pb~push\+\_\+back}\hypertarget{JarvisMarch_8h_a276c5a0e984cf60015b27252fe04fe6b}{}\label{JarvisMarch_8h_a276c5a0e984cf60015b27252fe04fe6b}
-\index{Jarvis\+March.\+h@{Jarvis\+March.\+h}!ull@{ull}}
-\index{ull@{ull}!Jarvis\+March.\+h@{Jarvis\+March.\+h}}
-\subsubsection[{\texorpdfstring{ull}{ull}}]{\setlength{\rightskip}{0pt plus 5cm}\#define ull~unsigned long long}\hypertarget{JarvisMarch_8h_a2a1803d02747e2d698a94307ffd6699b}{}\label{JarvisMarch_8h_a2a1803d02747e2d698a94307ffd6699b}
+\begin{DoxyCompactList}\small\item\em Point Swap Function. \end{DoxyCompactList}\item 
+double \hyperlink{JarvisMarch_8h_abe3dffdfb0dc2e007f35e2e381a07511}{exec\+Jarvis\+March} (vector$<$ pair$<$ double, double $>$ $>$ Points)
+\begin{DoxyCompactList}\small\item\em {\bfseries Jarvis March Algorithm Implementation} \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Function Documentation}
 \index{Jarvis\+March.\+h@{Jarvis\+March.\+h}!exec\+Jarvis\+March@{exec\+Jarvis\+March}}
 \index{exec\+Jarvis\+March@{exec\+Jarvis\+March}!Jarvis\+March.\+h@{Jarvis\+March.\+h}}
-\subsubsection[{\texorpdfstring{exec\+Jarvis\+March(vector$<$ pair$<$ double, double $>$ $>$ Points)}{execJarvisMarch(vector< pair< double, double > > Points)}}]{\setlength{\rightskip}{0pt plus 5cm}int exec\+Jarvis\+March (
+\subsubsection[{\texorpdfstring{exec\+Jarvis\+March(vector$<$ pair$<$ double, double $>$ $>$ Points)}{execJarvisMarch(vector< pair< double, double > > Points)}}]{\setlength{\rightskip}{0pt plus 5cm}double exec\+Jarvis\+March (
 \begin{DoxyParamCaption}
 \item[{vector$<$ pair$<$ double, double $>$ $>$}]{Points}
 \end{DoxyParamCaption}
-)}\hypertarget{JarvisMarch_8h_ab7f40f83d7c303bb89484a6e4d7166d2}{}\label{JarvisMarch_8h_ab7f40f83d7c303bb89484a6e4d7166d2}
+)}\hypertarget{JarvisMarch_8h_abe3dffdfb0dc2e007f35e2e381a07511}{}\label{JarvisMarch_8h_abe3dffdfb0dc2e007f35e2e381a07511}
 
+
+{\bfseries Jarvis March Algorithm Implementation} 
+
+
+\begin{DoxyEnumerate}
+\item First Step is to sort points with respect to their x coordinates.~\newline
+
+\item Start from the left-\/most point.~\newline
+
+\item Choose and add the point that makes the largest obtuse interior angle with the latest edge on the hull.~\newline
+
+\item Swap the point with the corresponding nth point in the point set to avoid repeating already chosen points 
+\end{DoxyEnumerate}
 \begin{DoxyCode}
-38                                                           \{
+38                                                              \{
 39     \textcolor{keywordtype}{int} len, i, current, min = 0, hullLength=0;
 40     len = int(Points.size());
-41     \textcolor{comment}{/*}
-42 \textcolor{comment}{     * Get the point with lowest x-coordinate}
-43 \textcolor{comment}{     */}
-44     \textcolor{keywordtype}{double} x\_min = Points[0].first;
-45     pair<double, double> lastPointOnHull;
-46     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 1; i < len; i++)
-47     \{
-48         \textcolor{keywordflow}{if} (\hyperlink{origin_8h_acd5236039bd3f25f48a6f9638caca9e9}{orderedSort}(Points[i], Points[min]))
-49             x\_min = Points[i].first, min = i;
-50     \}
-51 
-52     lastPointOnHull = Points[min];
-53 
-54     \hyperlink{JarvisMarch_8h_ad38e475e4cab796be246f7da547d5160}{swapElements}(Points[hullLength++],Points[min]);
-55     \textcolor{comment}{/*}
-56 \textcolor{comment}{     * Form the Hull by processing the remaining points}
-57 \textcolor{comment}{     */}
-58     vector<pair<double , double> > convex\_hull;
-59     cout<<\textcolor{stringliteral}{"Jarvis March:"}<<endl;
-60     \textcolor{keywordflow}{do} \{
-61         cout<<lastPointOnHull.first<<\textcolor{stringliteral}{","}<<lastPointOnHull.second<<endl;
-62         convex\_hull.push\_back(lastPointOnHull);
-63         \textcolor{keywordflow}{for} (i = hullLength, current = i; i < len; i++) \{
-64             \textcolor{keywordflow}{if} (\hyperlink{JarvisMarch_8h_a6869ff248554a26905a457ca759c6c59}{orderByAngle}(lastPointOnHull,Points[i],Points[current])) \{
-65                 current = i;
-66             \}
-67         \}
-68         \textcolor{keywordflow}{if} (\hyperlink{JarvisMarch_8h_a6869ff248554a26905a457ca759c6c59}{orderByAngle}(lastPointOnHull,Points[0],Points[current])) \{
+41     \textcolor{keywordtype}{double} x\_min = Points[0].first; \textcolor{comment}{// a **double** value which gets the point with lowest y-coordinate}
+42     pair<double, double> leftMost;
+43     \textcolor{comment}{//clock\_t j\_taken;}
+44     \textcolor{comment}{//j\_taken = clock();}
+45     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 1; i < len; i++)
+46     \{
+47         \textcolor{keywordflow}{if} (\hyperlink{origin_8h_acd5236039bd3f25f48a6f9638caca9e9}{orderedSort}(Points[i], Points[min]))
+48             x\_min = Points[i].first, min = i;
+49     \}
+50 
+51     \hyperlink{origin_8h_adacb3282d7a9fb184f695409085f0f0c}{P0} = leftMost = Points[min];  \textcolor{comment}{//P0 denotes the latest point permanently added to the hull}
+52     \hyperlink{JarvisMarch_8h_ad38e475e4cab796be246f7da547d5160}{swapElements}(Points[hullLength++],Points[min]); \textcolor{comment}{//Swap the left-most point with the point
+       in the set with index 0}
+53     \textcolor{comment}{/*}
+54 \textcolor{comment}{     * Form the Hull by processing the remaining points}
+55 \textcolor{comment}{     */}
+56     vector<pair<double , double> > convex\_hull; \textcolor{comment}{// a **vector data structure** for storing the convex hull
+       points}
+57     cout<<\textcolor{stringliteral}{"Executing Jarvis March\(\backslash\)n---\(\backslash\)n"}<<endl;
+58     \textcolor{keywordflow}{do} \{
+59         cout<<\hyperlink{origin_8h_adacb3282d7a9fb184f695409085f0f0c}{P0}.first<<\textcolor{stringliteral}{","}<<\hyperlink{origin_8h_adacb3282d7a9fb184f695409085f0f0c}{P0}.second<<endl;
+60         convex\_hull.pb(\hyperlink{origin_8h_adacb3282d7a9fb184f695409085f0f0c}{P0});
+61         \textcolor{keywordflow}{for} (i = hullLength, current = i; i < len; i++) \{
+62             \textcolor{comment}{//Find the next point by comparing angles made with the last edge on the hull}
+63             \textcolor{keywordflow}{if} (\hyperlink{origin_8h_ab4d553464b44f7c3f45a7ad69b98772c}{orderByPolar}(Points[i],Points[current])) \{
+64                 current = i;
+65             \}
+66         \}
+67         \textcolor{comment}{//Since the above check starts from an index = hullLength, check if the start of the hull is the
+       next point}
+68         \textcolor{keywordflow}{if} (\hyperlink{origin_8h_ab4d553464b44f7c3f45a7ad69b98772c}{orderByPolar}(Points[0],Points[current])) \{
 69             current = 0;
 70         \}
-71         lastPointOnHull = Points[current];
-72         \hyperlink{JarvisMarch_8h_ad38e475e4cab796be246f7da547d5160}{swapElements}(Points[hullLength++],Points[current]);
-73     \} \textcolor{keywordflow}{while} (lastPointOnHull != Points[min]);
-74     \textcolor{keywordflow}{return} 0;
-75 \}
-\end{DoxyCode}
-\index{Jarvis\+March.\+h@{Jarvis\+March.\+h}!order\+By\+Angle@{order\+By\+Angle}}
-\index{order\+By\+Angle@{order\+By\+Angle}!Jarvis\+March.\+h@{Jarvis\+March.\+h}}
-\subsubsection[{\texorpdfstring{order\+By\+Angle(pair$<$ double, double $>$ a, pair$<$ double, double $>$ b, pair$<$ double, double $>$ c)}{orderByAngle(pair< double, double > a, pair< double, double > b, pair< double, double > c)}}]{\setlength{\rightskip}{0pt plus 5cm}bool order\+By\+Angle (
-\begin{DoxyParamCaption}
-\item[{pair$<$ double, double $>$}]{a, }
-\item[{pair$<$ double, double $>$}]{b, }
-\item[{pair$<$ double, double $>$}]{c}
-\end{DoxyParamCaption}
-)}\hypertarget{JarvisMarch_8h_a6869ff248554a26905a457ca759c6c59}{}\label{JarvisMarch_8h_a6869ff248554a26905a457ca759c6c59}
-
-\begin{DoxyCode}
-16                                                                                            \{
-17     \textcolor{keywordtype}{int} oValue  = \hyperlink{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{orientation}(a,b,c);
-18     \textcolor{comment}{/*cout << "comparing " << "(" << P0.first << ", " << P0.second <<")" <<  " "}
-19 \textcolor{comment}{         << "(" << p1.first << ", " << p1.second <<")" << " "}
-20 \textcolor{comment}{         << "(" << p2.first << ", " << p2.second <<")" <<endl;}
-21 \textcolor{comment}{    cout << " The orientation value is " << oValue << endl;*/}
-22     \textcolor{keywordflow}{if}(oValue == 1) \{
-23         \textcolor{comment}{//cout << "Result :" << (calcEuclidDistance(P0,p2) >= calcEuclidDistance(P0,p1)) <<endl;}
-24         \textcolor{keywordflow}{return} (\hyperlink{origin_8h_afcdcfb840d57ba04a9c8ddc76e90ce98}{calcEuclidDistance}(a,c) < \hyperlink{origin_8h_afcdcfb840d57ba04a9c8ddc76e90ce98}{calcEuclidDistance}(a,b));
-25     \}
-26     \textcolor{keywordflow}{return} (oValue != 3);
-27 \}
+71         \hyperlink{origin_8h_adacb3282d7a9fb184f695409085f0f0c}{P0} = Points[current];
+72         \hyperlink{JarvisMarch_8h_ad38e475e4cab796be246f7da547d5160}{swapElements}(Points[hullLength++],Points[current]); \textcolor{comment}{//Swap the latest added point with
+       the point in the set having index equal to the hull length                                                  
+            }
+73     \} \textcolor{keywordflow}{while} (\hyperlink{origin_8h_adacb3282d7a9fb184f695409085f0f0c}{P0} != leftMost);
+74     \textcolor{comment}{//j\_taken = clock()-j\_taken;}
+75     \textcolor{keywordflow}{return} 0;
+76 \}
 \end{DoxyCode}
 \index{Jarvis\+March.\+h@{Jarvis\+March.\+h}!swap@{swap}}
 \index{swap@{swap}!Jarvis\+March.\+h@{Jarvis\+March.\+h}}
@@ -123,12 +95,16 @@ int \hyperlink{JarvisMarch_8h_ab7f40f83d7c303bb89484a6e4d7166d2}{exec\+Jarvis\+M
 \end{DoxyParamCaption}
 )}\hypertarget{JarvisMarch_8h_aa9b6889b027d7a9561c92897438ed18e}{}\label{JarvisMarch_8h_aa9b6889b027d7a9561c92897438ed18e}
 
+
+Generic Swap Function. 
+
+
 \begin{DoxyCode}
-28                                 \{
-29     p = p + q;
-30     q = p - q;
-31     p = p - q;
-32 \}
+14                                 \{
+15     \textcolor{keywordtype}{int} tray = p;
+16     p = q;
+17     q = tray;
+18 \}
 \end{DoxyCode}
 \index{Jarvis\+March.\+h@{Jarvis\+March.\+h}!swap\+Elements@{swap\+Elements}}
 \index{swap\+Elements@{swap\+Elements}!Jarvis\+March.\+h@{Jarvis\+March.\+h}}
@@ -139,9 +115,13 @@ int \hyperlink{JarvisMarch_8h_ab7f40f83d7c303bb89484a6e4d7166d2}{exec\+Jarvis\+M
 \end{DoxyParamCaption}
 )}\hypertarget{JarvisMarch_8h_ad38e475e4cab796be246f7da547d5160}{}\label{JarvisMarch_8h_ad38e475e4cab796be246f7da547d5160}
 
+
+Point Swap Function. 
+
+Swaps the coordinates of the points passed. Used for {\bfseries efficiency} by reducing number of checks 
 \begin{DoxyCode}
-33                                                                    \{
-34     \hyperlink{JarvisMarch_8h_aa9b6889b027d7a9561c92897438ed18e}{swap}(p.first,q.first);
-35     \hyperlink{JarvisMarch_8h_aa9b6889b027d7a9561c92897438ed18e}{swap}(p.second,q.second);
-36 \}
+23                                                                    \{
+24     \hyperlink{JarvisMarch_8h_aa9b6889b027d7a9561c92897438ed18e}{swap}(p.first,q.first);
+25     \hyperlink{JarvisMarch_8h_aa9b6889b027d7a9561c92897438ed18e}{swap}(p.second,q.second);
+26 \}
 \end{DoxyCode}
