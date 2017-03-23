@@ -10,6 +10,7 @@
 #include "origin.h"
 using namespace std;
 
+vector<int> indices_j;
 //! Generic Swap Function
 void swap(double &p, double &q) {
 	int tray = p;
@@ -48,7 +49,8 @@ double execJarvisMarch(vector<pair<double, double> > Points) {
 			x_min = Points[i].first, min = i;
 	}
 
-	P0 = leftMost = Points[min];	//P0 denotes the latest point permanently added to the hull
+	P0 = leftMost = Points[min]; //P0 denotes the latest point permanently added to the hull
+    indices_j.pb(min);
 	swapElements(Points[hullLength++],Points[min]); //Swap the left-most point with the point in the set with index 0
 	/*
 	 * Form the Hull by processing the remaining points
@@ -69,6 +71,16 @@ double execJarvisMarch(vector<pair<double, double> > Points) {
 		P0 = Points[current];
 		swapElements(Points[hullLength++],Points[current]); //Swap the latest added point with the point in the set having index equal to the hull length		                                                 
 	} while (P0 != leftMost);
+    ofstream out_file;
+    out_file.open("output.ch");
+    out_file << "CH\n";
+    out_file << len << " " << convex_hull.size() << "\n";
+    for(int i=0;i < len;i++) {
+        out_file << Points[i].first << " " << Points[i].second << " 0\n";
+    }
+    for(i = 0; i < convex_hull.size(); i++) {
+        out_file << i+1 << " ";
+    }
 	printVectorData(hullLength-1,convex_hull,"");
     //j_taken = clock()-j_taken;
     return 0;

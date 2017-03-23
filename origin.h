@@ -16,6 +16,7 @@
 #define CLOCKWISE 2 /*!< Macro defined for identifying 3 points that rotate clockwise */
 #define ANTICLOCKWISE 3 /*!< Macro defined for identifying 3 points that rotate anticlockwise */
 using namespace std;
+vector<int> indices;
 //! Euclidean Distance
 /*! This function is used to calculate the distance between two points which is \f$\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\f$.
  */

@@ -11,8 +11,7 @@
  *
  *  3. After forming the hull remove the **last point** of each list (it's the same as the first point of the other list)
  */
-
-vector<pair<double, double> > convex_hull(vector<pair<double, double> > points)
+vector<pair<double,double > > convex_hull(vector<pair<double, double> > points)
 {
     int n = points.size();
     int counter = 0;
@@ -20,16 +19,18 @@ vector<pair<double, double> > convex_hull(vector<pair<double, double> > points)
 
     for (int i = 0; i < n; ++i) {
         while (counter >= 2 && orientation(hull[counter-2], hull[counter-1], points[i]) != CLOCKWISE)
-        {counter--;hull.pop_back();}
+        {counter--;hull.pop_back();indices.pop_back();}
         hull.pb(points[i]);counter++;
+        indices.pb(i);
     }
 
     // Build upper hull
     for (int i = n-2, t = counter+1; i >= 0; i--) {
         while (counter >= t && orientation(hull[counter-2], hull[counter-1], points[i]) != CLOCKWISE) {
-            counter--; hull.pop_back();
+            counter--; hull.pop_back(); indices.pop_back();
         }
         hull.pb(points[i]);counter++;
+        indices.pb(i);
     }
 
     hull.resize(counter-1);
@@ -63,9 +64,25 @@ set<pair<double, double> > execAndrews(vector<pair<double, double> > Points) {
     set<pair<double ,double> > f_convex_hull;
     int LU_len = tentative_hull.size();
     //int LL_len = L_lower.size();
+    ofstream out_file;
+    out_file.open("output.ch");
+    out_file << "CH\n";
+    out_file << len << " " << LU_len << "\n";
+    cout  << "Elements in convex hull:" << LU_len <<endl;
+    for(int i=0;i < len;i++) {
+        out_file << Points[i].first << " " << Points[i].second << " 0\n";
+    }
     for(int i=0;i<LU_len;i++) {
         f_convex_hull.insert(tentative_hull[i]);
     }
+    indices.erase(indices.begin());
+    indices.pop_back();
+    vector<int>::iterator it_set;
+    for(it_set = indices.begin(); it_set!=indices.end(); it_set++) {
+        out_file << *it_set << " ";
+    }
+    out_file << *(indices.end());
+    out_file.close();
     return f_convex_hull;
 }
 
