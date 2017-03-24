@@ -19,20 +19,31 @@ vector<pair<double,double > > convex_hull(vector<pair<double, double> > points)
 
     for (int i = 0; i < n; ++i) {
         while (counter >= 2 && orientation(hull[counter-2], hull[counter-1], points[i]) != CLOCKWISE)
-        {counter--;hull.pop_back();indices.pop_back();}
-        hull.pb(points[i]);counter++;
+        {
+            cout << "popping out\n";
+            counter--;
+            hull.pop_back();
+            indices.pop_back();
+        }
+        hull.pb(points[i]);
+        counter++;
         indices.pb(i);
     }
-
+    cout << "-------------------COUNTER VALUE AFTER LOWER HULL:" << counter <<endl;
     // Build upper hull
     for (int i = n-2, t = counter+1; i >= 0; i--) {
-        while (counter >= t && orientation(hull[counter-2], hull[counter-1], points[i]) != CLOCKWISE) {
-            counter--; hull.pop_back(); indices.pop_back();
+        while (counter >= t && orientation(hull[counter-2], hull[counter-1], points[i]) != CLOCKWISE)
+        {
+            cout << "popping out\n";
+            counter--;
+            hull.pop_back();
+            indices.pop_back();
         }
-        hull.pb(points[i]);counter++;
+        hull.pb(points[i]);
+        counter++;
         indices.pb(i);
     }
-
+    cout << "-------------------COUNTER VALUE AFTER UPPER HULL:" << counter <<endl;
     hull.resize(counter-1);
     return hull;
 }
