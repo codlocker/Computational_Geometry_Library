@@ -38,7 +38,8 @@ int main(int argc, char *argv[]) {
                 //cout << "Time taken : " << ((double) (t_taken))/CLOCKS_PER_SEC << endl;
             }
             else if (argv[1][1] == 'j' || strcmp(argv[1], "--jarvismarch") == 0) {
-                double time_jarvis = execJarvisMarch(points);
+                execJarvisMarch(points);
+                cout<<"-----End of JarvisMarch-----"<<endl;
                 //cout << "Time taken : " << time_jarvis << endl;
             }
             else {
