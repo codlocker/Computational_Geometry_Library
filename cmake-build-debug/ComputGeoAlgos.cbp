@@ -93,6 +93,12 @@
 		<Unit filename="/home/shuttle3468/CLionProjects/ComputGeoAlgos/main.cpp">
 			<Option target="ComputGeoAlgos"/>
 		</Unit>
+		<Unit filename="/home/shuttle3468/CLionProjects/ComputGeoAlgos/myjarvis.cpp">
+			<Option target="ComputGeoAlgos"/>
+		</Unit>
+		<Unit filename="/home/shuttle3468/CLionProjects/ComputGeoAlgos/myjarvis.h">
+			<Option target="ComputGeoAlgos"/>
+		</Unit>
 		<Unit filename="/home/shuttle3468/CLionProjects/ComputGeoAlgos/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
