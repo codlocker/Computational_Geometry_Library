@@ -5,8 +5,9 @@ class FaceList
 {
 public:
 	FaceList();
-	~FaceList();	
+	~FaceList();
 	DCELFace* head;
+	DCELFace* tail;
 
 	void addToList(DCELFace* newFace);
 	int length();
@@ -22,16 +23,23 @@ FaceList::~FaceList()
 }
 
 void FaceList::addToList(DCELFace* newFace) {
-	newFace->globalnext = head;
-	head = newFace;
+	if (head)
+	{
+		tail->next = newFace;
+		tail = newFace;
+	}
+	else {
+		head = newFace;
+		tail = newFace;
+	}
 }
 
 int FaceList::length() {
-	if(head) {
+	if (head) {
 		DCELFace* walker;
-		int length = 1;	
-		while(walker->globalnext) {
-			walker = walker->globalnext;
+		int length = 1;
+		while (walker->next) {
+			walker = walker->next;
 			length++;
 		}
 		return length;
@@ -40,7 +48,14 @@ int FaceList::length() {
 }
 
 void FaceList::removeFromList(DCELFace* face) {
-	
+	DCELFace* walker = head;
+	while (walker) {
+		if (walker->next == face)
+			break;
+		walker = walker->next;
+	}
+	walker->next = walker->next->next;
+	delete face;
 }
 
 

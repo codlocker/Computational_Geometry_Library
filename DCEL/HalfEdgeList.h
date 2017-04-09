@@ -1,5 +1,7 @@
 #include "DCELHalfEdge.h"
 #include "DCELVertex.h"
+#include "FaceList.h"
+
 
 using namespace std;
 class HalfEdgeList
@@ -15,6 +17,7 @@ public:
 	void addToList(DCELHalfEdge* newEdge);
 	void removeFromList(DCELHalfEdge* edge);
 	DCELHalfEdge* addTwinTo(DCELHalfEdge* edge, DCELHalfEdge* LaggingTwin);
+	DCELFace* addEdgeBetween(DCELVertex* v1, DCELVertex* v2, DCELFace* face);
 protected:
 	bool status;
 };
@@ -30,6 +33,9 @@ HalfEdgeList::~HalfEdgeList(void)
 void HalfEdgeList::addToList(DCELHalfEdge* newEdge)
 {
 	newEdge->meta = ++globalEdgeCount;
+	// cout<<newEdge->meta<<"->origin = ";
+	// newEdge->origin->print();
+
 	if (head)
 	{
 		tail->next = newEdge;
@@ -49,7 +55,10 @@ DCELHalfEdge* HalfEdgeList::addTwinTo(DCELHalfEdge* edge, DCELHalfEdge* LaggingT
 	twinEdge->twin = edge;
 	// cout << edge->meta << "->twin = " << twinEdge->meta << endl;
 	if (LaggingTwin) {
-		twinEdge->origin = LaggingTwin->twin->origin;
+		LaggingTwin->origin = twinEdge->twin->origin;
+		// cout<<LaggingTwin->meta<<"->origin = ";
+		// LaggingTwin->origin->print();
+		
 		twinEdge->next = LaggingTwin;
 		// cout << twinEdge->meta << "->next = " << LaggingTwin->meta << endl;
 	}
@@ -63,5 +72,60 @@ void HalfEdgeList::removeFromList(DCELHalfEdge* edge)
 	edge->twin->getPrev()->next = edge->next;
 	delete edge->twin;
 	delete edge;
+}
+
+DCELFace* HalfEdgeList::addEdgeBetween(DCELVertex* v1, DCELVertex* v2, DCELFace* face)
+{
+	DCELHalfEdge* walker = face->edge;
+	// cout<<"spotting vertex:";
+	// v1->print();
+	while (1) {
+		// cout<<"Origin of "<<walker->next->meta<<" is ";
+		// walker->next->origin->print();
+		if(walker->next->origin == v1) {
+			// cout<<"v1 found at" << walker->meta << endl;
+			break;
+		}
+		walker = walker->next;
+	}
+	DCELHalfEdge* halfEdge = new DCELHalfEdge();
+	halfEdge->origin = v2;
+	halfEdge->meta = ++globalEdgeCount;
+	// cout << halfEdge->meta << "->origin = ";
+	// halfEdge->origin->print();
+	halfEdge->next = walker->next;
+	// cout << halfEdge->meta << "->next = " << walker->next->meta << endl;
+
+	// cout<<"spotting vertex:";
+	// v2->print();
+	DCELHalfEdge* twinWalker = face->edge;
+	while (1) {
+		if(twinWalker->next->origin == v2) {
+			// cout<<"v2 found at" << twinWalker->meta << endl;
+			break;
+		}
+		twinWalker = twinWalker->next;
+
+	}
+
+	DCELHalfEdge* twinEdge = new DCELHalfEdge();
+	twinEdge->origin = v1;
+	twinEdge->meta = ++globalEdgeCount;
+	// cout << twinEdge->meta << "->origin = ";
+	// twinEdge->origin->print();
+	twinEdge->next = twinWalker->next;
+	// cout << twinEdge->meta << "->next = " << twinWalker->next->meta << endl;
+	walker->next = twinEdge;
+	// cout << walker->meta << "->next = " << twinEdge->meta << endl;
+	DCELFace* firstHalf = new DCELFace();
+	firstHalf->edge = walker;
+
+	twinWalker->next = halfEdge;
+	// cout << twinWalker->meta << "->next = " << halfEdge->meta << endl;
+	DCELFace* secHalf = new DCELFace();
+	secHalf->edge = twinWalker;
+
+	secHalf->next = firstHalf;
+	return secHalf;
 }
 

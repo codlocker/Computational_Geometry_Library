@@ -3,7 +3,6 @@
 #include <typeinfo>
 #include "HalfEdgeList.h"
 #include "VertexList.h"
-#include "FaceList.h"
 
 using namespace std;
 
@@ -43,19 +42,24 @@ void getPolygon() {
 			LaggingTwin->face = outer;
 			outer->edge = LaggingTwin;
 		}
-		Faces.addToList(inner);
 		Faces.addToList(outer);
+		Faces.addToList(inner);
+		
 		in_file.close();
 		// cout<<"----------"<<endl;
 	}
-	Edges.tail->next = Edges.head->next;
+	Edges.tail->next = Edges.head;
 	// cout << Edges.tail->meta << "->next = " << Edges.head->meta << endl;
 	Edges.head->twin->next = Edges.tail->twin;
+	Edges.tail->twin->origin = Vertices.tail;
+	// cout<<Edges.tail->twin->meta<<"->origin = ";
+	// Edges.tail->twin->origin->print();
 	// cout << Edges.head->twin->meta << "->next = " << Edges.tail->twin->meta << endl;
 }
 
 int main() {
 	getPolygon();
+	Edges.addEdgeBetween(Vertices.head, Vertices.head->next->next,Faces.tail);
 	// Vertices.echo();
 	return 0;
 }

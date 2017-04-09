@@ -36,23 +36,15 @@ void VertexList::echo() {
 
 void VertexList::addToList(DCELVertex* newVertex)
 {
-	if ( head==NULL ) {
+	if ( head ) {
+		tail->next = newVertex;
+		tail = newVertex;
+	}
+	else {
 		head = newVertex;
 		tail = newVertex;
 		// cout<<"Added Vertex: "<<newVertex->x<<" "<<newVertex->y<<endl;
 	}
-	else {
-		addToList(newVertex, tail);
-		tail = newVertex;
-	}
-}
-
-void VertexList::addToList(DCELVertex* newVertex, DCELVertex* afterThisVertex)
-{
-	if(afterThisVertex->next) 
-		newVertex->next = afterThisVertex->next;
-	afterThisVertex->next = newVertex;
-	// cout<<"Added Vertex: "<<newVertex->x<<" "<<newVertex->y<<endl;
 }
 
 int VertexList::length() {

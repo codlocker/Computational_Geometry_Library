@@ -6,10 +6,10 @@ public:
 	~DCELFace();
 
 	DCELHalfEdge* edge;
-	DCELFace* globalnext;
+	DCELFace* next;
 };
 
-DCELFace::DCELFace() : edge(NULL), globalnext(NULL) 
+DCELFace::DCELFace() : edge(NULL), next(NULL) 
 {
 }
 
