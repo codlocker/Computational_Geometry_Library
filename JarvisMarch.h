@@ -79,7 +79,7 @@ double execJarvisMarch(vector<pair<double, double> > Points) {
 		out_file << Points[i].first << " " << Points[i].second << " 0\n";
 	}
 	for (i = 0; i < convex_hull.size(); i++) {
-		out_file << i + 1 << " ";
+		out_file << ((i + 1)%len) << " ";
 	}
 	printVectorData(hullLength-1,convex_hull,"");
 	//j_taken = clock()-j_taken;
