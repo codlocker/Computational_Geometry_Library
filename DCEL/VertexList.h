@@ -9,7 +9,6 @@ public:
 	DCELVertex* head;
 	DCELVertex* tail;
 
-	void addToList(DCELVertex* newVertex, DCELVertex* afterThisVertex);
 	void addToList(DCELVertex* newVertex);
 	int length();
 	void removeFromList(DCELVertex* vertex);
@@ -37,13 +36,22 @@ void VertexList::echo() {
 void VertexList::addToList(DCELVertex* newVertex)
 {
 	if ( head ) {
-		tail->next = newVertex;
-		tail = newVertex;
+		if((head->y < newVertex->y) || (head->y == newVertex->y && head->x > newVertex->x)) {
+			newVertex->next = head;
+			head = newVertex;
+			return;
+		}
+		DCELVertex* walker = head;
+		while(walker->next) {
+			if((walker->next->y < newVertex->y) || (walker->next->y == newVertex->y && walker->next->x > newVertex->x)) break;
+			walker = walker->next;
+		}
+		newVertex->next = walker->next;
+		walker->next = newVertex;
 	}
 	else {
 		head = newVertex;
 		tail = newVertex;
-		// cout<<"Added Vertex: "<<newVertex->x<<" "<<newVertex->y<<endl;
 	}
 }
 

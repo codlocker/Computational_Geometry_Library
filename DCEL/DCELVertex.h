@@ -7,7 +7,7 @@ public:
 
 	double x;
 	double y;
-	DCELHalfEdge* leaving;
+	DCELHalfEdge* edge;
 	DCELHalfEdge* getEdgeTo(DCELVertex* v);
 	void setCoords(double a, double b);
 	void print();
@@ -15,7 +15,7 @@ public:
 	DCELVertex* prev;
 };
 
-DCELVertex::DCELVertex(): x(0.0), y(0.0), leaving(NULL), prev(NULL), next(NULL)
+DCELVertex::DCELVertex(): x(0.0), y(0.0), edge(NULL), prev(NULL), next(NULL)
 {
 }
 DCELVertex::~DCELVertex()
@@ -36,12 +36,12 @@ DCELHalfEdge* DCELVertex::getEdgeTo(DCELVertex* v)
 {
 	DCELHalfEdge* rval = NULL;
 
-	if (leaving) {
-		if (leaving->twin->origin == v) {
-			rval = leaving;
+	if (edge) {
+		if (edge->twin->origin == v) {
+			rval = edge;
 		} else {
-			DCELHalfEdge* test = leaving->twin->next;
-			while (rval == NULL && test != leaving) {
+			DCELHalfEdge* test = edge->twin->next;
+			while (rval == NULL && test != edge) {
 				if (test->twin->origin == v) {
 					rval = test;
 				} else {
