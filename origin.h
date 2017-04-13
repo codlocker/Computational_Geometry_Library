@@ -16,6 +16,7 @@
 #define CLOCKWISE 2 /*!< Macro defined for identifying 3 points that rotate clockwise */
 #define ANTICLOCKWISE 3 /*!< Macro defined for identifying 3 points that rotate anticlockwise */
 using namespace std;
+vector<int> indices;
 //! Euclidean Distance
 /*! This function is used to calculate the distance between two points which is \f$\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\f$.
  */
@@ -32,12 +33,15 @@ double calcEuclidDistance(pair<double, double> fpoint, pair<double, double> spoi
 int orientation(pair<double, double> a, pair<double, double> b, pair<double, double> c) {
     double m1, m2, dif;
     dif = (b.second - a.second)*(c.first-b.first) - (b.first-a.first)* (c.second - b.second);
-    //cout << "Difference in Slopes " << dif<<endl;
+    cout << "Difference in Slopes " << dif<<endl;
     if(dif == 0) {
+        cout << "COLLINEAR\n";
         return COLLINEAR;
     } else if (dif > 0 ) {
+        cout << "CLOCKWISE\n";
         return CLOCKWISE;
     } else {
+        cout << "ANTICLOCKWISE\n";
         return ANTICLOCKWISE;
     }
 }
@@ -82,12 +86,12 @@ pair<double ,double > P0;
  */
 bool orderByPolar(pair<double,double> &p1, pair<double,double> &p2){
     int oValue  = orientation(P0,p2,p1);
-    /*cout << "comparing " << "(" << P0.first << ", " << P0.second <<")" <<  " "
+    cout << "comparing " << "(" << P0.first << ", " << P0.second <<")" <<  " "
          << "(" << p1.first << ", " << p1.second <<")" << " "
          << "(" << p2.first << ", " << p2.second <<")" <<endl;
-    cout << " The orientation value is " << oValue << endl;*/
+    cout << " The orientation value is " << oValue << endl;
     if(oValue == 1) {
-        //cout << "Result :" << (calcEuclidDistance(P0,p2) >= calcEuclidDistance(P0,p1)) <<endl;
+        cout << "Result :" << (calcEuclidDistance(P0,p2) >= calcEuclidDistance(P0,p1)) <<endl;
         return (calcEuclidDistance(P0,p2) < calcEuclidDistance(P0,p1));
     }
     return (oValue != 3);
