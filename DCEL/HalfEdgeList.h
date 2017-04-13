@@ -58,7 +58,7 @@ DCELHalfEdge* HalfEdgeList::addTwinTo(DCELHalfEdge* edge, DCELHalfEdge* LaggingT
 		LaggingTwin->origin = twinEdge->twin->origin;
 		// cout<<LaggingTwin->meta<<"->origin = ";
 		// LaggingTwin->origin->print();
-		
+
 		twinEdge->next = LaggingTwin;
 		// cout << twinEdge->meta << "->next = " << LaggingTwin->meta << endl;
 	}
@@ -77,12 +77,13 @@ void HalfEdgeList::removeFromList(DCELHalfEdge* edge)
 DCELFace* HalfEdgeList::addEdgeBetween(DCELVertex* v1, DCELVertex* v2, DCELFace* face)
 {
 	DCELHalfEdge* walker = face->edge;
+	
 	// cout<<"spotting vertex:";
 	// v1->print();
 	while (1) {
 		// cout<<"Origin of "<<walker->next->meta<<" is ";
 		// walker->next->origin->print();
-		if(walker->next->origin == v1) {
+		if (walker->next->origin == v1) {
 			// cout<<"v1 found at" << walker->meta << endl;
 			break;
 		}
@@ -96,11 +97,11 @@ DCELFace* HalfEdgeList::addEdgeBetween(DCELVertex* v1, DCELVertex* v2, DCELFace*
 	halfEdge->next = walker->next;
 	// cout << halfEdge->meta << "->next = " << walker->next->meta << endl;
 
+	DCELHalfEdge* twinWalker = face->edge;
 	// cout<<"spotting vertex:";
 	// v2->print();
-	DCELHalfEdge* twinWalker = face->edge;
 	while (1) {
-		if(twinWalker->next->origin == v2) {
+		if (twinWalker->next->origin == v2) {
 			// cout<<"v2 found at" << twinWalker->meta << endl;
 			break;
 		}
@@ -117,13 +118,32 @@ DCELFace* HalfEdgeList::addEdgeBetween(DCELVertex* v1, DCELVertex* v2, DCELFace*
 	// cout << twinEdge->meta << "->next = " << twinWalker->next->meta << endl;
 	walker->next = twinEdge;
 	// cout << walker->meta << "->next = " << twinEdge->meta << endl;
-	DCELFace* firstHalf = new DCELFace();
-	firstHalf->edge = walker;
-
 	twinWalker->next = halfEdge;
 	// cout << twinWalker->meta << "->next = " << halfEdge->meta << endl;
+	
+	halfEdge->twin = twinEdge;
+	twinEdge->twin = halfEdge;
+
+
+	DCELFace* firstHalf = new DCELFace();
+	firstHalf->edge = halfEdge;
+	walker = halfEdge;
+	do {
+		walker->face = firstHalf;
+		// cout<<"setting face of "<<walker->meta<<endl;
+		walker = walker->next;
+	} while(walker != halfEdge);
+	// cout<<endl;
+
 	DCELFace* secHalf = new DCELFace();
-	secHalf->edge = twinWalker;
+	secHalf->edge = twinEdge;
+	twinEdge->face = secHalf;
+	walker = twinEdge;
+	do {
+		walker->face = secHalf;
+		// cout<<"setting face of "<<walker->meta<<endl;
+		walker = walker->next;
+	} while(walker != twinEdge);
 
 	secHalf->next = firstHalf;
 	return secHalf;

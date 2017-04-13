@@ -15,12 +15,13 @@ public:
 	DCELHalfEdge* next;
 	DCELFace* face;
 	DCELVertex* origin;
+	DCELVertex* helper;
 	DCELHalfEdge* getPrev();
 	int meta;
 };
 
 DCELHalfEdge::DCELHalfEdge() :
-twin(NULL), next(NULL), face(NULL), origin(NULL), meta(0)
+twin(NULL), next(NULL), face(NULL), origin(NULL), meta(0), helper(NULL)
 {
 }
 

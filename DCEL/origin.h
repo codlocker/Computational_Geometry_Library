@@ -43,13 +43,13 @@ void getPolygon() {
 			LaggingTwin = Edges.addTwinTo(edge, LaggingTwin);
 			LaggingTwin->face = outer;
 			outer->edge = LaggingTwin;
-
+			outer->bordered = false;
 			next->edge = edge;
 			Vertices.addToList(next);
 		}
 		Faces.addToList(outer);
 		Faces.addToList(inner);
-		
+
 		in_file.close();
 		// cout<<"----------"<<endl;
 	}
@@ -60,5 +60,50 @@ void getPolygon() {
 	// cout<<Edges.tail->twin->meta<<"->origin = ";
 	// Edges.tail->twin->origin->print();
 	// cout << Edges.head->twin->meta << "->next = " << Edges.tail->twin->meta << endl;
+}
+DCELFace* getFaceCommonTo(DCELVertex* v1, DCELVertex* v2) {
+	DCELFace* face = NULL;
+	DCELHalfEdge* walker = v1->edge;
+	DCELHalfEdge* twinWalker = v2->edge;
+	do {
+		do {
+			// cout<<"Comparing faces of "<<walker->meta<<" and "<<twinWalker->meta<<endl;
+			if (walker->face == twinWalker->face && walker->face->bordered)
+			{face = walker->face; break;}
+			twinWalker = twinWalker->twin->next;
+		} while (twinWalker != v2->edge);
+		walker = walker->twin->next;
+	} while (walker != v1->edge && !face);
+	// cout<<"face found: "<<face->edge->meta<<endl;
+	return face;
+}
+void insertDiagonal(DCELVertex* v1, DCELVertex* v2) {
+	// cout<<"Attempting diagonal Between: ";
+	// v1->print();
+	// cout<<" and ";
+	// v2->print();
+	// cout<<endl;
+	if(v1 == v2) return;
+	DCELHalfEdge* walker = v1->edge;
+	do {
+		// cout<<walker->meta<<" points to ";
+		// walker->next->origin->print();
+		// cout<<endl;
+		if(walker->next->origin == v2) {
+			// cout<<"edge exists"<<endl;
+			return;
+		}
+		// cout<<"Moving to "<< walker->twin->next->meta<<endl;
+		walker = walker->twin->next;
+	} while(walker != v1->edge);
+	// cout<<"Adding edge Between: ";
+	// v1->print();
+	// cout<<" and ";
+	// v2->print();
+	// cout<<endl;
+	DCELFace* face = getFaceCommonTo(v1, v2);
+	DCELFace* newSubdivision = Edges.addEdgeBetween(v1, v2, face);
+	delete face;
+	Faces.addToList(newSubdivision);
 }
 #endif

@@ -1,10 +1,8 @@
-#include "origin.h"
+#include "monotone.h"
 using namespace std;
 
 int main() {
 	getPolygon();
-	Edges.addEdgeBetween(Vertices.head, Vertices.head->next->next,Faces.tail);
-	Faces.removeFromList(Faces.tail);
-	Vertices.echo();
+	split_into_monotone();
 	return 0;
 }

@@ -6,10 +6,11 @@ public:
 	~DCELFace();
 
 	DCELHalfEdge* edge;
+	bool bordered;
 	DCELFace* next;
 };
 
-DCELFace::DCELFace() : edge(NULL), next(NULL) 
+DCELFace::DCELFace() : edge(NULL), next(NULL), bordered(true)
 {
 }
 
