@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/shuttle3468/CLionProjects/ComputGeoAlgos/cmake-build-de
 CMakeFiles/ComputGeoAlgos.dir/all:
 	$(MAKE) -f CMakeFiles/ComputGeoAlgos.dir/build.make CMakeFiles/ComputGeoAlgos.dir/depend
 	$(MAKE) -f CMakeFiles/ComputGeoAlgos.dir/build.make CMakeFiles/ComputGeoAlgos.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuttle3468/CLionProjects/ComputGeoAlgos/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ComputGeoAlgos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuttle3468/CLionProjects/ComputGeoAlgos/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target ComputGeoAlgos"
 .PHONY : CMakeFiles/ComputGeoAlgos.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/ComputGeoAlgos.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ComputGeoAlgos.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuttle3468/CLionProjects/ComputGeoAlgos/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuttle3468/CLionProjects/ComputGeoAlgos/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ComputGeoAlgos.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuttle3468/CLionProjects/ComputGeoAlgos/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ComputGeoAlgos.dir/rule

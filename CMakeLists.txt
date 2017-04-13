@@ -5,6 +5,6 @@ set(CMAKE_CXX_STANDARD 11)
 find_package(CGAL REQUIRED)
 include(${CGAL_USE_FILE})
 
-set(SOURCE_FILES main.cpp )
+set(SOURCE_FILES main.cpp myjarvis.cpp myjarvis.h)
 add_executable(ComputGeoAlgos ${SOURCE_FILES})
 target_link_libraries(ComputGeoAlgos ${CGAL_LIBS})

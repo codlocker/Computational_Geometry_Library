@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/ComputGeoAlgos.dir/build.make CMakeFiles/ComputGeoAlgos.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+myjarvis.o: myjarvis.cpp.o
+
+.PHONY : myjarvis.o
+
+# target to build an object file
+myjarvis.cpp.o:
+	$(MAKE) -f CMakeFiles/ComputGeoAlgos.dir/build.make CMakeFiles/ComputGeoAlgos.dir/myjarvis.cpp.o
+.PHONY : myjarvis.cpp.o
+
+myjarvis.i: myjarvis.cpp.i
+
+.PHONY : myjarvis.i
+
+# target to preprocess a source file
+myjarvis.cpp.i:
+	$(MAKE) -f CMakeFiles/ComputGeoAlgos.dir/build.make CMakeFiles/ComputGeoAlgos.dir/myjarvis.cpp.i
+.PHONY : myjarvis.cpp.i
+
+myjarvis.s: myjarvis.cpp.s
+
+.PHONY : myjarvis.s
+
+# target to generate assembly for a file
+myjarvis.cpp.s:
+	$(MAKE) -f CMakeFiles/ComputGeoAlgos.dir/build.make CMakeFiles/ComputGeoAlgos.dir/myjarvis.cpp.s
+.PHONY : myjarvis.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... myjarvis.o"
+	@echo "... myjarvis.i"
+	@echo "... myjarvis.s"
 .PHONY : help
 
 

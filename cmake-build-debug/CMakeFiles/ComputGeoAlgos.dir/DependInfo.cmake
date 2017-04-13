@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/shuttle3468/CLionProjects/ComputGeoAlgos/main.cpp" "/home/shuttle3468/CLionProjects/ComputGeoAlgos/cmake-build-debug/CMakeFiles/ComputGeoAlgos.dir/main.cpp.o"
+  "/home/shuttle3468/CLionProjects/ComputGeoAlgos/myjarvis.cpp" "/home/shuttle3468/CLionProjects/ComputGeoAlgos/cmake-build-debug/CMakeFiles/ComputGeoAlgos.dir/myjarvis.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

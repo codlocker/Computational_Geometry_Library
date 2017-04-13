@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ComputGeoAlgos.dir/main.cpp.o"
+  "CMakeFiles/ComputGeoAlgos.dir/myjarvis.cpp.o"
   "ComputGeoAlgos.pdb"
   "ComputGeoAlgos"
 )
