@@ -102,7 +102,7 @@ bool left_edgeto_vertex(const DCELHalfEdge* e1, const DCELHalfEdge* e2) {
   return (e1->origin->y > e2->origin->y) && (e1->origin->x < e2->origin->x);
 }
 void HANDLE_SPLIT_VERTEX(DCELVertex *v) {
-  printTree();
+  // printTree();
   set<DCELHalfEdge *, func>::iterator it;
   it = std::lower_bound(tree.begin(), tree.end(), v->edge, left_edgeto_vertex);
   if (it != tree.begin()) {
@@ -128,7 +128,7 @@ void HANDLE_MERGE_VERTEX(DCELVertex *v) {
     }
   tree.erase(v->edge->getPrev());
   // cout << "removed " << v->edge->meta << " from Tree" << endl;
-  printTree();
+  // printTree();
   set<DCELHalfEdge *, func>::iterator it;
   it = std::lower_bound(tree.begin(), tree.end(), v->edge, left_edgeto_vertex);
   if (it != tree.begin()) {
@@ -163,7 +163,7 @@ void HANDLE_REGULAR_VERTEX(DCELVertex *v) {
   }
   else {
     set<DCELHalfEdge *, func>::iterator it;
-    printTree();
+    // printTree();
     it = std::lower_bound(tree.begin(), tree.end(), v->edge, left_edgeto_vertex);
     if (it != tree.begin()) {
       it--;

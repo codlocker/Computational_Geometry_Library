@@ -52,7 +52,6 @@ int FaceList::length() {
 void FaceList::removeFromList(DCELFace* face) {
 	if (face == head) {
 		head = head->next;
-		delete face;
 		return;
 	}
 	DCELFace* walker = head;
@@ -62,7 +61,6 @@ void FaceList::removeFromList(DCELFace* face) {
 		walker = walker->next;
 	}
 	walker->next = walker->next->next;
-	delete face;
 }
 
 

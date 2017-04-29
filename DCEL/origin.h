@@ -132,6 +132,7 @@ void insertDiagonal(DCELVertex* v1, DCELVertex* v2) {
 		// cout << "debugger:" << newSubdivision->next->edge->meta << endl;
 		Faces.addToList(newSubdivision);
 		Faces.removeFromList(face);
+		delete face;
 		// cout<<"Faces.length = " << Faces.length() << endl;
 		// printPolygon();
 	}
