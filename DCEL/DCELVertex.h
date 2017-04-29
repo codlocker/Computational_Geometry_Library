@@ -13,6 +13,7 @@ public:
 	void print();
 	int type;
 	int index;
+	
 	DCELVertex* next;
 	DCELVertex* prev;
 };

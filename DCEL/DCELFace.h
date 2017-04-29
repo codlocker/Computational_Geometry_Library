@@ -9,7 +9,7 @@ public:
 	bool bordered;
 	DCELFace* next;
 	int boundaryLength();
-	vector<DCELVertex *> sortedVertices();
+	vector<pair<DCELVertex *, int> > sortedVertices();
 };
 
 DCELFace::DCELFace() : edge(NULL), next(NULL), bordered(true)
@@ -30,8 +30,8 @@ int DCELFace::boundaryLength() {
 	return length;
 }
 
-vector<DCELVertex *> DCELFace::sortedVertices() {
-	vector<DCELVertex*> list;
+vector<pair<DCELVertex *, int> > DCELFace::sortedVertices() {
+	vector<pair<DCELVertex*, int> > list;
 	DCELVertex* highest = edge->origin;
 	DCELHalfEdge* walker = edge;
 	DCELHalfEdge *left, *right;
@@ -42,19 +42,19 @@ vector<DCELVertex *> DCELFace::sortedVertices() {
 		walker = walker->next;	
 	} while (walker != edge);
 	
-	list.push_back(highest);
+	list.push_back(make_pair(highest,0));
 	left = highest->edge->next;
 	right = highest->edge->getPrev();
 	do {
 		if(left->origin->y > right->origin->y || (left->origin->y == right->origin->y && left->origin->x < right->origin->x)) {
+			list.push_back(make_pair(left->origin, -1));
 			left = left->next;
-			list.push_back(left->origin);
 		}
 		else {
+			list.push_back(make_pair(right->origin, 1));
 			right = right->getPrev();
-			list.push_back(right->origin);
 		}
 	}
-	while(left != right );
+	while(left != right->next );
 	return list;
 }
