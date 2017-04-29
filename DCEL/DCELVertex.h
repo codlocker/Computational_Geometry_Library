@@ -12,11 +12,12 @@ public:
 	void setCoords(double a, double b);
 	void print();
 	int type;
+	int index;
 	DCELVertex* next;
 	DCELVertex* prev;
 };
 
-DCELVertex::DCELVertex(): x(0.0), y(0.0), edge(NULL), prev(NULL), next(NULL), type(0)
+DCELVertex::DCELVertex(): x(0.0), y(0.0), edge(NULL), prev(NULL), next(NULL), type(0), index(0)
 {
 }
 DCELVertex::~DCELVertex()

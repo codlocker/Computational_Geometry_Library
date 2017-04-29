@@ -26,7 +26,9 @@ void FaceList::addToList(DCELFace* newFace) {
 	if (head)
 	{
 		tail->next = newFace;
-		tail = newFace;
+		DCELFace *walker = newFace;
+		while (walker->next) walker = walker->next;
+		tail = walker;
 	}
 	else {
 		head = newFace;
@@ -36,18 +38,23 @@ void FaceList::addToList(DCELFace* newFace) {
 
 int FaceList::length() {
 	if (head) {
-		DCELFace* walker;
+		DCELFace* walker = head;
 		int length = 1;
 		while (walker->next) {
 			walker = walker->next;
 			length++;
 		}
-		return length;
+		return length - 1;
 	}
 	else return 0;
 }
 
 void FaceList::removeFromList(DCELFace* face) {
+	if (face == head) {
+		head = head->next;
+		delete face;
+		return;
+	}
 	DCELFace* walker = head;
 	while (walker) {
 		if (walker->next == face)
