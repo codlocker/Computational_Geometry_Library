@@ -45,7 +45,7 @@ void getPolygon() {
 			outer->edge = LaggingTwin;
 			outer->bordered = false;
 			next->edge = edge;
-			if(!Vertices.length) firstVertex = next;
+			if (!Vertices.length) firstVertex = next;
 			Vertices.addToList(next);
 		}
 		Faces.addToList(outer);
@@ -72,18 +72,13 @@ void printPolygon() {
 	while (walker) {
 		if (walker->bordered) {
 			edgeWalker = walker->edge;
-			int len = 0;
-			do {
-				len++;
-				edgeWalker = edgeWalker->next;
-			} while (edgeWalker != walker->edge);
-			cout << len << " ";
+			cout << walker->boundaryLength() << " ";
 			do {
 				cout << edgeWalker->origin->index << " ";
 				edgeWalker = edgeWalker->next;
 			} while (edgeWalker != walker->edge);
-			cout<<(double)rand()/RAND_MAX<<" "<<(double)rand()/RAND_MAX<<" "<<(double)rand()/RAND_MAX;
-			cout<<endl;
+			cout << (double)rand() / RAND_MAX << " " << (double)rand() / RAND_MAX << " " << (double)rand() / RAND_MAX;
+			cout << endl;
 		}
 		walker = walker->next;
 	}
@@ -130,9 +125,15 @@ void insertDiagonal(DCELVertex* v1, DCELVertex* v2) {
 	// v2->print();
 	// cout<<endl;
 	DCELFace* face = getFaceCommonTo(v1, v2);
-	DCELFace* newSubdivision = Edges.addEdgeBetween(v1, v2, face);
-	Faces.addToList(newSubdivision);
-	Faces.removeFromList(face);
-	// cout<<"Faces.length = " << Faces.length() << endl;
+	// cout << "debugger:" << face->edge->meta << endl;
+	if(face) {
+		DCELFace* newSubdivision = Edges.addEdgeBetween(v1, v2, face);
+		// cout << "debugger:" << newSubdivision->edge->meta << endl;
+		// cout << "debugger:" << newSubdivision->next->edge->meta << endl;
+		Faces.addToList(newSubdivision);
+		Faces.removeFromList(face);
+		// cout<<"Faces.length = " << Faces.length() << endl;
+		// printPolygon();
+	}
 }
 #endif

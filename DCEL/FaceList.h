@@ -26,7 +26,9 @@ void FaceList::addToList(DCELFace* newFace) {
 	if (head)
 	{
 		tail->next = newFace;
-		tail = newFace;
+		DCELFace *walker = newFace;
+		while (walker->next) walker = walker->next;
+		tail = walker;
 	}
 	else {
 		head = newFace;
@@ -42,7 +44,7 @@ int FaceList::length() {
 			walker = walker->next;
 			length++;
 		}
-		return length-1;
+		return length - 1;
 	}
 	else return 0;
 }
