@@ -51,8 +51,6 @@ void VertexList::addToList(DCELVertex* newVertex)
 		}
 		newVertex->next = walker->next;
 		walker->next = newVertex;
-		// tail -> next = newVertex;
-		// tail = newVertex;
 	}
 	else {
 		head = newVertex;

@@ -9,6 +9,7 @@ public:
 	double y;
 	DCELHalfEdge* edge;
 	DCELHalfEdge* getEdgeTo(DCELVertex* v);
+	DCELHalfEdge* getEdgeOnFace(DCELFace* face);
 	void setCoords(double a, double b);
 	void print();
 	int type;
@@ -53,6 +54,12 @@ DCELHalfEdge* DCELVertex::getEdgeTo(DCELVertex* v)
 			}
 		}
 	}
-
 	return rval;
+}
+
+DCELHalfEdge* DCELVertex::getEdgeOnFace(DCELFace *face)
+{
+	DCELHalfEdge *edgeWalker = edge;
+	while (edgeWalker->face != face) edgeWalker = edgeWalker->twin->next;
+	return edgeWalker;
 }

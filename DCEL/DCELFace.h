@@ -1,4 +1,3 @@
-
 class DCELFace
 {
 public:
@@ -43,8 +42,8 @@ vector<pair<DCELVertex *, int> > DCELFace::sortedVertices() {
 	} while (walker != edge);
 	
 	list.push_back(make_pair(highest,0));
-	left = highest->edge->next;
-	right = highest->edge->getPrev();
+	left = highest->getEdgeOnFace(this)->next;
+	right = highest->getEdgeOnFace(this)->getPrev();
 	do {
 		if(left->origin->y > right->origin->y || (left->origin->y == right->origin->y && left->origin->x < right->origin->x)) {
 			list.push_back(make_pair(left->origin, -1));
