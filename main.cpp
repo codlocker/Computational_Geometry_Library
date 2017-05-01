@@ -20,11 +20,11 @@ int main(int argc, char *argv[]) {
                 points = getData(argv[2]);
             else
                 points = getData("./tests/sampleInput.txt");
-        if (argv[1][1] == 'g' || strcmp(argv[1], "--grahamscan") == 0) {
+            if (argv[1][1] == 'g' || strcmp(argv[1], "--grahamscan") == 0) {
                 double ret = execGrahamScans(points);
                 //cout << "Time taken : " << ret << endl;
             }
-        else if (argv[1][1] == 'a' || strcmp(argv[1], "--andrew") == 0) {
+            else if (argv[1][1] == 'a' || strcmp(argv[1], "--andrew") == 0) {
                 //clock_t t_taken;
                 //t_taken = clock();
                 set<pair<double, double> > andrews_res = execAndrews(points);
@@ -38,7 +38,8 @@ int main(int argc, char *argv[]) {
                 //cout << "Time taken : " << ((double) (t_taken))/CLOCKS_PER_SEC << endl;
             }
             else if (argv[1][1] == 'j' || strcmp(argv[1], "--jarvismarch") == 0) {
-                double time_jarvis = execJarvisMarch(points);
+                execJarvisMarch(points);
+                cout<<"-----End of JarvisMarch-----"<<endl;
                 //cout << "Time taken : " << time_jarvis << endl;
             }
             else {

@@ -1,0 +1,354 @@
+\hypertarget{monotone_8h}{}\section{D\+C\+E\+L/monotone.h File Reference}
+\label{monotone_8h}\index{D\+C\+E\+L/monotone.\+h@{D\+C\+E\+L/monotone.\+h}}
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include \char`\"{}origin.\+h\char`\"{}}\\*
+Include dependency graph for monotone.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classfunc}{func}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{monotone_8h_ac69b1930629a3699a969a0ccda2b30a5}{R\+E\+G\+U\+L\+A\+R\+\_\+\+V\+E\+R\+T\+EX}~0
+\item 
+\#define \hyperlink{monotone_8h_a654f7846043273b1454817006f7dc6ab}{S\+T\+A\+R\+T\+\_\+\+V\+E\+R\+T\+EX}~1
+\item 
+\#define \hyperlink{monotone_8h_a4470a49765be756c1b1fa89b5aec1a78}{E\+N\+D\+\_\+\+V\+E\+R\+T\+EX}~2
+\item 
+\#define \hyperlink{monotone_8h_aaaf5a81e4d02710d4986c4a3624829c4}{M\+E\+R\+G\+E\+\_\+\+V\+E\+R\+T\+EX}~3
+\item 
+\#define \hyperlink{monotone_8h_a973d28281f4c2482d02212411bce1ee1}{S\+P\+L\+I\+T\+\_\+\+V\+E\+R\+T\+EX}~4
+\item 
+\#define \hyperlink{monotone_8h_a105caa178db222564f6fab1433ae289b}{C\+O\+L\+L\+I\+N\+E\+AR}~1
+\item 
+\#define \hyperlink{monotone_8h_ab97a98583824a9ef7d480fe8fdca33cf}{C\+L\+O\+C\+K\+W\+I\+SE}~2
+\item 
+\#define \hyperlink{monotone_8h_a289ba85c8fefbfdb6cc4927dbf948940}{A\+N\+T\+I\+C\+L\+O\+C\+K\+W\+I\+SE}~3
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{monotone_8h_a3faf774f499e63fb29e75a0904e6903d}{orientation} (\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$a, \hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$b, \hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$c)
+\begin{DoxyCompactList}\small\item\em Orientation. \end{DoxyCompactList}\item 
+bool \hyperlink{monotone_8h_a985733755700d4d984c5d3e8898944be}{below} (\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$v1, \hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$v2)
+\begin{DoxyCompactList}\small\item\em Bool Check Below. \end{DoxyCompactList}\item 
+bool \hyperlink{monotone_8h_ae52dacacaa045aff3753124d1729d390}{left\+\_\+edgeto\+\_\+vertex} (const \hyperlink{classDCELHalfEdge}{D\+C\+E\+L\+Half\+Edge} $\ast$e1, const \hyperlink{classDCELHalfEdge}{D\+C\+E\+L\+Half\+Edge} $\ast$e2)
+\item 
+void \hyperlink{monotone_8h_adb5e97f58561a17f5d5d46048ff06e2d}{form\+\_\+vertex\+\_\+type} ()
+\begin{DoxyCompactList}\small\item\em form\+\_\+vertex\+\_\+type \end{DoxyCompactList}\item 
+void \hyperlink{monotone_8h_a3fee8160b8e912492930df6b1b5a7bad}{H\+A\+N\+D\+L\+E\+\_\+\+S\+T\+A\+R\+T\+\_\+\+V\+E\+R\+T\+EX} (\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$v)
+\begin{DoxyCompactList}\small\item\em form\+\_\+vertex\+\_\+type \end{DoxyCompactList}\item 
+void \hyperlink{monotone_8h_a1cf9c8fce375ebdc044714a4a3d1896b}{H\+A\+N\+D\+L\+E\+\_\+\+E\+N\+D\+\_\+\+V\+E\+R\+T\+EX} (\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$v)
+\begin{DoxyCompactList}\small\item\em V\+E\+R\+T\+EX H\+A\+N\+D\+L\+I\+NG. \end{DoxyCompactList}\item 
+void \hyperlink{monotone_8h_a61178281f39924e84021db6a9dedaaf6}{H\+A\+N\+D\+L\+E\+\_\+\+S\+P\+L\+I\+T\+\_\+\+V\+E\+R\+T\+EX} (\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$v)
+\item 
+void \hyperlink{monotone_8h_ad1156d98567b4e871565085e00ff732f}{H\+A\+N\+D\+L\+E\+\_\+\+M\+E\+R\+G\+E\+\_\+\+V\+E\+R\+T\+EX} (\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$v)
+\item 
+void \hyperlink{monotone_8h_a5c136ee94da33a5f735deb1a873341bd}{H\+A\+N\+D\+L\+E\+\_\+\+R\+E\+G\+U\+L\+A\+R\+\_\+\+V\+E\+R\+T\+EX} (\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$v)
+\item 
+void \hyperlink{monotone_8h_a44eb0131dc57fb80aaf099fa72d46771}{split\+\_\+into\+\_\+monotone} ()
+\begin{DoxyCompactList}\small\item\em V\+E\+R\+T\+EX H\+A\+N\+D\+L\+I\+NG. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+set$<$ \hyperlink{classDCELHalfEdge}{D\+C\+E\+L\+Half\+Edge} $\ast$, \hyperlink{classfunc}{func} $>$ \hyperlink{monotone_8h_ab42c30e815f97ad3d421b2b7f6ce4f01}{tree}
+\item 
+int \hyperlink{monotone_8h_a6668c9d939fb2a3cb29f65d884c64934}{vlen}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\index{monotone.\+h@{monotone.\+h}!A\+N\+T\+I\+C\+L\+O\+C\+K\+W\+I\+SE@{A\+N\+T\+I\+C\+L\+O\+C\+K\+W\+I\+SE}}
+\index{A\+N\+T\+I\+C\+L\+O\+C\+K\+W\+I\+SE@{A\+N\+T\+I\+C\+L\+O\+C\+K\+W\+I\+SE}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{A\+N\+T\+I\+C\+L\+O\+C\+K\+W\+I\+SE}{ANTICLOCKWISE}}]{\setlength{\rightskip}{0pt plus 5cm}\#define A\+N\+T\+I\+C\+L\+O\+C\+K\+W\+I\+SE~3}\hypertarget{monotone_8h_a289ba85c8fefbfdb6cc4927dbf948940}{}\label{monotone_8h_a289ba85c8fefbfdb6cc4927dbf948940}
+Macro defined for identifying 3 points that rotate anticlockwise \index{monotone.\+h@{monotone.\+h}!C\+L\+O\+C\+K\+W\+I\+SE@{C\+L\+O\+C\+K\+W\+I\+SE}}
+\index{C\+L\+O\+C\+K\+W\+I\+SE@{C\+L\+O\+C\+K\+W\+I\+SE}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{C\+L\+O\+C\+K\+W\+I\+SE}{CLOCKWISE}}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+L\+O\+C\+K\+W\+I\+SE~2}\hypertarget{monotone_8h_ab97a98583824a9ef7d480fe8fdca33cf}{}\label{monotone_8h_ab97a98583824a9ef7d480fe8fdca33cf}
+Macro defined for identifying 3 points that rotate clockwise \index{monotone.\+h@{monotone.\+h}!C\+O\+L\+L\+I\+N\+E\+AR@{C\+O\+L\+L\+I\+N\+E\+AR}}
+\index{C\+O\+L\+L\+I\+N\+E\+AR@{C\+O\+L\+L\+I\+N\+E\+AR}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{C\+O\+L\+L\+I\+N\+E\+AR}{COLLINEAR}}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+O\+L\+L\+I\+N\+E\+AR~1}\hypertarget{monotone_8h_a105caa178db222564f6fab1433ae289b}{}\label{monotone_8h_a105caa178db222564f6fab1433ae289b}
+Macro defined for identifying 3 collinear points \index{monotone.\+h@{monotone.\+h}!E\+N\+D\+\_\+\+V\+E\+R\+T\+EX@{E\+N\+D\+\_\+\+V\+E\+R\+T\+EX}}
+\index{E\+N\+D\+\_\+\+V\+E\+R\+T\+EX@{E\+N\+D\+\_\+\+V\+E\+R\+T\+EX}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{E\+N\+D\+\_\+\+V\+E\+R\+T\+EX}{END_VERTEX}}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\+N\+D\+\_\+\+V\+E\+R\+T\+EX~2}\hypertarget{monotone_8h_a4470a49765be756c1b1fa89b5aec1a78}{}\label{monotone_8h_a4470a49765be756c1b1fa89b5aec1a78}
+\index{monotone.\+h@{monotone.\+h}!M\+E\+R\+G\+E\+\_\+\+V\+E\+R\+T\+EX@{M\+E\+R\+G\+E\+\_\+\+V\+E\+R\+T\+EX}}
+\index{M\+E\+R\+G\+E\+\_\+\+V\+E\+R\+T\+EX@{M\+E\+R\+G\+E\+\_\+\+V\+E\+R\+T\+EX}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{M\+E\+R\+G\+E\+\_\+\+V\+E\+R\+T\+EX}{MERGE_VERTEX}}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\+E\+R\+G\+E\+\_\+\+V\+E\+R\+T\+EX~3}\hypertarget{monotone_8h_aaaf5a81e4d02710d4986c4a3624829c4}{}\label{monotone_8h_aaaf5a81e4d02710d4986c4a3624829c4}
+\index{monotone.\+h@{monotone.\+h}!R\+E\+G\+U\+L\+A\+R\+\_\+\+V\+E\+R\+T\+EX@{R\+E\+G\+U\+L\+A\+R\+\_\+\+V\+E\+R\+T\+EX}}
+\index{R\+E\+G\+U\+L\+A\+R\+\_\+\+V\+E\+R\+T\+EX@{R\+E\+G\+U\+L\+A\+R\+\_\+\+V\+E\+R\+T\+EX}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{R\+E\+G\+U\+L\+A\+R\+\_\+\+V\+E\+R\+T\+EX}{REGULAR_VERTEX}}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\+E\+G\+U\+L\+A\+R\+\_\+\+V\+E\+R\+T\+EX~0}\hypertarget{monotone_8h_ac69b1930629a3699a969a0ccda2b30a5}{}\label{monotone_8h_ac69b1930629a3699a969a0ccda2b30a5}
+\index{monotone.\+h@{monotone.\+h}!S\+P\+L\+I\+T\+\_\+\+V\+E\+R\+T\+EX@{S\+P\+L\+I\+T\+\_\+\+V\+E\+R\+T\+EX}}
+\index{S\+P\+L\+I\+T\+\_\+\+V\+E\+R\+T\+EX@{S\+P\+L\+I\+T\+\_\+\+V\+E\+R\+T\+EX}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{S\+P\+L\+I\+T\+\_\+\+V\+E\+R\+T\+EX}{SPLIT_VERTEX}}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\+P\+L\+I\+T\+\_\+\+V\+E\+R\+T\+EX~4}\hypertarget{monotone_8h_a973d28281f4c2482d02212411bce1ee1}{}\label{monotone_8h_a973d28281f4c2482d02212411bce1ee1}
+\index{monotone.\+h@{monotone.\+h}!S\+T\+A\+R\+T\+\_\+\+V\+E\+R\+T\+EX@{S\+T\+A\+R\+T\+\_\+\+V\+E\+R\+T\+EX}}
+\index{S\+T\+A\+R\+T\+\_\+\+V\+E\+R\+T\+EX@{S\+T\+A\+R\+T\+\_\+\+V\+E\+R\+T\+EX}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{S\+T\+A\+R\+T\+\_\+\+V\+E\+R\+T\+EX}{START_VERTEX}}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\+T\+A\+R\+T\+\_\+\+V\+E\+R\+T\+EX~1}\hypertarget{monotone_8h_a654f7846043273b1454817006f7dc6ab}{}\label{monotone_8h_a654f7846043273b1454817006f7dc6ab}
+
+
+\subsection{Function Documentation}
+\index{monotone.\+h@{monotone.\+h}!below@{below}}
+\index{below@{below}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{below(\+D\+C\+E\+L\+Vertex $\ast$v1, D\+C\+E\+L\+Vertex $\ast$v2)}{below(DCELVertex *v1, DCELVertex *v2)}}]{\setlength{\rightskip}{0pt plus 5cm}bool below (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{v1, }
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{v2}
+\end{DoxyParamCaption}
+)}\hypertarget{monotone_8h_a985733755700d4d984c5d3e8898944be}{}\label{monotone_8h_a985733755700d4d984c5d3e8898944be}
+
+
+Bool Check Below. 
+
+Check the location of the two D\+C\+EL Vertices 
+\begin{DoxyCode}
+41                                            \{
+42   \textcolor{keywordflow}{if} (v1->\hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y} != v2->\hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y})
+43     \textcolor{keywordflow}{return} v1->\hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y} > v2->\hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y};
+44   \textcolor{keywordflow}{else}
+45     \textcolor{keywordflow}{return} v1->\hyperlink{classDCELVertex_a0a8a36f7b24698829b31ab03e01dd07d}{x} < v2->\hyperlink{classDCELVertex_a0a8a36f7b24698829b31ab03e01dd07d}{x};
+46 \}
+\end{DoxyCode}
+\index{monotone.\+h@{monotone.\+h}!form\+\_\+vertex\+\_\+type@{form\+\_\+vertex\+\_\+type}}
+\index{form\+\_\+vertex\+\_\+type@{form\+\_\+vertex\+\_\+type}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{form\+\_\+vertex\+\_\+type()}{form_vertex_type()}}]{\setlength{\rightskip}{0pt plus 5cm}void form\+\_\+vertex\+\_\+type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{monotone_8h_adb5e97f58561a17f5d5d46048ff06e2d}{}\label{monotone_8h_adb5e97f58561a17f5d5d46048ff06e2d}
+
+
+form\+\_\+vertex\+\_\+type 
+
+Check whether S\+T\+A\+R\+T\+\_\+\+V\+E\+R\+T\+EX, S\+P\+L\+I\+T\+\_\+\+V\+E\+R\+T\+EX, M\+E\+R\+G\+E\+\_\+\+V\+E\+R\+T\+EX, R\+E\+G\+U\+L\+A\+R\+\_\+\+V\+E\+R\+T\+EX 
+\begin{DoxyCode}
+55                         \{
+56   \hyperlink{classDCELVertex}{DCELVertex} *v = \hyperlink{DCEL_2origin_8h_a7c8f73cdac708e92991150c6368882ed}{Vertices}.\hyperlink{classVertexList_a1816fa2e1ce89953d2ec57b19f25c45a}{head};
+57   \hyperlink{monotone_8h_a6668c9d939fb2a3cb29f65d884c64934}{vlen} = \hyperlink{DCEL_2origin_8h_a7c8f73cdac708e92991150c6368882ed}{Vertices}.\hyperlink{classVertexList_a99fe4395d1c973a38e5e830909175f34}{length};
+58   \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{monotone_8h_a6668c9d939fb2a3cb29f65d884c64934}{vlen}; i++) \{
+59     \textcolor{keywordflow}{if} (\hyperlink{monotone_8h_a985733755700d4d984c5d3e8898944be}{below}(v, v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin}) && \hyperlink{monotone_8h_a985733755700d4d984c5d3e8898944be}{below}(v, v->
+      \hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{getPrev}()->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin})) \{
+60       \textcolor{keywordflow}{if} (\hyperlink{monotone_8h_a3faf774f499e63fb29e75a0904e6903d}{orientation}(v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin}, v, v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->
+      \hyperlink{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{getPrev}()->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin}) == \hyperlink{monotone_8h_ab97a98583824a9ef7d480fe8fdca33cf}{CLOCKWISE})
+61         v->\hyperlink{classDCELVertex_a7c389ebf0d0887e1be79ba4da089522c}{type} = \hyperlink{monotone_8h_a654f7846043273b1454817006f7dc6ab}{START\_VERTEX};
+62       \textcolor{keywordflow}{else}
+63         v->\hyperlink{classDCELVertex_a7c389ebf0d0887e1be79ba4da089522c}{type} = \hyperlink{monotone_8h_a973d28281f4c2482d02212411bce1ee1}{SPLIT\_VERTEX};
+64     \}
+65     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (\hyperlink{monotone_8h_a985733755700d4d984c5d3e8898944be}{below}(v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin}, v) && \hyperlink{monotone_8h_a985733755700d4d984c5d3e8898944be}{below}(v->
+      \hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{getPrev}()->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin}, v)) \{
+66       \textcolor{keywordflow}{if} (\hyperlink{monotone_8h_a3faf774f499e63fb29e75a0904e6903d}{orientation}(v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin}, v, v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->
+      \hyperlink{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{getPrev}()->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin}) == \hyperlink{monotone_8h_ab97a98583824a9ef7d480fe8fdca33cf}{CLOCKWISE})
+67         v->\hyperlink{classDCELVertex_a7c389ebf0d0887e1be79ba4da089522c}{type} = \hyperlink{monotone_8h_a4470a49765be756c1b1fa89b5aec1a78}{END\_VERTEX};
+68       \textcolor{keywordflow}{else} 
+69         v->\hyperlink{classDCELVertex_a7c389ebf0d0887e1be79ba4da089522c}{type} = \hyperlink{monotone_8h_aaaf5a81e4d02710d4986c4a3624829c4}{MERGE\_VERTEX};
+70     \}
+71     \textcolor{keywordflow}{else} 
+72       v->\hyperlink{classDCELVertex_a7c389ebf0d0887e1be79ba4da089522c}{type} = \hyperlink{monotone_8h_ac69b1930629a3699a969a0ccda2b30a5}{REGULAR\_VERTEX};
+73 
+74     v = v->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next};
+75   \}
+76 \}
+\end{DoxyCode}
+\index{monotone.\+h@{monotone.\+h}!H\+A\+N\+D\+L\+E\+\_\+\+E\+N\+D\+\_\+\+V\+E\+R\+T\+EX@{H\+A\+N\+D\+L\+E\+\_\+\+E\+N\+D\+\_\+\+V\+E\+R\+T\+EX}}
+\index{H\+A\+N\+D\+L\+E\+\_\+\+E\+N\+D\+\_\+\+V\+E\+R\+T\+EX@{H\+A\+N\+D\+L\+E\+\_\+\+E\+N\+D\+\_\+\+V\+E\+R\+T\+EX}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{H\+A\+N\+D\+L\+E\+\_\+\+E\+N\+D\+\_\+\+V\+E\+R\+T\+E\+X(\+D\+C\+E\+L\+Vertex $\ast$v)}{HANDLE_END_VERTEX(DCELVertex *v)}}]{\setlength{\rightskip}{0pt plus 5cm}void H\+A\+N\+D\+L\+E\+\_\+\+E\+N\+D\+\_\+\+V\+E\+R\+T\+EX (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{v}
+\end{DoxyParamCaption}
+)}\hypertarget{monotone_8h_a1cf9c8fce375ebdc044714a4a3d1896b}{}\label{monotone_8h_a1cf9c8fce375ebdc044714a4a3d1896b}
+
+
+V\+E\+R\+T\+EX H\+A\+N\+D\+L\+I\+NG. 
+
+Hepler For Handling End Vertex 
+\begin{DoxyCode}
+89                                       \{
+90   \textcolor{keywordflow}{if} (v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{getPrev}()->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper})
+91     \textcolor{keywordflow}{if} (v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{getPrev}()->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper}->\hyperlink{classDCELVertex_a7c389ebf0d0887e1be79ba4da089522c}{type} == \hyperlink{monotone_8h_aaaf5a81e4d02710d4986c4a3624829c4}{MERGE\_VERTEX}) \{
+92       \hyperlink{DCEL_2origin_8h_a9628e476f4bda6f1359574997eb3079c}{insertDiagonal}(v, v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{getPrev}()->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper});
+93     \}
+94   \hyperlink{monotone_8h_ab42c30e815f97ad3d421b2b7f6ce4f01}{tree}.erase(v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{getPrev}());
+95 \}
+\end{DoxyCode}
+\index{monotone.\+h@{monotone.\+h}!H\+A\+N\+D\+L\+E\+\_\+\+M\+E\+R\+G\+E\+\_\+\+V\+E\+R\+T\+EX@{H\+A\+N\+D\+L\+E\+\_\+\+M\+E\+R\+G\+E\+\_\+\+V\+E\+R\+T\+EX}}
+\index{H\+A\+N\+D\+L\+E\+\_\+\+M\+E\+R\+G\+E\+\_\+\+V\+E\+R\+T\+EX@{H\+A\+N\+D\+L\+E\+\_\+\+M\+E\+R\+G\+E\+\_\+\+V\+E\+R\+T\+EX}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{H\+A\+N\+D\+L\+E\+\_\+\+M\+E\+R\+G\+E\+\_\+\+V\+E\+R\+T\+E\+X(\+D\+C\+E\+L\+Vertex $\ast$v)}{HANDLE_MERGE_VERTEX(DCELVertex *v)}}]{\setlength{\rightskip}{0pt plus 5cm}void H\+A\+N\+D\+L\+E\+\_\+\+M\+E\+R\+G\+E\+\_\+\+V\+E\+R\+T\+EX (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{v}
+\end{DoxyParamCaption}
+)}\hypertarget{monotone_8h_ad1156d98567b4e871565085e00ff732f}{}\label{monotone_8h_ad1156d98567b4e871565085e00ff732f}
+
+\begin{DoxyCode}
+110                                         \{
+111   \textcolor{keywordflow}{if} (v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{getPrev}()->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper})
+112     \textcolor{keywordflow}{if} (v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{getPrev}()->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper}->\hyperlink{classDCELVertex_a7c389ebf0d0887e1be79ba4da089522c}{type} == \hyperlink{monotone_8h_aaaf5a81e4d02710d4986c4a3624829c4}{MERGE\_VERTEX}) \{
+113       \hyperlink{DCEL_2origin_8h_a9628e476f4bda6f1359574997eb3079c}{insertDiagonal}(v, v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{getPrev}()->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper});
+114     \}
+115   \hyperlink{monotone_8h_ab42c30e815f97ad3d421b2b7f6ce4f01}{tree}.erase(v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{getPrev}());
+116   set<DCELHalfEdge *, func>::iterator it;
+117   it = std::lower\_bound(\hyperlink{monotone_8h_ab42c30e815f97ad3d421b2b7f6ce4f01}{tree}.begin(), \hyperlink{monotone_8h_ab42c30e815f97ad3d421b2b7f6ce4f01}{tree}.end(), v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}, 
+      \hyperlink{monotone_8h_ae52dacacaa045aff3753124d1729d390}{left\_edgeto\_vertex});
+118   \textcolor{keywordflow}{if} (it != \hyperlink{monotone_8h_ab42c30e815f97ad3d421b2b7f6ce4f01}{tree}.begin()) \{
+119     it--;
+120   \}
+121   \hyperlink{classDCELHalfEdge}{DCELHalfEdge} *s = *it;
+122   \textcolor{keywordflow}{if} (s->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper})
+123     \textcolor{keywordflow}{if} (s->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper}->\hyperlink{classDCELVertex_a7c389ebf0d0887e1be79ba4da089522c}{type} == \hyperlink{monotone_8h_aaaf5a81e4d02710d4986c4a3624829c4}{MERGE\_VERTEX}) \{
+124       \hyperlink{DCEL_2origin_8h_a9628e476f4bda6f1359574997eb3079c}{insertDiagonal}(v, s->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper});
+125     \}
+126   s->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper} = v;
+127 \}
+\end{DoxyCode}
+\index{monotone.\+h@{monotone.\+h}!H\+A\+N\+D\+L\+E\+\_\+\+R\+E\+G\+U\+L\+A\+R\+\_\+\+V\+E\+R\+T\+EX@{H\+A\+N\+D\+L\+E\+\_\+\+R\+E\+G\+U\+L\+A\+R\+\_\+\+V\+E\+R\+T\+EX}}
+\index{H\+A\+N\+D\+L\+E\+\_\+\+R\+E\+G\+U\+L\+A\+R\+\_\+\+V\+E\+R\+T\+EX@{H\+A\+N\+D\+L\+E\+\_\+\+R\+E\+G\+U\+L\+A\+R\+\_\+\+V\+E\+R\+T\+EX}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{H\+A\+N\+D\+L\+E\+\_\+\+R\+E\+G\+U\+L\+A\+R\+\_\+\+V\+E\+R\+T\+E\+X(\+D\+C\+E\+L\+Vertex $\ast$v)}{HANDLE_REGULAR_VERTEX(DCELVertex *v)}}]{\setlength{\rightskip}{0pt plus 5cm}void H\+A\+N\+D\+L\+E\+\_\+\+R\+E\+G\+U\+L\+A\+R\+\_\+\+V\+E\+R\+T\+EX (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{v}
+\end{DoxyParamCaption}
+)}\hypertarget{monotone_8h_a5c136ee94da33a5f735deb1a873341bd}{}\label{monotone_8h_a5c136ee94da33a5f735deb1a873341bd}
+
+\begin{DoxyCode}
+129                                           \{
+130   \textcolor{keywordflow}{if} (\hyperlink{monotone_8h_a985733755700d4d984c5d3e8898944be}{below}(v, v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin})) \{
+131     \textcolor{keywordflow}{if} (v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{getPrev}()->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper}->\hyperlink{classDCELVertex_a7c389ebf0d0887e1be79ba4da089522c}{type} == \hyperlink{monotone_8h_aaaf5a81e4d02710d4986c4a3624829c4}{MERGE\_VERTEX}) \{
+132       \hyperlink{DCEL_2origin_8h_a9628e476f4bda6f1359574997eb3079c}{insertDiagonal}(v, v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{getPrev}()->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper});
+133     \}
+134     \hyperlink{monotone_8h_ab42c30e815f97ad3d421b2b7f6ce4f01}{tree}.erase(v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{getPrev}());
+135     \hyperlink{monotone_8h_ab42c30e815f97ad3d421b2b7f6ce4f01}{tree}.insert(v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge});
+136     v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper} = v;
+137   \}
+138   \textcolor{keywordflow}{else} \{
+139     set<DCELHalfEdge *, func>::iterator it;
+140     it = std::lower\_bound(\hyperlink{monotone_8h_ab42c30e815f97ad3d421b2b7f6ce4f01}{tree}.begin(), \hyperlink{monotone_8h_ab42c30e815f97ad3d421b2b7f6ce4f01}{tree}.end(), v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}, 
+      \hyperlink{monotone_8h_ae52dacacaa045aff3753124d1729d390}{left\_edgeto\_vertex});
+141     \textcolor{keywordflow}{if} (it != \hyperlink{monotone_8h_ab42c30e815f97ad3d421b2b7f6ce4f01}{tree}.begin()) \{
+142       it--;
+143     \}
+144     \hyperlink{classDCELHalfEdge}{DCELHalfEdge} *s = *it;
+145     \textcolor{keywordflow}{if} (s->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper}->\hyperlink{classDCELVertex_a7c389ebf0d0887e1be79ba4da089522c}{type} == \hyperlink{monotone_8h_aaaf5a81e4d02710d4986c4a3624829c4}{MERGE\_VERTEX}) \{
+146       \hyperlink{DCEL_2origin_8h_a9628e476f4bda6f1359574997eb3079c}{insertDiagonal}(v, s->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper});
+147     \}
+148     s->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper} = v;
+149   \}
+150 \}
+\end{DoxyCode}
+\index{monotone.\+h@{monotone.\+h}!H\+A\+N\+D\+L\+E\+\_\+\+S\+P\+L\+I\+T\+\_\+\+V\+E\+R\+T\+EX@{H\+A\+N\+D\+L\+E\+\_\+\+S\+P\+L\+I\+T\+\_\+\+V\+E\+R\+T\+EX}}
+\index{H\+A\+N\+D\+L\+E\+\_\+\+S\+P\+L\+I\+T\+\_\+\+V\+E\+R\+T\+EX@{H\+A\+N\+D\+L\+E\+\_\+\+S\+P\+L\+I\+T\+\_\+\+V\+E\+R\+T\+EX}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{H\+A\+N\+D\+L\+E\+\_\+\+S\+P\+L\+I\+T\+\_\+\+V\+E\+R\+T\+E\+X(\+D\+C\+E\+L\+Vertex $\ast$v)}{HANDLE_SPLIT_VERTEX(DCELVertex *v)}}]{\setlength{\rightskip}{0pt plus 5cm}void H\+A\+N\+D\+L\+E\+\_\+\+S\+P\+L\+I\+T\+\_\+\+V\+E\+R\+T\+EX (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{v}
+\end{DoxyParamCaption}
+)}\hypertarget{monotone_8h_a61178281f39924e84021db6a9dedaaf6}{}\label{monotone_8h_a61178281f39924e84021db6a9dedaaf6}
+
+\begin{DoxyCode}
+97                                         \{
+98   set<DCELHalfEdge *, func>::iterator it;
+99   it = std::lower\_bound(\hyperlink{monotone_8h_ab42c30e815f97ad3d421b2b7f6ce4f01}{tree}.begin(), \hyperlink{monotone_8h_ab42c30e815f97ad3d421b2b7f6ce4f01}{tree}.end(), v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}, 
+      \hyperlink{monotone_8h_ae52dacacaa045aff3753124d1729d390}{left\_edgeto\_vertex});
+100   \textcolor{keywordflow}{if} (it != \hyperlink{monotone_8h_ab42c30e815f97ad3d421b2b7f6ce4f01}{tree}.begin()) \{
+101     it--;
+102   \}
+103   \hyperlink{classDCELHalfEdge}{DCELHalfEdge} *s = *it;
+104   \hyperlink{DCEL_2origin_8h_a9628e476f4bda6f1359574997eb3079c}{insertDiagonal}(v, s->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper});
+105   s->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper} = v;
+106   \hyperlink{monotone_8h_ab42c30e815f97ad3d421b2b7f6ce4f01}{tree}.insert(v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge});
+107   v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper} = v;
+108 \}
+\end{DoxyCode}
+\index{monotone.\+h@{monotone.\+h}!H\+A\+N\+D\+L\+E\+\_\+\+S\+T\+A\+R\+T\+\_\+\+V\+E\+R\+T\+EX@{H\+A\+N\+D\+L\+E\+\_\+\+S\+T\+A\+R\+T\+\_\+\+V\+E\+R\+T\+EX}}
+\index{H\+A\+N\+D\+L\+E\+\_\+\+S\+T\+A\+R\+T\+\_\+\+V\+E\+R\+T\+EX@{H\+A\+N\+D\+L\+E\+\_\+\+S\+T\+A\+R\+T\+\_\+\+V\+E\+R\+T\+EX}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{H\+A\+N\+D\+L\+E\+\_\+\+S\+T\+A\+R\+T\+\_\+\+V\+E\+R\+T\+E\+X(\+D\+C\+E\+L\+Vertex $\ast$v)}{HANDLE_START_VERTEX(DCELVertex *v)}}]{\setlength{\rightskip}{0pt plus 5cm}void H\+A\+N\+D\+L\+E\+\_\+\+S\+T\+A\+R\+T\+\_\+\+V\+E\+R\+T\+EX (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{v}
+\end{DoxyParamCaption}
+)}\hypertarget{monotone_8h_a3fee8160b8e912492930df6b1b5a7bad}{}\label{monotone_8h_a3fee8160b8e912492930df6b1b5a7bad}
+
+
+form\+\_\+vertex\+\_\+type 
+
+Hepler For Handling S\+Tart Vertex 
+\begin{DoxyCode}
+81                                         \{
+82   \hyperlink{monotone_8h_ab42c30e815f97ad3d421b2b7f6ce4f01}{tree}.insert(v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge});
+83   v->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper} = v;
+84 \}
+\end{DoxyCode}
+\index{monotone.\+h@{monotone.\+h}!left\+\_\+edgeto\+\_\+vertex@{left\+\_\+edgeto\+\_\+vertex}}
+\index{left\+\_\+edgeto\+\_\+vertex@{left\+\_\+edgeto\+\_\+vertex}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{left\+\_\+edgeto\+\_\+vertex(const D\+C\+E\+L\+Half\+Edge $\ast$e1, const D\+C\+E\+L\+Half\+Edge $\ast$e2)}{left_edgeto_vertex(const DCELHalfEdge *e1, const DCELHalfEdge *e2)}}]{\setlength{\rightskip}{0pt plus 5cm}bool left\+\_\+edgeto\+\_\+vertex (
+\begin{DoxyParamCaption}
+\item[{const {\bf D\+C\+E\+L\+Half\+Edge} $\ast$}]{e1, }
+\item[{const {\bf D\+C\+E\+L\+Half\+Edge} $\ast$}]{e2}
+\end{DoxyParamCaption}
+)}\hypertarget{monotone_8h_ae52dacacaa045aff3753124d1729d390}{}\label{monotone_8h_ae52dacacaa045aff3753124d1729d390}
+
+\begin{DoxyCode}
+47                                                                         \{
+48   \textcolor{keywordflow}{return} (e1->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin}->\hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y} > e2->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin}->\hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y}) && (e1->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin}->\hyperlink{classDCELVertex_a0a8a36f7b24698829b31ab03e01dd07d}{x} < e2->
+      \hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin}->\hyperlink{classDCELVertex_a0a8a36f7b24698829b31ab03e01dd07d}{x});
+49 \}
+\end{DoxyCode}
+\index{monotone.\+h@{monotone.\+h}!orientation@{orientation}}
+\index{orientation@{orientation}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{orientation(\+D\+C\+E\+L\+Vertex $\ast$a, D\+C\+E\+L\+Vertex $\ast$b, D\+C\+E\+L\+Vertex $\ast$c)}{orientation(DCELVertex *a, DCELVertex *b, DCELVertex *c)}}]{\setlength{\rightskip}{0pt plus 5cm}int orientation (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{a, }
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{b, }
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{c}
+\end{DoxyParamCaption}
+)}\hypertarget{monotone_8h_a3faf774f499e63fb29e75a0904e6903d}{}\label{monotone_8h_a3faf774f499e63fb29e75a0904e6903d}
+
+
+Orientation. 
+
+This function is used to calculate orientation of 3 points namely clockwise, anticlockwise and collinear. The idea here is to to get the difference between slopes of 2 lines by assuming a particular direction as a result the result obtained determines the direction of turn of the three points. 
+\begin{DoxyCode}
+26                                                              \{
+27   \textcolor{keywordtype}{double} dif;
+28   dif = (b->\hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y} - a->\hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y}) * (c->\hyperlink{classDCELVertex_a0a8a36f7b24698829b31ab03e01dd07d}{x} - b->\hyperlink{classDCELVertex_a0a8a36f7b24698829b31ab03e01dd07d}{x}) - (b->\hyperlink{classDCELVertex_a0a8a36f7b24698829b31ab03e01dd07d}{x} - a->\hyperlink{classDCELVertex_a0a8a36f7b24698829b31ab03e01dd07d}{x}) * (c->\hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y} - b->\hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y});
+29   \textcolor{keywordflow}{if} (dif == 0) \{
+30     \textcolor{keywordflow}{return} \hyperlink{monotone_8h_a105caa178db222564f6fab1433ae289b}{COLLINEAR};
+31   \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (dif > 0 ) \{
+32     \textcolor{keywordflow}{return} \hyperlink{monotone_8h_ab97a98583824a9ef7d480fe8fdca33cf}{CLOCKWISE};
+33   \} \textcolor{keywordflow}{else} \{
+34     \textcolor{keywordflow}{return} \hyperlink{monotone_8h_a289ba85c8fefbfdb6cc4927dbf948940}{ANTICLOCKWISE};
+35   \}
+36 \}
+\end{DoxyCode}
+\index{monotone.\+h@{monotone.\+h}!split\+\_\+into\+\_\+monotone@{split\+\_\+into\+\_\+monotone}}
+\index{split\+\_\+into\+\_\+monotone@{split\+\_\+into\+\_\+monotone}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{split\+\_\+into\+\_\+monotone()}{split_into_monotone()}}]{\setlength{\rightskip}{0pt plus 5cm}void split\+\_\+into\+\_\+monotone (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{monotone_8h_a44eb0131dc57fb80aaf099fa72d46771}{}\label{monotone_8h_a44eb0131dc57fb80aaf099fa72d46771}
+
+
+V\+E\+R\+T\+EX H\+A\+N\+D\+L\+I\+NG. 
+
+Splitting into montone pieces in the polygon 
+\begin{DoxyCode}
+156                            \{
+157   \hyperlink{monotone_8h_adb5e97f58561a17f5d5d46048ff06e2d}{form\_vertex\_type}();
+158   \hyperlink{classDCELVertex}{DCELVertex} *v = \hyperlink{DCEL_2origin_8h_a7c8f73cdac708e92991150c6368882ed}{Vertices}.\hyperlink{classVertexList_a1816fa2e1ce89953d2ec57b19f25c45a}{head};
+159   \textcolor{keywordtype}{int} i = 0;
+160   \textcolor{keywordflow}{while} (v) \{
+161     \textcolor{keywordflow}{if} (v->\hyperlink{classDCELVertex_a7c389ebf0d0887e1be79ba4da089522c}{type} == \hyperlink{monotone_8h_a654f7846043273b1454817006f7dc6ab}{START\_VERTEX}) \hyperlink{monotone_8h_a3fee8160b8e912492930df6b1b5a7bad}{HANDLE\_START\_VERTEX}(v);
+162     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (v->\hyperlink{classDCELVertex_a7c389ebf0d0887e1be79ba4da089522c}{type} == \hyperlink{monotone_8h_a973d28281f4c2482d02212411bce1ee1}{SPLIT\_VERTEX}) \hyperlink{monotone_8h_a61178281f39924e84021db6a9dedaaf6}{HANDLE\_SPLIT\_VERTEX}(v);
+163     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (v->\hyperlink{classDCELVertex_a7c389ebf0d0887e1be79ba4da089522c}{type} == \hyperlink{monotone_8h_a4470a49765be756c1b1fa89b5aec1a78}{END\_VERTEX}) \hyperlink{monotone_8h_a1cf9c8fce375ebdc044714a4a3d1896b}{HANDLE\_END\_VERTEX}(v);
+164     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (v->\hyperlink{classDCELVertex_a7c389ebf0d0887e1be79ba4da089522c}{type} == \hyperlink{monotone_8h_aaaf5a81e4d02710d4986c4a3624829c4}{MERGE\_VERTEX}) \hyperlink{monotone_8h_ad1156d98567b4e871565085e00ff732f}{HANDLE\_MERGE\_VERTEX}(v);
+165     \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (v->\hyperlink{classDCELVertex_a7c389ebf0d0887e1be79ba4da089522c}{type} == \hyperlink{monotone_8h_ac69b1930629a3699a969a0ccda2b30a5}{REGULAR\_VERTEX}) \hyperlink{monotone_8h_a5c136ee94da33a5f735deb1a873341bd}{HANDLE\_REGULAR\_VERTEX}(v);
+166     v = v->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next};
+167   \}
+168 \}\end{DoxyCode}
+
+
+\subsection{Variable Documentation}
+\index{monotone.\+h@{monotone.\+h}!tree@{tree}}
+\index{tree@{tree}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{tree}{tree}}]{\setlength{\rightskip}{0pt plus 5cm}set$<${\bf D\+C\+E\+L\+Half\+Edge} $\ast$, {\bf func}$>$ tree}\hypertarget{monotone_8h_ab42c30e815f97ad3d421b2b7f6ce4f01}{}\label{monotone_8h_ab42c30e815f97ad3d421b2b7f6ce4f01}
+\index{monotone.\+h@{monotone.\+h}!vlen@{vlen}}
+\index{vlen@{vlen}!monotone.\+h@{monotone.\+h}}
+\subsubsection[{\texorpdfstring{vlen}{vlen}}]{\setlength{\rightskip}{0pt plus 5cm}int vlen}\hypertarget{monotone_8h_a6668c9d939fb2a3cb29f65d884c64934}{}\label{monotone_8h_a6668c9d939fb2a3cb29f65d884c64934}

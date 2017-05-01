@@ -1,0 +1,88 @@
+\hypertarget{triangulate_8h}{}\section{D\+C\+E\+L/triangulate.h File Reference}
+\label{triangulate_8h}\index{D\+C\+E\+L/triangulate.\+h@{D\+C\+E\+L/triangulate.\+h}}
+{\ttfamily \#include \char`\"{}monotone.\+h\char`\"{}}\\*
+Include dependency graph for triangulate.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{triangulate_8h_a1f1b32bb12025cf0e92caf3b81cbb078}{triangulate} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{triangulate.\+h@{triangulate.\+h}!triangulate@{triangulate}}
+\index{triangulate@{triangulate}!triangulate.\+h@{triangulate.\+h}}
+\subsubsection[{\texorpdfstring{triangulate()}{triangulate()}}]{\setlength{\rightskip}{0pt plus 5cm}void triangulate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{triangulate_8h_a1f1b32bb12025cf0e92caf3b81cbb078}{}\label{triangulate_8h_a1f1b32bb12025cf0e92caf3b81cbb078}
+
+\begin{DoxyCode}
+4                    \{
+5     \hyperlink{classDCELFace}{DCELFace}* walker = \hyperlink{DCEL_2origin_8h_a994ca4688e2b8cd04bb19950c4c5effb}{Faces}.\hyperlink{classFaceList_a9dadb4bb9779d0869c725b90c9f33205}{head};
+6     vector<pair<DCELVertex *, DCELVertex *> > pendingDiagonals;
+7     \textcolor{keywordflow}{while} (walker) \{
+8         \textcolor{keywordflow}{if} (walker->\hyperlink{classDCELFace_adf080ea135357e2f5fb2f97d87d1a2fd}{boundaryLength}() > 3 && walker->\hyperlink{classDCELFace_a9b4085ea85f8aee290233e0e9ac1f605}{bordered}) \{
+9             vector<pair<DCELVertex *, int> >::iterator it;
+10             vector<pair<DCELVertex *, int> > list = walker->\hyperlink{classDCELFace_af00eb6cdb260a31b0a38ea86a92c4021}{sortedVertices}();
+11             (*(list.end() - 1)).second = -1;
+12             stack<pair<DCELVertex *, int> > stck;
+13             it = list.begin();
+14             stck.push((*it));
+15             it++;
+16             stck.push((*it));
+17             it++;
+18             \textcolor{keywordflow}{for} (; it != list.end(); it++)
+19             \{
+20                 \textcolor{keywordflow}{if} ((*it).second != stck.top().second)  \{
+21                     \textcolor{keywordflow}{while} (stck.size() > 1) \{
+22                         pendingDiagonals.push\_back(make\_pair(stck.top().first, (*it).first));
+23                         stck.pop();
+24                     \}
+25                     stck.pop();
+26                     stck.push((*(it - 1)));
+27                     stck.push((*it));
+28                 \}
+29                 \textcolor{keywordflow}{else} \{
+30                     pair<DCELVertex *, int> lastPoint;
+31                     lastPoint = stck.top();
+32                     stck.pop();
+33                     \textcolor{keywordflow}{while} (!stck.empty()) \{
+34                         \textcolor{keywordflow}{if} ((*it).second == 1) \{
+35                             \hyperlink{classDCELHalfEdge}{DCELHalfEdge} *edgeWalker = (*it).first->edge;
+36                             \textcolor{keywordflow}{while} (edgeWalker->\hyperlink{classDCELHalfEdge_ade69d0ad23d0776ed6c925490d7cb4da}{face} != walker) edgeWalker = edgeWalker->
+      \hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next};
+37                             \textcolor{keywordflow}{if} (\hyperlink{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{orientation}(edgeWalker->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next}->
+      \hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin}, (*it).first, stck.top().first) == \hyperlink{origin_8h_ab97a98583824a9ef7d480fe8fdca33cf}{CLOCKWISE}) \{
+38                                 pendingDiagonals.push\_back(make\_pair(stck.top().first, (*it).first));
+39                                 lastPoint = stck.top();
+40                                 stck.pop();
+41                             \}
+42                             \textcolor{keywordflow}{else} \textcolor{keywordflow}{break};
+43                         \}
+44                         \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} ((*it).second == -1) \{
+45                             \hyperlink{classDCELHalfEdge}{DCELHalfEdge} *edgeWalker = (*it).first->getEdgeOnFace(walker);
+46                             \textcolor{keywordflow}{if} (\hyperlink{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{orientation}(edgeWalker->\hyperlink{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{getPrev}()->
+      \hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin}, (*it).first, stck.top().first) == \hyperlink{origin_8h_a289ba85c8fefbfdb6cc4927dbf948940}{ANTICLOCKWISE}) \{
+47                                 pendingDiagonals.push\_back(make\_pair(stck.top().first, (*it).first));
+48                                 lastPoint = stck.top();
+49                                 stck.pop();
+50                             \}
+51                             \textcolor{keywordflow}{else} \textcolor{keywordflow}{break};
+52                         \}
+53                     \}
+54                     stck.push(lastPoint);
+55                     stck.push((*it));
+56                 \}
+57             \}
+58         \}
+59         walker = walker->\hyperlink{classDCELFace_a5fd804213fb2d96f900442da49ccb137}{next};
+60     \}
+61     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < pendingDiagonals.size(); i++) \{
+62         \hyperlink{DCEL_2origin_8h_a9628e476f4bda6f1359574997eb3079c}{insertDiagonal}(pendingDiagonals[i].first, pendingDiagonals[i].second);
+63     \}
+64 \}\end{DoxyCode}

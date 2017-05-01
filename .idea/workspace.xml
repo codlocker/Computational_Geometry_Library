@@ -12,9 +12,470 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38bdd579-6d26-4a96-b830-34b1267bb725" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ComputGeoAlgos.dir/main.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/ComputGeoAlgos" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Andrews.h" afterPath="$PROJECT_DIR$/Andrews.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/HullGenerator" afterPath="$PROJECT_DIR$/bin/HullGenerator" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DCEL/DCELHalfEdge.h" afterPath="$PROJECT_DIR$/DCEL/DCELHalfEdge.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DCEL/FaceList.h" afterPath="$PROJECT_DIR$/DCEL/FaceList.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DCEL/HalfEdgeList.h" afterPath="$PROJECT_DIR$/DCEL/HalfEdgeList.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DCEL/monotone.h" afterPath="$PROJECT_DIR$/DCEL/monotone.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Andrews_8h.html" afterPath="$PROJECT_DIR$/html/Andrews_8h.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Andrews_8h_source.html" afterPath="$PROJECT_DIR$/html/Andrews_8h_source.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/GrahamScans_8h.html" afterPath="$PROJECT_DIR$/html/GrahamScans_8h.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/GrahamScans_8h_source.html" afterPath="$PROJECT_DIR$/html/GrahamScans_8h_source.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/JarvisMarch_8h.html" afterPath="$PROJECT_DIR$/html/JarvisMarch_8h.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/JarvisMarch_8h_source.html" afterPath="$PROJECT_DIR$/html/JarvisMarch_8h_source.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/README.md" afterPath="$PROJECT_DIR$/html/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/README_8md.html" afterPath="$PROJECT_DIR$/html/README_8md.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/files.html" afterPath="$PROJECT_DIR$/html/files.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/globals.html" afterPath="$PROJECT_DIR$/html/globals.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/globals_defs.html" afterPath="$PROJECT_DIR$/html/globals_defs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/globals_func.html" afterPath="$PROJECT_DIR$/html/globals_func.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/globals_vars.html" afterPath="$PROJECT_DIR$/html/globals_vars.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/graph_legend.html" afterPath="$PROJECT_DIR$/html/graph_legend.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/main_8cpp.html" afterPath="$PROJECT_DIR$/html/main_8cpp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/origin_8h.html" afterPath="$PROJECT_DIR$/html/origin_8h.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/origin_8h_source.html" afterPath="$PROJECT_DIR$/html/origin_8h_source.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_0.js" afterPath="$PROJECT_DIR$/html/search/all_0.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_1.js" afterPath="$PROJECT_DIR$/html/search/all_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_2.js" afterPath="$PROJECT_DIR$/html/search/all_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_3.js" afterPath="$PROJECT_DIR$/html/search/all_3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_4.js" afterPath="$PROJECT_DIR$/html/search/all_4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_5.js" afterPath="$PROJECT_DIR$/html/search/all_5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_6.js" afterPath="$PROJECT_DIR$/html/search/all_6.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_7.js" afterPath="$PROJECT_DIR$/html/search/all_7.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_8.js" afterPath="$PROJECT_DIR$/html/search/all_8.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_9.js" afterPath="$PROJECT_DIR$/html/search/all_9.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_a.js" afterPath="$PROJECT_DIR$/html/search/all_a.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_b.js" afterPath="$PROJECT_DIR$/html/search/all_b.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_c.js" afterPath="$PROJECT_DIR$/html/search/all_c.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/all_d.js" afterPath="$PROJECT_DIR$/html/search/all_d.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/defines_0.js" afterPath="$PROJECT_DIR$/html/search/defines_0.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/defines_1.js" afterPath="$PROJECT_DIR$/html/search/defines_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/defines_2.js" afterPath="$PROJECT_DIR$/html/search/defines_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/defines_3.js" afterPath="$PROJECT_DIR$/html/search/defines_3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/defines_4.js" afterPath="$PROJECT_DIR$/html/search/defines_4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/files_1.js" afterPath="$PROJECT_DIR$/html/search/files_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/files_2.js" afterPath="$PROJECT_DIR$/html/search/files_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/files_3.js" afterPath="$PROJECT_DIR$/html/search/files_3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/files_4.js" afterPath="$PROJECT_DIR$/html/search/files_4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/files_5.js" afterPath="$PROJECT_DIR$/html/search/files_5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/functions_0.js" afterPath="$PROJECT_DIR$/html/search/functions_0.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/functions_1.js" afterPath="$PROJECT_DIR$/html/search/functions_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/functions_2.js" afterPath="$PROJECT_DIR$/html/search/functions_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/functions_3.js" afterPath="$PROJECT_DIR$/html/search/functions_3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/functions_4.js" afterPath="$PROJECT_DIR$/html/search/functions_4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/functions_5.js" afterPath="$PROJECT_DIR$/html/search/functions_5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/functions_6.js" afterPath="$PROJECT_DIR$/html/search/functions_6.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/functions_7.js" afterPath="$PROJECT_DIR$/html/search/functions_7.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/functions_8.js" afterPath="$PROJECT_DIR$/html/search/functions_8.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/searchdata.js" afterPath="$PROJECT_DIR$/html/search/searchdata.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/search/variables_0.js" afterPath="$PROJECT_DIR$/html/search/variables_0.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html_page.conf" afterPath="$PROJECT_DIR$/html_page.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/latex/Andrews_8h.tex.tmp" afterPath="$PROJECT_DIR$/latex/Andrews_8h.tex.tmp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/latex/GrahamScans_8h.tex" afterPath="$PROJECT_DIR$/latex/GrahamScans_8h.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/latex/JarvisMarch_8h.tex" afterPath="$PROJECT_DIR$/latex/JarvisMarch_8h.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/latex/files.tex" afterPath="$PROJECT_DIR$/latex/files.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/latex/index.tex" afterPath="$PROJECT_DIR$/latex/index.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/latex/main_8cpp.tex" afterPath="$PROJECT_DIR$/latex/main_8cpp.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/latex/origin_8h.tex" afterPath="$PROJECT_DIR$/latex/origin_8h.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/latex/refman.tex" afterPath="$PROJECT_DIR$/latex/refman.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.ch" afterPath="$PROJECT_DIR$/output.ch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/analysis/andrew.txt" afterPath="$PROJECT_DIR$/tests/analysis/andrew.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/analysis/grahamscan.txt" afterPath="$PROJECT_DIR$/tests/analysis/grahamscan.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/analysis/jarvismarch.txt" afterPath="$PROJECT_DIR$/tests/analysis/jarvismarch.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input100.txt" afterPath="$PROJECT_DIR$/tests/inputs/input100.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input1000.txt" afterPath="$PROJECT_DIR$/tests/inputs/input1000.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input110.txt" afterPath="$PROJECT_DIR$/tests/inputs/input110.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input120.txt" afterPath="$PROJECT_DIR$/tests/inputs/input120.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input130.txt" afterPath="$PROJECT_DIR$/tests/inputs/input130.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input140.txt" afterPath="$PROJECT_DIR$/tests/inputs/input140.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input150.txt" afterPath="$PROJECT_DIR$/tests/inputs/input150.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input160.txt" afterPath="$PROJECT_DIR$/tests/inputs/input160.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input170.txt" afterPath="$PROJECT_DIR$/tests/inputs/input170.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input180.txt" afterPath="$PROJECT_DIR$/tests/inputs/input180.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input190.txt" afterPath="$PROJECT_DIR$/tests/inputs/input190.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input200.txt" afterPath="$PROJECT_DIR$/tests/inputs/input200.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input210.txt" afterPath="$PROJECT_DIR$/tests/inputs/input210.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input220.txt" afterPath="$PROJECT_DIR$/tests/inputs/input220.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input230.txt" afterPath="$PROJECT_DIR$/tests/inputs/input230.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input240.txt" afterPath="$PROJECT_DIR$/tests/inputs/input240.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input250.txt" afterPath="$PROJECT_DIR$/tests/inputs/input250.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input260.txt" afterPath="$PROJECT_DIR$/tests/inputs/input260.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input270.txt" afterPath="$PROJECT_DIR$/tests/inputs/input270.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input280.txt" afterPath="$PROJECT_DIR$/tests/inputs/input280.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input290.txt" afterPath="$PROJECT_DIR$/tests/inputs/input290.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input30.txt" afterPath="$PROJECT_DIR$/tests/inputs/input30.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input300.txt" afterPath="$PROJECT_DIR$/tests/inputs/input300.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input310.txt" afterPath="$PROJECT_DIR$/tests/inputs/input310.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input320.txt" afterPath="$PROJECT_DIR$/tests/inputs/input320.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input330.txt" afterPath="$PROJECT_DIR$/tests/inputs/input330.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input340.txt" afterPath="$PROJECT_DIR$/tests/inputs/input340.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input350.txt" afterPath="$PROJECT_DIR$/tests/inputs/input350.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input360.txt" afterPath="$PROJECT_DIR$/tests/inputs/input360.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input370.txt" afterPath="$PROJECT_DIR$/tests/inputs/input370.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input380.txt" afterPath="$PROJECT_DIR$/tests/inputs/input380.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input390.txt" afterPath="$PROJECT_DIR$/tests/inputs/input390.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input40.txt" afterPath="$PROJECT_DIR$/tests/inputs/input40.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input400.txt" afterPath="$PROJECT_DIR$/tests/inputs/input400.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input410.txt" afterPath="$PROJECT_DIR$/tests/inputs/input410.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input420.txt" afterPath="$PROJECT_DIR$/tests/inputs/input420.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input430.txt" afterPath="$PROJECT_DIR$/tests/inputs/input430.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input440.txt" afterPath="$PROJECT_DIR$/tests/inputs/input440.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input450.txt" afterPath="$PROJECT_DIR$/tests/inputs/input450.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input460.txt" afterPath="$PROJECT_DIR$/tests/inputs/input460.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input470.txt" afterPath="$PROJECT_DIR$/tests/inputs/input470.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input480.txt" afterPath="$PROJECT_DIR$/tests/inputs/input480.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input490.txt" afterPath="$PROJECT_DIR$/tests/inputs/input490.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input50.txt" afterPath="$PROJECT_DIR$/tests/inputs/input50.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input500.txt" afterPath="$PROJECT_DIR$/tests/inputs/input500.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input510.txt" afterPath="$PROJECT_DIR$/tests/inputs/input510.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input520.txt" afterPath="$PROJECT_DIR$/tests/inputs/input520.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input530.txt" afterPath="$PROJECT_DIR$/tests/inputs/input530.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input540.txt" afterPath="$PROJECT_DIR$/tests/inputs/input540.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input550.txt" afterPath="$PROJECT_DIR$/tests/inputs/input550.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input560.txt" afterPath="$PROJECT_DIR$/tests/inputs/input560.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input570.txt" afterPath="$PROJECT_DIR$/tests/inputs/input570.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input580.txt" afterPath="$PROJECT_DIR$/tests/inputs/input580.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input590.txt" afterPath="$PROJECT_DIR$/tests/inputs/input590.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input60.txt" afterPath="$PROJECT_DIR$/tests/inputs/input60.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input600.txt" afterPath="$PROJECT_DIR$/tests/inputs/input600.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input610.txt" afterPath="$PROJECT_DIR$/tests/inputs/input610.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input620.txt" afterPath="$PROJECT_DIR$/tests/inputs/input620.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input630.txt" afterPath="$PROJECT_DIR$/tests/inputs/input630.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input640.txt" afterPath="$PROJECT_DIR$/tests/inputs/input640.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input650.txt" afterPath="$PROJECT_DIR$/tests/inputs/input650.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input660.txt" afterPath="$PROJECT_DIR$/tests/inputs/input660.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input670.txt" afterPath="$PROJECT_DIR$/tests/inputs/input670.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input680.txt" afterPath="$PROJECT_DIR$/tests/inputs/input680.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input690.txt" afterPath="$PROJECT_DIR$/tests/inputs/input690.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input70.txt" afterPath="$PROJECT_DIR$/tests/inputs/input70.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input700.txt" afterPath="$PROJECT_DIR$/tests/inputs/input700.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input710.txt" afterPath="$PROJECT_DIR$/tests/inputs/input710.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input720.txt" afterPath="$PROJECT_DIR$/tests/inputs/input720.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input730.txt" afterPath="$PROJECT_DIR$/tests/inputs/input730.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input740.txt" afterPath="$PROJECT_DIR$/tests/inputs/input740.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input750.txt" afterPath="$PROJECT_DIR$/tests/inputs/input750.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input760.txt" afterPath="$PROJECT_DIR$/tests/inputs/input760.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input770.txt" afterPath="$PROJECT_DIR$/tests/inputs/input770.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input780.txt" afterPath="$PROJECT_DIR$/tests/inputs/input780.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input790.txt" afterPath="$PROJECT_DIR$/tests/inputs/input790.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input80.txt" afterPath="$PROJECT_DIR$/tests/inputs/input80.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input800.txt" afterPath="$PROJECT_DIR$/tests/inputs/input800.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input810.txt" afterPath="$PROJECT_DIR$/tests/inputs/input810.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input820.txt" afterPath="$PROJECT_DIR$/tests/inputs/input820.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input830.txt" afterPath="$PROJECT_DIR$/tests/inputs/input830.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input840.txt" afterPath="$PROJECT_DIR$/tests/inputs/input840.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input850.txt" afterPath="$PROJECT_DIR$/tests/inputs/input850.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input860.txt" afterPath="$PROJECT_DIR$/tests/inputs/input860.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input870.txt" afterPath="$PROJECT_DIR$/tests/inputs/input870.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input880.txt" afterPath="$PROJECT_DIR$/tests/inputs/input880.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input890.txt" afterPath="$PROJECT_DIR$/tests/inputs/input890.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input90.txt" afterPath="$PROJECT_DIR$/tests/inputs/input90.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input900.txt" afterPath="$PROJECT_DIR$/tests/inputs/input900.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input910.txt" afterPath="$PROJECT_DIR$/tests/inputs/input910.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input920.txt" afterPath="$PROJECT_DIR$/tests/inputs/input920.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input930.txt" afterPath="$PROJECT_DIR$/tests/inputs/input930.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input940.txt" afterPath="$PROJECT_DIR$/tests/inputs/input940.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input950.txt" afterPath="$PROJECT_DIR$/tests/inputs/input950.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input960.txt" afterPath="$PROJECT_DIR$/tests/inputs/input960.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input970.txt" afterPath="$PROJECT_DIR$/tests/inputs/input970.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input980.txt" afterPath="$PROJECT_DIR$/tests/inputs/input980.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/inputs/input990.txt" afterPath="$PROJECT_DIR$/tests/inputs/input990.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output100.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output100.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output1000.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output1000.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output110.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output110.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output120.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output120.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output130.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output130.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output140.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output140.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output150.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output150.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output160.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output160.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output170.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output170.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output180.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output180.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output190.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output190.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output200.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output200.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output210.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output210.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output220.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output220.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output230.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output230.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output240.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output240.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output250.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output250.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output260.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output260.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output270.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output270.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output280.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output280.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output290.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output290.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output30.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output30.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output300.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output300.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output310.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output310.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output320.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output320.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output330.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output330.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output340.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output340.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output350.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output350.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output360.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output360.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output370.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output370.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output380.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output380.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output390.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output390.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output40.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output40.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output400.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output400.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output410.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output410.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output420.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output420.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output430.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output430.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output440.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output440.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output450.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output450.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output460.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output460.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output470.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output470.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output480.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output480.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output490.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output490.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output50.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output50.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output500.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output500.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output510.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output510.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output520.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output520.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output530.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output530.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output540.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output540.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output550.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output550.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output560.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output560.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output570.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output570.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output580.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output580.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output590.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output590.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output60.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output60.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output600.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output600.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output610.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output610.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output620.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output620.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output630.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output630.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output640.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output640.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output650.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output650.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output660.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output660.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output670.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output670.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output680.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output680.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output690.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output690.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output70.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output70.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output700.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output700.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output710.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output710.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output720.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output720.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output730.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output730.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output740.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output740.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output750.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output750.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output760.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output760.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output770.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output770.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output780.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output780.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output790.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output790.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output80.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output80.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output800.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output800.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output810.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output810.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output820.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output820.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output830.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output830.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output840.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output840.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output850.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output850.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output860.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output860.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output870.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output870.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output880.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output880.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output890.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output890.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output90.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output90.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output900.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output900.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output910.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output910.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output920.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output920.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output930.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output930.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output940.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output940.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output950.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output950.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output960.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output960.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output970.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output970.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output980.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output980.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/andrew/output990.txt" afterPath="$PROJECT_DIR$/tests/outputs/andrew/output990.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output100.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output100.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output1000.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output1000.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output110.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output110.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output120.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output120.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output130.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output130.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output140.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output140.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output150.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output150.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output160.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output160.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output170.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output170.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output180.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output180.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output190.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output190.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output200.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output200.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output210.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output210.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output220.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output220.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output230.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output230.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output240.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output240.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output250.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output250.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output260.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output260.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output270.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output270.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output280.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output280.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output290.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output290.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output30.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output30.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output300.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output300.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output310.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output310.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output320.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output320.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output330.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output330.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output340.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output340.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output350.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output350.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output360.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output360.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output370.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output370.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output380.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output380.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output390.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output390.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output40.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output40.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output400.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output400.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output410.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output410.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output420.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output420.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output430.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output430.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output440.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output440.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output450.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output450.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output460.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output460.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output470.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output470.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output480.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output480.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output490.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output490.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output50.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output50.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output500.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output500.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output510.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output510.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output520.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output520.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output530.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output530.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output540.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output540.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output550.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output550.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output560.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output560.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output570.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output570.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output580.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output580.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output590.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output590.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output60.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output60.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output600.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output600.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output610.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output610.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output620.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output620.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output630.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output630.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output640.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output640.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output650.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output650.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output660.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output660.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output670.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output670.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output680.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output680.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output690.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output690.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output70.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output70.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output700.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output700.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output710.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output710.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output720.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output720.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output730.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output730.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output740.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output740.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output750.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output750.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output760.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output760.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output770.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output770.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output780.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output780.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output790.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output790.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output80.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output80.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output800.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output800.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output810.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output810.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output820.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output820.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output830.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output830.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output840.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output840.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output850.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output850.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output860.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output860.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output870.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output870.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output880.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output880.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output890.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output890.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output90.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output90.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output900.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output900.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output910.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output910.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output920.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output920.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output930.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output930.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output940.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output940.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output950.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output950.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output960.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output960.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output970.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output970.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output980.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output980.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/grahamscan/output990.txt" afterPath="$PROJECT_DIR$/tests/outputs/grahamscan/output990.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output100.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output100.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output1000.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output1000.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output110.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output110.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output120.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output120.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output130.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output130.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output140.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output140.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output150.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output150.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output160.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output160.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output170.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output170.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output180.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output180.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output190.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output190.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output200.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output200.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output210.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output210.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output220.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output220.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output230.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output230.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output240.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output240.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output250.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output250.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output260.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output260.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output270.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output270.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output280.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output280.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output290.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output290.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output30.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output30.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output300.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output300.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output310.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output310.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output320.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output320.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output330.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output330.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output340.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output340.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output350.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output350.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output360.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output360.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output370.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output370.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output380.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output380.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output390.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output390.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output40.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output40.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output400.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output400.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output410.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output410.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output420.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output420.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output430.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output430.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output440.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output440.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output450.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output450.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output460.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output460.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output470.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output470.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output480.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output480.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output490.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output490.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output50.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output50.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output500.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output500.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output510.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output510.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output520.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output520.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output530.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output530.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output540.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output540.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output550.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output550.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output560.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output560.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output570.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output570.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output580.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output580.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output590.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output590.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output60.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output60.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output600.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output600.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output610.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output610.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output620.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output620.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output630.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output630.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output640.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output640.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output650.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output650.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output660.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output660.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output670.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output670.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output680.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output680.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output690.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output690.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output70.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output70.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output700.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output700.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output710.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output710.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output720.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output720.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output730.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output730.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output740.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output740.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output750.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output750.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output760.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output760.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output770.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output770.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output780.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output780.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output790.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output790.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output80.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output80.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output800.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output800.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output810.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output810.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output820.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output820.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output830.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output830.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output840.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output840.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output850.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output850.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output860.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output860.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output870.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output870.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output880.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output880.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output890.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output890.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output90.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output90.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output900.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output900.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output910.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output910.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output920.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output920.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output930.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output930.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output940.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output940.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output950.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output950.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output960.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output960.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output970.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output970.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output980.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output980.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/outputs/jarvismarch/output990.txt" afterPath="$PROJECT_DIR$/tests/outputs/jarvismarch/output990.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,21 +491,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <file leaf-file-name="origin.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/origin.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+            <state relative-caret-position="245">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="31" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+      <file leaf-file-name="DCELFace.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DCEL/DCELFace.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+            <state relative-caret-position="-340">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DCELHalfEdge.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DCEL/DCELHalfEdge.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -52,72 +523,77 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GrahamScans.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GrahamScans.h">
+      <file leaf-file-name="html_page.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html_page.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-              <folding>
-                <element signature="e#118#137#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Andrews.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Andrews.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+            <state relative-caret-position="407">
+              <caret line="774" column="1" lean-forward="false" selection-start-line="774" selection-start-column="1" selection-end-line="774" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="origin.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/origin.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding>
-                <element signature="e#109#128#0" expanded="true" />
-                <marker date="1487533069458" expanded="true" signature="3779:3907" ph="{...}" />
-                <marker date="1487533069458" expanded="true" signature="3941:4064" ph="/**...*/" />
-                <marker date="1487533069458" expanded="true" signature="4119:4423" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JarvisMarch.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JarvisMarch.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="analyse.bash" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/analyse.bash">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="300">
-                <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
+              <first_editor relative-caret-position="310">
+                <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DCELVertex.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DCEL/DCELVertex.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-25">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FaceList.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DCEL/FaceList.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="55" column="14" lean-forward="false" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HalfEdgeList.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DCEL/HalfEdgeList.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1065">
+              <caret line="73" column="3" lean-forward="false" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DCEL/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="monotone.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DCEL/monotone.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="154" column="3" lean-forward="false" selection-start-line="154" selection-start-column="3" selection-end-line="154" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,6 +604,12 @@
     <findStrings>
       <find>Started</find>
       <find>Executing Jarvis March</find>
+      <find>ofst</find>
+      <find>out_</find>
+      <find>stack</find>
+      <find>indices</find>
+      <find>INPUT</find>
+      <find>Jarvis</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,12 +625,18 @@
         <option value="$PROJECT_DIR$/Andrews.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/html/README.md" />
-        <option value="$PROJECT_DIR$/origin.h" />
-        <option value="$PROJECT_DIR$/JarvisMarch.h" />
         <option value="$PROJECT_DIR$/GrahamScans.h" />
+        <option value="$PROJECT_DIR$/JarvisMarch.h" />
+        <option value="$PROJECT_DIR$/html/files.html" />
+        <option value="$PROJECT_DIR$/origin.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Andrews.h" />
+        <option value="$PROJECT_DIR$/DCEL/monotone.h" />
+        <option value="$PROJECT_DIR$/DCEL/HalfEdgeList.h" />
+        <option value="$PROJECT_DIR$/DCEL/FaceList.h" />
+        <option value="$PROJECT_DIR$/DCEL/DCELHalfEdge.h" />
+        <option value="$PROJECT_DIR$/html_page.conf" />
+        <option value="$PROJECT_DIR$/html/README.md" />
       </list>
     </option>
   </component>
@@ -187,35 +675,7 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ComputGeoAlgos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ComputGeoAlgos" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ComputGeoAlgos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ComputGeoAlgos" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ComputGeoAlgos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cmake-build-debug" />
+              <option name="myItemId" value="Computational_Geometry_Library" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -226,6 +686,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.ComputGeoAlgos">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ComputGeoAlgos" TARGET_NAME="ComputGeoAlgos" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
@@ -399,7 +860,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="ComputGeoAlgos" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-a" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ComputGeoAlgos" TARGET_NAME="ComputGeoAlgos" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ComputGeoAlgos" RUN_TARGET_NAME="ComputGeoAlgos">
+    <configuration default="false" name="ComputGeoAlgos" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-a /home/shuttle3468/CLionProjects/ComputGeoAlgos/tests/sampleInput.txt" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ComputGeoAlgos" TARGET_NAME="ComputGeoAlgos" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ComputGeoAlgos" RUN_TARGET_NAME="ComputGeoAlgos">
       <envs />
       <method />
     </configuration>
@@ -437,12 +898,16 @@
       <workItem from="1487330368609" duration="3317000" />
       <workItem from="1487347506973" duration="2481000" />
       <workItem from="1487509816784" duration="18006000" />
-      <workItem from="1487528836997" duration="4329000" />
+      <workItem from="1487528836997" duration="5783000" />
+      <workItem from="1490262817084" duration="7980000" />
+      <workItem from="1490273490756" duration="5135000" />
+      <workItem from="1490306263507" duration="6376000" />
+      <workItem from="1493618739115" duration="4262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106832000" />
+    <option name="totallyTimeSpent" value="132057000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -459,22 +924,22 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12434848" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.4944155" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.50558454" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289256" sideWeight="0.4973939" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="0" y="29" width="1366" height="695" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.4944155" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.4973939" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -513,96 +978,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/origin.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="e#109#128#0" expanded="true" />
-            <marker date="1487533069458" expanded="true" signature="3779:3907" ph="{...}" />
-            <marker date="1487533069458" expanded="true" signature="3941:4064" ph="/**...*/" />
-            <marker date="1487533069458" expanded="true" signature="4119:4423" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GrahamScans.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#118#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Andrews.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/origin.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="1" lean-forward="false" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-          <folding>
-            <element signature="e#109#128#0" expanded="true" />
-            <marker date="1487533069458" expanded="true" signature="3779:3907" ph="{...}" />
-            <marker date="1487533069458" expanded="true" signature="3941:4064" ph="/**...*/" />
-            <marker date="1487533069458" expanded="true" signature="4119:4423" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GrahamScans.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="e#118#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Andrews.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -615,12 +990,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#109#128#0" expanded="true" />
-            <marker date="1487533069458" expanded="true" signature="3779:3907" ph="{...}" />
-            <marker date="1487533069458" expanded="true" signature="3941:4064" ph="/**...*/" />
-            <marker date="1487533069458" expanded="true" signature="4119:4423" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -664,12 +1034,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="e#109#128#0" expanded="true" />
-            <marker date="1487533069458" expanded="true" signature="3779:3907" ph="{...}" />
-            <marker date="1487533069458" expanded="true" signature="3941:4064" ph="/**...*/" />
-            <marker date="1487533069458" expanded="true" signature="4119:4423" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -804,14 +1169,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1095">
@@ -821,25 +1178,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/input1.txt" />
     <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/tests/analyse.bash">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="300">
-            <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-90">
@@ -847,31 +1185,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/origin.h">
+    <entry file="file://$PROJECT_DIR$/tests/analyse.bash">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#109#128#0" expanded="true" />
-            <marker date="1487533069458" expanded="true" signature="3779:3907" ph="{...}" />
-            <marker date="1487533069458" expanded="true" signature="3941:4064" ph="/**...*/" />
-            <marker date="1487533069458" expanded="true" signature="4119:4423" ph="{...}" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JarvisMarch.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        <state relative-caret-position="187">
+          <caret line="68" column="24" lean-forward="false" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/files.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GrahamScans.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        <state relative-caret-position="375">
+          <caret line="25" column="51" lean-forward="false" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
           <folding>
             <element signature="e#118#137#0" expanded="true" />
           </folding>
@@ -880,8 +1219,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        <state relative-caret-position="555">
+          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -890,9 +1229,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Andrews.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+        <state relative-caret-position="885">
+          <caret line="59" column="46" lean-forward="false" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="67" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/origin.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="31" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DCEL/monotone.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="154" column="3" lean-forward="false" selection-start-line="154" selection-start-column="3" selection-end-line="154" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DCEL/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DCEL/HalfEdgeList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="73" column="3" lean-forward="false" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DCEL/FaceList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="55" column="14" lean-forward="false" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DCEL/DCELVertex.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DCEL/DCELHalfEdge.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html_page.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="774" column="1" lean-forward="false" selection-start-line="774" selection-start-column="1" selection-end-line="774" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DCEL/DCELFace.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="310">
+            <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

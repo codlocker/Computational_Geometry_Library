@@ -1,9 +1,2005 @@
-8
--30786 32633
--30362 -13334
--17834 -28930
-17823 -32200
-26440 -25880
-29846 16630
-27080 27367
--9662 32096
+Difference in Slopes -0
+COLLINEAR
+comparing (-26348, 30643) (16742, 28074) (16742, 28074)
+ The orientation value is 1
+Result :1
+Difference in Slopes 2.12316e+09
+CLOCKWISE
+comparing (-26348, 30643) (-5009, -19902) (16742, 28074)
+ The orientation value is 2
+Difference in Slopes 4.99854e+08
+CLOCKWISE
+comparing (-26348, 30643) (-18860, -10518) (-5009, -19902)
+ The orientation value is 2
+Difference in Slopes 3.85529e+08
+CLOCKWISE
+comparing (-26348, 30643) (-24630, -30287) (-18860, -10518)
+ The orientation value is 2
+Difference in Slopes -1.74994e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (4133, -31792) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -3.15487e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (25532, 27047) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.19367e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (-5242, -23093) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -2.61964e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (16974, 19019) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -9.03997e+08
+ANTICLOCKWISE
+comparing (-26348, 30643) (-11338, 24495) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -2.01154e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (8425, -31743) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -2.33511e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (13109, -9525) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -3.31302e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (28520, 13128) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.99296e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (7786, -19897) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.86251e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (5211, -4504) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -5.22435e+08
+ANTICLOCKWISE
+comparing (-26348, 30643) (-16646, -9350) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -2.76592e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (19452, 16280) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -2.41925e+08
+ANTICLOCKWISE
+comparing (-26348, 30643) (-20728, -27856) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.30196e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (-4113, -104) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -2.10472e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (9016, 1536) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.15721e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (-5743, -26547) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.51814e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (-789, 7844) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -7.14024e+08
+ANTICLOCKWISE
+comparing (-26348, 30643) (-13034, -25933) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -2.72782e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (19703, -14796) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes 3.93403e+07
+CLOCKWISE
+comparing (-26348, 30643) (-26264, 4765) (-24630, -30287)
+ The orientation value is 2
+Difference in Slopes -6.76369e+08
+ANTICLOCKWISE
+comparing (-26348, 30643) (-83, -8842) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -1.04728e+08
+ANTICLOCKWISE
+comparing (-26348, 30643) (-22158, -13420) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -2.22156e+08
+ANTICLOCKWISE
+comparing (-26348, 30643) (-17644, -6094) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -3.49463e+08
+ANTICLOCKWISE
+comparing (-26348, 30643) (-12641, -31814) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -6.92639e+08
+ANTICLOCKWISE
+comparing (-26348, 30643) (493, 7405) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -2.57999e+08
+ANTICLOCKWISE
+comparing (-26348, 30643) (-16359, 24739) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -1.48761e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (31171, 20317) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -1.40482e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (27965, 22466) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -1.0186e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (13042, 21855) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -1.18058e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (19301, 21995) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -2.30103e+08
+ANTICLOCKWISE
+comparing (-26348, 30643) (-17351, -1756) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -8.90595e+08
+ANTICLOCKWISE
+comparing (-26348, 30643) (8269, -31544) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -1.4387e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (29440, -28721) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -6.15027e+08
+ANTICLOCKWISE
+comparing (-26348, 30643) (-2491, 2727) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -2.64231e+08
+ANTICLOCKWISE
+comparing (-26348, 30643) (-16110, 22212) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -1.25563e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (22354, -25080) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -7.88359e+08
+ANTICLOCKWISE
+comparing (-26348, 30643) (4205, 3361) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -1.37408e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (26745, 32277) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -4.21052e+08
+ANTICLOCKWISE
+comparing (-26348, 30643) (-9984, 1880) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -1.29419e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (23850, -26908) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -4.05527e+08
+ANTICLOCKWISE
+comparing (-26348, 30643) (-10507, -21813) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -4.02403e+06
+ANTICLOCKWISE
+comparing (-26348, 30643) (-26024, -21267) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -1.49259e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (31480, -15536) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -7.04974e+08
+ANTICLOCKWISE
+comparing (-26348, 30643) (1013, -5950) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes -1.24731e+09
+ANTICLOCKWISE
+comparing (-26348, 30643) (21866, 26233) (-26264, 4765)
+ The orientation value is 3
+Difference in Slopes 0
+COLLINEAR
+comparing (-26348, 30643) (-26348, 30643) (-26264, 4765)
+ The orientation value is 1
+Result :1
+Difference in Slopes -0
+COLLINEAR
+comparing (-26264, 4765) (-5009, -19902) (-5009, -19902)
+ The orientation value is 1
+Result :1
+Difference in Slopes 1.42206e+08
+CLOCKWISE
+comparing (-26264, 4765) (-18860, -10518) (-5009, -19902)
+ The orientation value is 2
+Difference in Slopes 2.34553e+08
+CLOCKWISE
+comparing (-26264, 4765) (-24630, -30287) (-18860, -10518)
+ The orientation value is 2
+Difference in Slopes -1.00574e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (4133, -31792) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.85196e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (25532, 27047) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -6.91343e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (-5242, -23093) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.53887e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (16974, 19019) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -5.55425e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (-11338, 24495) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.15626e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (8425, -31743) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.35675e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (13109, -9525) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.93395e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (28520, 13128) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.15322e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (7786, -19897) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.08812e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (5211, -4504) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -3.14066e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (-16646, -9350) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.62125e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (19452, 16280) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.40745e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (-20728, -27856) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -7.68481e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (-4113, -104) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.23136e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (9016, 1536) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -6.68138e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (-5743, -26547) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -8.97981e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (-789, 7844) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -4.13577e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (-13034, -25933) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.57927e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (19703, -14796) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.54553e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (16742, 28074) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -8.95463e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (-83, -8842) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.14209e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (-22158, -13420) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -2.84405e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (-17644, -6094) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -4.17743e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (-12641, -31814) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -9.422e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (493, 7405) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -3.79828e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (-16359, 24739) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -2.03862e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (31171, 20317) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.92976e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (27965, 22466) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.40568e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (13042, 21855) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.6253e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (19301, 21995) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -3.01763e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (-17351, -1756) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.15112e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (8269, -31544) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.89782e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (29440, -28721) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -8.29961e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (-2491, 2727) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -3.84426e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (-16110, 22212) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.65539e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (22354, -25080) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.06571e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (4205, 3361) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.90303e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (26745, 32277) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -5.65932e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (-9984, 1880) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.70484e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (23850, -26908) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -5.08886e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (-10507, -21813) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes 3.41238e+07
+CLOCKWISE
+comparing (-26264, 4765) (-26024, -21267) (-24630, -30287)
+ The orientation value is 2
+Difference in Slopes -1.49832e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (31480, -15536) (-26024, -21267)
+ The orientation value is 3
+Difference in Slopes -7.07503e+08
+ANTICLOCKWISE
+comparing (-26264, 4765) (1013, -5950) (-26024, -21267)
+ The orientation value is 3
+Difference in Slopes -1.25807e+09
+ANTICLOCKWISE
+comparing (-26264, 4765) (21866, 26233) (-26024, -21267)
+ The orientation value is 3
+Difference in Slopes -4.02403e+06
+ANTICLOCKWISE
+comparing (-26264, 4765) (-26348, 30643) (-26024, -21267)
+ The orientation value is 3
+Difference in Slopes 0
+COLLINEAR
+comparing (-26024, -21267) (-18860, -10518) (-18860, -10518)
+ The orientation value is 1
+Result :1
+Difference in Slopes 7.96034e+07
+CLOCKWISE
+comparing (-26024, -21267) (-24630, -30287) (-18860, -10518)
+ The orientation value is 2
+Difference in Slopes -2.57344e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (4133, -31792) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -5.32385e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (25532, 27047) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.84908e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (-5242, -23093) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -4.44001e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (16974, 19019) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.9626e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (-11338, 24495) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -2.96126e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (8425, -31743) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -3.69348e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (13109, -9525) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -5.39934e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (28520, 13128) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -3.06876e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (7786, -19897) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -3.05107e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (5211, -4504) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.01202e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (-16646, -9350) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -4.62534e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (19452, 16280) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -3.85849e+07
+ANTICLOCKWISE
+comparing (-26024, -21267) (-20728, -27856) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -2.27138e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (-4113, -104) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -3.47848e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (9016, 1536) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.75574e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (-5743, -26547) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -2.682e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (-789, 7844) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.10665e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (-13034, -25933) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -4.21478e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (19703, -14796) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -4.54531e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (16742, 28074) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -2.51308e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (-83, -8842) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -4.581e+07
+ANTICLOCKWISE
+comparing (-26024, -21267) (-22158, -13420) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -9.67388e+07
+ANTICLOCKWISE
+comparing (-26024, -21267) (-17644, -6094) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.06012e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (-12641, -31814) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -2.79152e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (493, 7405) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.51311e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (-16359, 24739) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -5.73867e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (31171, 20317) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -5.47945e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (27965, 22466) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -4.12487e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (13042, 21855) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -4.69139e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (19301, 21995) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.05429e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (-17351, -1756) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -2.94997e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (8269, -31544) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -4.89894e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (29440, -28721) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -2.45715e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (-2491, 2727) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.50034e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (-16110, 22212) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -4.31054e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (22354, -25080) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -3.06997e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (4205, 3361) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -5.50617e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (26745, 32277) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.76948e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (-9984, 1880) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -4.42e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (23850, -26908) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.39202e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (-10507, -21813) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -1.91458e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (-5009, -19902) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -5.26675e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (31480, -15536) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -2.65226e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (1013, -5950) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -4.98183e+08
+ANTICLOCKWISE
+comparing (-26024, -21267) (21866, 26233) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes -6.94401e+07
+ANTICLOCKWISE
+comparing (-26024, -21267) (-26348, 30643) (-24630, -30287)
+ The orientation value is 3
+Difference in Slopes 0
+COLLINEAR
+comparing (-24630, -30287) (-18860, -10518) (-18860, -10518)
+ The orientation value is 1
+Result :1
+Difference in Slopes 5.773e+08
+CLOCKWISE
+comparing (-24630, -30287) (4133, -31792) (-18860, -10518)
+ The orientation value is 2
+Difference in Slopes -1.72459e+09
+ANTICLOCKWISE
+comparing (-24630, -30287) (25532, 27047) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -2.361e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (-5242, -23093) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -1.4808e+09
+ANTICLOCKWISE
+comparing (-24630, -30287) (16974, 19019) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -1.5957e+09
+ANTICLOCKWISE
+comparing (-24630, -30287) (-11338, 24495) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -7.86885e+06
+ANTICLOCKWISE
+comparing (-24630, -30287) (8425, -31743) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -6.53975e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (13109, -9525) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -1.32874e+09
+ANTICLOCKWISE
+comparing (-24630, -30287) (28520, 13128) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -3.47634e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (7786, -19897) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -7.86507e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (5211, -4504) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -6.14227e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (-16646, -9350) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -1.40575e+09
+ANTICLOCKWISE
+comparing (-24630, -30287) (19452, 16280) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -7.57954e+07
+ANTICLOCKWISE
+comparing (-24630, -30287) (-20728, -27856) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -8.99032e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (-4113, -104) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -9.65962e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (9016, 1536) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -1.35999e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (-5743, -26547) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -1.13264e+09
+ANTICLOCKWISE
+comparing (-24630, -30287) (-789, 7844) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -1.42686e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (-13034, -25933) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -5.12289e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (19703, -14796) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -1.7409e+09
+ANTICLOCKWISE
+comparing (-24630, -30287) (16742, 28074) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -6.53766e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (-83, -8842) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -4.88866e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (-22158, -13420) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -7.06377e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (-17644, -6094) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes 2.58777e+07
+CLOCKWISE
+comparing (-24630, -30287) (-12641, -31814) (4133, -31792)
+ The orientation value is 2
+Difference in Slopes -4.90252e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (493, 7405) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -6.72337e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (-16359, 24739) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -6.91899e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (31171, 20317) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -7.12768e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (27965, 22466) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -6.82656e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (13042, 21855) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -6.93892e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (19301, 21995) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -3.53173e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (-17351, -1756) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -3.51666e+07
+ANTICLOCKWISE
+comparing (-24630, -30287) (8269, -31544) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -1.0134e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (29440, -28721) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -4.29611e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (-2491, 2727) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -6.42421e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (-16110, 22212) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -1.34171e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (22354, -25080) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -4.47437e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (4205, 3361) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -8.28529e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (26745, 32277) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -4.08015e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (-9984, 1880) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -1.1454e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (23850, -26908) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -1.23161e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (-10507, -21813) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -1.54467e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (-5009, -19902) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -2.6253e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (31480, -15536) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -3.30933e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (1013, -5950) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -7.48618e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (21866, 26233) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes -7.27866e+08
+ANTICLOCKWISE
+comparing (-24630, -30287) (-26348, 30643) (-12641, -31814)
+ The orientation value is 3
+Difference in Slopes 0
+COLLINEAR
+comparing (-12641, -31814) (4133, -31792) (4133, -31792)
+ The orientation value is 1
+Result :1
+Difference in Slopes -9.86495e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (25532, 27047) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -1.46123e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (-5242, -23093) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -8.52021e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (16974, 19019) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -9.44498e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (-11338, 24495) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -727502
+ANTICLOCKWISE
+comparing (-12641, -31814) (8425, -31743) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -3.73309e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (13109, -9525) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -7.52952e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (28520, 13128) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -1.99446e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (7786, -19897) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -4.57705e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (5211, -4504) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -3.76899e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (-16646, -9350) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -8.06023e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (19452, 16280) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -6.65694e+07
+ANTICLOCKWISE
+comparing (-12641, -31814) (-20728, -27856) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -5.31716e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (-4113, -104) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -5.58936e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (9016, 1536) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -8.81969e+07
+ANTICLOCKWISE
+comparing (-12641, -31814) (-5743, -26547) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -6.64963e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (-789, 7844) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -9.86565e+07
+ANTICLOCKWISE
+comparing (-12641, -31814) (-13034, -25933) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -2.84748e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (19703, -14796) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -1.00391e+09
+ANTICLOCKWISE
+comparing (-12641, -31814) (16742, 28074) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -3.85056e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (-83, -8842) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -3.0875e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (-22158, -13420) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -4.31537e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (-17644, -6094) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -3.57356e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (-18860, -10518) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -6.57571e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (493, 7405) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -9.48702e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (-16359, 24739) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -8.73482e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (31171, 20317) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -9.09599e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (27965, 22466) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -8.99679e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (13042, 21855) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -9.01889e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (19301, 21995) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -5.04297e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (-17351, -1756) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -4.06896e+06
+ANTICLOCKWISE
+comparing (-12641, -31814) (8269, -31544) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -5.09562e+07
+ANTICLOCKWISE
+comparing (-12641, -31814) (29440, -28721) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -5.79167e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (-2491, 2727) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -9.06308e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (-16110, 22212) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -1.12186e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (22354, -25080) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -5.89655e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (4205, 3361) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -1.0742e+09
+ANTICLOCKWISE
+comparing (-12641, -31814) (26745, 32277) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -5.65125e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (-9984, 1880) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -8.14904e+07
+ANTICLOCKWISE
+comparing (-12641, -31814) (23850, -26908) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -1.6771e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (-10507, -21813) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -1.99644e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (-5009, -19902) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -2.72077e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (31480, -15536) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -4.33542e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (1013, -5950) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -9.72921e+08
+ANTICLOCKWISE
+comparing (-12641, -31814) (21866, 26233) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes -1.04796e+09
+ANTICLOCKWISE
+comparing (-12641, -31814) (-26348, 30643) (4133, -31792)
+ The orientation value is 3
+Difference in Slopes 0
+COLLINEAR
+comparing (4133, -31792) (25532, 27047) (25532, 27047)
+ The orientation value is 1
+Result :1
+Difference in Slopes -7.37766e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (-5242, -23093) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -3.31753e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (16974, 19019) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -2.11478e+09
+ANTICLOCKWISE
+comparing (4133, -31792) (-11338, 24495) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes 2.51488e+08
+CLOCKWISE
+comparing (4133, -31792) (8425, -31743) (25532, 27047)
+ The orientation value is 2
+Difference in Slopes -9.51301e+07
+ANTICLOCKWISE
+comparing (4133, -31792) (13109, -9525) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -1.91602e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (28520, 13128) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -5.08743e+07
+ANTICLOCKWISE
+comparing (4133, -31792) (7786, -19897) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -1.17067e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (5211, -4504) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -9.73392e+07
+ANTICLOCKWISE
+comparing (4133, -31792) (-16646, -9350) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -2.05574e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (19452, 16280) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -1.81115e+07
+ANTICLOCKWISE
+comparing (4133, -31792) (-20728, -27856) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -1.36409e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (-4113, -104) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -1.42805e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (9016, 1536) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -2.29955e+07
+ANTICLOCKWISE
+comparing (4133, -31792) (-5743, -26547) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -1.70359e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (-789, 7844) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -2.5988e+07
+ANTICLOCKWISE
+comparing (4133, -31792) (-13034, -25933) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -7.21839e+07
+ANTICLOCKWISE
+comparing (4133, -31792) (19703, -14796) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -2.56327e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (16742, 28074) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -9.8708e+07
+ANTICLOCKWISE
+comparing (4133, -31792) (-83, -8842) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -8.01409e+07
+ANTICLOCKWISE
+comparing (4133, -31792) (-22158, -13420) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -1.11363e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (-17644, -6094) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -9.24347e+07
+ANTICLOCKWISE
+comparing (4133, -31792) (-18860, -10518) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -1.68412e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (493, 7405) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -2.43635e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (-16359, 24739) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -2.22327e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (31171, 20317) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -2.31708e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (27965, 22466) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -2.29816e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (13042, 21855) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -2.30111e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (19301, 21995) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -1.29967e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (-17351, -1756) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -861752
+ANTICLOCKWISE
+comparing (4133, -31792) (8269, -31544) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -1.19407e+07
+ANTICLOCKWISE
+comparing (4133, -31792) (29440, -28721) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -1.4848e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (-2491, 2727) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -2.32777e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (-16110, 22212) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -2.79151e+07
+ANTICLOCKWISE
+comparing (4133, -31792) (22354, -25080) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -1.50873e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (4205, 3361) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -2.73876e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (26745, 32277) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -1.45212e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (-9984, 1880) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -1.9996e+07
+ANTICLOCKWISE
+comparing (4133, -31792) (23850, -26908) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -4.35472e+07
+ANTICLOCKWISE
+comparing (4133, -31792) (-10507, -21813) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -5.14798e+07
+ANTICLOCKWISE
+comparing (4133, -31792) (-5009, -19902) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -6.84307e+07
+ANTICLOCKWISE
+comparing (4133, -31792) (31480, -15536) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -1.11067e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (1013, -5950) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -2.48174e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (21866, 26233) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes -2.69465e+08
+ANTICLOCKWISE
+comparing (4133, -31792) (-26348, 30643) (8425, -31743)
+ The orientation value is 3
+Difference in Slopes 0
+COLLINEAR
+comparing (8425, -31743) (-5242, -23093) (-5242, -23093)
+ The orientation value is 1
+Result :1
+Difference in Slopes 7.67713e+08
+CLOCKWISE
+comparing (8425, -31743) (16974, 19019) (-5242, -23093)
+ The orientation value is 2
+Difference in Slopes -1.48399e+09
+ANTICLOCKWISE
+comparing (8425, -31743) (-11338, 24495) (16974, 19019)
+ The orientation value is 3
+Difference in Slopes 3.6579e+08
+CLOCKWISE
+comparing (8425, -31743) (25532, 27047) (16974, 19019)
+ The orientation value is 2
+Difference in Slopes -1.04711e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (13109, -9525) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes 4.13777e+08
+CLOCKWISE
+comparing (8425, -31743) (28520, 13128) (25532, 27047)
+ The orientation value is 2
+Difference in Slopes -2.66718e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (7786, -19897) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -6.91583e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (5211, -4504) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.57495e+09
+ANTICLOCKWISE
+comparing (8425, -31743) (-16646, -9350) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -4.7023e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (19452, 16280) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.38623e+09
+ANTICLOCKWISE
+comparing (8425, -31743) (-20728, -27856) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.19838e+09
+ANTICLOCKWISE
+comparing (8425, -31743) (-4113, -104) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -6.42223e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (9016, 1536) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -7.40146e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (-5743, -26547) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.20894e+09
+ANTICLOCKWISE
+comparing (8425, -31743) (-789, 7844) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.07964e+09
+ANTICLOCKWISE
+comparing (8425, -31743) (-13034, -25933) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes 1.65505e+08
+CLOCKWISE
+comparing (8425, -31743) (19703, -14796) (28520, 13128)
+ The orientation value is 2
+Difference in Slopes -5.33668e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (16742, 28074) (19703, -14796)
+ The orientation value is 3
+Difference in Slopes -4.02463e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (-83, -8842) (19703, -14796)
+ The orientation value is 3
+Difference in Slopes -7.24937e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (-22158, -13420) (19703, -14796)
+ The orientation value is 3
+Difference in Slopes -7.31061e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (-17644, -6094) (19703, -14796)
+ The orientation value is 3
+Difference in Slopes -7.01774e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (-18860, -10518) (19703, -14796)
+ The orientation value is 3
+Difference in Slopes -5.75935e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (493, 7405) (19703, -14796)
+ The orientation value is 3
+Difference in Slopes -1.05702e+09
+ANTICLOCKWISE
+comparing (8425, -31743) (-16359, 24739) (19703, -14796)
+ The orientation value is 3
+Difference in Slopes -2.01656e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (31171, 20317) (19703, -14796)
+ The orientation value is 3
+Difference in Slopes -2.80225e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (27965, 22466) (19703, -14796)
+ The orientation value is 3
+Difference in Slopes -5.26234e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (13042, 21855) (19703, -14796)
+ The orientation value is 3
+Difference in Slopes -4.21742e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (19301, 21995) (19703, -14796)
+ The orientation value is 3
+Difference in Slopes -7.75019e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (-17351, -1756) (19703, -14796)
+ The orientation value is 3
+Difference in Slopes -4.88805e+06
+ANTICLOCKWISE
+comparing (8425, -31743) (8269, -31544) (19703, -14796)
+ The orientation value is 3
+Difference in Slopes 3.22059e+08
+CLOCKWISE
+comparing (8425, -31743) (29440, -28721) (19703, -14796)
+ The orientation value is 2
+Difference in Slopes -7.57375e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (-2491, 2727) (29440, -28721)
+ The orientation value is 3
+Difference in Slopes -1.20801e+09
+ANTICLOCKWISE
+comparing (8425, -31743) (-16110, 22212) (29440, -28721)
+ The orientation value is 3
+Difference in Slopes -9.79295e+07
+ANTICLOCKWISE
+comparing (8425, -31743) (22354, -25080) (29440, -28721)
+ The orientation value is 3
+Difference in Slopes -7.50463e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (4205, 3361) (29440, -28721)
+ The orientation value is 3
+Difference in Slopes -1.29002e+09
+ANTICLOCKWISE
+comparing (8425, -31743) (26745, 32277) (29440, -28721)
+ The orientation value is 3
+Difference in Slopes -7.62219e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (-9984, 1880) (29440, -28721)
+ The orientation value is 3
+Difference in Slopes -5.49932e+07
+ANTICLOCKWISE
+comparing (8425, -31743) (23850, -26908) (29440, -28721)
+ The orientation value is 3
+Difference in Slopes -2.65891e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (-10507, -21813) (29440, -28721)
+ The orientation value is 3
+Difference in Slopes -2.89436e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (-5009, -19902) (29440, -28721)
+ The orientation value is 3
+Difference in Slopes -2.70918e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (31480, -15536) (29440, -28721)
+ The orientation value is 3
+Difference in Slopes -5.64439e+08
+ANTICLOCKWISE
+comparing (8425, -31743) (1013, -5950) (29440, -28721)
+ The orientation value is 3
+Difference in Slopes -1.17775e+09
+ANTICLOCKWISE
+comparing (8425, -31743) (21866, 26233) (29440, -28721)
+ The orientation value is 3
+Difference in Slopes -1.41613e+09
+ANTICLOCKWISE
+comparing (8425, -31743) (-26348, 30643) (29440, -28721)
+ The orientation value is 3
+Difference in Slopes 0
+COLLINEAR
+comparing (29440, -28721) (16974, 19019) (16974, 19019)
+ The orientation value is 1
+Result :1
+Difference in Slopes -1.28335e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (-11338, 24495) (16974, 19019)
+ The orientation value is 3
+Difference in Slopes 5.08636e+08
+CLOCKWISE
+comparing (29440, -28721) (25532, 27047) (16974, 19019)
+ The orientation value is 2
+Difference in Slopes -8.35729e+08
+ANTICLOCKWISE
+comparing (29440, -28721) (13109, -9525) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes 1.12239e+08
+CLOCKWISE
+comparing (29440, -28721) (28520, 13128) (25532, 27047)
+ The orientation value is 2
+Difference in Slopes -8.9808e+08
+ANTICLOCKWISE
+comparing (29440, -28721) (7786, -19897) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -9.9168e+08
+ANTICLOCKWISE
+comparing (29440, -28721) (5211, -4504) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.91083e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (-16646, -9350) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -3.76587e+08
+ANTICLOCKWISE
+comparing (29440, -28721) (19452, 16280) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -2.09868e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (-20728, -27856) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.37783e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (-4113, -104) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -8.26888e+08
+ANTICLOCKWISE
+comparing (29440, -28721) (9016, 1536) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.47037e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (-5743, -26547) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.23141e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (-789, 7844) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.77493e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (-13034, -25933) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -3.94673e+08
+ANTICLOCKWISE
+comparing (29440, -28721) (19703, -14796) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -4.79147e+08
+ANTICLOCKWISE
+comparing (29440, -28721) (16742, 28074) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.21722e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (-83, -8842) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -2.14525e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (-22158, -13420) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.9496e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (-17644, -6094) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -2.00456e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (-18860, -10518) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.17817e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (493, 7405) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.86746e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (-16359, 24739) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes 1.17556e+08
+CLOCKWISE
+comparing (29440, -28721) (31171, 20317) (28520, 13128)
+ The orientation value is 2
+Difference in Slopes -1.60936e+08
+ANTICLOCKWISE
+comparing (29440, -28721) (27965, 22466) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -8.91672e+08
+ANTICLOCKWISE
+comparing (29440, -28721) (13042, 21855) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -5.84986e+08
+ANTICLOCKWISE
+comparing (29440, -28721) (19301, 21995) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -2.34121e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (-17351, -1756) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -1.0333e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (8269, -31544) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -1.71048e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (-5242, -23093) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -1.62027e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (-2491, 2727) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -2.32185e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (-16110, 22212) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -3.53786e+08
+ANTICLOCKWISE
+comparing (29440, -28721) (22354, -25080) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -1.29301e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (4205, 3361) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -2.37745e+08
+ANTICLOCKWISE
+comparing (29440, -28721) (26745, 32277) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -1.98624e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (-9984, 1880) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -2.77261e+08
+ANTICLOCKWISE
+comparing (29440, -28721) (23850, -26908) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -1.97088e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (-10507, -21813) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -1.70458e+09
+ANTICLOCKWISE
+comparing (29440, -28721) (-5009, -19902) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes 7.72143e+07
+CLOCKWISE
+comparing (29440, -28721) (31480, -15536) (31171, 20317)
+ The orientation value is 2
+Difference in Slopes -4.21263e+08
+ANTICLOCKWISE
+comparing (29440, -28721) (1013, -5950) (31480, -15536)
+ The orientation value is 3
+Difference in Slopes -2.11969e+08
+ANTICLOCKWISE
+comparing (29440, -28721) (21866, 26233) (31480, -15536)
+ The orientation value is 3
+Difference in Slopes -8.56667e+08
+ANTICLOCKWISE
+comparing (29440, -28721) (-26348, 30643) (31480, -15536)
+ The orientation value is 3
+Difference in Slopes 0
+COLLINEAR
+comparing (31480, -15536) (-11338, 24495) (-11338, 24495)
+ The orientation value is 1
+Result :1
+Difference in Slopes 1.58521e+09
+CLOCKWISE
+comparing (31480, -15536) (25532, 27047) (-11338, 24495)
+ The orientation value is 2
+Difference in Slopes -7.46539e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (13109, -9525) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes 4.44478e+07
+CLOCKWISE
+comparing (31480, -15536) (28520, 13128) (25532, 27047)
+ The orientation value is 2
+Difference in Slopes -6.92073e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (7786, -19897) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -7.2032e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (5211, -4504) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.36117e+09
+ANTICLOCKWISE
+comparing (31480, -15536) (-16646, -9350) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -2.50595e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (19452, 16280) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.53296e+09
+ANTICLOCKWISE
+comparing (31480, -15536) (-20728, -27856) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -9.74559e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (-4113, -104) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -5.93375e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (9016, 1536) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.09955e+09
+ANTICLOCKWISE
+comparing (31480, -15536) (-5743, -26547) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -8.55754e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (-789, 7844) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.30672e+09
+ANTICLOCKWISE
+comparing (31480, -15536) (-13034, -25933) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -3.35386e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (19703, -14796) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -2.93364e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (16742, 28074) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -8.84908e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (-83, -8842) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.53122e+09
+ANTICLOCKWISE
+comparing (31480, -15536) (-22158, -13420) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.38014e+09
+ANTICLOCKWISE
+comparing (31480, -15536) (-17644, -6094) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.42809e+09
+ANTICLOCKWISE
+comparing (31480, -15536) (-18860, -10518) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -8.20306e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (493, 7405) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes -1.25204e+09
+ANTICLOCKWISE
+comparing (31480, -15536) (-16359, 24739) (28520, 13128)
+ The orientation value is 3
+Difference in Slopes 9.72677e+07
+CLOCKWISE
+comparing (31480, -15536) (31171, 20317) (28520, 13128)
+ The orientation value is 2
+Difference in Slopes -1.14281e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (27965, 22466) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -6.49504e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (13042, 21855) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -4.25057e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (19301, 21995) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -1.74648e+09
+ANTICLOCKWISE
+comparing (31480, -15536) (-17351, -1756) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -8.3713e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (8269, -31544) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -1.31893e+09
+ANTICLOCKWISE
+comparing (31480, -15536) (-5242, -23093) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -1.21232e+09
+ANTICLOCKWISE
+comparing (31480, -15536) (-2491, 2727) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -1.69458e+09
+ANTICLOCKWISE
+comparing (31480, -15536) (-16110, 22212) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -3.30144e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (22354, -25080) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -9.72051e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (4205, 3361) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -1.5499e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (26745, 32277) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -1.48123e+09
+ANTICLOCKWISE
+comparing (31480, -15536) (-9984, 1880) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -2.77072e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (23850, -26908) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -1.5073e+09
+ANTICLOCKWISE
+comparing (31480, -15536) (-10507, -21813) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -1.30959e+09
+ANTICLOCKWISE
+comparing (31480, -15536) (-5009, -19902) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -5.09406e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (16974, 19019) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -1.08937e+09
+ANTICLOCKWISE
+comparing (31480, -15536) (1013, -5950) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -3.31784e+08
+ANTICLOCKWISE
+comparing (31480, -15536) (21866, 26233) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes -2.05904e+09
+ANTICLOCKWISE
+comparing (31480, -15536) (-26348, 30643) (31171, 20317)
+ The orientation value is 3
+Difference in Slopes 0
+COLLINEAR
+comparing (31171, 20317) (25532, 27047) (25532, 27047)
+ The orientation value is 1
+Result :1
+Difference in Slopes -2.89836e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (13109, -9525) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -5.838e+07
+ANTICLOCKWISE
+comparing (31171, 20317) (28520, 13128) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -3.84148e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (7786, -19897) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -3.14676e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (5211, -4504) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -4.89101e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-16646, -9350) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -1.01634e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (19452, 16280) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -6.20928e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-20728, -27856) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -3.52615e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-4113, -104) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -2.55009e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (9016, 1536) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -5.12697e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-5743, -26547) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -2.85426e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-789, 7844) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -5.58303e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-13034, -25933) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -2.75182e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (19703, -14796) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -5.33654e+07
+ANTICLOCKWISE
+comparing (31171, 20317) (16742, 28074) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -3.74767e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-83, -8842) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -5.49147e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-22158, -13420) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -4.77457e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-17644, -6094) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -5.10587e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-18860, -10518) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -2.79274e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (493, 7405) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -2.94941e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-16359, 24739) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -2.62526e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-11338, 24495) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -9.45817e+06
+ANTICLOCKWISE
+comparing (31171, 20317) (27965, 22466) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -1.13335e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (13042, 21855) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -7.04229e+07
+ANTICLOCKWISE
+comparing (31171, 20317) (19301, 21995) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -4.51023e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-17351, -1756) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -4.46575e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (8269, -31544) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -4.89848e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-5242, -23093) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -3.25735e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-2491, 2727) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -3.07515e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-16110, 22212) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -3.15332e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (22354, -25080) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes -2.77096e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (4205, 3361) (25532, 27047)
+ The orientation value is 3
+Difference in Slopes 3.76555e+07
+CLOCKWISE
+comparing (31171, 20317) (26745, 32277) (25532, 27047)
+ The orientation value is 2
+Difference in Slopes -5.73816e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-9984, 1880) (26745, 32277)
+ The orientation value is 3
+Difference in Slopes -2.96577e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (23850, -26908) (26745, 32277)
+ The orientation value is 3
+Difference in Slopes -6.84936e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-10507, -21813) (26745, 32277)
+ The orientation value is 3
+Difference in Slopes -6.10722e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-5009, -19902) (26745, 32277)
+ The orientation value is 3
+Difference in Slopes -1.75541e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (16974, 19019) (26745, 32277)
+ The orientation value is 3
+Difference in Slopes -4.76947e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (1013, -5950) (26745, 32277)
+ The orientation value is 3
+Difference in Slopes -8.51036e+07
+ANTICLOCKWISE
+comparing (31171, 20317) (21866, 26233) (26745, 32277)
+ The orientation value is 3
+Difference in Slopes -6.42224e+08
+ANTICLOCKWISE
+comparing (31171, 20317) (-26348, 30643) (26745, 32277)
+ The orientation value is 3
+Difference in Slopes 0
+COLLINEAR
+comparing (26745, 32277) (13109, -9525) (13109, -9525)
+ The orientation value is 1
+Result :1
+Difference in Slopes -3.35314e+08
+ANTICLOCKWISE
+comparing (26745, 32277) (28520, 13128) (13109, -9525)
+ The orientation value is 3
+Difference in Slopes 8.10795e+07
+CLOCKWISE
+comparing (26745, 32277) (7786, -19897) (13109, -9525)
+ The orientation value is 2
+Difference in Slopes 4.26184e+08
+CLOCKWISE
+comparing (26745, 32277) (5211, -4504) (7786, -19897)
+ The orientation value is 2
+Difference in Slopes 6.99569e+08
+CLOCKWISE
+comparing (26745, 32277) (-16646, -9350) (5211, -4504)
+ The orientation value is 2
+Difference in Slopes -3.9054e+08
+ANTICLOCKWISE
+comparing (26745, 32277) (19452, 16280) (-16646, -9350)
+ The orientation value is 3
+Difference in Slopes -6.33072e+08
+ANTICLOCKWISE
+comparing (26745, 32277) (-20728, -27856) (-16646, -9350)
+ The orientation value is 3
+Difference in Slopes -1.20518e+08
+ANTICLOCKWISE
+comparing (26745, 32277) (-4113, -104) (-16646, -9350)
+ The orientation value is 3
+Difference in Slopes -5.95878e+08
+ANTICLOCKWISE
+comparing (26745, 32277) (9016, 1536) (-16646, -9350)
+ The orientation value is 3
+Difference in Slopes -1.20005e+09
+ANTICLOCKWISE
+comparing (26745, 32277) (-5743, -26547) (-16646, -9350)
+ The orientation value is 3
+Difference in Slopes 8.59855e+07
+CLOCKWISE
+comparing (26745, 32277) (-789, 7844) (-16646, -9350)
+ The orientation value is 2
+Difference in Slopes -6.30834e+08
+ANTICLOCKWISE
+comparing (26745, 32277) (-13034, -25933) (-789, 7844)
+ The orientation value is 3
+Difference in Slopes -1.12405e+09
+ANTICLOCKWISE
+comparing (26745, 32277) (19703, -14796) (-789, 7844)
+ The orientation value is 3
+Difference in Slopes 1.28678e+08
+CLOCKWISE
+comparing (26745, 32277) (16742, 28074) (-789, 7844)
+ The orientation value is 2
+Difference in Slopes -2.98555e+08
+ANTICLOCKWISE
+comparing (26745, 32277) (-83, -8842) (16742, 28074)
+ The orientation value is 3
+Difference in Slopes -2.51568e+08
+ANTICLOCKWISE
+comparing (26745, 32277) (-22158, -13420) (16742, 28074)
+ The orientation value is 3
+Difference in Slopes -1.97258e+08
+ANTICLOCKWISE
+comparing (26745, 32277) (-17644, -6094) (16742, 28074)
+ The orientation value is 3
+Difference in Slopes -2.36401e+08
+ANTICLOCKWISE
+comparing (26745, 32277) (-18860, -10518) (16742, 28074)
+ The orientation value is 3
+Difference in Slopes -1.38457e+08
+ANTICLOCKWISE
+comparing (26745, 32277) (493, 7405) (16742, 28074)
+ The orientation value is 3
+Difference in Slopes 1.05763e+08
+CLOCKWISE
+comparing (26745, 32277) (-16359, 24739) (16742, 28074)
+ The orientation value is 2
+Difference in Slopes -4.83657e+07
+ANTICLOCKWISE
+comparing (26745, 32277) (-11338, 24495) (-16359, 24739)
+ The orientation value is 3
+Difference in Slopes -4.3209e+08
+ANTICLOCKWISE
+comparing (26745, 32277) (27965, 22466) (-16359, 24739)
+ The orientation value is 3
+Difference in Slopes -3.45937e+08
+ANTICLOCKWISE
+comparing (26745, 32277) (13042, 21855) (-16359, 24739)
+ The orientation value is 3
+Difference in Slopes -3.87082e+08
+ANTICLOCKWISE
+comparing (26745, 32277) (19301, 21995) (-16359, 24739)
+ The orientation value is 3
+Difference in Slopes -1.13456e+09
+ANTICLOCKWISE
+comparing (26745, 32277) (-17351, -1756) (-16359, 24739)
+ The orientation value is 3
+Difference in Slopes -2.61167e+09
+ANTICLOCKWISE
+comparing (26745, 32277) (8269, -31544) (-16359, 24739)
+ The orientation value is 3
+Difference in Slopes -2.14555e+09
+ANTICLOCKWISE
+comparing (26745, 32277) (-5242, -23093) (-16359, 24739)
+ The orientation value is 3
+Difference in Slopes -1.05334e+09
+ANTICLOCKWISE
+comparing (26745, 32277) (-2491, 2727) (-16359, 24739)
+ The orientation value is 3
+Difference in Slopes -1.10801e+08
+ANTICLOCKWISE
+comparing (26745, 32277) (-16110, 22212) (-16359, 24739)
+ The orientation value is 3
+Difference in Slopes -2.43922e+09
+ANTICLOCKWISE
+comparing (26745, 32277) (22354, -25080) (-16359, 24739)
+ The orientation value is 3
+Difference in Slopes -1.07649e+09
+ANTICLOCKWISE
+comparing (26745, 32277) (4205, 3361) (-16359, 24739)
+ The orientation value is 3
+Difference in Slopes -2.1629e+08
+ANTICLOCKWISE
+comparing (26745, 32277) (25532, 27047) (-16359, 24739)
+ The orientation value is 3
+Difference in Slopes -1.03337e+09
+ANTICLOCKWISE
+comparing (26745, 32277) (-9984, 1880) (-16359, 24739)
+ The orientation value is 3
+Difference in Slopes -2.52929e+09
+ANTICLOCKWISE
+comparing (26745, 32277) (23850, -26908) (-16359, 24739)
+ The orientation value is 3
+Difference in Slopes -2.05069e+09
+ANTICLOCKWISE
+comparing (26745, 32277) (-10507, -21813) (-16359, 24739)
+ The orientation value is 3
+Difference in Slopes -2.00976e+09
+ANTICLOCKWISE
+comparing (26745, 32277) (-5009, -19902) (-16359, 24739)
+ The orientation value is 3
+Difference in Slopes -4.97819e+08
+ANTICLOCKWISE
+comparing (26745, 32277) (16974, 19019) (-16359, 24739)
+ The orientation value is 3
+Difference in Slopes -1.45377e+09
+ANTICLOCKWISE
+comparing (26745, 32277) (1013, -5950) (-16359, 24739)
+ The orientation value is 3
+Difference in Slopes -2.23743e+08
+ANTICLOCKWISE
+comparing (26745, 32277) (21866, 26233) (-16359, 24739)
+ The orientation value is 3
+Difference in Slopes 3.29783e+08
+CLOCKWISE
+comparing (26745, 32277) (-26348, 30643) (-16359, 24739)
+ The orientation value is 2
+11
+-26348 30643
+-26264 4765
+-26024 -21267
+-24630 -30287
+-12641 -31814
+4133 -31792
+8425 -31743
+29440 -28721
+31480 -15536
+31171 20317
+26745 32277
+-----End of JarvisMarch-----

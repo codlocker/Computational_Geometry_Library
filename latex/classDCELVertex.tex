@@ -1,0 +1,175 @@
+\hypertarget{classDCELVertex}{}\section{D\+C\+E\+L\+Vertex Class Reference}
+\label{classDCELVertex}\index{D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}}
+
+
+{\ttfamily \#include $<$D\+C\+E\+L\+Vertex.\+h$>$}
+
+
+
+Collaboration diagram for D\+C\+E\+L\+Vertex\+:
+% FIG 0
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classDCELVertex_a23e4b7015f229fb6407af16b688fe591}{D\+C\+E\+L\+Vertex} ()
+\item 
+\hyperlink{classDCELVertex_a4f923ecc1dfab7f42b77906976e4fa65}{$\sim$\+D\+C\+E\+L\+Vertex} ()
+\item 
+\hyperlink{classDCELHalfEdge}{D\+C\+E\+L\+Half\+Edge} $\ast$ \hyperlink{classDCELVertex_a37934a45288b301b5a121d3f9ca6d397}{get\+Edge\+To} (\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$v)
+\item 
+\hyperlink{classDCELHalfEdge}{D\+C\+E\+L\+Half\+Edge} $\ast$ \hyperlink{classDCELVertex_adb618816fa01f50c582ab566ada64050}{get\+Edge\+On\+Face} (\hyperlink{classDCELFace}{D\+C\+E\+L\+Face} $\ast$face)
+\item 
+void \hyperlink{classDCELVertex_ac5fc5f521ad50fa5a2b334b530b7e00e}{set\+Coords} (double a, double b)
+\item 
+void \hyperlink{classDCELVertex_a539320f1cf040fd81da7db9f2fd3078f}{print} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{classDCELVertex_a0a8a36f7b24698829b31ab03e01dd07d}{x}
+\item 
+double \hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y}
+\item 
+\hyperlink{classDCELHalfEdge}{D\+C\+E\+L\+Half\+Edge} $\ast$ \hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}
+\item 
+int \hyperlink{classDCELVertex_a7c389ebf0d0887e1be79ba4da089522c}{type}
+\item 
+int \hyperlink{classDCELVertex_a7d62808f634eb35187137a1a9dd4235a}{index}
+\item 
+\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$ \hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next}
+\item 
+\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$ \hyperlink{classDCELVertex_a00e5cbac7901ae7c8c786597502ed6d8}{prev}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}!D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}}
+\index{D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}!D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}}
+\subsubsection[{\texorpdfstring{D\+C\+E\+L\+Vertex()}{DCELVertex()}}]{\setlength{\rightskip}{0pt plus 5cm}D\+C\+E\+L\+Vertex\+::\+D\+C\+E\+L\+Vertex (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classDCELVertex_a23e4b7015f229fb6407af16b688fe591}{}\label{classDCELVertex_a23e4b7015f229fb6407af16b688fe591}
+
+\begin{DoxyCode}
+22                       : \hyperlink{classDCELVertex_a0a8a36f7b24698829b31ab03e01dd07d}{x}(0.0), \hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y}(0.0), \hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}(NULL), \hyperlink{classDCELVertex_a00e5cbac7901ae7c8c786597502ed6d8}{prev}(NULL), \hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next}(NULL), 
+      \hyperlink{classDCELVertex_a7c389ebf0d0887e1be79ba4da089522c}{type}(0), \hyperlink{classDCELVertex_a7d62808f634eb35187137a1a9dd4235a}{index}(0)
+23 \{
+24 \}
+\end{DoxyCode}
+\index{D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}!````~D\+C\+E\+L\+Vertex@{$\sim$\+D\+C\+E\+L\+Vertex}}
+\index{````~D\+C\+E\+L\+Vertex@{$\sim$\+D\+C\+E\+L\+Vertex}!D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}}
+\subsubsection[{\texorpdfstring{$\sim$\+D\+C\+E\+L\+Vertex()}{~DCELVertex()}}]{\setlength{\rightskip}{0pt plus 5cm}D\+C\+E\+L\+Vertex\+::$\sim$\+D\+C\+E\+L\+Vertex (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classDCELVertex_a4f923ecc1dfab7f42b77906976e4fa65}{}\label{classDCELVertex_a4f923ecc1dfab7f42b77906976e4fa65}
+
+\begin{DoxyCode}
+26 \{
+27 
+28 \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\index{D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}!get\+Edge\+On\+Face@{get\+Edge\+On\+Face}}
+\index{get\+Edge\+On\+Face@{get\+Edge\+On\+Face}!D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}}
+\subsubsection[{\texorpdfstring{get\+Edge\+On\+Face(\+D\+C\+E\+L\+Face $\ast$face)}{getEdgeOnFace(DCELFace *face)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Half\+Edge} $\ast$ D\+C\+E\+L\+Vertex\+::get\+Edge\+On\+Face (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Face} $\ast$}]{face}
+\end{DoxyParamCaption}
+)}\hypertarget{classDCELVertex_adb618816fa01f50c582ab566ada64050}{}\label{classDCELVertex_adb618816fa01f50c582ab566ada64050}
+
+\begin{DoxyCode}
+61 \{
+62     \hyperlink{classDCELHalfEdge}{DCELHalfEdge} *edgeWalker = \hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge};
+63     \textcolor{keywordflow}{while} (edgeWalker->\hyperlink{classDCELHalfEdge_ade69d0ad23d0776ed6c925490d7cb4da}{face} != face) edgeWalker = edgeWalker->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next};
+64     \textcolor{keywordflow}{return} edgeWalker;
+65 \}\end{DoxyCode}
+\index{D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}!get\+Edge\+To@{get\+Edge\+To}}
+\index{get\+Edge\+To@{get\+Edge\+To}!D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}}
+\subsubsection[{\texorpdfstring{get\+Edge\+To(\+D\+C\+E\+L\+Vertex $\ast$v)}{getEdgeTo(DCELVertex *v)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Half\+Edge} $\ast$ D\+C\+E\+L\+Vertex\+::get\+Edge\+To (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{v}
+\end{DoxyParamCaption}
+)}\hypertarget{classDCELVertex_a37934a45288b301b5a121d3f9ca6d397}{}\label{classDCELVertex_a37934a45288b301b5a121d3f9ca6d397}
+
+\begin{DoxyCode}
+40 \{
+41     \hyperlink{classDCELHalfEdge}{DCELHalfEdge}* rval = NULL;
+42 
+43     \textcolor{keywordflow}{if} (\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}) \{
+44         \textcolor{keywordflow}{if} (\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin} == v) \{
+45             rval = \hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge};
+46         \} \textcolor{keywordflow}{else} \{
+47             \hyperlink{classDCELHalfEdge}{DCELHalfEdge}* test = \hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next};
+48             \textcolor{keywordflow}{while} (rval == NULL && test != \hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge}) \{
+49                 \textcolor{keywordflow}{if} (test->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin} == v) \{
+50                     rval = test;
+51                 \} \textcolor{keywordflow}{else} \{
+52                     test = test->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next};
+53                 \}
+54             \}
+55         \}
+56     \}
+57     \textcolor{keywordflow}{return} rval;
+58 \}
+\end{DoxyCode}
+\index{D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}!print@{print}}
+\index{print@{print}!D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}}
+\subsubsection[{\texorpdfstring{print()}{print()}}]{\setlength{\rightskip}{0pt plus 5cm}void D\+C\+E\+L\+Vertex\+::print (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classDCELVertex_a539320f1cf040fd81da7db9f2fd3078f}{}\label{classDCELVertex_a539320f1cf040fd81da7db9f2fd3078f}
+
+\begin{DoxyCode}
+35                        \{
+36     cout<<\hyperlink{classDCELVertex_a0a8a36f7b24698829b31ab03e01dd07d}{x}<<\textcolor{stringliteral}{" "}<<\hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y}<<endl;
+37 \}
+\end{DoxyCode}
+\index{D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}!set\+Coords@{set\+Coords}}
+\index{set\+Coords@{set\+Coords}!D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}}
+\subsubsection[{\texorpdfstring{set\+Coords(double a, double b)}{setCoords(double a, double b)}}]{\setlength{\rightskip}{0pt plus 5cm}void D\+C\+E\+L\+Vertex\+::set\+Coords (
+\begin{DoxyParamCaption}
+\item[{double}]{a, }
+\item[{double}]{b}
+\end{DoxyParamCaption}
+)}\hypertarget{classDCELVertex_ac5fc5f521ad50fa5a2b334b530b7e00e}{}\label{classDCELVertex_ac5fc5f521ad50fa5a2b334b530b7e00e}
+
+\begin{DoxyCode}
+30                                              \{
+31     \hyperlink{classDCELVertex_a0a8a36f7b24698829b31ab03e01dd07d}{x} = a;
+32     \hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y} = b;
+33 \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\index{D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}!edge@{edge}}
+\index{edge@{edge}!D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}}
+\subsubsection[{\texorpdfstring{edge}{edge}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Half\+Edge}$\ast$ D\+C\+E\+L\+Vertex\+::edge}\hypertarget{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{}\label{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}
+\index{D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}!index@{index}}
+\index{index@{index}!D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}}
+\subsubsection[{\texorpdfstring{index}{index}}]{\setlength{\rightskip}{0pt plus 5cm}int D\+C\+E\+L\+Vertex\+::index}\hypertarget{classDCELVertex_a7d62808f634eb35187137a1a9dd4235a}{}\label{classDCELVertex_a7d62808f634eb35187137a1a9dd4235a}
+\index{D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}!next@{next}}
+\index{next@{next}!D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}}
+\subsubsection[{\texorpdfstring{next}{next}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Vertex}$\ast$ D\+C\+E\+L\+Vertex\+::next}\hypertarget{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{}\label{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}
+\index{D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}!prev@{prev}}
+\index{prev@{prev}!D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}}
+\subsubsection[{\texorpdfstring{prev}{prev}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Vertex}$\ast$ D\+C\+E\+L\+Vertex\+::prev}\hypertarget{classDCELVertex_a00e5cbac7901ae7c8c786597502ed6d8}{}\label{classDCELVertex_a00e5cbac7901ae7c8c786597502ed6d8}
+\index{D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}!type@{type}}
+\index{type@{type}!D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}}
+\subsubsection[{\texorpdfstring{type}{type}}]{\setlength{\rightskip}{0pt plus 5cm}int D\+C\+E\+L\+Vertex\+::type}\hypertarget{classDCELVertex_a7c389ebf0d0887e1be79ba4da089522c}{}\label{classDCELVertex_a7c389ebf0d0887e1be79ba4da089522c}
+\index{D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}!x@{x}}
+\index{x@{x}!D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}}
+\subsubsection[{\texorpdfstring{x}{x}}]{\setlength{\rightskip}{0pt plus 5cm}double D\+C\+E\+L\+Vertex\+::x}\hypertarget{classDCELVertex_a0a8a36f7b24698829b31ab03e01dd07d}{}\label{classDCELVertex_a0a8a36f7b24698829b31ab03e01dd07d}
+\index{D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}!y@{y}}
+\index{y@{y}!D\+C\+E\+L\+Vertex@{D\+C\+E\+L\+Vertex}}
+\subsubsection[{\texorpdfstring{y}{y}}]{\setlength{\rightskip}{0pt plus 5cm}double D\+C\+E\+L\+Vertex\+::y}\hypertarget{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{}\label{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+C\+E\+L/\hyperlink{DCELVertex_8h}{D\+C\+E\+L\+Vertex.\+h}\end{DoxyCompactItemize}

@@ -9,7 +9,6 @@
 #include "origin.h"
 
 using namespace std;
-
 pair<double , double > next_to_top(stack<pair<double , double > > S) {
     pair<double , double > point = S.top();
     S.pop();
@@ -42,8 +41,11 @@ double execGrahamScans(vector<pair<double, double> > Points) {
     temp = Points[min];
     Points[min] = Points[0];
     Points[0] = temp;
-
-    //printVectorData(len,Points, "Get Values after minimum y-coordinate\n");
+    ofstream out_file;
+    out_file.open("output.ch");
+    out_file << "CH\n";
+    out_file << len << " ";
+             //printVectorData(len,Points, "Get Values after minimum y-coordinate\n");
     P0 = Points[0];     // P0 denotes Central Point for Comparision
     Points.erase(Points.begin());
     sort(Points.begin(), Points.end(), orderByPolar);
@@ -51,18 +53,32 @@ double execGrahamScans(vector<pair<double, double> > Points) {
     len = int(Points.size());
     //printVectorData(len,Points, "Ordered by Polar Angles");
     stack<pair<double , double > > convex_hull; // A **stack data structure** which stores the coordinates. Form the Hull by processing the remaining points
+    stack<int> indices_g;
     convex_hull.push(P0);
     convex_hull.push(Points[0]);
     convex_hull.push(Points[1]);
-
+    indices_g.push(0);
+    indices_g.push(1);
+    indices_g.push(2);
     for (i = 2; i < len; i++) {
         while (orientation(next_to_top(convex_hull), convex_hull.top(), Points[i]) != 3) {
             if (convex_hull.size() < 3) { break;}
             convex_hull.pop();
+            indices_g.pop();
         }
         convex_hull.push(Points[i]);
+        indices_g.push(i + 1);
     }
     cout << convex_hull.size() << endl;
+    out_file << convex_hull.size() << "\n";
+    out_file << P0.first << " " << P0.second << endl;
+    for(int i=0;i < len;i++) {
+        out_file << Points[i].first << " " << Points[i].second << " 0\n";
+    }
+    while (!indices_g.empty()) {
+        out_file << indices_g.top()  << " ";
+        indices_g.pop();
+    }
     while (!convex_hull.empty())
     {
         pair<double , double > point = convex_hull.top();
@@ -70,6 +86,7 @@ double execGrahamScans(vector<pair<double, double> > Points) {
         convex_hull.pop();
     }
     //time_taken = clock() - time_taken;
+    out_file.close();
     return 0;
 }
 #endif

@@ -1,0 +1,200 @@
+\hypertarget{DCEL_2origin_8h}{}\section{D\+C\+E\+L/origin.h File Reference}
+\label{DCEL_2origin_8h}\index{D\+C\+E\+L/origin.\+h@{D\+C\+E\+L/origin.\+h}}
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$bits/stdc++.\+h$>$}\\*
+{\ttfamily \#include $<$typeinfo$>$}\\*
+{\ttfamily \#include \char`\"{}Half\+Edge\+List.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Vertex\+List.\+h\char`\"{}}\\*
+Include dependency graph for origin.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{DCEL_2origin_8h_a655ea480efdf9a648cfba028b89c59dd}{get\+Polygon} (char const $\ast$filename)
+\begin{DoxyCompactList}\small\item\em Extract Data from Input File. \end{DoxyCompactList}\item 
+void \hyperlink{DCEL_2origin_8h_a6b7bf134125dc9f09028311797801e6f}{print\+Polygon} ()
+\item 
+\hyperlink{classDCELFace}{D\+C\+E\+L\+Face} $\ast$ \hyperlink{DCEL_2origin_8h_a1046121d16a3e528d8b65e3e27e23242}{get\+Face\+Common\+To} (\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$v1, \hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$v2)
+\item 
+bool \hyperlink{DCEL_2origin_8h_af2d84d77591d839d59faec9e4a07df2f}{check\+Edge} (\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$v1, \hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$v2)
+\item 
+void \hyperlink{DCEL_2origin_8h_a9628e476f4bda6f1359574997eb3079c}{insert\+Diagonal} (\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$v1, \hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$v2)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classVertexList}{Vertex\+List} \hyperlink{DCEL_2origin_8h_a7c8f73cdac708e92991150c6368882ed}{Vertices}
+\item 
+\hyperlink{classHalfEdgeList}{Half\+Edge\+List} \hyperlink{DCEL_2origin_8h_ad4c2fd27e686c605159d07dca501c404}{Edges}
+\item 
+\hyperlink{classFaceList}{Face\+List} \hyperlink{DCEL_2origin_8h_a994ca4688e2b8cd04bb19950c4c5effb}{Faces}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{D\+C\+E\+L/origin.\+h@{D\+C\+E\+L/origin.\+h}!check\+Edge@{check\+Edge}}
+\index{check\+Edge@{check\+Edge}!D\+C\+E\+L/origin.\+h@{D\+C\+E\+L/origin.\+h}}
+\subsubsection[{\texorpdfstring{check\+Edge(\+D\+C\+E\+L\+Vertex $\ast$v1, D\+C\+E\+L\+Vertex $\ast$v2)}{checkEdge(DCELVertex *v1, DCELVertex *v2)}}]{\setlength{\rightskip}{0pt plus 5cm}bool check\+Edge (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{v1, }
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{v2}
+\end{DoxyParamCaption}
+)}\hypertarget{DCEL_2origin_8h_af2d84d77591d839d59faec9e4a07df2f}{}\label{DCEL_2origin_8h_af2d84d77591d839d59faec9e4a07df2f}
+
+\begin{DoxyCode}
+95                                                \{
+96     \hyperlink{classDCELHalfEdge}{DCELHalfEdge}* walker = v1->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge};
+97     \textcolor{keywordflow}{do} \{
+98         \textcolor{keywordflow}{if} (walker->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next}->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin} == v2) \{
+99             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+100         \}
+101         walker = walker->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next};
+102     \} \textcolor{keywordflow}{while} (walker != v1->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge});
+103     \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+104 \}
+\end{DoxyCode}
+\index{D\+C\+E\+L/origin.\+h@{D\+C\+E\+L/origin.\+h}!get\+Face\+Common\+To@{get\+Face\+Common\+To}}
+\index{get\+Face\+Common\+To@{get\+Face\+Common\+To}!D\+C\+E\+L/origin.\+h@{D\+C\+E\+L/origin.\+h}}
+\subsubsection[{\texorpdfstring{get\+Face\+Common\+To(\+D\+C\+E\+L\+Vertex $\ast$v1, D\+C\+E\+L\+Vertex $\ast$v2)}{getFaceCommonTo(DCELVertex *v1, DCELVertex *v2)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Face}$\ast$ get\+Face\+Common\+To (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{v1, }
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{v2}
+\end{DoxyParamCaption}
+)}\hypertarget{DCEL_2origin_8h_a1046121d16a3e528d8b65e3e27e23242}{}\label{DCEL_2origin_8h_a1046121d16a3e528d8b65e3e27e23242}
+
+\begin{DoxyCode}
+81                                                           \{
+82     \hyperlink{classDCELFace}{DCELFace}* face = NULL;
+83     \hyperlink{classDCELHalfEdge}{DCELHalfEdge}* walker = v1->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge};
+84     \hyperlink{classDCELHalfEdge}{DCELHalfEdge}* twinWalker = v2->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge};
+85     \textcolor{keywordflow}{do} \{
+86         \textcolor{keywordflow}{do} \{
+87             \textcolor{keywordflow}{if} (walker->\hyperlink{classDCELHalfEdge_ade69d0ad23d0776ed6c925490d7cb4da}{face} == twinWalker->\hyperlink{classDCELHalfEdge_ade69d0ad23d0776ed6c925490d7cb4da}{face} && walker->\hyperlink{classDCELHalfEdge_ade69d0ad23d0776ed6c925490d7cb4da}{face}->
+      \hyperlink{classDCELFace_a9b4085ea85f8aee290233e0e9ac1f605}{bordered})
+88             \{face = walker->\hyperlink{classDCELHalfEdge_ade69d0ad23d0776ed6c925490d7cb4da}{face}; \textcolor{keywordflow}{break};\}
+89             twinWalker = twinWalker->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next};
+90         \} \textcolor{keywordflow}{while} (twinWalker != v2->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge});
+91         walker = walker->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next};
+92     \} \textcolor{keywordflow}{while} (walker != v1->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge} && !face);
+93     \textcolor{keywordflow}{return} face;
+94 \}
+\end{DoxyCode}
+\index{D\+C\+E\+L/origin.\+h@{D\+C\+E\+L/origin.\+h}!get\+Polygon@{get\+Polygon}}
+\index{get\+Polygon@{get\+Polygon}!D\+C\+E\+L/origin.\+h@{D\+C\+E\+L/origin.\+h}}
+\subsubsection[{\texorpdfstring{get\+Polygon(char const $\ast$filename)}{getPolygon(char const *filename)}}]{\setlength{\rightskip}{0pt plus 5cm}void get\+Polygon (
+\begin{DoxyParamCaption}
+\item[{char const $\ast$}]{filename}
+\end{DoxyParamCaption}
+)}\hypertarget{DCEL_2origin_8h_a655ea480efdf9a648cfba028b89c59dd}{}\label{DCEL_2origin_8h_a655ea480efdf9a648cfba028b89c59dd}
+
+
+Extract Data from Input File. 
+
+get\+Polygon is the main extractor function that builds the collations. Vertices are expected to be received in an anticlockwise order. 
+\begin{DoxyCode}
+22                                       \{
+23     \textcolor{keywordtype}{double} a, b, c ;
+24     \hyperlink{classDCELVertex}{DCELVertex}* firstVertex;
+25     \hyperlink{classDCELVertex}{DCELVertex} *walker = \textcolor{keyword}{new} \hyperlink{classDCELVertex}{DCELVertex}();
+26     \hyperlink{classDCELHalfEdge}{DCELHalfEdge} *LaggingTwin = NULL;
+27     \hyperlink{classDCELFace}{DCELFace} *inner = \textcolor{keyword}{new} \hyperlink{classDCELFace}{DCELFace}();
+28     \hyperlink{classDCELFace}{DCELFace} *outer = \textcolor{keyword}{new} \hyperlink{classDCELFace}{DCELFace}();
+29     ifstream in\_file;
+30     in\_file.open(filename);
+31     \textcolor{keywordflow}{while} (in\_file.is\_open()) \{
+32         \textcolor{keywordtype}{int} n, i = 0;
+33         in\_file >> n;
+34         \textcolor{keywordflow}{while} (in\_file >> a >> b >> c) \{
+35             \hyperlink{classDCELVertex}{DCELVertex} *next = \textcolor{keyword}{new} \hyperlink{classDCELVertex}{DCELVertex}();
+36             next->\hyperlink{classDCELVertex_ac5fc5f521ad50fa5a2b334b530b7e00e}{setCoords}(a, b);
+37             \hyperlink{classDCELHalfEdge}{DCELHalfEdge} *edge = \textcolor{keyword}{new} \hyperlink{classDCELHalfEdge}{DCELHalfEdge}();
+38             edge->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin} = next;
+39             edge->\hyperlink{classDCELHalfEdge_ade69d0ad23d0776ed6c925490d7cb4da}{face} = inner;
+40             inner->\hyperlink{classDCELFace_a1a6ec913fa7adbe1bfbad64b99ffe6c5}{edge} = edge;
+41             \hyperlink{DCEL_2origin_8h_ad4c2fd27e686c605159d07dca501c404}{Edges}.\hyperlink{classHalfEdgeList_a66b89983619ef0beaa680dc3b0d9179f}{addToList}(edge);
+42             LaggingTwin = \hyperlink{DCEL_2origin_8h_ad4c2fd27e686c605159d07dca501c404}{Edges}.\hyperlink{classHalfEdgeList_a692ec0ad40cb6d94ccddba451d45c870}{addTwinTo}(edge, LaggingTwin);
+43             LaggingTwin->\hyperlink{classDCELHalfEdge_ade69d0ad23d0776ed6c925490d7cb4da}{face} = outer;
+44             outer->\hyperlink{classDCELFace_a1a6ec913fa7adbe1bfbad64b99ffe6c5}{edge} = LaggingTwin;
+45             outer->\hyperlink{classDCELFace_a9b4085ea85f8aee290233e0e9ac1f605}{bordered} = \textcolor{keyword}{false};
+46             next->\hyperlink{classDCELVertex_a1fd640a6409cfb724e312a9c59876493}{edge} = edge;
+47             \textcolor{keywordflow}{if} (!\hyperlink{DCEL_2origin_8h_a7c8f73cdac708e92991150c6368882ed}{Vertices}.\hyperlink{classVertexList_a99fe4395d1c973a38e5e830909175f34}{length}) firstVertex = next;
+48             \hyperlink{DCEL_2origin_8h_a7c8f73cdac708e92991150c6368882ed}{Vertices}.\hyperlink{classVertexList_abe6d4b481b752eef2eb57ec4aee23b8c}{addToList}(next);
+49         \}
+50         \hyperlink{DCEL_2origin_8h_a994ca4688e2b8cd04bb19950c4c5effb}{Faces}.\hyperlink{classFaceList_ad49cedf6161dc63e440137538baf6179}{addToList}(outer);
+51         \hyperlink{DCEL_2origin_8h_a994ca4688e2b8cd04bb19950c4c5effb}{Faces}.\hyperlink{classFaceList_ad49cedf6161dc63e440137538baf6179}{addToList}(inner);
+52 
+53         in\_file.close();
+54     \}
+55     \hyperlink{DCEL_2origin_8h_ad4c2fd27e686c605159d07dca501c404}{Edges}.\hyperlink{classHalfEdgeList_a152489ca538b0bb90a00cc94eba50aed}{tail}->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next} = \hyperlink{DCEL_2origin_8h_ad4c2fd27e686c605159d07dca501c404}{Edges}.\hyperlink{classHalfEdgeList_a9fb4b7ad63ecee17aa4c58c4623e1287}{head};
+56     \hyperlink{DCEL_2origin_8h_ad4c2fd27e686c605159d07dca501c404}{Edges}.\hyperlink{classHalfEdgeList_a9fb4b7ad63ecee17aa4c58c4623e1287}{head}->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next} = \hyperlink{DCEL_2origin_8h_ad4c2fd27e686c605159d07dca501c404}{Edges}.\hyperlink{classHalfEdgeList_a152489ca538b0bb90a00cc94eba50aed}{tail}->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin};
+57     \hyperlink{DCEL_2origin_8h_ad4c2fd27e686c605159d07dca501c404}{Edges}.\hyperlink{classHalfEdgeList_a152489ca538b0bb90a00cc94eba50aed}{tail}->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin} = firstVertex;
+58 \}
+\end{DoxyCode}
+\index{D\+C\+E\+L/origin.\+h@{D\+C\+E\+L/origin.\+h}!insert\+Diagonal@{insert\+Diagonal}}
+\index{insert\+Diagonal@{insert\+Diagonal}!D\+C\+E\+L/origin.\+h@{D\+C\+E\+L/origin.\+h}}
+\subsubsection[{\texorpdfstring{insert\+Diagonal(\+D\+C\+E\+L\+Vertex $\ast$v1, D\+C\+E\+L\+Vertex $\ast$v2)}{insertDiagonal(DCELVertex *v1, DCELVertex *v2)}}]{\setlength{\rightskip}{0pt plus 5cm}void insert\+Diagonal (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{v1, }
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{v2}
+\end{DoxyParamCaption}
+)}\hypertarget{DCEL_2origin_8h_a9628e476f4bda6f1359574997eb3079c}{}\label{DCEL_2origin_8h_a9628e476f4bda6f1359574997eb3079c}
+
+\begin{DoxyCode}
+105                                                     \{
+106     \textcolor{keywordflow}{if} (v1 == v2) \textcolor{keywordflow}{return};
+107     \textcolor{keywordflow}{if} (\hyperlink{DCEL_2origin_8h_af2d84d77591d839d59faec9e4a07df2f}{checkEdge}(v1,v2)) \textcolor{keywordflow}{return};
+108 
+109     \hyperlink{classDCELFace}{DCELFace}* face = \hyperlink{DCEL_2origin_8h_a1046121d16a3e528d8b65e3e27e23242}{getFaceCommonTo}(v1, v2);
+110     \textcolor{keywordflow}{if}(face) \{
+111         \hyperlink{classDCELFace}{DCELFace}* newSubdivision = \hyperlink{DCEL_2origin_8h_ad4c2fd27e686c605159d07dca501c404}{Edges}.\hyperlink{classHalfEdgeList_a71cf7be9a61cbab5e9aed5acdac1e971}{addEdgeBetween}(v1, v2, face);
+112         \hyperlink{DCEL_2origin_8h_a994ca4688e2b8cd04bb19950c4c5effb}{Faces}.\hyperlink{classFaceList_ad49cedf6161dc63e440137538baf6179}{addToList}(newSubdivision);
+113         \hyperlink{DCEL_2origin_8h_a994ca4688e2b8cd04bb19950c4c5effb}{Faces}.\hyperlink{classFaceList_ac5587f632433d76be2b9e8ae038cdd4f}{removeFromList}(face);
+114         \textcolor{keyword}{delete} face;
+115     \}
+116 \}
+\end{DoxyCode}
+\index{D\+C\+E\+L/origin.\+h@{D\+C\+E\+L/origin.\+h}!print\+Polygon@{print\+Polygon}}
+\index{print\+Polygon@{print\+Polygon}!D\+C\+E\+L/origin.\+h@{D\+C\+E\+L/origin.\+h}}
+\subsubsection[{\texorpdfstring{print\+Polygon()}{printPolygon()}}]{\setlength{\rightskip}{0pt plus 5cm}void print\+Polygon (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{DCEL_2origin_8h_a6b7bf134125dc9f09028311797801e6f}{}\label{DCEL_2origin_8h_a6b7bf134125dc9f09028311797801e6f}
+
+\begin{DoxyCode}
+60                     \{
+61     cout << \textcolor{stringliteral}{"OFF"} << endl;
+62     cout << \hyperlink{DCEL_2origin_8h_a7c8f73cdac708e92991150c6368882ed}{Vertices}.\hyperlink{classVertexList_a99fe4395d1c973a38e5e830909175f34}{length} << \textcolor{stringliteral}{" "} << \hyperlink{DCEL_2origin_8h_a994ca4688e2b8cd04bb19950c4c5effb}{Faces}.\hyperlink{classFaceList_a172e8236b2c75a3000a5634240255243}{length}() << \textcolor{stringliteral}{" 0"} << endl;
+63     \hyperlink{DCEL_2origin_8h_a7c8f73cdac708e92991150c6368882ed}{Vertices}.\hyperlink{classVertexList_a97c3c30cd1140f6412295943ad075fec}{echo}();
+64     \hyperlink{classDCELFace}{DCELFace} *walker = \hyperlink{DCEL_2origin_8h_a994ca4688e2b8cd04bb19950c4c5effb}{Faces}.\hyperlink{classFaceList_a9dadb4bb9779d0869c725b90c9f33205}{head};
+65     \hyperlink{classDCELHalfEdge}{DCELHalfEdge} *edgeWalker;
+66     \textcolor{keywordflow}{while} (walker) \{
+67         \textcolor{keywordflow}{if} (walker->\hyperlink{classDCELFace_a9b4085ea85f8aee290233e0e9ac1f605}{bordered}) \{
+68             edgeWalker = walker->\hyperlink{classDCELFace_a1a6ec913fa7adbe1bfbad64b99ffe6c5}{edge};
+69             cout << walker->\hyperlink{classDCELFace_adf080ea135357e2f5fb2f97d87d1a2fd}{boundaryLength}() << \textcolor{stringliteral}{" "};
+70             \textcolor{keywordflow}{do} \{
+71                 cout << edgeWalker->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin}->\hyperlink{classDCELVertex_a7d62808f634eb35187137a1a9dd4235a}{index} << \textcolor{stringliteral}{" "};
+72                 edgeWalker = edgeWalker->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next};
+73             \} \textcolor{keywordflow}{while} (edgeWalker != walker->\hyperlink{classDCELFace_a1a6ec913fa7adbe1bfbad64b99ffe6c5}{edge});
+74             cout << (double)rand() / RAND\_MAX << \textcolor{stringliteral}{" "} << (double)rand() / RAND\_MAX << \textcolor{stringliteral}{" "} << (double)rand() 
+      / RAND\_MAX;
+75             cout << endl;
+76         \}
+77         walker = walker->\hyperlink{classDCELFace_a5fd804213fb2d96f900442da49ccb137}{next};
+78     \}
+79 \}
+\end{DoxyCode}
+
+
+\subsection{Variable Documentation}
+\index{D\+C\+E\+L/origin.\+h@{D\+C\+E\+L/origin.\+h}!Edges@{Edges}}
+\index{Edges@{Edges}!D\+C\+E\+L/origin.\+h@{D\+C\+E\+L/origin.\+h}}
+\subsubsection[{\texorpdfstring{Edges}{Edges}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Half\+Edge\+List} Edges}\hypertarget{DCEL_2origin_8h_ad4c2fd27e686c605159d07dca501c404}{}\label{DCEL_2origin_8h_ad4c2fd27e686c605159d07dca501c404}
+\index{D\+C\+E\+L/origin.\+h@{D\+C\+E\+L/origin.\+h}!Faces@{Faces}}
+\index{Faces@{Faces}!D\+C\+E\+L/origin.\+h@{D\+C\+E\+L/origin.\+h}}
+\subsubsection[{\texorpdfstring{Faces}{Faces}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Face\+List} Faces}\hypertarget{DCEL_2origin_8h_a994ca4688e2b8cd04bb19950c4c5effb}{}\label{DCEL_2origin_8h_a994ca4688e2b8cd04bb19950c4c5effb}
+\index{D\+C\+E\+L/origin.\+h@{D\+C\+E\+L/origin.\+h}!Vertices@{Vertices}}
+\index{Vertices@{Vertices}!D\+C\+E\+L/origin.\+h@{D\+C\+E\+L/origin.\+h}}
+\subsubsection[{\texorpdfstring{Vertices}{Vertices}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vertex\+List} Vertices}\hypertarget{DCEL_2origin_8h_a7c8f73cdac708e92991150c6368882ed}{}\label{DCEL_2origin_8h_a7c8f73cdac708e92991150c6368882ed}

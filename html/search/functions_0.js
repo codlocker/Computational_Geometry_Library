@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['calceucliddistance',['calcEuclidDistance',['../origin_8h.html#afcdcfb840d57ba04a9c8ddc76e90ce98',1,'origin.h']]],
-  ['convex_5fhull',['convex_hull',['../Andrews_8h.html#a531ddaca865c8d7a7a3f636e7a3adb6f',1,'Andrews.h']]]
+  ['addedgebetween',['addEdgeBetween',['../classHalfEdgeList.html#a71cf7be9a61cbab5e9aed5acdac1e971',1,'HalfEdgeList']]],
+  ['addtolist',['addToList',['../classFaceList.html#ad49cedf6161dc63e440137538baf6179',1,'FaceList::addToList()'],['../classHalfEdgeList.html#a66b89983619ef0beaa680dc3b0d9179f',1,'HalfEdgeList::addToList()'],['../classVertexList.html#abe6d4b481b752eef2eb57ec4aee23b8c',1,'VertexList::addToList()']]],
+  ['addtwinto',['addTwinTo',['../classHalfEdgeList.html#a692ec0ad40cb6d94ccddba451d45c870',1,'HalfEdgeList']]]
 ];
