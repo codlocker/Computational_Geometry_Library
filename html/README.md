@@ -28,3 +28,27 @@ Documentation for the Algorithms used
 3. [Jarvis Mach Algorithm](http://www.personal.kent.edu/~rmuhamma/Compgeometry/MyCG/ConvexHull/jarvisMarch.htm)
    > Jarvis march computes the CH(Q) by a technique known as gift wrapping or package wrapping.
    
+![Graph For Analysis](image_all.png)
+
+![Graph For Analysis](andrew.png)
+
+![Graph For Analysis](jarvismarch.png)
+
+![Graph For Analysis](grahamscan.png)
+
+
+****
+ASSIGNMENT-2
+
+****
+
+4. [Doubly connected edge list] (https://en.wikipedia.org/wiki/Doubly_connected_edge_list)
+   > The doubly connected edge list (DCEL), also known as half-edge data structure, is a data structure to represent an embedding of a planar graph in the plane, and polytopes in 3D. This data structure provides efficient manipulation of the topological information associated with the objects in question (vertices, edges, faces). It is used in many algorithms of computational geometry to handle polygonal subdivisions of the plane, commonly called planar straight-line graphs (PSLG).[1] For example, a Voronoi diagram is commonly represented by a DCEL inside a bounding box.
+   
+5. Partitioning a polygon into y-monotone polygons.
+
+6. Triangulate each y-monotone polygon.
+![TRiangulation](monotone.png)
+
+
+![TRiangulation](triangulating.png)

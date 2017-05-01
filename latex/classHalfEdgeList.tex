@@ -1,0 +1,224 @@
+\hypertarget{classHalfEdgeList}{}\section{Half\+Edge\+List Class Reference}
+\label{classHalfEdgeList}\index{Half\+Edge\+List@{Half\+Edge\+List}}
+
+
+{\ttfamily \#include $<$Half\+Edge\+List.\+h$>$}
+
+
+
+Collaboration diagram for Half\+Edge\+List\+:
+% FIG 0
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classHalfEdgeList_a1ff1519220262a0201ec31f25c82bce8}{Half\+Edge\+List} (void)
+\item 
+\hyperlink{classHalfEdgeList_a1591ee3ae811b044007b48e1aae161bd}{$\sim$\+Half\+Edge\+List} (void)
+\item 
+void \hyperlink{classHalfEdgeList_a66b89983619ef0beaa680dc3b0d9179f}{add\+To\+List} (\hyperlink{classDCELHalfEdge}{D\+C\+E\+L\+Half\+Edge} $\ast$new\+Edge)
+\item 
+void \hyperlink{classHalfEdgeList_ad66f55a2db0dfc0842317686c641317f}{remove\+From\+List} (\hyperlink{classDCELHalfEdge}{D\+C\+E\+L\+Half\+Edge} $\ast$edge)
+\item 
+\hyperlink{classDCELHalfEdge}{D\+C\+E\+L\+Half\+Edge} $\ast$ \hyperlink{classHalfEdgeList_a692ec0ad40cb6d94ccddba451d45c870}{add\+Twin\+To} (\hyperlink{classDCELHalfEdge}{D\+C\+E\+L\+Half\+Edge} $\ast$edge, \hyperlink{classDCELHalfEdge}{D\+C\+E\+L\+Half\+Edge} $\ast$Lagging\+Twin)
+\begin{DoxyCompactList}\small\item\em G\+E\+T\+T\+T\+I\+NG T\+HE H\+A\+LF E\+D\+GE L\+I\+ST. \end{DoxyCompactList}\item 
+\hyperlink{classDCELFace}{D\+C\+E\+L\+Face} $\ast$ \hyperlink{classHalfEdgeList_a71cf7be9a61cbab5e9aed5acdac1e971}{add\+Edge\+Between} (\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$v1, \hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$v2, \hyperlink{classDCELFace}{D\+C\+E\+L\+Face} $\ast$face)
+\begin{DoxyCompactList}\small\item\em G\+E\+T\+T\+T\+I\+NG T\+HE H\+A\+LF E\+D\+GE L\+I\+ST. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classDCELHalfEdge}{D\+C\+E\+L\+Half\+Edge} $\ast$ \hyperlink{classHalfEdgeList_a9fb4b7ad63ecee17aa4c58c4623e1287}{head}
+\item 
+\hyperlink{classDCELHalfEdge}{D\+C\+E\+L\+Half\+Edge} $\ast$ \hyperlink{classHalfEdgeList_a152489ca538b0bb90a00cc94eba50aed}{tail}
+\item 
+int \hyperlink{classHalfEdgeList_a1cbffdcfa1d2fb6fa88ba53bafb994ff}{global\+Edge\+Count}
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classHalfEdgeList_a8800a6048cc16922c4b123495852b989}{status}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Half\+Edge\+List@{Half\+Edge\+List}!Half\+Edge\+List@{Half\+Edge\+List}}
+\index{Half\+Edge\+List@{Half\+Edge\+List}!Half\+Edge\+List@{Half\+Edge\+List}}
+\subsubsection[{\texorpdfstring{Half\+Edge\+List(void)}{HalfEdgeList(void)}}]{\setlength{\rightskip}{0pt plus 5cm}Half\+Edge\+List\+::\+Half\+Edge\+List (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{classHalfEdgeList_a1ff1519220262a0201ec31f25c82bce8}{}\label{classHalfEdgeList_a1ff1519220262a0201ec31f25c82bce8}
+
+\begin{DoxyCode}
+25                                : \hyperlink{classHalfEdgeList_a1cbffdcfa1d2fb6fa88ba53bafb994ff}{globalEdgeCount}(0), \hyperlink{classHalfEdgeList_a9fb4b7ad63ecee17aa4c58c4623e1287}{head}(NULL), 
+      \hyperlink{classHalfEdgeList_a152489ca538b0bb90a00cc94eba50aed}{tail}(NULL), \hyperlink{classHalfEdgeList_a8800a6048cc16922c4b123495852b989}{status}(\textcolor{keyword}{false})
+26 \{
+27 \}
+\end{DoxyCode}
+\index{Half\+Edge\+List@{Half\+Edge\+List}!````~Half\+Edge\+List@{$\sim$\+Half\+Edge\+List}}
+\index{````~Half\+Edge\+List@{$\sim$\+Half\+Edge\+List}!Half\+Edge\+List@{Half\+Edge\+List}}
+\subsubsection[{\texorpdfstring{$\sim$\+Half\+Edge\+List(void)}{~HalfEdgeList(void)}}]{\setlength{\rightskip}{0pt plus 5cm}Half\+Edge\+List\+::$\sim$\+Half\+Edge\+List (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{classHalfEdgeList_a1591ee3ae811b044007b48e1aae161bd}{}\label{classHalfEdgeList_a1591ee3ae811b044007b48e1aae161bd}
+
+\begin{DoxyCode}
+30 \{
+31 \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\index{Half\+Edge\+List@{Half\+Edge\+List}!add\+Edge\+Between@{add\+Edge\+Between}}
+\index{add\+Edge\+Between@{add\+Edge\+Between}!Half\+Edge\+List@{Half\+Edge\+List}}
+\subsubsection[{\texorpdfstring{add\+Edge\+Between(\+D\+C\+E\+L\+Vertex $\ast$v1, D\+C\+E\+L\+Vertex $\ast$v2, D\+C\+E\+L\+Face $\ast$face)}{addEdgeBetween(DCELVertex *v1, DCELVertex *v2, DCELFace *face)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Face} $\ast$ Half\+Edge\+List\+::add\+Edge\+Between (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{v1, }
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{v2, }
+\item[{{\bf D\+C\+E\+L\+Face} $\ast$}]{face}
+\end{DoxyParamCaption}
+)}\hypertarget{classHalfEdgeList_a71cf7be9a61cbab5e9aed5acdac1e971}{}\label{classHalfEdgeList_a71cf7be9a61cbab5e9aed5acdac1e971}
+
+
+G\+E\+T\+T\+T\+I\+NG T\+HE H\+A\+LF E\+D\+GE L\+I\+ST. 
+
+Hepler For Handling End Vertex. Walk around the path and add vertices that are in the Hal Edge Vetices List 
+\begin{DoxyCode}
+76 \{
+77     \hyperlink{classDCELHalfEdge}{DCELHalfEdge}* walker = face->\hyperlink{classDCELFace_a1a6ec913fa7adbe1bfbad64b99ffe6c5}{edge};
+78     \textcolor{keywordflow}{while} (1) \{
+79         \textcolor{keywordflow}{if} (walker->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next}->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin} == v1)
+80             \textcolor{keywordflow}{break};
+81         walker = walker->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next};
+82     \}
+83 
+84     \hyperlink{classDCELHalfEdge}{DCELHalfEdge}* halfEdge = \textcolor{keyword}{new} \hyperlink{classDCELHalfEdge}{DCELHalfEdge}();
+85     halfEdge->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin} = v2;
+86     halfEdge->\hyperlink{classDCELHalfEdge_a42d420a68a28f72d360e145b571382d8}{meta} = ++\hyperlink{classHalfEdgeList_a1cbffdcfa1d2fb6fa88ba53bafb994ff}{globalEdgeCount};
+87     halfEdge->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next} = walker->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next};
+88     
+89     \hyperlink{classDCELHalfEdge}{DCELHalfEdge}* twinWalker = face->\hyperlink{classDCELFace_a1a6ec913fa7adbe1bfbad64b99ffe6c5}{edge};
+90     \textcolor{keywordflow}{while} (1) \{
+91         \textcolor{keywordflow}{if} (twinWalker->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next}->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin} == v2)
+92             \textcolor{keywordflow}{break};
+93         twinWalker = twinWalker->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next};
+94     \}
+95 
+96     \hyperlink{classDCELHalfEdge}{DCELHalfEdge}* twinEdge = \textcolor{keyword}{new} \hyperlink{classDCELHalfEdge}{DCELHalfEdge}();
+97     twinEdge->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin} = v1;
+98     twinEdge->\hyperlink{classDCELHalfEdge_a42d420a68a28f72d360e145b571382d8}{meta} = ++\hyperlink{classHalfEdgeList_a1cbffdcfa1d2fb6fa88ba53bafb994ff}{globalEdgeCount};
+99     twinEdge->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next} = twinWalker->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next};
+100     
+101     walker->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next} = twinEdge;
+102     twinWalker->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next} = halfEdge;
+103     
+104     halfEdge->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin} = twinEdge;
+105     twinEdge->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin} = halfEdge;
+106 
+107 
+108     \hyperlink{classDCELFace}{DCELFace}* firstHalf = \textcolor{keyword}{new} \hyperlink{classDCELFace}{DCELFace}();
+109     firstHalf->\hyperlink{classDCELFace_a1a6ec913fa7adbe1bfbad64b99ffe6c5}{edge} = halfEdge;
+110     walker = halfEdge;
+111     \textcolor{keywordflow}{do} \{
+112         walker->\hyperlink{classDCELHalfEdge_ade69d0ad23d0776ed6c925490d7cb4da}{face} = firstHalf;
+113         walker = walker->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next};
+114     \} \textcolor{keywordflow}{while}(walker != halfEdge);
+115 
+116     \hyperlink{classDCELFace}{DCELFace}* secHalf = \textcolor{keyword}{new} \hyperlink{classDCELFace}{DCELFace}();
+117     secHalf->\hyperlink{classDCELFace_a1a6ec913fa7adbe1bfbad64b99ffe6c5}{edge} = twinEdge;
+118     twinEdge->\hyperlink{classDCELHalfEdge_ade69d0ad23d0776ed6c925490d7cb4da}{face} = secHalf;
+119     walker = twinEdge;
+120     \textcolor{keywordflow}{do} \{
+121         walker->\hyperlink{classDCELHalfEdge_ade69d0ad23d0776ed6c925490d7cb4da}{face} = secHalf;
+122         walker = walker->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next};
+123     \} \textcolor{keywordflow}{while}(walker != twinEdge);
+124 
+125     secHalf->\hyperlink{classDCELFace_a5fd804213fb2d96f900442da49ccb137}{next} = firstHalf;
+126     \textcolor{keywordflow}{return} secHalf;
+127 \}
+\end{DoxyCode}
+\index{Half\+Edge\+List@{Half\+Edge\+List}!add\+To\+List@{add\+To\+List}}
+\index{add\+To\+List@{add\+To\+List}!Half\+Edge\+List@{Half\+Edge\+List}}
+\subsubsection[{\texorpdfstring{add\+To\+List(\+D\+C\+E\+L\+Half\+Edge $\ast$new\+Edge)}{addToList(DCELHalfEdge *newEdge)}}]{\setlength{\rightskip}{0pt plus 5cm}void Half\+Edge\+List\+::add\+To\+List (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Half\+Edge} $\ast$}]{new\+Edge}
+\end{DoxyParamCaption}
+)}\hypertarget{classHalfEdgeList_a66b89983619ef0beaa680dc3b0d9179f}{}\label{classHalfEdgeList_a66b89983619ef0beaa680dc3b0d9179f}
+
+\begin{DoxyCode}
+34 \{
+35     newEdge->\hyperlink{classDCELHalfEdge_a42d420a68a28f72d360e145b571382d8}{meta} = ++\hyperlink{classHalfEdgeList_a1cbffdcfa1d2fb6fa88ba53bafb994ff}{globalEdgeCount};
+36 
+37     \textcolor{keywordflow}{if} (\hyperlink{classHalfEdgeList_a9fb4b7ad63ecee17aa4c58c4623e1287}{head})
+38     \{
+39         \hyperlink{classHalfEdgeList_a152489ca538b0bb90a00cc94eba50aed}{tail}->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next} = newEdge;
+40         \hyperlink{classHalfEdgeList_a152489ca538b0bb90a00cc94eba50aed}{tail} = newEdge;
+41     \}
+42     \textcolor{keywordflow}{else} \{
+43         \hyperlink{classHalfEdgeList_a9fb4b7ad63ecee17aa4c58c4623e1287}{head} = newEdge;
+44         \hyperlink{classHalfEdgeList_a152489ca538b0bb90a00cc94eba50aed}{tail} = newEdge;
+45     \}
+46 \}
+\end{DoxyCode}
+\index{Half\+Edge\+List@{Half\+Edge\+List}!add\+Twin\+To@{add\+Twin\+To}}
+\index{add\+Twin\+To@{add\+Twin\+To}!Half\+Edge\+List@{Half\+Edge\+List}}
+\subsubsection[{\texorpdfstring{add\+Twin\+To(\+D\+C\+E\+L\+Half\+Edge $\ast$edge, D\+C\+E\+L\+Half\+Edge $\ast$\+Lagging\+Twin)}{addTwinTo(DCELHalfEdge *edge, DCELHalfEdge *LaggingTwin)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Half\+Edge} $\ast$ Half\+Edge\+List\+::add\+Twin\+To (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Half\+Edge} $\ast$}]{edge, }
+\item[{{\bf D\+C\+E\+L\+Half\+Edge} $\ast$}]{Lagging\+Twin}
+\end{DoxyParamCaption}
+)}\hypertarget{classHalfEdgeList_a692ec0ad40cb6d94ccddba451d45c870}{}\label{classHalfEdgeList_a692ec0ad40cb6d94ccddba451d45c870}
+
+
+G\+E\+T\+T\+T\+I\+NG T\+HE H\+A\+LF E\+D\+GE L\+I\+ST. 
+
+Adding a twin 
+\begin{DoxyCode}
+51                                                                                    \{
+52     \hyperlink{classDCELHalfEdge}{DCELHalfEdge} *twinEdge = \textcolor{keyword}{new} \hyperlink{classDCELHalfEdge}{DCELHalfEdge}();
+53     twinEdge->\hyperlink{classDCELHalfEdge_a42d420a68a28f72d360e145b571382d8}{meta} = ++\hyperlink{classHalfEdgeList_a1cbffdcfa1d2fb6fa88ba53bafb994ff}{globalEdgeCount};
+54     twinEdge->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin} = edge;
+55     \textcolor{keywordflow}{if} (LaggingTwin) \{
+56         LaggingTwin->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin} = twinEdge->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin};
+57         twinEdge->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next} = LaggingTwin;
+58     \}
+59     edge->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin} = twinEdge;
+60     \textcolor{keywordflow}{return} twinEdge;
+61 \}
+\end{DoxyCode}
+\index{Half\+Edge\+List@{Half\+Edge\+List}!remove\+From\+List@{remove\+From\+List}}
+\index{remove\+From\+List@{remove\+From\+List}!Half\+Edge\+List@{Half\+Edge\+List}}
+\subsubsection[{\texorpdfstring{remove\+From\+List(\+D\+C\+E\+L\+Half\+Edge $\ast$edge)}{removeFromList(DCELHalfEdge *edge)}}]{\setlength{\rightskip}{0pt plus 5cm}void Half\+Edge\+List\+::remove\+From\+List (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Half\+Edge} $\ast$}]{edge}
+\end{DoxyParamCaption}
+)}\hypertarget{classHalfEdgeList_ad66f55a2db0dfc0842317686c641317f}{}\label{classHalfEdgeList_ad66f55a2db0dfc0842317686c641317f}
+
+\begin{DoxyCode}
+64 \{
+65     edge->\hyperlink{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{getPrev}()->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next} = edge->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next};
+66     edge->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{getPrev}()->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next} = edge->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next};
+67     \textcolor{keyword}{delete} edge->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin};
+68     \textcolor{keyword}{delete} edge;
+69 \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\index{Half\+Edge\+List@{Half\+Edge\+List}!global\+Edge\+Count@{global\+Edge\+Count}}
+\index{global\+Edge\+Count@{global\+Edge\+Count}!Half\+Edge\+List@{Half\+Edge\+List}}
+\subsubsection[{\texorpdfstring{global\+Edge\+Count}{globalEdgeCount}}]{\setlength{\rightskip}{0pt plus 5cm}int Half\+Edge\+List\+::global\+Edge\+Count}\hypertarget{classHalfEdgeList_a1cbffdcfa1d2fb6fa88ba53bafb994ff}{}\label{classHalfEdgeList_a1cbffdcfa1d2fb6fa88ba53bafb994ff}
+\index{Half\+Edge\+List@{Half\+Edge\+List}!head@{head}}
+\index{head@{head}!Half\+Edge\+List@{Half\+Edge\+List}}
+\subsubsection[{\texorpdfstring{head}{head}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Half\+Edge}$\ast$ Half\+Edge\+List\+::head}\hypertarget{classHalfEdgeList_a9fb4b7ad63ecee17aa4c58c4623e1287}{}\label{classHalfEdgeList_a9fb4b7ad63ecee17aa4c58c4623e1287}
+\index{Half\+Edge\+List@{Half\+Edge\+List}!status@{status}}
+\index{status@{status}!Half\+Edge\+List@{Half\+Edge\+List}}
+\subsubsection[{\texorpdfstring{status}{status}}]{\setlength{\rightskip}{0pt plus 5cm}bool Half\+Edge\+List\+::status\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classHalfEdgeList_a8800a6048cc16922c4b123495852b989}{}\label{classHalfEdgeList_a8800a6048cc16922c4b123495852b989}
+\index{Half\+Edge\+List@{Half\+Edge\+List}!tail@{tail}}
+\index{tail@{tail}!Half\+Edge\+List@{Half\+Edge\+List}}
+\subsubsection[{\texorpdfstring{tail}{tail}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Half\+Edge}$\ast$ Half\+Edge\+List\+::tail}\hypertarget{classHalfEdgeList_a152489ca538b0bb90a00cc94eba50aed}{}\label{classHalfEdgeList_a152489ca538b0bb90a00cc94eba50aed}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+C\+E\+L/\hyperlink{HalfEdgeList_8h}{Half\+Edge\+List.\+h}\end{DoxyCompactItemize}

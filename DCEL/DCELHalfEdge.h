@@ -29,7 +29,10 @@ DCELHalfEdge::~DCELHalfEdge()
 {
 
 }
-
+//! Half Edges
+/*!
+ * get Previus Vertices
+ * */
 DCELHalfEdge* DCELHalfEdge::getPrev()
 {
 	DCELHalfEdge* rval = twin->next->twin;

@@ -18,6 +18,11 @@ public:
 set<DCELHalfEdge *, func>tree;
 
 int vlen;
+//! Orientation
+/*! This function is used to calculate orientation of 3 points namely clockwise, anticlockwise and collinear.
+ * The idea here is to to get the difference between slopes of 2 lines by assuming a particular direction as a result
+ * the result obtained determines the direction of turn of the three points.
+ */
 int orientation(DCELVertex* a, DCELVertex* b, DCELVertex* c) {
   double dif;
   dif = (b->y - a->y) * (c->x - b->x) - (b->x - a->x) * (c->y - b->y);
@@ -29,6 +34,10 @@ int orientation(DCELVertex* a, DCELVertex* b, DCELVertex* c) {
     return ANTICLOCKWISE;
   }
 }
+//! Bool Check Below
+/*!
+ * Check the location of the two DCEL Vertices
+ * */
 bool below(DCELVertex* v1, DCELVertex* v2) {
   if (v1->y != v2->y)
     return v1->y > v2->y;
@@ -39,7 +48,10 @@ bool left_edgeto_vertex(const DCELHalfEdge* e1, const DCELHalfEdge* e2) {
   return (e1->origin->y > e2->origin->y) && (e1->origin->x < e2->origin->x);
 }
 
-
+//! form_vertex_type
+/*!
+ * Check whether START_VERTEX, SPLIT_VERTEX, MERGE_VERTEX, REGULAR_VERTEX
+ * */
 void form_vertex_type() {
   DCELVertex *v = Vertices.head;
   vlen = Vertices.length;
@@ -62,12 +74,18 @@ void form_vertex_type() {
     v = v->next;
   }
 }
-
+//! form_vertex_type
+/*!
+ * Hepler For Handling STart Vertex
+ * */
 void HANDLE_START_VERTEX(DCELVertex *v) {
   tree.insert(v->edge);
   v->edge->helper = v;
 }
-
+//! VERTEX HANDLING
+/*!
+ * Hepler For Handling End Vertex
+ * */
 void HANDLE_END_VERTEX(DCELVertex *v) {
   if (v->edge->getPrev()->helper)
     if (v->edge->getPrev()->helper->type == MERGE_VERTEX) {
@@ -130,7 +148,11 @@ void HANDLE_REGULAR_VERTEX(DCELVertex *v) {
     s->helper = v;
   }
 }
-
+//! VERTEX HANDLING
+/*!
+ * Splitting into montone pieces in the polygon
+ *
+ * */
 void split_into_monotone() {
   form_vertex_type();
   DCELVertex *v = Vertices.head;

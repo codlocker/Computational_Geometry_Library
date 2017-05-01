@@ -1,0 +1,151 @@
+\hypertarget{classFaceList}{}\section{Face\+List Class Reference}
+\label{classFaceList}\index{Face\+List@{Face\+List}}
+
+
+{\ttfamily \#include $<$Face\+List.\+h$>$}
+
+
+
+Collaboration diagram for Face\+List\+:
+% FIG 0
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classFaceList_aaa982d0bd3d395436e8b8ef05b5232be}{Face\+List} ()
+\item 
+\hyperlink{classFaceList_a9bb9c3d2b32b53315d8aa7280240bbb2}{$\sim$\+Face\+List} ()
+\item 
+void \hyperlink{classFaceList_ad49cedf6161dc63e440137538baf6179}{add\+To\+List} (\hyperlink{classDCELFace}{D\+C\+E\+L\+Face} $\ast$new\+Face)
+\begin{DoxyCompactList}\small\item\em C\+R\+E\+A\+TE F\+A\+C\+ES. \end{DoxyCompactList}\item 
+int \hyperlink{classFaceList_a172e8236b2c75a3000a5634240255243}{length} ()
+\item 
+void \hyperlink{classFaceList_ac5587f632433d76be2b9e8ae038cdd4f}{remove\+From\+List} (\hyperlink{classDCELFace}{D\+C\+E\+L\+Face} $\ast$face)
+\begin{DoxyCompactList}\small\item\em C\+R\+E\+A\+TE F\+A\+C\+ES. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classDCELFace}{D\+C\+E\+L\+Face} $\ast$ \hyperlink{classFaceList_a9dadb4bb9779d0869c725b90c9f33205}{head}
+\item 
+\hyperlink{classDCELFace}{D\+C\+E\+L\+Face} $\ast$ \hyperlink{classFaceList_a013acfbf783cd5b9a036981a8c747f7d}{tail}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Face\+List@{Face\+List}!Face\+List@{Face\+List}}
+\index{Face\+List@{Face\+List}!Face\+List@{Face\+List}}
+\subsubsection[{\texorpdfstring{Face\+List()}{FaceList()}}]{\setlength{\rightskip}{0pt plus 5cm}Face\+List\+::\+Face\+List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classFaceList_aaa982d0bd3d395436e8b8ef05b5232be}{}\label{classFaceList_aaa982d0bd3d395436e8b8ef05b5232be}
+
+\begin{DoxyCode}
+17                    : \hyperlink{classFaceList_a9dadb4bb9779d0869c725b90c9f33205}{head}(NULL)
+18 \{
+19 \}
+\end{DoxyCode}
+\index{Face\+List@{Face\+List}!````~Face\+List@{$\sim$\+Face\+List}}
+\index{````~Face\+List@{$\sim$\+Face\+List}!Face\+List@{Face\+List}}
+\subsubsection[{\texorpdfstring{$\sim$\+Face\+List()}{~FaceList()}}]{\setlength{\rightskip}{0pt plus 5cm}Face\+List\+::$\sim$\+Face\+List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classFaceList_a9bb9c3d2b32b53315d8aa7280240bbb2}{}\label{classFaceList_a9bb9c3d2b32b53315d8aa7280240bbb2}
+
+\begin{DoxyCode}
+22 \{
+23 \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\index{Face\+List@{Face\+List}!add\+To\+List@{add\+To\+List}}
+\index{add\+To\+List@{add\+To\+List}!Face\+List@{Face\+List}}
+\subsubsection[{\texorpdfstring{add\+To\+List(\+D\+C\+E\+L\+Face $\ast$new\+Face)}{addToList(DCELFace *newFace)}}]{\setlength{\rightskip}{0pt plus 5cm}void Face\+List\+::add\+To\+List (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Face} $\ast$}]{new\+Face}
+\end{DoxyParamCaption}
+)}\hypertarget{classFaceList_ad49cedf6161dc63e440137538baf6179}{}\label{classFaceList_ad49cedf6161dc63e440137538baf6179}
+
+
+C\+R\+E\+A\+TE F\+A\+C\+ES. 
+
+Add to the list 
+\begin{DoxyCode}
+28                                           \{
+29     \textcolor{keywordflow}{if} (\hyperlink{classFaceList_a9dadb4bb9779d0869c725b90c9f33205}{head})
+30     \{
+31         \hyperlink{classFaceList_a013acfbf783cd5b9a036981a8c747f7d}{tail}->\hyperlink{classDCELFace_a5fd804213fb2d96f900442da49ccb137}{next} = newFace;
+32         \hyperlink{classDCELFace}{DCELFace} *walker = newFace;
+33         \textcolor{keywordflow}{while} (walker->\hyperlink{classDCELFace_a5fd804213fb2d96f900442da49ccb137}{next}) walker = walker->\hyperlink{classDCELFace_a5fd804213fb2d96f900442da49ccb137}{next};
+34         \hyperlink{classFaceList_a013acfbf783cd5b9a036981a8c747f7d}{tail} = walker;
+35     \}
+36     \textcolor{keywordflow}{else} \{
+37         \hyperlink{classFaceList_a9dadb4bb9779d0869c725b90c9f33205}{head} = newFace;
+38         \hyperlink{classFaceList_a013acfbf783cd5b9a036981a8c747f7d}{tail} = newFace;
+39     \}
+40 \}
+\end{DoxyCode}
+\index{Face\+List@{Face\+List}!length@{length}}
+\index{length@{length}!Face\+List@{Face\+List}}
+\subsubsection[{\texorpdfstring{length()}{length()}}]{\setlength{\rightskip}{0pt plus 5cm}int Face\+List\+::length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classFaceList_a172e8236b2c75a3000a5634240255243}{}\label{classFaceList_a172e8236b2c75a3000a5634240255243}
+
+\begin{DoxyCode}
+42                      \{
+43     \textcolor{keywordflow}{if} (\hyperlink{classFaceList_a9dadb4bb9779d0869c725b90c9f33205}{head}) \{
+44         \hyperlink{classDCELFace}{DCELFace}* walker = \hyperlink{classFaceList_a9dadb4bb9779d0869c725b90c9f33205}{head};
+45         \textcolor{keywordtype}{int} \hyperlink{classFaceList_a172e8236b2c75a3000a5634240255243}{length} = 1;
+46         \textcolor{keywordflow}{while} (walker->\hyperlink{classDCELFace_a5fd804213fb2d96f900442da49ccb137}{next}) \{
+47             walker = walker->\hyperlink{classDCELFace_a5fd804213fb2d96f900442da49ccb137}{next};
+48             length++;
+49         \}
+50         \textcolor{keywordflow}{return} length - 1;
+51     \}
+52     \textcolor{keywordflow}{else} \textcolor{keywordflow}{return} 0;
+53 \}
+\end{DoxyCode}
+\index{Face\+List@{Face\+List}!remove\+From\+List@{remove\+From\+List}}
+\index{remove\+From\+List@{remove\+From\+List}!Face\+List@{Face\+List}}
+\subsubsection[{\texorpdfstring{remove\+From\+List(\+D\+C\+E\+L\+Face $\ast$face)}{removeFromList(DCELFace *face)}}]{\setlength{\rightskip}{0pt plus 5cm}void Face\+List\+::remove\+From\+List (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Face} $\ast$}]{face}
+\end{DoxyParamCaption}
+)}\hypertarget{classFaceList_ac5587f632433d76be2b9e8ae038cdd4f}{}\label{classFaceList_ac5587f632433d76be2b9e8ae038cdd4f}
+
+
+C\+R\+E\+A\+TE F\+A\+C\+ES. 
+
+Remove From the list 
+\begin{DoxyCode}
+58                                             \{
+59     \textcolor{keywordflow}{if} (face == \hyperlink{classFaceList_a9dadb4bb9779d0869c725b90c9f33205}{head}) \{
+60         \hyperlink{classFaceList_a9dadb4bb9779d0869c725b90c9f33205}{head} = \hyperlink{classFaceList_a9dadb4bb9779d0869c725b90c9f33205}{head}->\hyperlink{classDCELFace_a5fd804213fb2d96f900442da49ccb137}{next};
+61         \textcolor{keywordflow}{return};
+62     \}
+63     \hyperlink{classDCELFace}{DCELFace}* walker = \hyperlink{classFaceList_a9dadb4bb9779d0869c725b90c9f33205}{head};
+64     \textcolor{keywordflow}{while} (walker) \{
+65         \textcolor{keywordflow}{if} (walker->\hyperlink{classDCELFace_a5fd804213fb2d96f900442da49ccb137}{next} == face)
+66             \textcolor{keywordflow}{break};
+67         walker = walker->\hyperlink{classDCELFace_a5fd804213fb2d96f900442da49ccb137}{next};
+68     \}
+69     walker->\hyperlink{classDCELFace_a5fd804213fb2d96f900442da49ccb137}{next} = walker->\hyperlink{classDCELFace_a5fd804213fb2d96f900442da49ccb137}{next}->\hyperlink{classDCELFace_a5fd804213fb2d96f900442da49ccb137}{next};
+70 \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\index{Face\+List@{Face\+List}!head@{head}}
+\index{head@{head}!Face\+List@{Face\+List}}
+\subsubsection[{\texorpdfstring{head}{head}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Face}$\ast$ Face\+List\+::head}\hypertarget{classFaceList_a9dadb4bb9779d0869c725b90c9f33205}{}\label{classFaceList_a9dadb4bb9779d0869c725b90c9f33205}
+\index{Face\+List@{Face\+List}!tail@{tail}}
+\index{tail@{tail}!Face\+List@{Face\+List}}
+\subsubsection[{\texorpdfstring{tail}{tail}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Face}$\ast$ Face\+List\+::tail}\hypertarget{classFaceList_a013acfbf783cd5b9a036981a8c747f7d}{}\label{classFaceList_a013acfbf783cd5b9a036981a8c747f7d}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+C\+E\+L/\hyperlink{FaceList_8h}{Face\+List.\+h}\end{DoxyCompactItemize}

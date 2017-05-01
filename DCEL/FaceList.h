@@ -21,7 +21,10 @@ FaceList::FaceList() : head(NULL)
 FaceList::~FaceList()
 {
 }
-
+//! CREATE FACES
+/*!
+ * Add to the list
+ * */
 void FaceList::addToList(DCELFace* newFace) {
 	if (head)
 	{
@@ -48,7 +51,10 @@ int FaceList::length() {
 	}
 	else return 0;
 }
-
+//! CREATE FACES
+/*!
+ * Remove From the list
+ * */
 void FaceList::removeFromList(DCELFace* face) {
 	if (face == head) {
 		head = head->next;

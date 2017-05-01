@@ -1,0 +1,161 @@
+\hypertarget{classVertexList}{}\section{Vertex\+List Class Reference}
+\label{classVertexList}\index{Vertex\+List@{Vertex\+List}}
+
+
+{\ttfamily \#include $<$Vertex\+List.\+h$>$}
+
+
+
+Collaboration diagram for Vertex\+List\+:
+% FIG 0
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classVertexList_a1cf46057d007f78c0bde39ab950c69d3}{Vertex\+List} (void)
+\item 
+\hyperlink{classVertexList_a8140e4d5af907ffe6f117bf6ea2869c4}{$\sim$\+Vertex\+List} (void)
+\item 
+void \hyperlink{classVertexList_abe6d4b481b752eef2eb57ec4aee23b8c}{add\+To\+List} (\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$new\+Vertex)
+\item 
+void \hyperlink{classVertexList_adb3b006d6d94513de399e4a008805ebf}{remove\+From\+List} (\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$vertex)
+\item 
+void \hyperlink{classVertexList_a97c3c30cd1140f6412295943ad075fec}{echo} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$ \hyperlink{classVertexList_a1816fa2e1ce89953d2ec57b19f25c45a}{head}
+\item 
+\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$ \hyperlink{classVertexList_abe95a569380189ea9552c8eb4c927d7d}{tail}
+\item 
+int \hyperlink{classVertexList_a99fe4395d1c973a38e5e830909175f34}{length}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Vertex\+List@{Vertex\+List}!Vertex\+List@{Vertex\+List}}
+\index{Vertex\+List@{Vertex\+List}!Vertex\+List@{Vertex\+List}}
+\subsubsection[{\texorpdfstring{Vertex\+List(void)}{VertexList(void)}}]{\setlength{\rightskip}{0pt plus 5cm}Vertex\+List\+::\+Vertex\+List (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{classVertexList_a1cf46057d007f78c0bde39ab950c69d3}{}\label{classVertexList_a1cf46057d007f78c0bde39ab950c69d3}
+
+\begin{DoxyCode}
+18                            : \hyperlink{classVertexList_a1816fa2e1ce89953d2ec57b19f25c45a}{head}(NULL), \hyperlink{classVertexList_abe95a569380189ea9552c8eb4c927d7d}{tail}(NULL), \hyperlink{classVertexList_a99fe4395d1c973a38e5e830909175f34}{length}(0)
+19 \{
+20 \}
+\end{DoxyCode}
+\index{Vertex\+List@{Vertex\+List}!````~Vertex\+List@{$\sim$\+Vertex\+List}}
+\index{````~Vertex\+List@{$\sim$\+Vertex\+List}!Vertex\+List@{Vertex\+List}}
+\subsubsection[{\texorpdfstring{$\sim$\+Vertex\+List(void)}{~VertexList(void)}}]{\setlength{\rightskip}{0pt plus 5cm}Vertex\+List\+::$\sim$\+Vertex\+List (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{classVertexList_a8140e4d5af907ffe6f117bf6ea2869c4}{}\label{classVertexList_a8140e4d5af907ffe6f117bf6ea2869c4}
+
+\begin{DoxyCode}
+23 \{
+24 \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\index{Vertex\+List@{Vertex\+List}!add\+To\+List@{add\+To\+List}}
+\index{add\+To\+List@{add\+To\+List}!Vertex\+List@{Vertex\+List}}
+\subsubsection[{\texorpdfstring{add\+To\+List(\+D\+C\+E\+L\+Vertex $\ast$new\+Vertex)}{addToList(DCELVertex *newVertex)}}]{\setlength{\rightskip}{0pt plus 5cm}void Vertex\+List\+::add\+To\+List (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{new\+Vertex}
+\end{DoxyParamCaption}
+)}\hypertarget{classVertexList_abe6d4b481b752eef2eb57ec4aee23b8c}{}\label{classVertexList_abe6d4b481b752eef2eb57ec4aee23b8c}
+
+\begin{DoxyCode}
+39 \{
+40     \hyperlink{classVertexList_a99fe4395d1c973a38e5e830909175f34}{length}++;
+41     \textcolor{keywordflow}{if} ( \hyperlink{classVertexList_a1816fa2e1ce89953d2ec57b19f25c45a}{head} ) \{
+42         \textcolor{keywordflow}{if} ((\hyperlink{classVertexList_a1816fa2e1ce89953d2ec57b19f25c45a}{head}->\hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y} < newVertex->\hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y}) || (\hyperlink{classVertexList_a1816fa2e1ce89953d2ec57b19f25c45a}{head}->\hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y} == newVertex->\hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y} && 
+      \hyperlink{classVertexList_a1816fa2e1ce89953d2ec57b19f25c45a}{head}->\hyperlink{classDCELVertex_a0a8a36f7b24698829b31ab03e01dd07d}{x} > newVertex->\hyperlink{classDCELVertex_a0a8a36f7b24698829b31ab03e01dd07d}{x})) \{
+43             newVertex->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next} = \hyperlink{classVertexList_a1816fa2e1ce89953d2ec57b19f25c45a}{head};
+44             \hyperlink{classVertexList_a1816fa2e1ce89953d2ec57b19f25c45a}{head} = newVertex;
+45             \textcolor{keywordflow}{return};
+46         \}
+47         \hyperlink{classDCELVertex}{DCELVertex}* walker = \hyperlink{classVertexList_a1816fa2e1ce89953d2ec57b19f25c45a}{head};
+48         \textcolor{keywordflow}{while} (walker->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next}) \{
+49             \textcolor{keywordflow}{if} ((walker->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next}->\hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y} < newVertex->\hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y}) || (walker->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next}->\hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y} == newVertex->
+      \hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y} && walker->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next}->\hyperlink{classDCELVertex_a0a8a36f7b24698829b31ab03e01dd07d}{x} > newVertex->\hyperlink{classDCELVertex_a0a8a36f7b24698829b31ab03e01dd07d}{x})) \textcolor{keywordflow}{break};
+50             walker = walker->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next};
+51         \}
+52         newVertex->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next} = walker->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next};
+53         walker->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next} = newVertex;
+54     \}
+55     \textcolor{keywordflow}{else} \{
+56         \hyperlink{classVertexList_a1816fa2e1ce89953d2ec57b19f25c45a}{head} = newVertex;
+57         \hyperlink{classVertexList_abe95a569380189ea9552c8eb4c927d7d}{tail} = newVertex;
+58     \}
+59 \}
+\end{DoxyCode}
+\index{Vertex\+List@{Vertex\+List}!echo@{echo}}
+\index{echo@{echo}!Vertex\+List@{Vertex\+List}}
+\subsubsection[{\texorpdfstring{echo()}{echo()}}]{\setlength{\rightskip}{0pt plus 5cm}void Vertex\+List\+::echo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classVertexList_a97c3c30cd1140f6412295943ad075fec}{}\label{classVertexList_a97c3c30cd1140f6412295943ad075fec}
+
+\begin{DoxyCode}
+26                       \{
+27     \hyperlink{classDCELVertex}{DCELVertex}* walker = \hyperlink{classVertexList_a1816fa2e1ce89953d2ec57b19f25c45a}{head};
+28     \textcolor{keywordtype}{int} i = 0;
+29     \textcolor{keywordflow}{while} (1) \{
+30         walker->\hyperlink{classDCELVertex_a7d62808f634eb35187137a1a9dd4235a}{index} = i++;
+31         cout << walker->\hyperlink{classDCELVertex_a0a8a36f7b24698829b31ab03e01dd07d}{x} << \textcolor{stringliteral}{" "} << walker->\hyperlink{classDCELVertex_aa9ca8760cf4043aeb5c7d9d981d9bb99}{y} << \textcolor{stringliteral}{" 0"} << endl;
+32         \textcolor{keywordflow}{if} (walker->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next})
+33             walker = walker->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next};
+34         \textcolor{keywordflow}{else} \textcolor{keywordflow}{break};
+35     \}
+36 \}
+\end{DoxyCode}
+\index{Vertex\+List@{Vertex\+List}!remove\+From\+List@{remove\+From\+List}}
+\index{remove\+From\+List@{remove\+From\+List}!Vertex\+List@{Vertex\+List}}
+\subsubsection[{\texorpdfstring{remove\+From\+List(\+D\+C\+E\+L\+Vertex $\ast$vertex)}{removeFromList(DCELVertex *vertex)}}]{\setlength{\rightskip}{0pt plus 5cm}void Vertex\+List\+::remove\+From\+List (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+C\+E\+L\+Vertex} $\ast$}]{vertex}
+\end{DoxyParamCaption}
+)}\hypertarget{classVertexList_adb3b006d6d94513de399e4a008805ebf}{}\label{classVertexList_adb3b006d6d94513de399e4a008805ebf}
+
+\begin{DoxyCode}
+62 \{
+63     \hyperlink{classVertexList_a99fe4395d1c973a38e5e830909175f34}{length}--;
+64     \textcolor{keywordflow}{if} (\hyperlink{classVertexList_a1816fa2e1ce89953d2ec57b19f25c45a}{head}) \{
+65         \hyperlink{classDCELVertex}{DCELVertex}* walker = \hyperlink{classVertexList_a1816fa2e1ce89953d2ec57b19f25c45a}{head};
+66         \textcolor{keywordflow}{if} (walker == vertex) \{
+67             \hyperlink{classVertexList_a1816fa2e1ce89953d2ec57b19f25c45a}{head} = walker->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next};
+68             \textcolor{keyword}{delete} walker;
+69         \}
+70         \textcolor{keywordflow}{while} (walker->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next} != vertex && walker->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next} != NULL) \{
+71             walker = walker->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next};
+72         \}
+73         \textcolor{keywordflow}{if} (walker->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next} = vertex) \{
+74             walker->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next} = vertex->\hyperlink{classDCELVertex_a5eadf032ea2d74d0448e26aede36aaf0}{next};
+75             \textcolor{keyword}{delete} vertex;
+76         \}
+77     \}
+78 \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\index{Vertex\+List@{Vertex\+List}!head@{head}}
+\index{head@{head}!Vertex\+List@{Vertex\+List}}
+\subsubsection[{\texorpdfstring{head}{head}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Vertex}$\ast$ Vertex\+List\+::head}\hypertarget{classVertexList_a1816fa2e1ce89953d2ec57b19f25c45a}{}\label{classVertexList_a1816fa2e1ce89953d2ec57b19f25c45a}
+\index{Vertex\+List@{Vertex\+List}!length@{length}}
+\index{length@{length}!Vertex\+List@{Vertex\+List}}
+\subsubsection[{\texorpdfstring{length}{length}}]{\setlength{\rightskip}{0pt plus 5cm}int Vertex\+List\+::length}\hypertarget{classVertexList_a99fe4395d1c973a38e5e830909175f34}{}\label{classVertexList_a99fe4395d1c973a38e5e830909175f34}
+\index{Vertex\+List@{Vertex\+List}!tail@{tail}}
+\index{tail@{tail}!Vertex\+List@{Vertex\+List}}
+\subsubsection[{\texorpdfstring{tail}{tail}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Vertex}$\ast$ Vertex\+List\+::tail}\hypertarget{classVertexList_abe95a569380189ea9552c8eb4c927d7d}{}\label{classVertexList_abe95a569380189ea9552c8eb4c927d7d}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+C\+E\+L/\hyperlink{VertexList_8h}{Vertex\+List.\+h}\end{DoxyCompactItemize}

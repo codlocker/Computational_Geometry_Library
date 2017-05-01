@@ -44,7 +44,10 @@ void HalfEdgeList::addToList(DCELHalfEdge* newEdge)
 		tail = newEdge;
 	}
 }
-
+//! GETTTING THE HALF EDGE LIST
+/*!
+ * Adding a twin
+ * */
 DCELHalfEdge* HalfEdgeList::addTwinTo(DCELHalfEdge* edge, DCELHalfEdge* LaggingTwin) {
 	DCELHalfEdge *twinEdge = new DCELHalfEdge();
 	twinEdge->meta = ++globalEdgeCount;
@@ -64,7 +67,11 @@ void HalfEdgeList::removeFromList(DCELHalfEdge* edge)
 	delete edge->twin;
 	delete edge;
 }
-
+//! GETTTING THE HALF EDGE LIST
+/*!
+ * Hepler For Handling End Vertex. Walk around the path and add vertices that are in the Hal Edge Vetices List
+ *
+ * */
 DCELFace* HalfEdgeList::addEdgeBetween(DCELVertex* v1, DCELVertex* v2, DCELFace* face)
 {
 	DCELHalfEdge* walker = face->edge;

@@ -1,15 +1,3762 @@
 Executing Andrews Algorithm
 ---
-12
--32525 -2008
--32285 -28741
--32038 -30992
--31753 18945
--29916 24555
--27427 -31621
--23835 32371
--821 -32468
-29531 -31525
-31682 32472
-32109 -17757
-32290 23991
+Difference in Slopes 4.09915e+06
+CLOCKWISE
+Difference in Slopes -1.24366e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.60065e+06
+CLOCKWISE
+Difference in Slopes 1.08138e+07
+CLOCKWISE
+Difference in Slopes -6.44156e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 8.09977e+06
+CLOCKWISE
+Difference in Slopes 4.4764e+06
+CLOCKWISE
+Difference in Slopes -3.31729e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.76416e+06
+CLOCKWISE
+Difference in Slopes -1.15823e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.07291e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.57009e+07
+CLOCKWISE
+Difference in Slopes 9.64395e+06
+CLOCKWISE
+Difference in Slopes 5.00391e+06
+CLOCKWISE
+Difference in Slopes -1.7938e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.08158e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.31807e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.00374e+07
+CLOCKWISE
+Difference in Slopes 1.58399e+07
+CLOCKWISE
+Difference in Slopes -1.93407e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.22363e+06
+CLOCKWISE
+Difference in Slopes 3.091e+06
+CLOCKWISE
+Difference in Slopes -1.75175e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 904228
+CLOCKWISE
+Difference in Slopes 361386
+CLOCKWISE
+Difference in Slopes 3.6384e+06
+CLOCKWISE
+Difference in Slopes -3.97744e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -7.34992e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -7.76732e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.41499e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.50898e+06
+CLOCKWISE
+Difference in Slopes 7.68224e+07
+CLOCKWISE
+Difference in Slopes -1.3065e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.52855e+07
+CLOCKWISE
+Difference in Slopes -1.1517e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.80593e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.37326e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 8.65797e+07
+CLOCKWISE
+Difference in Slopes 1.96463e+08
+CLOCKWISE
+Difference in Slopes -6.13112e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.2231e+08
+CLOCKWISE
+Difference in Slopes -2.65502e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.35264e+07
+CLOCKWISE
+Difference in Slopes -5.21898e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.41804e+07
+CLOCKWISE
+Difference in Slopes 2.57976e+06
+CLOCKWISE
+Difference in Slopes 5.4931e+06
+CLOCKWISE
+Difference in Slopes -6.26265e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -261052
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.28933e+06
+CLOCKWISE
+Difference in Slopes -4.64565e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -5.05736e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.62342e+07
+CLOCKWISE
+Difference in Slopes 3.29715e+07
+CLOCKWISE
+Difference in Slopes -2.38064e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.93135e+06
+CLOCKWISE
+Difference in Slopes 2.71713e+07
+CLOCKWISE
+Difference in Slopes -2.27996e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 668672
+CLOCKWISE
+Difference in Slopes 2.65595e+06
+CLOCKWISE
+Difference in Slopes -3.1524e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -5.16469e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -4.79134e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.01288e+06
+CLOCKWISE
+Difference in Slopes 2.48807e+07
+CLOCKWISE
+Difference in Slopes -9.92205e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -5.55654e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.33814e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.07574e+08
+CLOCKWISE
+Difference in Slopes 5.69644e+07
+CLOCKWISE
+Difference in Slopes 6.39e+06
+CLOCKWISE
+Difference in Slopes -1.28109e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.51544e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -6.35127e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.1251e+07
+CLOCKWISE
+Difference in Slopes -8.2903e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.63264e+07
+CLOCKWISE
+Difference in Slopes 1.90084e+08
+CLOCKWISE
+Difference in Slopes -1.83653e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.59013e+08
+CLOCKWISE
+Difference in Slopes -5.46234e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 8.18691e+07
+CLOCKWISE
+Difference in Slopes -1.5543e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.00259e+07
+CLOCKWISE
+Difference in Slopes 2.43402e+07
+CLOCKWISE
+Difference in Slopes -624912
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.16374e+07
+CLOCKWISE
+Difference in Slopes -5.51154e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.61603e+07
+CLOCKWISE
+Difference in Slopes -1.03865e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.29014e+07
+CLOCKWISE
+Difference in Slopes -2.32976e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.72204e+06
+CLOCKWISE
+Difference in Slopes -2.21025e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.64688e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.41731e+07
+CLOCKWISE
+Difference in Slopes 4.56456e+07
+CLOCKWISE
+Difference in Slopes -275037
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.58618e+07
+CLOCKWISE
+Difference in Slopes -2.05278e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.08973e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.45281e+07
+CLOCKWISE
+Difference in Slopes 1.04292e+08
+CLOCKWISE
+Difference in Slopes -7.946e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.11235e+07
+CLOCKWISE
+Difference in Slopes -3.23254e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -6.12987e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -4.9307e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.62541e+07
+CLOCKWISE
+Difference in Slopes 2.21905e+08
+CLOCKWISE
+Difference in Slopes -337474
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.94052e+07
+CLOCKWISE
+Difference in Slopes -1.10957e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.23109e+08
+CLOCKWISE
+Difference in Slopes -7.99334e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.19274e+07
+CLOCKWISE
+Difference in Slopes 2.84604e+06
+CLOCKWISE
+Difference in Slopes 3.82364e+06
+CLOCKWISE
+Difference in Slopes -1.19675e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.24541e+06
+CLOCKWISE
+Difference in Slopes -1.14476e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 841769
+CLOCKWISE
+Difference in Slopes -537288
+ANTICLOCKWISE
+popping out
+Difference in Slopes 378610
+CLOCKWISE
+Difference in Slopes -7.20899e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -7.0381e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.20522e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.51915e+07
+CLOCKWISE
+Difference in Slopes 2.24276e+07
+CLOCKWISE
+Difference in Slopes -2.96034e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.3614e+07
+CLOCKWISE
+Difference in Slopes 2.22461e+06
+CLOCKWISE
+Difference in Slopes -1.97759e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.99052e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 8.86561e+06
+CLOCKWISE
+Difference in Slopes -3.80752e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.3927e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.62681e+07
+CLOCKWISE
+Difference in Slopes 5.26918e+07
+CLOCKWISE
+Difference in Slopes -2.07927e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.86926e+06
+CLOCKWISE
+Difference in Slopes 1.52515e+06
+CLOCKWISE
+Difference in Slopes -4.254e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -121452
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.46148e+07
+CLOCKWISE
+Difference in Slopes -6.14229e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.93743e+07
+CLOCKWISE
+Difference in Slopes 9.71215e+06
+CLOCKWISE
+Difference in Slopes -1.39309e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.66214e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.31332e+06
+CLOCKWISE
+Difference in Slopes -1.28356e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -5.40647e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.28563e+07
+CLOCKWISE
+Difference in Slopes 4.03986e+07
+CLOCKWISE
+Difference in Slopes -8.55518e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.09282e+07
+CLOCKWISE
+Difference in Slopes 1.61964e+07
+CLOCKWISE
+Difference in Slopes -9.2441e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.07587e+07
+CLOCKWISE
+Difference in Slopes -1.56331e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -7.73547e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.61508e+07
+CLOCKWISE
+Difference in Slopes -2.58334e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -9.08503e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.60397e+07
+CLOCKWISE
+Difference in Slopes -1.13258e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.33889e+07
+CLOCKWISE
+Difference in Slopes 2.06369e+07
+CLOCKWISE
+Difference in Slopes 3.45116e+07
+CLOCKWISE
+Difference in Slopes -4.25064e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -6.51906e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.3608e+06
+CLOCKWISE
+Difference in Slopes 5.45338e+07
+CLOCKWISE
+Difference in Slopes -1.33266e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -733336
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.20368e+06
+CLOCKWISE
+Difference in Slopes 2.71859e+07
+CLOCKWISE
+Difference in Slopes -6.59008e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.30465e+07
+CLOCKWISE
+Difference in Slopes 1.7933e+07
+CLOCKWISE
+Difference in Slopes -3.86507e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.36503e+07
+CLOCKWISE
+Difference in Slopes -113345
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.63033e+07
+CLOCKWISE
+Difference in Slopes -3.84841e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -4.3094e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -6.69252e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -267380
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.50571e+07
+CLOCKWISE
+Difference in Slopes 8.67223e+06
+CLOCKWISE
+Difference in Slopes 1.51394e+06
+CLOCKWISE
+Difference in Slopes -1.80986e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 876965
+CLOCKWISE
+Difference in Slopes -2.45157e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 717010
+CLOCKWISE
+Difference in Slopes -1.56837e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -563800
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.57469e+07
+CLOCKWISE
+Difference in Slopes -5.62017e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -513463
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.70215e+07
+CLOCKWISE
+Difference in Slopes 4.56321e+08
+CLOCKWISE
+Difference in Slopes -8.14918e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.01561e+08
+CLOCKWISE
+Difference in Slopes 1.11843e+06
+CLOCKWISE
+Difference in Slopes 2.04964e+06
+CLOCKWISE
+Difference in Slopes -5.49938e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.05747e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.78576e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.65991e+08
+CLOCKWISE
+Difference in Slopes -3.23938e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.62076e+08
+CLOCKWISE
+Difference in Slopes -2.10829e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.04392e+08
+CLOCKWISE
+Difference in Slopes -4.42188e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.03928e+08
+CLOCKWISE
+Difference in Slopes 2.82965e+07
+CLOCKWISE
+Difference in Slopes -2.3817e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -4.80706e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.1817e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.21001e+07
+CLOCKWISE
+Difference in Slopes 1.36405e+08
+CLOCKWISE
+Difference in Slopes -3.95708e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.68907e+08
+CLOCKWISE
+Difference in Slopes -8.76272e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 8.42072e+07
+CLOCKWISE
+Difference in Slopes 1.05027e+07
+CLOCKWISE
+Difference in Slopes -2.82673e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.26868e+06
+CLOCKWISE
+Difference in Slopes -2.08166e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.65944e+06
+CLOCKWISE
+Difference in Slopes 4.92026e+06
+CLOCKWISE
+Difference in Slopes -4.79119e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -6.02196e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 625420
+CLOCKWISE
+Difference in Slopes 9.21655e+06
+CLOCKWISE
+Difference in Slopes -1.13777e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -6.65519e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -4.66194e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.66162e+08
+CLOCKWISE
+Difference in Slopes 2.04905e+07
+CLOCKWISE
+Difference in Slopes -793038
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.11725e+07
+CLOCKWISE
+Difference in Slopes -2.63738e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.52536e+07
+CLOCKWISE
+Difference in Slopes -9.29839e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.64428e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.90516e+08
+CLOCKWISE
+Difference in Slopes 6.4623e+07
+CLOCKWISE
+Difference in Slopes -2.70576e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.35221e+07
+CLOCKWISE
+Difference in Slopes -954429
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.42126e+07
+CLOCKWISE
+Difference in Slopes -2.12127e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.7078e+07
+CLOCKWISE
+Difference in Slopes 508866
+CLOCKWISE
+Difference in Slopes -2.14282e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.83593e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -5.81576e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.26346e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.25886e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.52315e+08
+CLOCKWISE
+Difference in Slopes 7.88816e+08
+CLOCKWISE
+Difference in Slopes -122436
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.09851e+09
+CLOCKWISE
+Difference in Slopes -1.41927e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.85087e+08
+CLOCKWISE
+Difference in Slopes 5.3363e+06
+CLOCKWISE
+Difference in Slopes -7.84018e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -5.31822e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -7.17184e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.45457e+08
+CLOCKWISE
+Difference in Slopes 7.63435e+07
+CLOCKWISE
+Difference in Slopes 6182
+CLOCKWISE
+Difference in Slopes -1.53838e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -308787
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.29896e+09
+CLOCKWISE
+Difference in Slopes -1.13257e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.49701e+08
+CLOCKWISE
+Difference in Slopes -1.35517e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.11662e+08
+CLOCKWISE
+Difference in Slopes -4.84745e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.10698e+08
+CLOCKWISE
+Difference in Slopes 2.04909e+06
+CLOCKWISE
+Difference in Slopes 2.26643e+06
+CLOCKWISE
+Difference in Slopes -927168
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.71322e+06
+CLOCKWISE
+Difference in Slopes -1.54335e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -4.77454e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.1384e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 8.81258e+08
+CLOCKWISE
+Difference in Slopes 3.19594e+07
+CLOCKWISE
+Difference in Slopes -7.12184e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -6.45819e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.95408e+08
+CLOCKWISE
+Difference in Slopes -1.27308e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.55896e+07
+CLOCKWISE
+Difference in Slopes 1.20204e+08
+CLOCKWISE
+Difference in Slopes -2.57939e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.87162e+06
+CLOCKWISE
+Difference in Slopes 7.01318e+06
+CLOCKWISE
+Difference in Slopes -3.54512e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.60007e+07
+CLOCKWISE
+Difference in Slopes -1.93003e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 336591
+CLOCKWISE
+Difference in Slopes 2.78252e+06
+CLOCKWISE
+Difference in Slopes -4.855e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -5.51041e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.88937e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.86869e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.29506e+07
+CLOCKWISE
+Difference in Slopes 2.82549e+07
+CLOCKWISE
+Difference in Slopes -567061
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.39139e+07
+CLOCKWISE
+Difference in Slopes -2.52873e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.90799e+07
+CLOCKWISE
+Difference in Slopes 8.23835e+06
+CLOCKWISE
+Difference in Slopes 9.10003e+06
+CLOCKWISE
+Difference in Slopes -1.28578e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -6.84739e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.12407e+06
+CLOCKWISE
+Difference in Slopes -7.83182e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.12633e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.69227e+07
+CLOCKWISE
+Difference in Slopes 1.3657e+07
+CLOCKWISE
+Difference in Slopes -1.32812e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.79827e+07
+CLOCKWISE
+Difference in Slopes -5.2879e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.30611e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.83774e+07
+CLOCKWISE
+Difference in Slopes -1.26695e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.6073e+07
+CLOCKWISE
+Difference in Slopes -625882
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.83789e+07
+CLOCKWISE
+Difference in Slopes -1.13798e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.66792e+07
+CLOCKWISE
+Difference in Slopes 2.91465e+07
+CLOCKWISE
+Difference in Slopes -2.35405e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.26509e+07
+CLOCKWISE
+Difference in Slopes -2.0372e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.37714e+07
+CLOCKWISE
+Difference in Slopes -2.75722e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.86996e+06
+CLOCKWISE
+Difference in Slopes -1.01325e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.72295e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.37715e+06
+CLOCKWISE
+Difference in Slopes 7.56179e+07
+CLOCKWISE
+Difference in Slopes -1.41188e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.65219e+07
+CLOCKWISE
+Difference in Slopes 1.24351e+07
+CLOCKWISE
+Difference in Slopes -7.52023e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.01415e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.29511e+06
+CLOCKWISE
+Difference in Slopes -9.54836e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.12298e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.77808e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.73456e+07
+CLOCKWISE
+Difference in Slopes 1.50986e+08
+CLOCKWISE
+Difference in Slopes 2.88677e+06
+CLOCKWISE
+Difference in Slopes -3.23238e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 37952
+CLOCKWISE
+Difference in Slopes -2.9721e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.59599e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.14541e+08
+CLOCKWISE
+Difference in Slopes -1.73538e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.56492e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.09542e+07
+CLOCKWISE
+Difference in Slopes 1.96565e+08
+CLOCKWISE
+Difference in Slopes -6.48219e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.40464e+08
+CLOCKWISE
+Difference in Slopes -8.73602e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.40682e+08
+CLOCKWISE
+Difference in Slopes -4.56718e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.10936e+08
+CLOCKWISE
+Difference in Slopes -4.91961e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.57395e+08
+CLOCKWISE
+Difference in Slopes -5.51326e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.68705e+08
+CLOCKWISE
+Difference in Slopes -2.46937e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 8.51788e+07
+CLOCKWISE
+Difference in Slopes 9.80513e+07
+CLOCKWISE
+Difference in Slopes -1.59741e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.40789e+06
+CLOCKWISE
+Difference in Slopes 506245
+CLOCKWISE
+Difference in Slopes 1.82075e+06
+CLOCKWISE
+Difference in Slopes -1.3212e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.7738e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -6.5125e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.1613e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.07692e+07
+CLOCKWISE
+Difference in Slopes 1.40955e+08
+CLOCKWISE
+Difference in Slopes -2.59405e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.88334e+07
+CLOCKWISE
+Difference in Slopes 7.06252e+06
+CLOCKWISE
+Difference in Slopes -1.73557e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 927632
+CLOCKWISE
+Difference in Slopes 5.90569e+06
+CLOCKWISE
+Difference in Slopes -8.13176e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.90365e+06
+CLOCKWISE
+Difference in Slopes -9.64914e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -599236
+ANTICLOCKWISE
+popping out
+Difference in Slopes 772062
+CLOCKWISE
+Difference in Slopes -1.23981e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.32362e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -7.27385e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.64509e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.82299e+06
+CLOCKWISE
+Difference in Slopes 2.49531e+08
+CLOCKWISE
+Difference in Slopes -1.132e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.92057e+08
+CLOCKWISE
+Difference in Slopes -5.71232e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.58112e+08
+CLOCKWISE
+Difference in Slopes 9.97916e+06
+CLOCKWISE
+Difference in Slopes -5.94825e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.34444e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.20302e+08
+CLOCKWISE
+Difference in Slopes 3.7519e+07
+CLOCKWISE
+Difference in Slopes -371383
+ANTICLOCKWISE
+popping out
+Difference in Slopes -9.05645e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.60192e+07
+CLOCKWISE
+Difference in Slopes 265208
+CLOCKWISE
+Difference in Slopes 7.42423e+06
+CLOCKWISE
+Difference in Slopes -4.11648e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.40037e+06
+CLOCKWISE
+Difference in Slopes -1.89941e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 8.9096e+06
+CLOCKWISE
+Difference in Slopes -1.58333e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.1223e+06
+CLOCKWISE
+Difference in Slopes -2.01211e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.25818e+06
+CLOCKWISE
+Difference in Slopes 2.22402e+07
+CLOCKWISE
+Difference in Slopes -9.12919e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.33617e+06
+CLOCKWISE
+Difference in Slopes 3.552e+06
+CLOCKWISE
+Difference in Slopes -3.73092e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.48919e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.50277e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -950416
+ANTICLOCKWISE
+popping out
+Difference in Slopes -4.59676e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.78244e+07
+CLOCKWISE
+Difference in Slopes 1.29738e+08
+CLOCKWISE
+Difference in Slopes -489349
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.76635e+08
+CLOCKWISE
+Difference in Slopes -3.94e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.08519e+08
+CLOCKWISE
+Difference in Slopes 5.12056e+06
+CLOCKWISE
+Difference in Slopes -1.09385e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.64465e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.79299e+07
+CLOCKWISE
+Difference in Slopes 4.78995e+07
+CLOCKWISE
+Difference in Slopes -1.03855e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.83817e+06
+CLOCKWISE
+Difference in Slopes 8.94339e+06
+CLOCKWISE
+Difference in Slopes -7.23797e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.32828e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.10686e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.9616e+07
+CLOCKWISE
+Difference in Slopes -2.21236e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.36174e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.35332e+07
+CLOCKWISE
+Difference in Slopes -4.37268e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.51955e+06
+CLOCKWISE
+Difference in Slopes 2.52092e+08
+CLOCKWISE
+Difference in Slopes -2.87489e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.62917e+08
+CLOCKWISE
+Difference in Slopes -5.07335e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.24588e+08
+CLOCKWISE
+Difference in Slopes -1.47986e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.62041e+08
+CLOCKWISE
+Difference in Slopes -9.52538e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.25126e+08
+CLOCKWISE
+Difference in Slopes -4.27297e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.0492e+08
+CLOCKWISE
+Difference in Slopes 1.66703e+06
+CLOCKWISE
+Difference in Slopes 32493
+CLOCKWISE
+Difference in Slopes -2.09192e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -449227
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.10023e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.95772e+07
+CLOCKWISE
+Difference in Slopes -2.8606e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.19753e+07
+CLOCKWISE
+Difference in Slopes 1.48568e+07
+CLOCKWISE
+Difference in Slopes -7.85694e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.46594e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 8.6678e+07
+CLOCKWISE
+Difference in Slopes 9.09232e+07
+CLOCKWISE
+Difference in Slopes -1.16729e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.40021e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.38824e+07
+CLOCKWISE
+Difference in Slopes 1.78545e+07
+CLOCKWISE
+Difference in Slopes -1.25775e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.35999e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.816e+07
+CLOCKWISE
+Difference in Slopes 6.45274e+07
+CLOCKWISE
+Difference in Slopes -2.98127e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.08901e+08
+CLOCKWISE
+Difference in Slopes -8.09232e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.3074e+08
+CLOCKWISE
+Difference in Slopes -2.50293e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.08257e+07
+CLOCKWISE
+Difference in Slopes -9.8639e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.38866e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.20917e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.72933e+06
+CLOCKWISE
+Difference in Slopes 3.64205e+08
+CLOCKWISE
+Difference in Slopes -6.52355e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.81063e+08
+CLOCKWISE
+Difference in Slopes -139672
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.77013e+08
+CLOCKWISE
+Difference in Slopes 3.60437e+06
+CLOCKWISE
+Difference in Slopes -1.6929e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -7.22373e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.20972e+08
+CLOCKWISE
+Difference in Slopes -9.47777e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.03174e+08
+CLOCKWISE
+Difference in Slopes -7.86359e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.75987e+07
+CLOCKWISE
+Difference in Slopes 4.52684e+07
+CLOCKWISE
+Difference in Slopes -1.03936e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.57141e+07
+CLOCKWISE
+Difference in Slopes -1.95265e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.92741e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -6.02135e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.69225e+06
+CLOCKWISE
+Difference in Slopes 6.19929e+08
+CLOCKWISE
+Difference in Slopes -2.84649e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.40447e+08
+CLOCKWISE
+Difference in Slopes -906450
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.49249e+07
+CLOCKWISE
+Difference in Slopes 1.453e+06
+CLOCKWISE
+Difference in Slopes -1.02442e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.67768e+06
+CLOCKWISE
+Difference in Slopes -1.04669e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.02917e+06
+CLOCKWISE
+Difference in Slopes 3.92529e+06
+CLOCKWISE
+Difference in Slopes -2.11133e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.00591e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -893388
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.00511e+08
+CLOCKWISE
+Difference in Slopes -9.8435e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.3535e+07
+CLOCKWISE
+Difference in Slopes 8.2804e+06
+CLOCKWISE
+Difference in Slopes -9.04349e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.92626e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.78684e+06
+CLOCKWISE
+Difference in Slopes 8.06926e+07
+CLOCKWISE
+Difference in Slopes -1.55792e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.10992e+07
+CLOCKWISE
+Difference in Slopes 5.99421e+06
+CLOCKWISE
+Difference in Slopes -3.0278e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.33979e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.06708e+07
+CLOCKWISE
+Difference in Slopes 3.95194e+06
+CLOCKWISE
+Difference in Slopes -1.01192e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.62519e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.07732e+07
+CLOCKWISE
+Difference in Slopes 2.80413e+07
+CLOCKWISE
+Difference in Slopes -3.50635e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.14987e+07
+CLOCKWISE
+Difference in Slopes -4.90945e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.94976e+06
+CLOCKWISE
+Difference in Slopes 6.83845e+06
+CLOCKWISE
+Difference in Slopes -9.25018e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.67353e+06
+CLOCKWISE
+Difference in Slopes 7.47848e+06
+CLOCKWISE
+Difference in Slopes -915046
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.77985e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.12045e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -7.48408e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.54694e+07
+CLOCKWISE
+Difference in Slopes 2.37998e+07
+CLOCKWISE
+Difference in Slopes -83547
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.11109e+07
+CLOCKWISE
+Difference in Slopes -1.89283e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.16039e+07
+CLOCKWISE
+Difference in Slopes 2.39667e+06
+CLOCKWISE
+Difference in Slopes 168862
+CLOCKWISE
+Difference in Slopes -860742
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.118e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.64711e+06
+CLOCKWISE
+Difference in Slopes -6.79931e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -330221
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.44834e+07
+CLOCKWISE
+Difference in Slopes -2.26842e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.93701e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.55825e+07
+CLOCKWISE
+Difference in Slopes 6.42599e+07
+CLOCKWISE
+Difference in Slopes -1.59308e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.20301e+07
+CLOCKWISE
+Difference in Slopes 1.88023e+06
+CLOCKWISE
+Difference in Slopes -1.46249e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.9549e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.03149e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.62334e+06
+CLOCKWISE
+Difference in Slopes -1.13532e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.21048e+06
+CLOCKWISE
+Difference in Slopes 1.32077e+08
+CLOCKWISE
+Difference in Slopes -2.08264e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.25136e+07
+CLOCKWISE
+Difference in Slopes 4.09486e+06
+CLOCKWISE
+Difference in Slopes -1.08069e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.63572e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.83339e+07
+CLOCKWISE
+Difference in Slopes 3.17142e+07
+CLOCKWISE
+Difference in Slopes -6.40729e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.17082e+07
+CLOCKWISE
+Difference in Slopes -1.33778e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -5.72098e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -628623
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.61688e+06
+CLOCKWISE
+Difference in Slopes 1.87044e+08
+CLOCKWISE
+Difference in Slopes -1.024e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.10342e+08
+CLOCKWISE
+Difference in Slopes -2.56925e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.09247e+08
+CLOCKWISE
+Difference in Slopes -2.36354e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.35932e+08
+CLOCKWISE
+Difference in Slopes -2.58004e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.03316e+08
+CLOCKWISE
+Difference in Slopes 3.83493e+07
+CLOCKWISE
+Difference in Slopes -4.33356e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.07319e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.87058e+07
+CLOCKWISE
+Difference in Slopes 2.96535e+07
+CLOCKWISE
+Difference in Slopes -5.64981e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.04511e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.17089e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.89979e+06
+CLOCKWISE
+Difference in Slopes 9.06534e+06
+CLOCKWISE
+Difference in Slopes 5.36914e+06
+CLOCKWISE
+Difference in Slopes -1.45182e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.41006e+06
+CLOCKWISE
+Difference in Slopes -1.42172e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.88605e+06
+CLOCKWISE
+Difference in Slopes -5.92205e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.13509e+06
+CLOCKWISE
+Difference in Slopes 2.1821e+06
+CLOCKWISE
+Difference in Slopes -563943
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.04901e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 831597
+CLOCKWISE
+Difference in Slopes -1.57876e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.19137e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.437e+07
+CLOCKWISE
+Difference in Slopes 2.96364e+07
+CLOCKWISE
+Difference in Slopes -1.20325e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.62106e+07
+CLOCKWISE
+Difference in Slopes 2.87458e+06
+CLOCKWISE
+Difference in Slopes -2.6846e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.59241e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.73981e+07
+CLOCKWISE
+Difference in Slopes -2.34862e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -6.94519e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.70851e+07
+CLOCKWISE
+Difference in Slopes -2.7145e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.49602e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.8592e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.04522e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -4.15712e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.99356e+07
+CLOCKWISE
+Difference in Slopes 2.85673e+08
+CLOCKWISE
+Difference in Slopes -3.24877e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.2772e+08
+CLOCKWISE
+Difference in Slopes -4.40432e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.0432e+07
+CLOCKWISE
+Difference in Slopes 7.23017e+06
+CLOCKWISE
+Difference in Slopes 1.34824e+07
+CLOCKWISE
+Difference in Slopes -8.00455e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 111072
+CLOCKWISE
+Difference in Slopes -8.05654e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.33986e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -624168
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.25379e+07
+CLOCKWISE
+Difference in Slopes 4.83897e+07
+CLOCKWISE
+Difference in Slopes -4.58425e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.67749e+07
+CLOCKWISE
+Difference in Slopes -4.45836e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.0846e+06
+CLOCKWISE
+Difference in Slopes 5.08862e+06
+CLOCKWISE
+Difference in Slopes 9.22324e+06
+CLOCKWISE
+Difference in Slopes -4.87614e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.82727e+06
+CLOCKWISE
+Difference in Slopes 6.32106e+06
+CLOCKWISE
+Difference in Slopes -3.63056e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.42805e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.44421e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.41871e+06
+CLOCKWISE
+Difference in Slopes 2.55785e+07
+CLOCKWISE
+Difference in Slopes -7.62443e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.30024e+07
+CLOCKWISE
+Difference in Slopes 648993
+CLOCKWISE
+Difference in Slopes -1.32279e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.01143e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.5705e+06
+CLOCKWISE
+Difference in Slopes 1.6789e+07
+CLOCKWISE
+Difference in Slopes -2.83298e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.30903e+06
+CLOCKWISE
+Difference in Slopes 362054
+CLOCKWISE
+Difference in Slopes -4.12812e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.93176e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.45316e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.09805e+06
+CLOCKWISE
+Difference in Slopes 3.45727e+07
+CLOCKWISE
+Difference in Slopes -1.0901e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.04031e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.72272e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.18054e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -777348
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.06796e+07
+CLOCKWISE
+Difference in Slopes 1.40584e+08
+CLOCKWISE
+Difference in Slopes -9.64143e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.66947e+08
+CLOCKWISE
+Difference in Slopes -1.50085e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.7758e+07
+CLOCKWISE
+Difference in Slopes 1.8767e+06
+CLOCKWISE
+Difference in Slopes 1.15092e+07
+CLOCKWISE
+Difference in Slopes -1.11912e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.9957e+06
+CLOCKWISE
+Difference in Slopes -9.01254e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.86867e+06
+CLOCKWISE
+Difference in Slopes -2.44825e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.09142e+06
+CLOCKWISE
+Difference in Slopes -3.72799e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.59247e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.23781e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.12227e+07
+CLOCKWISE
+Difference in Slopes 7.13007e+07
+CLOCKWISE
+Difference in Slopes -1.64833e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.14145e+07
+CLOCKWISE
+Difference in Slopes -2.49438e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.1891e+07
+CLOCKWISE
+Difference in Slopes -2.62349e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.27726e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -4.26627e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 904409
+CLOCKWISE
+Difference in Slopes 1.68274e+08
+CLOCKWISE
+Difference in Slopes -798839
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.66737e+08
+CLOCKWISE
+Difference in Slopes -4.98162e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.28312e+08
+CLOCKWISE
+Difference in Slopes -1.5383e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.2739e+08
+CLOCKWISE
+Difference in Slopes -2.29554e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.08008e+08
+CLOCKWISE
+Difference in Slopes 4.25336e+07
+CLOCKWISE
+Difference in Slopes -1.08893e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.34068e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.66124e+07
+CLOCKWISE
+Difference in Slopes 6.22565e+07
+CLOCKWISE
+-------------------COUNTER VALUE AFTER LOWER HULL:9
+Difference in Slopes -1.45185e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.2471e+07
+CLOCKWISE
+Difference in Slopes -3.46886e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.00827e+06
+CLOCKWISE
+Difference in Slopes -5.7399e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.25134e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.10103e+07
+CLOCKWISE
+Difference in Slopes -1.29914e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.10737e+07
+CLOCKWISE
+Difference in Slopes 7.0796e+06
+CLOCKWISE
+Difference in Slopes -697415
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.42265e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.93625e+07
+CLOCKWISE
+Difference in Slopes -1.29502e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.25026e+07
+CLOCKWISE
+Difference in Slopes -6.80887e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.96688e+07
+CLOCKWISE
+Difference in Slopes 2.99093e+07
+CLOCKWISE
+Difference in Slopes -2.93182e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.21869e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.55945e+07
+CLOCKWISE
+Difference in Slopes 872294
+CLOCKWISE
+Difference in Slopes -1.13938e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.43003e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.31229e+07
+CLOCKWISE
+Difference in Slopes 1.24069e+07
+CLOCKWISE
+Difference in Slopes 1.11912e+07
+CLOCKWISE
+Difference in Slopes -1.15092e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.27046e+07
+CLOCKWISE
+Difference in Slopes -1.96457e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 627114
+CLOCKWISE
+Difference in Slopes -258487
+ANTICLOCKWISE
+popping out
+Difference in Slopes 782019
+CLOCKWISE
+Difference in Slopes 2.87723e+07
+CLOCKWISE
+Difference in Slopes -9.22302e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.37036e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.79261e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.004e+07
+CLOCKWISE
+Difference in Slopes 4.63657e+07
+CLOCKWISE
+Difference in Slopes -9.70784e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -7.1653e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.94255e+06
+CLOCKWISE
+Difference in Slopes 1.64956e+07
+CLOCKWISE
+Difference in Slopes -1.31254e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.94721e+06
+CLOCKWISE
+Difference in Slopes 3.78347e+06
+CLOCKWISE
+Difference in Slopes -7.59363e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -622945
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.74145e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.26711e+06
+CLOCKWISE
+Difference in Slopes 6.0584e+07
+CLOCKWISE
+Difference in Slopes -9.47299e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.41047e+07
+CLOCKWISE
+Difference in Slopes 1.64484e+07
+CLOCKWISE
+Difference in Slopes -1.00301e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -4.86345e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.43387e+07
+CLOCKWISE
+Difference in Slopes 2.23547e+07
+CLOCKWISE
+Difference in Slopes -5.51808e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.87666e+06
+CLOCKWISE
+Difference in Slopes 4.07316e+06
+CLOCKWISE
+Difference in Slopes -9.22324e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -186278
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.14209e+07
+CLOCKWISE
+Difference in Slopes -4.69919e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.14696e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.13129e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.27936e+06
+CLOCKWISE
+Difference in Slopes 8.45292e+07
+CLOCKWISE
+Difference in Slopes 4.58425e+06
+CLOCKWISE
+Difference in Slopes -9.84777e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -4.39762e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.27779e+08
+CLOCKWISE
+Difference in Slopes -2.01933e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.46963e+07
+CLOCKWISE
+Difference in Slopes 2.49738e+07
+CLOCKWISE
+Difference in Slopes -1.34824e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.26792e+07
+CLOCKWISE
+Difference in Slopes -8.42195e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.41185e+07
+CLOCKWISE
+Difference in Slopes -1.35685e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.06685e+07
+CLOCKWISE
+Difference in Slopes 7.84571e+06
+CLOCKWISE
+Difference in Slopes -6.90556e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.27419e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.88295e+06
+CLOCKWISE
+Difference in Slopes -4.78385e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.21608e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 8.56811e+07
+CLOCKWISE
+Difference in Slopes -6.14884e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.17043e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.62752e+06
+CLOCKWISE
+Difference in Slopes 5.93712e+07
+CLOCKWISE
+Difference in Slopes -3.94381e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.61847e+08
+CLOCKWISE
+Difference in Slopes 1.31017e+07
+CLOCKWISE
+Difference in Slopes -3.44645e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.99963e+06
+CLOCKWISE
+Difference in Slopes -2.9473e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -7.42164e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.5551e+08
+CLOCKWISE
+Difference in Slopes 2.21332e+06
+CLOCKWISE
+Difference in Slopes -302934
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.53294e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.4482e+08
+CLOCKWISE
+Difference in Slopes -1.33953e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.04883e+07
+CLOCKWISE
+Difference in Slopes -8.35998e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.95857e+07
+CLOCKWISE
+Difference in Slopes 6.21563e+07
+CLOCKWISE
+Difference in Slopes -5.36914e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.31707e+07
+CLOCKWISE
+Difference in Slopes -2.65059e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.17803e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 8.43561e+07
+CLOCKWISE
+Difference in Slopes 4.81069e+07
+CLOCKWISE
+Difference in Slopes -5.23678e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.4235e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.04003e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.64058e+06
+CLOCKWISE
+Difference in Slopes 2.76554e+08
+CLOCKWISE
+Difference in Slopes -2.02729e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.10054e+08
+CLOCKWISE
+Difference in Slopes -171087
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.67848e+08
+CLOCKWISE
+Difference in Slopes -3.01271e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.65955e+08
+CLOCKWISE
+Difference in Slopes -2.23921e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.03194e+08
+CLOCKWISE
+Difference in Slopes 4.84726e+07
+CLOCKWISE
+Difference in Slopes -1.03328e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.04922e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.8713e+07
+CLOCKWISE
+Difference in Slopes 1.00633e+06
+CLOCKWISE
+Difference in Slopes 6.40729e+06
+CLOCKWISE
+Difference in Slopes -2.54742e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.03167e+06
+CLOCKWISE
+Difference in Slopes -2.0155e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.07788e+06
+CLOCKWISE
+Difference in Slopes -1.07003e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.04441e+06
+CLOCKWISE
+Difference in Slopes 7.0919e+06
+CLOCKWISE
+Difference in Slopes -4.26515e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.04438e+06
+CLOCKWISE
+Difference in Slopes -3.53272e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.07317e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.09094e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.1922e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.07166e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.59278e+06
+CLOCKWISE
+Difference in Slopes 4.48763e+08
+CLOCKWISE
+Difference in Slopes -4.08641e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.7575e+08
+CLOCKWISE
+Difference in Slopes 3.79926e+06
+CLOCKWISE
+Difference in Slopes -9.46389e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.07607e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.02572e+08
+CLOCKWISE
+Difference in Slopes -1.1082e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.66165e+07
+CLOCKWISE
+Difference in Slopes 200930
+CLOCKWISE
+Difference in Slopes 860742
+CLOCKWISE
+Difference in Slopes -168862
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.1476e+06
+CLOCKWISE
+Difference in Slopes -3.58031e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.12132e+06
+CLOCKWISE
+Difference in Slopes 399485
+CLOCKWISE
+Difference in Slopes 83547
+CLOCKWISE
+Difference in Slopes -3.28378e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.17862e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.20513e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -22680
+ANTICLOCKWISE
+popping out
+Difference in Slopes 826410
+CLOCKWISE
+Difference in Slopes 9.05333e+06
+CLOCKWISE
+Difference in Slopes -6.3891e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.38137e+06
+CLOCKWISE
+Difference in Slopes 8.16079e+06
+CLOCKWISE
+Difference in Slopes -1.8389e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.01996e+06
+CLOCKWISE
+Difference in Slopes -1.34445e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -608594
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.082e+06
+CLOCKWISE
+Difference in Slopes 1.24812e+07
+CLOCKWISE
+Difference in Slopes -7.06027e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.91351e+06
+CLOCKWISE
+Difference in Slopes -925752
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.8348e+06
+CLOCKWISE
+Difference in Slopes -4.75094e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.40012e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -5.1076e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.5045e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.23368e+06
+CLOCKWISE
+Difference in Slopes 5.82808e+07
+CLOCKWISE
+Difference in Slopes -5.56387e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 36687
+CLOCKWISE
+Difference in Slopes 1.51489e+07
+CLOCKWISE
+Difference in Slopes -2.5135e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.02077e+07
+CLOCKWISE
+Difference in Slopes -2.16811e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.34541e+07
+CLOCKWISE
+Difference in Slopes -1.64997e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.04849e+07
+CLOCKWISE
+Difference in Slopes -2.90423e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.34306e+06
+CLOCKWISE
+Difference in Slopes 1.18148e+07
+CLOCKWISE
+Difference in Slopes -3.53938e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.18642e+06
+CLOCKWISE
+Difference in Slopes 4.87172e+06
+CLOCKWISE
+Difference in Slopes 1.02442e+06
+CLOCKWISE
+Difference in Slopes -864895
+ANTICLOCKWISE
+popping out
+Difference in Slopes -343659
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.2373e+06
+CLOCKWISE
+Difference in Slopes -7.6023e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -6.19929e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.67721e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 669885
+CLOCKWISE
+Difference in Slopes 8.35955e+07
+CLOCKWISE
+Difference in Slopes -4.00904e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.76612e+07
+CLOCKWISE
+Difference in Slopes -2.6033e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.3742e+06
+CLOCKWISE
+Difference in Slopes 1.14749e+07
+CLOCKWISE
+Difference in Slopes -7.27878e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.35451e+06
+CLOCKWISE
+Difference in Slopes -4.49329e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.60995e+06
+CLOCKWISE
+Difference in Slopes -1.28704e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.50079e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -6.34679e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -162192
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.36595e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.72759e+06
+CLOCKWISE
+Difference in Slopes 2.02895e+08
+CLOCKWISE
+Difference in Slopes -227554
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.00801e+08
+CLOCKWISE
+Difference in Slopes -1.07356e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.061e+08
+CLOCKWISE
+Difference in Slopes 1.4022e+07
+CLOCKWISE
+Difference in Slopes -5.20612e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.53642e+06
+CLOCKWISE
+Difference in Slopes -1.52784e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.75822e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.78562e+07
+CLOCKWISE
+Difference in Slopes 5.9901e+06
+CLOCKWISE
+Difference in Slopes 2.6995e+06
+CLOCKWISE
+Difference in Slopes 2.98127e+06
+CLOCKWISE
+Difference in Slopes -935114
+ANTICLOCKWISE
+popping out
+Difference in Slopes 826871
+CLOCKWISE
+Difference in Slopes -676923
+ANTICLOCKWISE
+popping out
+Difference in Slopes 379472
+CLOCKWISE
+Difference in Slopes -7.6413e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -7.18302e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -5.12281e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -5.0152e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.74015e+07
+CLOCKWISE
+Difference in Slopes 5.93851e+07
+CLOCKWISE
+Difference in Slopes -3.20814e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.65689e+07
+CLOCKWISE
+Difference in Slopes 8.23988e+06
+CLOCKWISE
+Difference in Slopes -3.70284e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -751064
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.16517e+07
+CLOCKWISE
+Difference in Slopes -2.65099e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.57942e+07
+CLOCKWISE
+Difference in Slopes 1.26709e+07
+CLOCKWISE
+Difference in Slopes -32493
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.51769e+07
+CLOCKWISE
+Difference in Slopes -5.21742e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -4.71888e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.91523e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.15915e+07
+CLOCKWISE
+Difference in Slopes -2.19651e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -9.16392e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -7.46765e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.45024e+06
+CLOCKWISE
+Difference in Slopes 1.24795e+08
+CLOCKWISE
+Difference in Slopes 6.78548e+06
+CLOCKWISE
+Difference in Slopes -5.62984e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.73851e+06
+CLOCKWISE
+Difference in Slopes 1.35781e+07
+CLOCKWISE
+Difference in Slopes -1.24806e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.0864e+07
+CLOCKWISE
+Difference in Slopes -1.27717e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.93297e+06
+CLOCKWISE
+Difference in Slopes -2.09835e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.17355e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -6.54487e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.98066e+07
+CLOCKWISE
+Difference in Slopes 2.92596e+07
+CLOCKWISE
+Difference in Slopes -7.78633e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.39969e+06
+CLOCKWISE
+Difference in Slopes 9.22847e+06
+CLOCKWISE
+Difference in Slopes -1.24785e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -43140
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.12922e+06
+CLOCKWISE
+Difference in Slopes 8.2871e+06
+CLOCKWISE
+Difference in Slopes -1.11914e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.90346e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -7.90876e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.43054e+06
+CLOCKWISE
+Difference in Slopes 3.92518e+07
+CLOCKWISE
+Difference in Slopes 489349
+CLOCKWISE
+Difference in Slopes -2.75693e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -9.93256e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.977e+07
+CLOCKWISE
+Difference in Slopes 8.03043e+06
+CLOCKWISE
+Difference in Slopes -3.42533e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -9.20547e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.16715e+07
+CLOCKWISE
+Difference in Slopes 2.97678e+07
+CLOCKWISE
+Difference in Slopes -1.26729e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.56314e+06
+CLOCKWISE
+Difference in Slopes -1.31319e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.21626e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.95239e+07
+CLOCKWISE
+Difference in Slopes 4.87114e+07
+CLOCKWISE
+Difference in Slopes -5.52356e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.60802e+07
+CLOCKWISE
+Difference in Slopes 1.15394e+07
+CLOCKWISE
+Difference in Slopes -7.42423e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.00541e+07
+CLOCKWISE
+Difference in Slopes -1.11072e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -555147
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.94174e+07
+CLOCKWISE
+Difference in Slopes 1.73569e+07
+CLOCKWISE
+Difference in Slopes -1.21594e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.10452e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.57074e+07
+CLOCKWISE
+Difference in Slopes 1.24456e+07
+CLOCKWISE
+Difference in Slopes -3.98852e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.44371e+07
+CLOCKWISE
+Difference in Slopes -818451
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.69297e+07
+CLOCKWISE
+Difference in Slopes 1.67214e+06
+CLOCKWISE
+Difference in Slopes -1.13797e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.11023e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.0488e+07
+CLOCKWISE
+Difference in Slopes -2.74464e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.84622e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.93243e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.66181e+07
+CLOCKWISE
+Difference in Slopes -3.33379e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.7005e+07
+CLOCKWISE
+Difference in Slopes 1.68855e+08
+CLOCKWISE
+Difference in Slopes -2.4758e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.26509e+08
+CLOCKWISE
+Difference in Slopes -1.69432e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.86215e+08
+CLOCKWISE
+Difference in Slopes -2.75578e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.34944e+07
+CLOCKWISE
+Difference in Slopes 3.03719e+07
+CLOCKWISE
+Difference in Slopes -3.09912e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.93175e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.13889e+07
+CLOCKWISE
+Difference in Slopes 4.14199e+07
+CLOCKWISE
+Difference in Slopes -1.82075e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.36906e+07
+CLOCKWISE
+Difference in Slopes -1.17683e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.48705e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.1083e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.07758e+07
+CLOCKWISE
+Difference in Slopes 2.73839e+08
+CLOCKWISE
+Difference in Slopes -1.37341e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.05718e+08
+CLOCKWISE
+Difference in Slopes -1.30896e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.13297e+08
+CLOCKWISE
+Difference in Slopes -3.04988e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 8.57107e+07
+CLOCKWISE
+Difference in Slopes 1.27829e+07
+CLOCKWISE
+Difference in Slopes -1.38118e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.68434e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.39261e+08
+CLOCKWISE
+Difference in Slopes 5.54431e+06
+CLOCKWISE
+Difference in Slopes 6.48219e+06
+CLOCKWISE
+Difference in Slopes -7.66125e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.96066e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.14562e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.41896e+08
+CLOCKWISE
+Difference in Slopes -4.03121e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.63601e+07
+CLOCKWISE
+Difference in Slopes -1.79531e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.23585e+06
+CLOCKWISE
+Difference in Slopes 8.33834e+07
+CLOCKWISE
+Difference in Slopes -2.88677e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.40839e+08
+CLOCKWISE
+Difference in Slopes -1.65123e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.13356e+08
+CLOCKWISE
+Difference in Slopes -2.28581e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.29947e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.2869e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.06994e+07
+CLOCKWISE
+Difference in Slopes 2.15212e+08
+CLOCKWISE
+Difference in Slopes -9.27891e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.42959e+08
+CLOCKWISE
+Difference in Slopes 1.09626e+07
+CLOCKWISE
+Difference in Slopes -1.37852e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.67639e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.4878e+08
+CLOCKWISE
+Difference in Slopes -7.48063e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.95353e+08
+CLOCKWISE
+Difference in Slopes -5.83753e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.49349e+08
+CLOCKWISE
+Difference in Slopes -4.57514e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.21956e+08
+CLOCKWISE
+Difference in Slopes 1.99862e+07
+CLOCKWISE
+Difference in Slopes -476124
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.91814e+07
+CLOCKWISE
+Difference in Slopes -1.79025e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.87002e+07
+CLOCKWISE
+Difference in Slopes -5.34102e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.22195e+06
+CLOCKWISE
+Difference in Slopes -1.00887e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.08168e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.07572e+08
+CLOCKWISE
+Difference in Slopes 9.79875e+06
+CLOCKWISE
+Difference in Slopes 1.32812e+06
+CLOCKWISE
+Difference in Slopes -589897
+ANTICLOCKWISE
+popping out
+Difference in Slopes -228202
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.01395e+07
+CLOCKWISE
+Difference in Slopes -4.76979e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.74909e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -6.36444e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -5.25708e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.62727e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.66816e+06
+CLOCKWISE
+Difference in Slopes 5.63381e+08
+CLOCKWISE
+Difference in Slopes -9.10003e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.56276e+09
+CLOCKWISE
+Difference in Slopes -1.65542e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.73005e+09
+CLOCKWISE
+Difference in Slopes -4.52184e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.69019e+09
+CLOCKWISE
+Difference in Slopes 7.5897e+06
+CLOCKWISE
+Difference in Slopes -2.27481e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.87143e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.50917e+09
+CLOCKWISE
+Difference in Slopes -739636
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.75364e+09
+CLOCKWISE
+Difference in Slopes -6.73453e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.04427e+08
+CLOCKWISE
+Difference in Slopes 3.67333e+07
+CLOCKWISE
+Difference in Slopes 3.54512e+06
+CLOCKWISE
+Difference in Slopes -5.77538e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.68948e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -4.39497e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.12382e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.87593e+06
+CLOCKWISE
+Difference in Slopes 2.17796e+09
+CLOCKWISE
+Difference in Slopes -6.86343e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.95379e+09
+CLOCKWISE
+Difference in Slopes -2.22355e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.53777e+07
+CLOCKWISE
+Difference in Slopes 8.59262e+06
+CLOCKWISE
+Difference in Slopes -1.49389e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 85613
+CLOCKWISE
+Difference in Slopes 671706
+CLOCKWISE
+Difference in Slopes 927168
+CLOCKWISE
+Difference in Slopes -2.26643e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 480384
+CLOCKWISE
+Difference in Slopes -9.55836e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.17576e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.76907e+06
+CLOCKWISE
+Difference in Slopes -3.82345e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 864109
+CLOCKWISE
+Difference in Slopes -2.57841e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -388158
+ANTICLOCKWISE
+popping out
+Difference in Slopes -308950
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.83401e+07
+CLOCKWISE
+Difference in Slopes 8.37279e+07
+CLOCKWISE
+Difference in Slopes 1.53838e+06
+CLOCKWISE
+Difference in Slopes -6182
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.85335e+06
+CLOCKWISE
+Difference in Slopes -894414
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.39579e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.75273e+07
+CLOCKWISE
+Difference in Slopes -652607
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.9893e+07
+CLOCKWISE
+Difference in Slopes -2.62383e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.19037e+06
+CLOCKWISE
+Difference in Slopes 8.45404e+06
+CLOCKWISE
+Difference in Slopes 122436
+CLOCKWISE
+Difference in Slopes -4.22937e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.71322e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.36972e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.085e+06
+CLOCKWISE
+Difference in Slopes 2.07029e+06
+CLOCKWISE
+Difference in Slopes -173523
+ANTICLOCKWISE
+popping out
+Difference in Slopes -82716
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.33409e+06
+CLOCKWISE
+Difference in Slopes 1.46325e+07
+CLOCKWISE
+Difference in Slopes -6.34834e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 898989
+CLOCKWISE
+Difference in Slopes 1.00085e+07
+CLOCKWISE
+Difference in Slopes -1.53916e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.96498e+06
+CLOCKWISE
+Difference in Slopes -4.22024e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.75107e+06
+CLOCKWISE
+Difference in Slopes -171525
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.9743e+06
+CLOCKWISE
+Difference in Slopes 1.04031e+07
+CLOCKWISE
+Difference in Slopes -5.4964e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.39651e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -417563
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.93295e+06
+CLOCKWISE
+Difference in Slopes 3.0095e+07
+CLOCKWISE
+Difference in Slopes -9.9492e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.01444e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.40608e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.83578e+07
+CLOCKWISE
+Difference in Slopes 5.04213e+07
+CLOCKWISE
+Difference in Slopes -2.63941e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.21471e+07
+CLOCKWISE
+Difference in Slopes -3.47587e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.20692e+07
+CLOCKWISE
+Difference in Slopes 6.10342e+06
+CLOCKWISE
+Difference in Slopes -1.88939e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 332462
+CLOCKWISE
+Difference in Slopes -733224
+ANTICLOCKWISE
+popping out
+Difference in Slopes -669076
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.6093e+07
+CLOCKWISE
+Difference in Slopes 7.83965e+06
+CLOCKWISE
+Difference in Slopes -6.74978e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -4.02858e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.61085e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.95007e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 8.09389e+07
+CLOCKWISE
+Difference in Slopes 1.6141e+08
+CLOCKWISE
+Difference in Slopes -5.00786e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.613e+08
+CLOCKWISE
+Difference in Slopes -9.52563e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.27534e+07
+CLOCKWISE
+Difference in Slopes 2.43805e+06
+CLOCKWISE
+Difference in Slopes -9.57668e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.11654e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.83187e+07
+CLOCKWISE
+Difference in Slopes 1.71075e+07
+CLOCKWISE
+Difference in Slopes -2.04964e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.10456e+07
+CLOCKWISE
+Difference in Slopes -1.17575e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.26776e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.08981e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.23264e+07
+CLOCKWISE
+Difference in Slopes 3.98861e+08
+CLOCKWISE
+Difference in Slopes -2.04595e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.44899e+08
+CLOCKWISE
+Difference in Slopes -2.77096e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.17751e+08
+CLOCKWISE
+Difference in Slopes -3.70101e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.07688e+08
+CLOCKWISE
+Difference in Slopes -1.30164e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.08957e+07
+CLOCKWISE
+Difference in Slopes 3.22075e+07
+CLOCKWISE
+Difference in Slopes -1.51394e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.26546e+07
+CLOCKWISE
+Difference in Slopes -3.54068e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.09219e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -9.22073e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -7.51212e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.21746e+06
+CLOCKWISE
+Difference in Slopes 2.40644e+08
+CLOCKWISE
+Difference in Slopes -786743
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.82695e+08
+CLOCKWISE
+Difference in Slopes 4.76516e+06
+CLOCKWISE
+Difference in Slopes -1.43234e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.31567e+06
+CLOCKWISE
+Difference in Slopes 2.98052e+06
+CLOCKWISE
+Difference in Slopes -7.92283e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.38504e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -849854
+ANTICLOCKWISE
+popping out
+Difference in Slopes 8.61543e+08
+CLOCKWISE
+Difference in Slopes 3.53884e+07
+CLOCKWISE
+Difference in Slopes -3.47086e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.47971e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.23084e+07
+CLOCKWISE
+Difference in Slopes 9.86937e+07
+CLOCKWISE
+Difference in Slopes -3.45116e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.08796e+08
+CLOCKWISE
+Difference in Slopes -4.367e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.03349e+08
+CLOCKWISE
+Difference in Slopes -2.44212e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.41554e+07
+CLOCKWISE
+Difference in Slopes -3.34101e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.45666e+07
+CLOCKWISE
+Difference in Slopes -3.08835e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.3466e+07
+CLOCKWISE
+Difference in Slopes 4.49468e+07
+CLOCKWISE
+Difference in Slopes -1.66013e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.2759e+07
+CLOCKWISE
+Difference in Slopes 8.96011e+06
+CLOCKWISE
+Difference in Slopes -1.58891e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 408833
+CLOCKWISE
+Difference in Slopes -4.79837e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.55025e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.54516e+06
+CLOCKWISE
+Difference in Slopes 1.7556e+07
+CLOCKWISE
+Difference in Slopes -9.95343e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.85219e+07
+CLOCKWISE
+Difference in Slopes -2.83429e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.23557e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.2864e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.01212e+07
+CLOCKWISE
+Difference in Slopes 1.33664e+08
+CLOCKWISE
+Difference in Slopes -5.59122e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.12052e+06
+CLOCKWISE
+Difference in Slopes 6.14534e+06
+CLOCKWISE
+Difference in Slopes -1.48716e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.49502e+06
+CLOCKWISE
+Difference in Slopes -2.35417e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.6507e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.76351e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 680307
+CLOCKWISE
+Difference in Slopes 5.53118e+07
+CLOCKWISE
+Difference in Slopes -1.93081e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.03222e+08
+CLOCKWISE
+Difference in Slopes 2.66654e+06
+CLOCKWISE
+Difference in Slopes -2.20148e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.4768e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.029e+08
+CLOCKWISE
+Difference in Slopes -1.53922e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.07437e+08
+CLOCKWISE
+Difference in Slopes -2.23273e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.54472e+07
+CLOCKWISE
+Difference in Slopes -2.39651e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 8.01627e+07
+CLOCKWISE
+Difference in Slopes 4.85681e+06
+CLOCKWISE
+Difference in Slopes -3.82364e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.6049e+06
+CLOCKWISE
+Difference in Slopes -1.16056e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -7.18514e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.07402e+08
+CLOCKWISE
+Difference in Slopes 1.22705e+07
+CLOCKWISE
+Difference in Slopes -6.71212e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.49706e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.07532e+08
+CLOCKWISE
+Difference in Slopes 3.29767e+07
+CLOCKWISE
+Difference in Slopes -1.46946e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -4.53055e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.42826e+07
+CLOCKWISE
+Difference in Slopes -7.07986e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 682012
+CLOCKWISE
+Difference in Slopes 7.41845e+07
+CLOCKWISE
+Difference in Slopes -1.09215e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.52398e+07
+CLOCKWISE
+Difference in Slopes 959288
+CLOCKWISE
+Difference in Slopes 275037
+CLOCKWISE
+Difference in Slopes -7.6689e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.6902e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -558212
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.57632e+07
+CLOCKWISE
+Difference in Slopes -1.66851e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.71379e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -6.19946e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.0264e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.35603e+08
+CLOCKWISE
+Difference in Slopes 1.60617e+08
+CLOCKWISE
+Difference in Slopes -5.81932e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.42432e+08
+CLOCKWISE
+Difference in Slopes -2.74927e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.20861e+08
+CLOCKWISE
+Difference in Slopes 2.50916e+07
+CLOCKWISE
+Difference in Slopes -2.26328e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.04067e+07
+CLOCKWISE
+Difference in Slopes -3.71873e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.8822e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -6.87638e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.29068e+08
+CLOCKWISE
+Difference in Slopes 1.58097e+08
+CLOCKWISE
+Difference in Slopes 1.83653e+06
+CLOCKWISE
+Difference in Slopes -6.85616e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -729780
+ANTICLOCKWISE
+popping out
+Difference in Slopes 5.75085e+08
+CLOCKWISE
+Difference in Slopes -2.26327e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.77819e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 9.4694e+06
+CLOCKWISE
+Difference in Slopes 2.92911e+08
+CLOCKWISE
+Difference in Slopes -6.39e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.73512e+08
+CLOCKWISE
+Difference in Slopes -2.24187e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.03137e+08
+CLOCKWISE
+Difference in Slopes 6.28328e+06
+CLOCKWISE
+Difference in Slopes -8.6628e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -515040
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.33083e+08
+CLOCKWISE
+Difference in Slopes 5.41543e+06
+CLOCKWISE
+Difference in Slopes -4.38641e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -4.03977e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.63969e+07
+CLOCKWISE
+Difference in Slopes 7.07518e+07
+CLOCKWISE
+Difference in Slopes -2.75126e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.14613e+07
+CLOCKWISE
+Difference in Slopes 2.41477e+07
+CLOCKWISE
+Difference in Slopes -3.39921e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.30084e+07
+CLOCKWISE
+Difference in Slopes -8.76486e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.58339e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.80606e+06
+CLOCKWISE
+Difference in Slopes 4.31108e+07
+CLOCKWISE
+Difference in Slopes -5.4931e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.97351e+07
+CLOCKWISE
+Difference in Slopes -5.93789e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.29194e+07
+CLOCKWISE
+Difference in Slopes -1.83307e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.96178e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.89879e+06
+CLOCKWISE
+Difference in Slopes 9.92256e+06
+CLOCKWISE
+Difference in Slopes 6.13112e+06
+CLOCKWISE
+Difference in Slopes -1.32043e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 710520
+CLOCKWISE
+Difference in Slopes -1.41177e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -4.75172e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 363539
+CLOCKWISE
+Difference in Slopes 3.55239e+07
+CLOCKWISE
+Difference in Slopes -2.63156e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -5.78398e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -1.13613e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -8.27185e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.8129e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -2.61788e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.20928e+06
+CLOCKWISE
+Difference in Slopes 2.25245e+09
+CLOCKWISE
+Difference in Slopes -3.6384e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.58369e+09
+CLOCKWISE
+Difference in Slopes -1.08522e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 2.41869e+09
+CLOCKWISE
+Difference in Slopes 6.26301e+06
+CLOCKWISE
+Difference in Slopes -578620
+ANTICLOCKWISE
+popping out
+Difference in Slopes 223146
+CLOCKWISE
+Difference in Slopes -578310
+ANTICLOCKWISE
+popping out
+Difference in Slopes -5.06761e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.21944e+09
+CLOCKWISE
+Difference in Slopes -8.83473e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 6.2582e+07
+CLOCKWISE
+Difference in Slopes 3.2299e+07
+CLOCKWISE
+Difference in Slopes -5.00391e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 7.21507e+07
+CLOCKWISE
+Difference in Slopes -2.85607e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes 4.89128e+06
+CLOCKWISE
+Difference in Slopes 1.67253e+07
+CLOCKWISE
+Difference in Slopes 3.31729e+06
+CLOCKWISE
+Difference in Slopes -2.97072e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -4.96546e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.33615e+07
+CLOCKWISE
+Difference in Slopes 7.93086e+06
+CLOCKWISE
+Difference in Slopes -3.83609e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.50244e+06
+CLOCKWISE
+Difference in Slopes -5.73404e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes -7.61944e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 1.36578e+07
+CLOCKWISE
+Difference in Slopes -1.99954e+07
+ANTICLOCKWISE
+popping out
+Difference in Slopes -3.16711e+06
+ANTICLOCKWISE
+popping out
+Difference in Slopes 3.27998e+06
+CLOCKWISE
+-------------------COUNTER VALUE AFTER UPPER HULL:14
+Elements in convex hull:13
+13
+-32659 -28528
+-32608 -4468
+-32322 20640
+-31135 -31525
+-29498 -32592
+-28738 32554
+-8221 32270
+23807 30855
+29297 -32685
+30592 30527
+30936 -32616
+32472 16197
+32671 -18435
