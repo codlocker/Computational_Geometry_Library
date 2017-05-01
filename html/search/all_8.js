@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['orderbypolar',['orderByPolar',['../origin_8h.html#ab4d553464b44f7c3f45a7ad69b98772c',1,'origin.h']]],
-  ['orderedsort',['orderedSort',['../origin_8h.html#acd5236039bd3f25f48a6f9638caca9e9',1,'origin.h']]],
-  ['orderedysort',['orderedYSort',['../origin_8h.html#a4dc1f0518995effb5aa220fd58f3b8e8',1,'origin.h']]],
-  ['orientation',['orientation',['../origin_8h.html#a6edb8cd3a06d478bf1b50ae13f8af565',1,'origin.h']]],
-  ['origin_2eh',['origin.h',['../origin_8h.html',1,'']]]
+  ['index',['index',['../classDCELVertex.html#a7d62808f634eb35187137a1a9dd4235a',1,'DCELVertex::index()'],['../index.html',1,'(Global Namespace)']]],
+  ['indices',['indices',['../origin_8h.html#a09f477f5f8ac23bab833383ce19845e2',1,'origin.h']]],
+  ['indices_5fj',['indices_j',['../JarvisMarch_8h.html#a94b834a6f48db2de297d32ff4ee1d544',1,'JarvisMarch.h']]],
+  ['input_2etxt',['input.txt',['../input_8txt.html',1,'']]],
+  ['input2_2etxt',['input2.txt',['../input2_8txt.html',1,'']]],
+  ['insertdiagonal',['insertDiagonal',['../DCEL_2origin_8h.html#a9628e476f4bda6f1359574997eb3079c',1,'origin.h']]]
 ];

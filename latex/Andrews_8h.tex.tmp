@@ -8,7 +8,7 @@ This graph shows which files directly or indirectly include this file\+:
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-vector$<$ pair$<$ double, double $>$ $>$ \hyperlink{Andrews_8h_a531ddaca865c8d7a7a3f636e7a3adb6f}{convex\+\_\+hull} (vector$<$ pair$<$ double, double $>$ $>$ points)
+vector$<$ pair$<$ double, double $>$ $>$ \hyperlink{Andrews_8h_a1c092a2aa54a5a2baa3c18623488bcc4}{convex\+\_\+hull} (vector$<$ pair$<$ double, double $>$ $>$ points)
 \begin{DoxyCompactList}\small\item\em {\bfseries Upper Hull and Lower Hull Algorithm} \end{DoxyCompactList}\item 
 set$<$ pair$<$ double, double $>$ $>$ \hyperlink{Andrews_8h_a9f40a9e14abc94694bee856797a27a24}{exec\+Andrews} (vector$<$ pair$<$ double, double $>$ $>$ Points)
 \begin{DoxyCompactList}\small\item\em {\bfseries Complete Execution of Andrews Monotone Chain} \end{DoxyCompactList}\end{DoxyCompactItemize}
@@ -17,11 +17,11 @@ set$<$ pair$<$ double, double $>$ $>$ \hyperlink{Andrews_8h_a9f40a9e14abc94694be
 \subsection{Function Documentation}
 \index{Andrews.\+h@{Andrews.\+h}!convex\+\_\+hull@{convex\+\_\+hull}}
 \index{convex\+\_\+hull@{convex\+\_\+hull}!Andrews.\+h@{Andrews.\+h}}
-\subsubsection[{\texorpdfstring{convex\+\_\+hull(vector$<$ pair$<$ double, double $>$ $>$ points)}{convex_hull(vector< pair< double, double > > points)}}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$pair$<$double, double$>$ $>$ convex\+\_\+hull (
+\subsubsection[{\texorpdfstring{convex\+\_\+hull(vector$<$ pair$<$ double, double $>$ $>$ points)}{convex_hull(vector< pair< double, double > > points)}}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$pair$<$double,double $>$ $>$ convex\+\_\+hull (
 \begin{DoxyParamCaption}
 \item[{vector$<$ pair$<$ double, double $>$ $>$}]{points}
 \end{DoxyParamCaption}
-)}\hypertarget{Andrews_8h_a531ddaca865c8d7a7a3f636e7a3adb6f}{}\label{Andrews_8h_a531ddaca865c8d7a7a3f636e7a3adb6f}
+)}\hypertarget{Andrews_8h_a1c092a2aa54a5a2baa3c18623488bcc4}{}\label{Andrews_8h_a1c092a2aa54a5a2baa3c18623488bcc4}
 
 
 {\bfseries Upper Hull and Lower Hull Algorithm} 
@@ -35,30 +35,43 @@ set$<$ pair$<$ double, double $>$ $>$ \hyperlink{Andrews_8h_a9f40a9e14abc94694be
 \item After forming the hull remove the {\bfseries last point} of each list (it\textquotesingle{}s the same as the first point of the other list) 
 \end{DoxyEnumerate}
 \begin{DoxyCode}
-16 \{
-17     \textcolor{keywordtype}{int} n = points.size();
-18     \textcolor{keywordtype}{int} counter = 0;
-19     vector<pair<double, double> > hull;
-20 
-21     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < n; ++i) \{
-22         \textcolor{keywordflow}{while} (counter >= 2 && \hyperlink{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{orientation}(hull[counter-2], hull[counter-1], points[i]) != 
+15 \{
+16     \textcolor{keywordtype}{int} n = points.size();
+17     \textcolor{keywordtype}{int} counter = 0;
+18     vector<pair<double, double> > hull;
+19 
+20     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < n; ++i) \{
+21         \textcolor{keywordflow}{while} (counter >= 2 && \hyperlink{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{orientation}(hull[counter-2], hull[counter-1], points[i]) != 
       \hyperlink{origin_8h_ab97a98583824a9ef7d480fe8fdca33cf}{CLOCKWISE})
-23         \{counter--;hull.pop\_back();\}
-24         hull.pb(points[i]);counter++;
-25     \}
-26 
-27     \textcolor{comment}{// Build upper hull}
-28     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = n-2, t = counter+1; i >= 0; i--) \{
-29         \textcolor{keywordflow}{while} (counter >= t && \hyperlink{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{orientation}(hull[counter-2], hull[counter-1], points[i]) != 
-      \hyperlink{origin_8h_ab97a98583824a9ef7d480fe8fdca33cf}{CLOCKWISE}) \{
-30             counter--; hull.pop\_back();
-31         \}
-32         hull.pb(points[i]);counter++;
-33     \}
-34 
-35     hull.resize(counter-1);
-36     \textcolor{keywordflow}{return} hull;
-37 \}
+22         \{
+23             cout << \textcolor{stringliteral}{"popping out\(\backslash\)n"};
+24             counter--;
+25             hull.pop\_back();
+26             \hyperlink{origin_8h_a09f477f5f8ac23bab833383ce19845e2}{indices}.pop\_back();
+27         \}
+28         hull.pb(points[i]);
+29         counter++;
+30         \hyperlink{origin_8h_a09f477f5f8ac23bab833383ce19845e2}{indices}.pb(i);
+31     \}
+32     cout << \textcolor{stringliteral}{"-------------------COUNTER VALUE AFTER LOWER HULL:"} << counter <<endl;
+33     \textcolor{comment}{// Build upper hull}
+34     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = n-2, t = counter+1; i >= 0; i--) \{
+35         \textcolor{keywordflow}{while} (counter >= t && \hyperlink{origin_8h_a6edb8cd3a06d478bf1b50ae13f8af565}{orientation}(hull[counter-2], hull[counter-1], points[i]) != 
+      \hyperlink{origin_8h_ab97a98583824a9ef7d480fe8fdca33cf}{CLOCKWISE})
+36         \{
+37             cout << \textcolor{stringliteral}{"popping out\(\backslash\)n"};
+38             counter--;
+39             hull.pop\_back();
+40             \hyperlink{origin_8h_a09f477f5f8ac23bab833383ce19845e2}{indices}.pop\_back();
+41         \}
+42         hull.pb(points[i]);
+43         counter++;
+44         \hyperlink{origin_8h_a09f477f5f8ac23bab833383ce19845e2}{indices}.pb(i);
+45     \}
+46     cout << \textcolor{stringliteral}{"-------------------COUNTER VALUE AFTER UPPER HULL:"} << counter <<endl;
+47     hull.resize(counter-1);
+48     \textcolor{keywordflow}{return} hull;
+49 \}
 \end{DoxyCode}
 \index{Andrews.\+h@{Andrews.\+h}!exec\+Andrews@{exec\+Andrews}}
 \index{exec\+Andrews@{exec\+Andrews}!Andrews.\+h@{Andrews.\+h}}
@@ -73,33 +86,50 @@ set$<$ pair$<$ double, double $>$ $>$ \hyperlink{Andrews_8h_a9f40a9e14abc94694be
 
 
 \begin{DoxyEnumerate}
-\item Sort the array by their {\bfseries x-\/coordinate}. If that\textquotesingle{}s equal then compare y-\/coordinate this is compared in \hyperlink{origin_8h}{origin.\+h} header file.~\newline
+\item Sort the array by their {\bfseries x-\/coordinate}. If that\textquotesingle{}s equal then compare y-\/coordinate this is compared in origin.\+h header file.~\newline
 
 \item The next part involves getting upper and lower convex hull~\newline
 
 \item The final set that is formed is just to {\bfseries remove} any existing duplicate points in the vector 
 \end{DoxyEnumerate}
 \begin{DoxyCode}
-48                                                                              \{
-49     cout << \textcolor{stringliteral}{"Executing Andrews Algorithm\(\backslash\)n---\(\backslash\)n"};
-50     vector<pair<double, double> > tentative\_hull;
-51     \textcolor{keywordtype}{int} len;
-52     len = int(Points.size());
-53     \textcolor{comment}{/*}
-54 \textcolor{comment}{     * Sort the Points By x-coordinate}
-55 \textcolor{comment}{    */}
-56     sort(Points.begin(),Points.end(),\hyperlink{origin_8h_acd5236039bd3f25f48a6f9638caca9e9}{orderedSort});
-57 
-58     tentative\_hull = \hyperlink{Andrews_8h_a531ddaca865c8d7a7a3f636e7a3adb6f}{convex\_hull}(Points);
-59     \textcolor{comment}{/*}
-60 \textcolor{comment}{     * Final Set of Convex Points}
-61 \textcolor{comment}{     */}
-62     set<pair<double ,double> > f\_convex\_hull;
-63     \textcolor{keywordtype}{int} LU\_len = tentative\_hull.size();
-64     \textcolor{comment}{//int LL\_len = L\_lower.size();}
-65     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=0;i<LU\_len;i++) \{
-66         f\_convex\_hull.insert(tentative\_hull[i]);
-67     \}
-68     \textcolor{keywordflow}{return} f\_convex\_hull;
-69 \}
+60                                                                              \{
+61     cout << \textcolor{stringliteral}{"Executing Andrews Algorithm\(\backslash\)n---\(\backslash\)n"};
+62     vector<pair<double, double> > tentative\_hull;
+63     vector<pair<double, double> > L\_upper,L\_lower;
+64     \textcolor{keywordtype}{int} len;
+65     len = int(Points.size());
+66     \textcolor{comment}{/*}
+67 \textcolor{comment}{     * Sort the Points By x-coordinate}
+68 \textcolor{comment}{    */}
+69     sort(Points.begin(),Points.end(),\hyperlink{origin_8h_acd5236039bd3f25f48a6f9638caca9e9}{orderedSort});
+70 
+71     tentative\_hull = \hyperlink{Andrews_8h_a1c092a2aa54a5a2baa3c18623488bcc4}{convex\_hull}(Points);
+72     \textcolor{comment}{/*}
+73 \textcolor{comment}{     * Final Set of Convex Points}
+74 \textcolor{comment}{     */}
+75     set<pair<double ,double> > f\_convex\_hull;
+76     \textcolor{keywordtype}{int} LU\_len = tentative\_hull.size();
+77     \textcolor{comment}{//int LL\_len = L\_lower.size();}
+78     ofstream out\_file;
+79     out\_file.open(\textcolor{stringliteral}{"output.ch"});
+80     out\_file << \textcolor{stringliteral}{"CH\(\backslash\)n"};
+81     out\_file << len << \textcolor{stringliteral}{" "} << LU\_len << \textcolor{stringliteral}{"\(\backslash\)n"};
+82     cout  << \textcolor{stringliteral}{"Elements in convex hull:"} << LU\_len <<endl;
+83     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=0;i < len;i++) \{
+84         out\_file << Points[i].first << \textcolor{stringliteral}{" "} << Points[i].second << \textcolor{stringliteral}{" 0\(\backslash\)n"};
+85     \}
+86     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} i=0;i<LU\_len;i++) \{
+87         f\_convex\_hull.insert(tentative\_hull[i]);
+88     \}
+89     \hyperlink{origin_8h_a09f477f5f8ac23bab833383ce19845e2}{indices}.erase(\hyperlink{origin_8h_a09f477f5f8ac23bab833383ce19845e2}{indices}.begin());
+90     \hyperlink{origin_8h_a09f477f5f8ac23bab833383ce19845e2}{indices}.pop\_back();
+91     vector<int>::iterator it\_set;
+92     \textcolor{keywordflow}{for}(it\_set = \hyperlink{origin_8h_a09f477f5f8ac23bab833383ce19845e2}{indices}.begin(); it\_set!=\hyperlink{origin_8h_a09f477f5f8ac23bab833383ce19845e2}{indices}.end(); it\_set++) \{
+93         out\_file << *it\_set << \textcolor{stringliteral}{" "};
+94     \}
+95     out\_file << *(\hyperlink{origin_8h_a09f477f5f8ac23bab833383ce19845e2}{indices}.end());
+96     out\_file.close();
+97     \textcolor{keywordflow}{return} f\_convex\_hull;
+98 \}
 \end{DoxyCode}

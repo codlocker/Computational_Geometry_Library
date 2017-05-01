@@ -1,0 +1,117 @@
+\hypertarget{classDCELHalfEdge}{}\section{D\+C\+E\+L\+Half\+Edge Class Reference}
+\label{classDCELHalfEdge}\index{D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}}
+
+
+{\ttfamily \#include $<$D\+C\+E\+L\+Half\+Edge.\+h$>$}
+
+
+
+Collaboration diagram for D\+C\+E\+L\+Half\+Edge\+:
+% FIG 0
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classDCELHalfEdge_a4424375175bfa53fddf16899b0c0d8e1}{D\+C\+E\+L\+Half\+Edge} ()
+\item 
+\hyperlink{classDCELHalfEdge_af8485b9ee056734ff3d06e5bab24241f}{$\sim$\+D\+C\+E\+L\+Half\+Edge} ()
+\item 
+\hyperlink{classDCELHalfEdge}{D\+C\+E\+L\+Half\+Edge} $\ast$ \hyperlink{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{get\+Prev} ()
+\begin{DoxyCompactList}\small\item\em Half Edges. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classDCELHalfEdge}{D\+C\+E\+L\+Half\+Edge} $\ast$ \hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}
+\item 
+\hyperlink{classDCELHalfEdge}{D\+C\+E\+L\+Half\+Edge} $\ast$ \hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next}
+\item 
+\hyperlink{classDCELFace}{D\+C\+E\+L\+Face} $\ast$ \hyperlink{classDCELHalfEdge_ade69d0ad23d0776ed6c925490d7cb4da}{face}
+\item 
+\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$ \hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin}
+\item 
+\hyperlink{classDCELVertex}{D\+C\+E\+L\+Vertex} $\ast$ \hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper}
+\item 
+int \hyperlink{classDCELHalfEdge_a42d420a68a28f72d360e145b571382d8}{meta}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}!D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}}
+\index{D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}!D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}}
+\subsubsection[{\texorpdfstring{D\+C\+E\+L\+Half\+Edge()}{DCELHalfEdge()}}]{\setlength{\rightskip}{0pt plus 5cm}D\+C\+E\+L\+Half\+Edge\+::\+D\+C\+E\+L\+Half\+Edge (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classDCELHalfEdge_a4424375175bfa53fddf16899b0c0d8e1}{}\label{classDCELHalfEdge_a4424375175bfa53fddf16899b0c0d8e1}
+
+\begin{DoxyCode}
+23                            :
+24 \hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}(NULL), \hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next}(NULL), \hyperlink{classDCELHalfEdge_ade69d0ad23d0776ed6c925490d7cb4da}{face}(NULL), \hyperlink{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{origin}(NULL), \hyperlink{classDCELHalfEdge_a42d420a68a28f72d360e145b571382d8}{meta}(0), 
+      \hyperlink{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{helper}(NULL)
+25 \{
+26 \}
+\end{DoxyCode}
+\index{D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}!````~D\+C\+E\+L\+Half\+Edge@{$\sim$\+D\+C\+E\+L\+Half\+Edge}}
+\index{````~D\+C\+E\+L\+Half\+Edge@{$\sim$\+D\+C\+E\+L\+Half\+Edge}!D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}}
+\subsubsection[{\texorpdfstring{$\sim$\+D\+C\+E\+L\+Half\+Edge()}{~DCELHalfEdge()}}]{\setlength{\rightskip}{0pt plus 5cm}D\+C\+E\+L\+Half\+Edge\+::$\sim$\+D\+C\+E\+L\+Half\+Edge (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classDCELHalfEdge_af8485b9ee056734ff3d06e5bab24241f}{}\label{classDCELHalfEdge_af8485b9ee056734ff3d06e5bab24241f}
+
+\begin{DoxyCode}
+29 \{
+30 
+31 \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\index{D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}!get\+Prev@{get\+Prev}}
+\index{get\+Prev@{get\+Prev}!D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}}
+\subsubsection[{\texorpdfstring{get\+Prev()}{getPrev()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Half\+Edge} $\ast$ D\+C\+E\+L\+Half\+Edge\+::get\+Prev (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}{}\label{classDCELHalfEdge_ab6d676209796f1a885656f0ed54d5399}
+
+
+Half Edges. 
+
+get Previus Vertices 
+\begin{DoxyCode}
+37 \{
+38     \hyperlink{classDCELHalfEdge}{DCELHalfEdge}* rval = \hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin}->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next}->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin};
+39     
+40     \textcolor{keywordflow}{while} (rval->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next} != \textcolor{keyword}{this}) \{
+41         rval = rval->\hyperlink{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{next}->\hyperlink{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{twin};
+42     \}
+43 
+44     \textcolor{keywordflow}{return} rval;
+45 \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\index{D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}!face@{face}}
+\index{face@{face}!D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}}
+\subsubsection[{\texorpdfstring{face}{face}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Face}$\ast$ D\+C\+E\+L\+Half\+Edge\+::face}\hypertarget{classDCELHalfEdge_ade69d0ad23d0776ed6c925490d7cb4da}{}\label{classDCELHalfEdge_ade69d0ad23d0776ed6c925490d7cb4da}
+\index{D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}!helper@{helper}}
+\index{helper@{helper}!D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}}
+\subsubsection[{\texorpdfstring{helper}{helper}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Vertex}$\ast$ D\+C\+E\+L\+Half\+Edge\+::helper}\hypertarget{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}{}\label{classDCELHalfEdge_abb62faec9db2295a63ab07e665c826e8}
+\index{D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}!meta@{meta}}
+\index{meta@{meta}!D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}}
+\subsubsection[{\texorpdfstring{meta}{meta}}]{\setlength{\rightskip}{0pt plus 5cm}int D\+C\+E\+L\+Half\+Edge\+::meta}\hypertarget{classDCELHalfEdge_a42d420a68a28f72d360e145b571382d8}{}\label{classDCELHalfEdge_a42d420a68a28f72d360e145b571382d8}
+\index{D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}!next@{next}}
+\index{next@{next}!D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}}
+\subsubsection[{\texorpdfstring{next}{next}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Half\+Edge}$\ast$ D\+C\+E\+L\+Half\+Edge\+::next}\hypertarget{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}{}\label{classDCELHalfEdge_a7a2d43817186337439468eb238c6bce2}
+\index{D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}!origin@{origin}}
+\index{origin@{origin}!D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}}
+\subsubsection[{\texorpdfstring{origin}{origin}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Vertex}$\ast$ D\+C\+E\+L\+Half\+Edge\+::origin}\hypertarget{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}{}\label{classDCELHalfEdge_a43a9bcc720748208b21efda5b2013c3c}
+\index{D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}!twin@{twin}}
+\index{twin@{twin}!D\+C\+E\+L\+Half\+Edge@{D\+C\+E\+L\+Half\+Edge}}
+\subsubsection[{\texorpdfstring{twin}{twin}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+C\+E\+L\+Half\+Edge}$\ast$ D\+C\+E\+L\+Half\+Edge\+::twin}\hypertarget{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}{}\label{classDCELHalfEdge_a26f41516925913df2666f32cfaa9a6a9}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+C\+E\+L/\hyperlink{DCELHalfEdge_8h}{D\+C\+E\+L\+Half\+Edge.\+h}\end{DoxyCompactItemize}

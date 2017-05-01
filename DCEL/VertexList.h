@@ -1,4 +1,4 @@
-#include <iostream> 
+#include <iostream>
 using namespace std;
 class VertexList
 {
@@ -10,12 +10,12 @@ public:
 	DCELVertex* tail;
 
 	void addToList(DCELVertex* newVertex);
-	int length();
+	int length;
 	void removeFromList(DCELVertex* vertex);
 	void echo();
 };
 
-VertexList::VertexList(void) : head(NULL), tail(NULL)
+VertexList::VertexList(void) : head(NULL), tail(NULL), length(0)
 {
 }
 
@@ -25,9 +25,11 @@ VertexList::~VertexList(void)
 
 void VertexList::echo() {
 	DCELVertex* walker = head;
-	while(1) {
-		cout<<walker->x<<" "<<walker->y<<endl;
-		if(walker->next)
+	int i = 0;
+	while (1) {
+		walker->index = i++;
+		cout << walker->x << " " << walker->y << " 0" << endl;
+		if (walker->next)
 			walker = walker->next;
 		else break;
 	}
@@ -35,15 +37,16 @@ void VertexList::echo() {
 
 void VertexList::addToList(DCELVertex* newVertex)
 {
+	length++;
 	if ( head ) {
-		if((head->y < newVertex->y) || (head->y == newVertex->y && head->x > newVertex->x)) {
+		if ((head->y < newVertex->y) || (head->y == newVertex->y && head->x > newVertex->x)) {
 			newVertex->next = head;
 			head = newVertex;
 			return;
 		}
 		DCELVertex* walker = head;
-		while(walker->next) {
-			if((walker->next->y < newVertex->y) || (walker->next->y == newVertex->y && walker->next->x > newVertex->x)) break;
+		while (walker->next) {
+			if ((walker->next->y < newVertex->y) || (walker->next->y == newVertex->y && walker->next->x > newVertex->x)) break;
 			walker = walker->next;
 		}
 		newVertex->next = walker->next;
@@ -55,30 +58,19 @@ void VertexList::addToList(DCELVertex* newVertex)
 	}
 }
 
-int VertexList::length() {
-	if(head) {
-		DCELVertex* walker;
-		int length = 1;	
-		while(walker->next) {
-			walker = walker->next;
-			length++;
-		}
-		return length;
-	}
-	else return 0;
-}
-void VertexList::removeFromList(DCELVertex* vertex) 
+void VertexList::removeFromList(DCELVertex* vertex)
 {
-	if(head) {
+	length--;
+	if (head) {
 		DCELVertex* walker = head;
-		if(walker == vertex) {
+		if (walker == vertex) {
 			head = walker->next;
 			delete walker;
 		}
-		while(walker->next != vertex && walker->next != NULL) {
+		while (walker->next != vertex && walker->next != NULL) {
 			walker = walker->next;
-		} 	
-		if(walker->next = vertex) {
+		}
+		if (walker->next = vertex) {
 			walker->next = vertex->next;
 			delete vertex;
 		}
